@@ -7,65 +7,64 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About",
-  description: `${siteNameFull} — 軽量JPG判定画像とフレーム数値の見方`,
+  description: `${siteNameFull} — lightweight JPG hitboxes and how to read frame data`,
 };
 
 const sections = [
   {
     id: "concept",
-    title: "このサイトについて",
+    title: "About This Site",
     body: [
-      `${siteNameFull} は、ストリートファイター6のフレームデータと判定画像を、スマートフォンでも素早く開けることを優先したデータベースです。`,
-      "約3万枚の素材から抽出した低画質JPGを使い、ギガを食わず・低スペック端末でもサクッと確認できることを目指しています。",
+      `${siteNameFull} is a database focused on opening Street Fighter 6 frame data and hitbox images quickly on smartphones.`,
+      "We use low-quality JPGs extracted from ~30k assets so low-spec devices can load move data without heavy downloads.",
     ],
   },
   {
     id: "jpg",
-    title: "なぜGIFではなくJPGか",
+    title: "Why JPG Instead of GIF",
     body: [
-      "アニメーション付きヒットボックスGIFは情報量が多い一方、1ページあたりの転送量が大きくなりがちです。",
-      "当サイトは静止画JPGに絞ることで、電車の中・対戦合間・モバイル回線でも技ごとのフレームをすぐ見られるようにしています。",
-      "1つの技に複数フレーム（_1, _2, _3 …）がある場合は、カード内のサムネまたは拡大画面で ← → キーで切り替えできます。",
+      "Animated hitbox GIFs carry a lot of information, but they also increase page weight.",
+      "This site uses still JPG images so you can check frames on mobile data or between matches.",
+      "When a move has multiple frames (_1, _2, _3 …), switch them in-card or in the expanded view with ← → keys.",
     ],
   },
   {
     id: "read",
-    title: "データの見方",
+    title: "How to Read the Data",
     items: [
       {
-        term: "発 / ガ / DMG",
-        desc: "起動フレーム、ガード時有利、ダメージなど。Wiki由来の数値表をそのまま掲載しています。",
+        term: "St / Bk / DMG",
+        desc: "Startup frames, block advantage, damage, and more — sourced from the Wiki frame table.",
       },
       {
         term: "_1 _2 _3 …",
-        desc: "同一技の判定フレーム連番です。カード下部または拡大表示で確認できます。",
+        desc: "Frame sequence for the same move. Check at the bottom of the card or in expanded view.",
       },
       {
-        term: "セクション分け",
-        desc: "立ち通常・しゃがみ・必殺技・スーパーアーツなど、対戦で探しやすい順に並べています。",
+        term: "Sections",
+        desc: "Standing normals, crouching normals, specials, Super Arts, and more — ordered for in-match lookup.",
       },
       {
-        term: "—（ダッシュ）",
-        desc: "該当データがない、または技性質上数値が存在しない場合に表示されます。",
+        term: "— (dash)",
+        desc: "Shown when data is unavailable or not applicable for that move.",
       },
     ],
   },
   {
     id: "source",
-    title: "データソース",
+    title: "Data Sources",
     body: [
-      "フレーム数値は SuperCombo Wiki（Cargo API）をベースに加工・統合しています。",
-      "判定画像は独自素材（約3万枚規模の抽出セット）を使用しています。",
-      "数値の正確性は常に改善中です。誤りに気づいた場合は今後の更新で反映します。",
+      "Frame numbers are based on SuperCombo Wiki (Cargo API), processed and merged for this site.",
+      "Hitbox images come from a proprietary asset set (~30k extracted images).",
+      "Accuracy is always improving — corrections will ship in future updates.",
     ],
   },
   {
     id: "roadmap",
-    title: "今後の方針",
+    title: "Roadmap",
     body: [
-      "現在は日本語ベースで開発中です。将来的には多言語展開を予定しています。",
-      "攻略記事は載せず、フレームデータと判定画像の辞書として育てます。",
-      "公開範囲・地域設定などの細部は、仕上げ段階で調整します。",
+      "The public site is English-first. We do not publish strategy articles — only frame data and hitbox images.",
+      "Regional access and other launch details are configured at the edge (geo restrictions).",
     ],
   },
 ] as const;
@@ -79,7 +78,7 @@ export default function AboutPage() {
         <PageMasthead
           eyebrow={siteName}
           title="About"
-          subtitle="軽量JPG × フレーム数値 — モバイル向けSF6データベース"
+          subtitle="Lightweight JPG × frame data — a mobile-first SF6 database"
           showBackLink
         />
 
@@ -125,13 +124,13 @@ export default function AboutPage() {
                 href="/characters"
                 className="inline-flex items-center text-sm font-semibold text-accent hover:text-accent-hover"
               >
-                キャラ一覧へ →
+                Character roster →
               </Link>
               <Link
                 href="/"
                 className="inline-flex items-center text-sm text-muted hover:text-foreground"
               >
-                トップへ戻る
+                Back to home
               </Link>
             </div>
           </div>

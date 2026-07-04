@@ -9,7 +9,7 @@ export function RosterIntro() {
           Character
         </h2>
         <p className="mt-3 text-xs tracking-[0.15em] text-white/55 sm:text-sm">
-          全29キャラ — フレームデータと判定画像
+          All 30 characters — frame data and hitbox images
         </p>
       </div>
     </div>

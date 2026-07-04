@@ -44,7 +44,7 @@ export function WikiFrameDataTable({ move }: WikiFrameDataTableProps) {
 
       <div className="space-y-1.5">
         <p className="text-[10px] font-bold tracking-[0.25em] text-muted uppercase">
-          ヒットボックスオフ
+          Hitboxes off
         </p>
         <div className="flex flex-wrap items-baseline gap-x-3 gap-y-0.5">
           <span className="font-mono text-sm font-bold tabular-nums text-accent">
@@ -57,7 +57,7 @@ export function WikiFrameDataTable({ move }: WikiFrameDataTableProps) {
       <div className="space-y-3">
         <div className="overflow-x-auto rounded-md border border-accent/30 bg-accent/5">
           <p className="border-b border-accent/20 px-3 py-1.5 text-[10px] font-bold tracking-widest text-accent">
-            プレイヤー向け
+            Player view
           </p>
           <div className="px-2 py-3">
             <FrameStatRow
@@ -80,7 +80,7 @@ export function WikiFrameDataTable({ move }: WikiFrameDataTableProps) {
 
         <div className="overflow-x-auto rounded-md border border-border/70">
           <p className="border-b border-border/60 bg-[#0a0f0c]/5 px-3 py-1.5 text-[10px] font-bold tracking-widest text-muted">
-            詳細（Wiki）
+            Details (Wiki)
           </p>
           <div className="px-2 py-3">
             <FrameStatRow move={move} columns={DETAIL_FRAME_COLUMNS} size="md" />
@@ -104,7 +104,7 @@ export function WikiFrameDataTable({ move }: WikiFrameDataTableProps) {
 
       {move.notes ? (
         <p className="text-[11px] leading-relaxed text-muted">
-          <span className="font-bold text-foreground/70">備考：</span>
+          <span className="font-bold text-foreground/70">Notes:</span>
           {displayWikiValue(move.notes)}
         </p>
       ) : null}

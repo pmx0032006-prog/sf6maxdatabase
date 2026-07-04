@@ -14,7 +14,7 @@ export function NewsSection() {
             </h2>
           </div>
           <p className="text-xs tracking-wide text-muted sm:max-w-xs sm:text-right">
-            軽量JPG × フレーム数値の更新履歴
+            Updates — lightweight JPG × frame data
           </p>
         </div>
 

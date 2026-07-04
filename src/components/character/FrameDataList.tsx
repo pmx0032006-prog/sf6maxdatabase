@@ -11,11 +11,10 @@ export function FrameDataList({ characterSlug, moves }: FrameDataListProps) {
   if (moves.length === 0) {
     return (
       <p className="rounded-lg border border-dashed border-border bg-surface px-6 py-12 text-center text-sm leading-relaxed text-muted">
-        判定画像が見つかりません。
+        No hitbox images found.
         <br />
-        デスクトップ素材を同期するには{" "}
-        <code className="text-foreground/80">npm run sync:images</code>{" "}
-        を実行してください。
+        To sync desktop assets, run{" "}
+        <code className="text-foreground/80">npm run sync:images</code>.
       </p>
     );
   }
@@ -24,7 +23,7 @@ export function FrameDataList({ characterSlug, moves }: FrameDataListProps) {
     <div className="space-y-4">
       {!isCharacterFullyReady(characterSlug) ? (
         <p className="rounded-lg border border-accent/25 bg-accent/5 px-4 py-3 text-center text-xs leading-relaxed text-muted sm:text-sm">
-          判定画像は公開済みです。フレーム数値（発生・ガード等）は現在制作中です。
+          Hitbox images are live. Frame data (startup, block advantage, etc.) is coming soon.
         </p>
       ) : null}
       <MoveDataGrid characterSlug={characterSlug} moves={moves} />

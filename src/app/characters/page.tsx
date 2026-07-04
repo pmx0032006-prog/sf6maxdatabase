@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Characters",
-  description: `${siteName} — 全29キャラのフレームデータと判定画像`,
+  description: `${siteName} — frame data and hitbox images for all 30 characters`,
 };
 
 export default function CharactersPage() {
@@ -21,7 +21,7 @@ export default function CharactersPage() {
         <PageMasthead
           eyebrow={siteName}
           title="Characters"
-          subtitle="キャラクターを選んで、フレーム数値と軽量JPG判定画像を確認できます。"
+          subtitle="Pick a character to view frame data and lightweight JPG hitbox images."
           showBackLink
         />
         <section className="bg-background">
@@ -29,7 +29,7 @@ export default function CharactersPage() {
           <div className="mx-auto max-w-6xl px-4 pb-20 pt-12 sm:px-10 sm:pb-28 sm:pt-16">
             <CharacterGrid
               title="Roster"
-              subtitle="全29キャラ — タップでフレームデータへ"
+              subtitle="All 30 characters — tap for frame data"
               mode="classic"
               characters={roster}
             />

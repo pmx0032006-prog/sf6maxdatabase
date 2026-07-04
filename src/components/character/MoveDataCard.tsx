@@ -15,11 +15,11 @@ const frameRows: {
   >;
   labelJa: string;
 }[] = [
-  { key: "startup", labelJa: "発生" },
-  { key: "active", labelJa: "持続" },
-  { key: "total", labelJa: "全体" },
-  { key: "onBlock", labelJa: "ガード" },
-  { key: "onHit", labelJa: "ヒット" },
+  { key: "startup", labelJa: "Startup" },
+  { key: "active", labelJa: "Active" },
+  { key: "total", labelJa: "Total" },
+  { key: "onBlock", labelJa: "On Block" },
+  { key: "onHit", labelJa: "On Hit" },
 ];
 
 export function MoveDataCard({

@@ -14,12 +14,12 @@ export function CharacterPreparing({ en, ja }: CharacterPreparingProps) {
             Under Construction
           </p>
           <h2 className="mt-4 font-display text-3xl font-black uppercase tracking-tight text-foreground sm:text-4xl">
-            準備中です
+            Coming soon
           </h2>
           <p className="mt-4 text-sm leading-relaxed text-muted">
-            {ja}（{en}）のフレームデータ・攻略記事は現在制作中です。
+            Frame data for {en} is coming soon.
             <br />
-            公開までしばらくお待ちください。
+            Please check back later.
           </p>
           <Link
             href="/"

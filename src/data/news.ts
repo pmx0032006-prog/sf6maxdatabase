@@ -6,18 +6,18 @@ export type NewsItem = {
 export const newsItems: NewsItem[] = [
   {
     date: "2026.07.02",
-    title: "Aboutページ追加 — 軽量JPG方針とデータの見方を公開",
+    title: "About page added — JPG approach and how to read the data",
   },
   {
     date: "2026.06.30",
-    title: "全29キャラ move lookup 0 MISS・本番ビルド確認済み",
+    title: "All 30 characters move lookup 0 MISS — production build verified",
   },
   {
     date: "2026.06.23",
-    title: "全29キャラの判定画像・サムネイルを公開",
+    title: "Hitbox images and thumbnails published for all 30 characters",
   },
   {
     date: "2026.06.21",
-    title: "SF6 MAX DATABASE ブランド・ドメイン名を決定",
+    title: "SF6 MAX DATABASE brand and domain finalized",
   },
 ];

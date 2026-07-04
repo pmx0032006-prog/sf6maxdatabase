@@ -25,7 +25,7 @@ export default function Home() {
           <div className="mx-auto max-w-6xl px-4 py-4 sm:px-10 sm:py-5">
             <CharacterGrid
               title="Roster"
-              subtitle="キャラクターを選んでフレームデータ・判定画像へ"
+              subtitle="Pick a character for frame data and hitbox images"
               mode="classic"
               characters={roster}
             />

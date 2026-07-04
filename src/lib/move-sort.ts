@@ -25,13 +25,13 @@ export const MOVE_SECTION_ORDER: MoveSectionId[] = [
 ];
 
 export const MOVE_SECTION_LABELS: Record<MoveSectionId, string> = {
-  standing: "立ち通常技",
-  crouch: "しゃがみ通常技",
-  target: "ターゲットコンボ",
-  lever: "レバー技",
-  jump: "ジャンプ技",
-  special: "必殺技",
-  super: "スーパーアーツ",
+  standing: "Normals (Standing)",
+  crouch: "Normals (Crouching)",
+  target: "Target Combos",
+  lever: "Unique Actions",
+  jump: "Jump Normals",
+  special: "Special Moves",
+  super: "Super Arts",
 };
 
 /** キャラ接頭辞を除いた技キー（例: cyam_5lp → 5lp） */

@@ -4,8 +4,8 @@ import path from "path";
 export type CharacterTextVariant = "c" | "m";
 
 const VARIANT_LABELS: Record<CharacterTextVariant, string> = {
-  c: "クラシック",
-  m: "モダン",
+  c: "Classic",
+  m: "Modern",
 };
 
 export function getCharacterTextVariantLabel(variant: CharacterTextVariant): string {

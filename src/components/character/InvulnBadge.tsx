@@ -26,7 +26,7 @@ export function InvulnBadge({ invuln, size = "sm" }: InvulnBadgeProps) {
             : "bg-amber-500/20 px-1 py-px text-[6px] sm:text-[7px]"
         }`}
       >
-        無敵
+        Invuln
       </span>
       <span
         className={`min-w-0 font-bold leading-snug text-amber-950 tabular-nums dark:text-amber-200 ${

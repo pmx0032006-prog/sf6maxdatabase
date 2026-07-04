@@ -126,8 +126,8 @@ function MoveCard({ characterSlug, move, priority, onOpen }: MoveCardProps) {
                 : move.nameEn}
             </span>
             <span className="flex flex-wrap gap-x-2 gap-y-0.5 text-[9px] tabular-nums text-muted">
-              <span>発 {displayWikiValue(move.startup)}</span>
-              <span>ガ {displayWikiValue(move.onBlock)}</span>
+              <span>St {displayWikiValue(move.startup)}</span>
+              <span>Bk {displayWikiValue(move.onBlock)}</span>
               {move.damage ? (
                 <span>DMG {displayWikiValue(move.damage)}</span>
               ) : null}
@@ -186,9 +186,9 @@ export function MoveDataGrid({ characterSlug, moves }: MoveDataGridProps) {
   return (
     <>
       <p className="text-[10px] font-semibold tracking-[0.2em] text-muted uppercase">
-        全 {moves.length} 技 — サムネをクリックで拡大
+        {moves.length} moves — click thumbnail to expand
         {moves.some((m) => (m.imageFrames?.length ?? 0) > 1)
-          ? "（_1 _2 _3 … はカード内に表示 / 拡大後 ← → で切替）"
+          ? "(_1 _2 _3 … shown in card / use ← → when expanded)"
           : ""}
       </p>
 
@@ -231,7 +231,7 @@ export function MoveDataGrid({ characterSlug, moves }: MoveDataGridProps) {
           className="fixed inset-0 z-[100] flex items-center justify-center bg-[#0a0f0c]/92 p-4"
           role="dialog"
           aria-modal="true"
-          aria-label={`${active.nameJa} のヒットボックス`}
+          aria-label={`${active.nameEn ?? active.nameJa} hitbox`}
           onClick={close}
         >
           <button
@@ -256,7 +256,7 @@ export function MoveDataGrid({ characterSlug, moves }: MoveDataGridProps) {
                     type="button"
                     onClick={goPrev}
                     className="absolute left-2 z-10 flex h-10 w-10 items-center justify-center rounded-full border border-white/25 bg-black/50 text-lg text-white transition-colors duration-300 hover:border-accent hover:text-accent sm:left-4"
-                    aria-label="前のフレーム"
+                    aria-label="Previous frame"
                   >
                     ‹
                   </button>
@@ -264,7 +264,7 @@ export function MoveDataGrid({ characterSlug, moves }: MoveDataGridProps) {
                     type="button"
                     onClick={goNext}
                     className="absolute right-2 z-10 flex h-10 w-10 items-center justify-center rounded-full border border-white/25 bg-black/50 text-lg text-white transition-colors duration-300 hover:border-accent hover:text-accent sm:right-4"
-                    aria-label="次のフレーム"
+                    aria-label="Next frame"
                   >
                     ›
                   </button>

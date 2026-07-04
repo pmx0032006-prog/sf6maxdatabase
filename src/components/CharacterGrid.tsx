@@ -98,19 +98,13 @@ export function CharacterGrid({
                   >
                     {character.en}
                   </span>
-                  <span
-                    className={`mt-1 text-white/85 drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)] ${styles.ja}`}
-                  >
-                    {character.ja}
-                  </span>
-                </span>
+</span>
               ) : (
                 <span className="relative z-[1] flex min-h-[5.5rem] flex-col items-center justify-center px-3 py-7 sm:min-h-[6.25rem]">
                   <span className={`char-name text-foreground ${styles.name}`}>
                     {character.en}
                   </span>
-                  <span className={`mt-2 ${styles.ja}`}>{character.ja}</span>
-                </span>
+</span>
               )}
             </Link>
           </li>

@@ -27,7 +27,7 @@ export function SiteHeader({ active }: SiteHeaderProps) {
 
         <nav
           className="hidden items-center gap-0 text-[9px] font-bold tracking-[0.18em] sm:flex sm:text-[10px]"
-          aria-label="メインナビゲーション"
+          aria-label="Main navigation"
         >
           {navItems.map((item, index) => (
             <span key={item.href} className="flex items-center">
@@ -53,7 +53,7 @@ export function SiteHeader({ active }: SiteHeaderProps) {
 
         <nav
           className="flex items-center gap-3 text-[10px] font-bold tracking-[0.18em] sm:hidden"
-          aria-label="モバイルナビゲーション"
+          aria-label="Mobile navigation"
         >
           <Link
             href="/"

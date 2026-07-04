@@ -1,18 +1,18 @@
 const features = [
   {
     label: "01",
-    title: "フレームデータ",
-    body: "起動・ガード有利・ダメージなど、技ごとの数値をセクション分けで素早く確認。",
+    title: "Frame Data",
+    body: "Startup, frame advantage, damage, and more — grouped by move section for quick lookup.",
   },
   {
     label: "02",
-    title: "軽量JPG判定画像",
-    body: "約3万枚から抽出した低画質JPG。GIFより軽く、低スペックスマホでもサクッと開けます。",
+    title: "Lightweight JPG Hitboxes",
+    body: "Low-quality JPGs extracted from ~30k assets. Lighter than GIFs — opens fast on low-spec phones.",
   },
   {
     label: "03",
-    title: "複数フレーム閲覧",
-    body: "同一技の _1 _2 _3 … をカード内または拡大画面で切替。対戦の合間にサッと確認。",
+    title: "Multi-Frame View",
+    body: "Switch _1 _2 _3 … frames in-card or fullscreen. Quick checks between matches.",
   },
 ];
 

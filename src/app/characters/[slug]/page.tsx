@@ -30,13 +30,13 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps) {
   const { slug } = await params;
   const character = getCharacterBySlug(slug);
-  if (!character) return { title: "キャラクター" };
+  if (!character) return { title: "Character" };
 
   return {
     title: character.en,
     description: isCharacterReady(slug)
-      ? `${character.ja}のフレームデータ・判定画像`
-      : `${character.ja} — 準備中`,
+      ? `${character.en} — frame data and hitbox images`
+      : `${character.en} — coming soon`,
   };
 }
 
@@ -98,13 +98,13 @@ export default async function CharacterDetailPage({ params }: PageProps) {
             classicArticle ? (
               <CharacterArticle
                 badge="Classic"
-                title={`クラシック・${character.ja}攻略`}
+                title={`Classic — ${character.en} guide`}
                 content={classicArticle}
               />
             ) : (
               <PlaceholderPanel
-                title="クラシック攻略"
-                body={`${character.ja}のクラシック攻略記事は準備中です。`}
+                title="Classic guide"
+                body={`Classic guide for ${character.en} is coming soon.`}
               />
             )
           }
@@ -112,13 +112,13 @@ export default async function CharacterDetailPage({ params }: PageProps) {
             modernArticle ? (
               <CharacterArticle
                 badge="Modern"
-                title={`モダン・${character.ja}攻略`}
+                title={`Modern — ${character.en} guide`}
                 content={modernArticle}
               />
             ) : (
               <PlaceholderPanel
-                title="モダン攻略"
-                body={`${character.ja}のモダン攻略記事は準備中です。`}
+                title="Modern guide"
+                body={`Modern guide for ${character.en} is coming soon.`}
               />
             )
           }

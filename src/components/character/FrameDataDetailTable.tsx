@@ -22,52 +22,52 @@ function buildRows(move: MoveFrameData): Row[] {
   const shortInput = getShortInput(move.input);
 
   return [
-    { label: "入力", value: input, mono: true },
-    { label: "短縮", value: shortInput, mono: true },
-    { label: "発生", value: displayWikiValue(move.startup), mono: true },
-    { label: "持続", value: displayWikiValue(move.active), mono: true },
-    { label: "回復", value: displayWikiValue(move.recovery), mono: true },
-    { label: "全体", value: displayWikiValue(move.total), mono: true },
-    { label: "ガード", value: displayWikiValue(move.guard), mono: true },
-    { label: "キャンセル", value: displayWikiValue(move.cancel) },
+    { label: "Input", value: input, mono: true },
+    { label: "Short", value: shortInput, mono: true },
+    { label: "Startup", value: displayWikiValue(move.startup), mono: true },
+    { label: "Active", value: displayWikiValue(move.active), mono: true },
+    { label: "Recovery", value: displayWikiValue(move.recovery), mono: true },
+    { label: "Total", value: displayWikiValue(move.total), mono: true },
+    { label: "Guard", value: displayWikiValue(move.guard), mono: true },
+    { label: "Cancel", value: displayWikiValue(move.cancel) },
     {
-      label: "キャンセル可否",
+      label: "Cancelable",
       value: yesNoJa(isCancelable(move.cancel)),
     },
     {
-      label: "DR対応",
+      label: "DR",
       value: yesNoJa(isDriveRushSupported(move)),
     },
-    { label: "ダメージ", value: displayWikiValue(move.damage), mono: true },
-    { label: "ヒット", value: displayWikiValue(move.onHit), mono: true },
-    { label: "ガード時", value: displayWikiValue(move.onBlock), mono: true },
+    { label: "Damage", value: displayWikiValue(move.damage), mono: true },
+    { label: "On Hit", value: displayWikiValue(move.onHit), mono: true },
+    { label: "On Block", value: displayWikiValue(move.onBlock), mono: true },
     {
-      label: "DRキャンセル(ヒット)",
+      label: "DR Cancel (Hit)",
       value: displayWikiValue(move.drCancelHit),
       mono: true,
     },
     {
-      label: "DRキャンセル(ガード)",
+      label: "DR Cancel (Block)",
       value: displayWikiValue(move.drCancelBlk),
       mono: true,
     },
     {
-      label: "DR後(ヒット)",
+      label: "After DR (Hit)",
       value: displayWikiValue(move.afterDrHit),
       mono: true,
     },
     {
-      label: "DR後(ガード)",
+      label: "After DR (Block)",
       value: displayWikiValue(move.afterDrBlk),
       mono: true,
     },
     {
-      label: "ヒット確認",
+      label: "Hit Confirm",
       value: displayWikiValue(move.hitconfirm),
       mono: true,
     },
-    { label: "無敵", value: displayWikiValue(move.invuln) },
-    { label: "備考", value: displayWikiValue(move.notes) },
+    { label: "Invuln", value: displayWikiValue(move.invuln) },
+    { label: "Notes", value: displayWikiValue(move.notes) },
   ];
 }
 
@@ -80,7 +80,7 @@ export function FrameDataDetailTable({ move }: FrameDataDetailTableProps) {
         <div
           key={row.label}
           className={`flex gap-2 text-xs sm:text-sm ${
-            row.label === "備考" ? "sm:col-span-2" : ""
+            row.label === "Notes" ? "sm:col-span-2" : ""
           }`}
         >
           <dt className="w-28 shrink-0 font-bold tracking-wide text-muted">

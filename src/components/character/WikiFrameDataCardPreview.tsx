@@ -52,7 +52,7 @@ export function WikiFrameDataCardPreview({ move }: WikiFrameDataCardPreviewProps
             className="mt-1 truncate border-t border-accent/15 px-0.5 pt-1 text-[6px] leading-tight sm:text-[7px]"
             title={cancel}
           >
-            <span className="font-bold text-muted">キャンセル</span>{" "}
+            <span className="font-bold text-muted">Cancel</span>{" "}
             <span className="font-medium text-foreground">{cancel}</span>
           </p>
         </div>
@@ -83,7 +83,7 @@ export function WikiFrameDataCardPreview({ move }: WikiFrameDataCardPreviewProps
             className="line-clamp-2 text-[6px] leading-tight text-muted sm:text-[7px]"
             title={displayWikiValue(move.notes)}
           >
-            備考 {displayWikiValue(move.notes)}
+            Notes {displayWikiValue(move.notes)}
           </p>
         ) : null}
       </div>
