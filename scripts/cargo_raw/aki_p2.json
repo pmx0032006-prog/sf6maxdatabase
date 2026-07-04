@@ -1,0 +1,158 @@
+{
+  "cargoquery": [
+    {
+      "title": {
+        "moveId": "a.k.i._6hphk_recovery",
+        "name": "Feng Shi (Recovery)",
+        "startup": "18",
+        "active": "3",
+        "recovery": "26(31)",
+        "hitAdv": "KD +23",
+        "blockAdv": " '''-6''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "a.k.i._6pppkkk",
+        "name": "Forward Taunt",
+        "startup": "484 (total)",
+        "active": "-",
+        "recovery": "-",
+        "hitAdv": "-",
+        "blockAdv": "-"
+      }
+    },
+    {
+      "title": {
+        "moveId": "a.k.i._hphk",
+        "name": "Zao Chi",
+        "startup": "26",
+        "active": "2",
+        "recovery": "35",
+        "hitAdv": "KD +35 / Wall Splat KD +65",
+        "blockAdv": " -3 / Wall Splat HKD +72"
+      }
+    },
+    {
+      "title": {
+        "moveId": "a.k.i._j2hp",
+        "name": "Gong Fu",
+        "startup": "9",
+        "active": "5",
+        "recovery": "3 land",
+        "hitAdv": " '''+5(+15)''' ",
+        "blockAdv": " +1 '''(+11)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "a.k.i._jhk",
+        "name": "Jumping Heavy Kick",
+        "startup": "8",
+        "active": "8",
+        "recovery": "3 land",
+        "hitAdv": " '''+8(+15)''' ",
+        "blockAdv": " '''+4(+11)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "a.k.i._jhp",
+        "name": "Jumping Heavy Punch",
+        "startup": "11",
+        "active": "6",
+        "recovery": "3 land",
+        "hitAdv": " '''+5(+15)''' ",
+        "blockAdv": " +1 '''(+11)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "a.k.i._jlk",
+        "name": "Jumping Light Kick",
+        "startup": "5",
+        "active": "6",
+        "recovery": "3 land",
+        "hitAdv": " '''+4(+10)''' ",
+        "blockAdv": " 0 '''(+6)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "a.k.i._jlp",
+        "name": "Jumping Light Punch",
+        "startup": "5",
+        "active": "9",
+        "recovery": "3 land",
+        "hitAdv": " +2 '''(+9)''' ",
+        "blockAdv": " -2 '''(+5)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "a.k.i._jmk",
+        "name": "Jumping Medium Kick",
+        "startup": "7",
+        "active": "6",
+        "recovery": "3 land",
+        "hitAdv": " '''+4(+13)''' ",
+        "blockAdv": " 0 '''(+9)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "a.k.i._jmp",
+        "name": "Jumping Medium Punch",
+        "startup": "7",
+        "active": "4",
+        "recovery": "3 land",
+        "hitAdv": " '''+9(+11)''' ",
+        "blockAdv": " '''+5(+7)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "a.k.i._lplk",
+        "name": "Whisper",
+        "startup": "5",
+        "active": "3",
+        "recovery": "23",
+        "hitAdv": "KD +19",
+        "blockAdv": "-"
+      }
+    },
+    {
+      "title": {
+        "moveId": "a.k.i._mpmk",
+        "name": "Drive Parry",
+        "startup": "1",
+        "active": "12 or until released",
+        "recovery": "33(1)(11)",
+        "hitAdv": "-",
+        "blockAdv": "-"
+      }
+    },
+    {
+      "title": {
+        "moveId": "a.k.i._mpmk_66_drc",
+        "name": "Drive Rush Cancel",
+        "startup": "9",
+        "active": "-",
+        "recovery": "15(37)",
+        "hitAdv": "-",
+        "blockAdv": "-"
+      }
+    },
+    {
+      "title": {
+        "moveId": "a.k.i._mpmk_66_pdr",
+        "name": "Parry Drive Rush",
+        "startup": "3+8",
+        "active": "-",
+        "recovery": "15(37)",
+        "hitAdv": "-",
+        "blockAdv": "-"
+      }
+    }
+  ]
+}

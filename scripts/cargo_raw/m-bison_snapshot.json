@@ -1,0 +1,829 @@
+{
+  "cargoquery": [
+    {
+      "title": {
+        "moveId": "m.bison_214214k",
+        "name": "Psycho Punisher",
+        "startup": "24",
+        "active": "7",
+        "recovery": "52",
+        "hitAdv": "HKD +23",
+        "blockAdv": " '''-34''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_214214p",
+        "name": "Final Psycho Crusher",
+        "startup": "9(15)",
+        "active": "13",
+        "recovery": "48+48",
+        "hitAdv": "KD 0(+6)",
+        "blockAdv": " '''-94(-88)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_214hp",
+        "name": "Backfist Combo",
+        "startup": "22",
+        "active": "3(10)5",
+        "recovery": "26",
+        "hitAdv": "KD +31",
+        "blockAdv": " '''-15''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_214hp_mine",
+        "name": "Backfist Combo (Mine)",
+        "startup": "22",
+        "active": "3(10)5,1",
+        "recovery": "25",
+        "hitAdv": "KD +49",
+        "blockAdv": " '''+9''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_214lp",
+        "name": "Backfist Combo",
+        "startup": "13",
+        "active": "2(10)5",
+        "recovery": "25(28)",
+        "hitAdv": "KD +21",
+        "blockAdv": " '''-14''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_214lp_mine",
+        "name": "Backfist Combo (Mine)",
+        "startup": "13",
+        "active": "2(10)5,1",
+        "recovery": "24",
+        "hitAdv": "KD +42",
+        "blockAdv": " '''+9''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_214mp",
+        "name": "Backfist Combo",
+        "startup": "17",
+        "active": "2(10)5",
+        "recovery": "26(29)",
+        "hitAdv": "KD +20",
+        "blockAdv": " '''-15''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_214mp_mine",
+        "name": "Backfist Combo (Mine)",
+        "startup": "17",
+        "active": "2(10)5,1",
+        "recovery": "25",
+        "hitAdv": "KD +44",
+        "blockAdv": " '''+9''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_214pp",
+        "name": "Backfist Combo",
+        "startup": "14",
+        "active": "2(19)3(23)3",
+        "recovery": "44",
+        "hitAdv": "KD +24",
+        "blockAdv": " '''-25''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_214pp_mine",
+        "name": "Backfist Combo (Mine)",
+        "startup": "14",
+        "active": "2(19)1(26)1,1",
+        "recovery": "44",
+        "hitAdv": "KD +48",
+        "blockAdv": " -3 "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_236236k",
+        "name": "Knee Press Nightmare",
+        "startup": "10",
+        "active": "2(1)3(31)2(1)2",
+        "recovery": "62",
+        "hitAdv": "KD +11 (KD +2)",
+        "blockAdv": " '''-41''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_236236p",
+        "name": "Unlimited Psycho Crusher",
+        "startup": "10(5)",
+        "active": "6",
+        "recovery": "65",
+        "hitAdv": "HKD +15",
+        "blockAdv": " '''-46''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_236236p(ca)",
+        "name": "Unlimited Psycho Crusher (CA)",
+        "startup": "10(5)",
+        "active": "6",
+        "recovery": "65",
+        "hitAdv": "HKD +15",
+        "blockAdv": " '''-46''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_236hk",
+        "name": "Double Knee Press",
+        "startup": "22",
+        "active": "2(1)2",
+        "recovery": "20(25)",
+        "hitAdv": " +3 '''(+4)''' ",
+        "blockAdv": " '''-4''' (-3) "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_236kk",
+        "name": "Double Knee Press",
+        "startup": "17",
+        "active": "2(1)2(17)3",
+        "recovery": "28",
+        "hitAdv": "KD +55",
+        "blockAdv": " '''-15''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_236lk",
+        "name": "Double Knee Press",
+        "startup": "13",
+        "active": "2(1)2",
+        "recovery": "20(25)",
+        "hitAdv": " +2(+3) ",
+        "blockAdv": " '''-5(-4)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_236mk",
+        "name": "Double Knee Press",
+        "startup": "17",
+        "active": "2(1)2",
+        "recovery": "20(25)",
+        "hitAdv": " +3 '''(+4)''' ",
+        "blockAdv": " '''-5(-4)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_28k",
+        "name": "Shadow Rise",
+        "startup": "18~46",
+        "active": "-",
+        "recovery": "4/9/13 land",
+        "hitAdv": "-",
+        "blockAdv": "-"
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_28kk",
+        "name": "Shadow Rise",
+        "startup": "16~42",
+        "active": "-",
+        "recovery": "5 land",
+        "hitAdv": "-",
+        "blockAdv": "-"
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_28kk_k",
+        "name": "Head Press",
+        "startup": "16+15",
+        "active": "until land",
+        "recovery": "12 land",
+        "hitAdv": "HKD +27",
+        "blockAdv": " '''+4(+7)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_28kk_p",
+        "name": "Devil Reverse",
+        "startup": "16+21",
+        "active": "until land",
+        "recovery": "5(10) land",
+        "hitAdv": "KD +35(+43)",
+        "blockAdv": " '''+4(+10)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_28kk_p_mine",
+        "name": "Devil Reverse (Mine)",
+        "startup": "16+21",
+        "active": "until land",
+        "recovery": "8 land",
+        "hitAdv": "KD +54(+59)",
+        "blockAdv": " '''+23(+28)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_28k_k",
+        "name": "Head Press",
+        "startup": "18+15",
+        "active": "until land",
+        "recovery": "26 land",
+        "hitAdv": " '''-29(-23)''' ",
+        "blockAdv": " '''-39(-38)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_28k_k_p",
+        "name": "Somersault Skull Diver",
+        "startup": "12",
+        "active": "10",
+        "recovery": "10 land",
+        "hitAdv": " '''+8(+14)''' ",
+        "blockAdv": " +3 '''(+9)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_28k_p",
+        "name": "Devil Reverse",
+        "startup": "18+16",
+        "active": "until land",
+        "recovery": "10 land",
+        "hitAdv": "KD +35(+43)",
+        "blockAdv": " +1 '''(+9)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_28k_p_mine",
+        "name": "Devil Reverse (Mine)",
+        "startup": "18+16",
+        "active": "until land",
+        "recovery": "8 land",
+        "hitAdv": "KD +52(+58)",
+        "blockAdv": " '''+21(+27)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_2hk",
+        "name": "Shadow Sweep",
+        "startup": "11",
+        "active": "3",
+        "recovery": "26",
+        "hitAdv": "KD +29",
+        "blockAdv": " '''-12''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_2hp",
+        "name": "Crouching Heavy Punch",
+        "startup": "10",
+        "active": "6",
+        "recovery": "21",
+        "hitAdv": " 0 ",
+        "blockAdv": " '''-9''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_2lk",
+        "name": "Crouching Light Kick",
+        "startup": "5",
+        "active": "2",
+        "recovery": "10",
+        "hitAdv": " '''+4''' ",
+        "blockAdv": " -2 "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_2lp",
+        "name": "Crouching Light Punch",
+        "startup": "4",
+        "active": "2",
+        "recovery": "10",
+        "hitAdv": " '''+4''' ",
+        "blockAdv": " -2 "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_2mk",
+        "name": "Crouching Medium Kick",
+        "startup": "8",
+        "active": "3",
+        "recovery": "19",
+        "hitAdv": " -2 ",
+        "blockAdv": " '''-6''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_2mp",
+        "name": "Crouching Medium Punch",
+        "startup": "6",
+        "active": "3",
+        "recovery": "14(17)",
+        "hitAdv": " '''+5''' ",
+        "blockAdv": " -1 "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_3hk",
+        "name": "Hover Kick",
+        "startup": "15",
+        "active": "10",
+        "recovery": "23",
+        "hitAdv": "KD +25(+34)",
+        "blockAdv": " '''-15(-6)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_46hp",
+        "name": "Psycho Crusher Attack",
+        "startup": "24",
+        "active": "26",
+        "recovery": "24",
+        "hitAdv": "KD +14(+39)",
+        "blockAdv": " '''-23''' (+2) "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_46hp_mine",
+        "name": "Psycho Crusher (Mine)",
+        "startup": "24",
+        "active": "26,1",
+        "recovery": "23",
+        "hitAdv": "KD +46(+51)",
+        "blockAdv": " '''+5''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_46lp",
+        "name": "Psycho Crusher Attack",
+        "startup": "14",
+        "active": "16",
+        "recovery": "24",
+        "hitAdv": "KD +24(+39)",
+        "blockAdv": " '''-20(-5)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_46lp_mine",
+        "name": "Psycho Crusher (Mine)",
+        "startup": "14",
+        "active": "14,1",
+        "recovery": "23",
+        "hitAdv": "KD +39(+42)",
+        "blockAdv": " '''+6''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_46mp",
+        "name": "Psycho Crusher Attack",
+        "startup": "20",
+        "active": "16",
+        "recovery": "24",
+        "hitAdv": "KD +24(+39)",
+        "blockAdv": " '''-20(-5)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_46mp_mine",
+        "name": "Psycho Crusher (Mine)",
+        "startup": "20",
+        "active": "16,1",
+        "recovery": "23",
+        "hitAdv": "KD +39(+42)",
+        "blockAdv": " '''+6''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_46pp",
+        "name": "Psycho Crusher Attack",
+        "startup": "16",
+        "active": "7,6,3",
+        "recovery": "20",
+        "hitAdv": "KD +35(+37)",
+        "blockAdv": " -3(-1) "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_46pp_mine",
+        "name": "Psycho Crusher (Mine)",
+        "startup": "16",
+        "active": "7,6,3(1)1",
+        "recovery": "18",
+        "hitAdv": "KD +82(+83)",
+        "blockAdv": " '''+10''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_4hk",
+        "name": "Evil Knee",
+        "startup": "10",
+        "active": "4",
+        "recovery": "17",
+        "hitAdv": " '''+4''' ",
+        "blockAdv": " +1 "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_4lplk",
+        "name": "Death Tower",
+        "startup": "5",
+        "active": "3",
+        "recovery": "23",
+        "hitAdv": "KD +18",
+        "blockAdv": "-"
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_4ppp",
+        "name": "Bison Warp",
+        "startup": "-",
+        "active": "-",
+        "recovery": "43",
+        "hitAdv": "-",
+        "blockAdv": "-"
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_4pppkkk",
+        "name": "Back Taunt",
+        "startup": "400+42 (792 total)",
+        "active": "4",
+        "recovery": "202",
+        "hitAdv": "KD -96",
+        "blockAdv": "-"
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_5hk",
+        "name": "Standing Heavy Kick",
+        "startup": "13",
+        "active": "4",
+        "recovery": "19",
+        "hitAdv": " '''+6''' ",
+        "blockAdv": " -2 "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_5hp",
+        "name": "Standing Heavy Punch",
+        "startup": "19",
+        "active": "3",
+        "recovery": "17(20)",
+        "hitAdv": " '''+4(+6)''' ",
+        "blockAdv": " +1(+3) "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_5lk",
+        "name": "Standing Light Kick",
+        "startup": "4",
+        "active": "2",
+        "recovery": "10",
+        "hitAdv": " +3 ",
+        "blockAdv": " -1 "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_5lp",
+        "name": "Standing Light Punch",
+        "startup": "5",
+        "active": "2",
+        "recovery": "11",
+        "hitAdv": " '''+4''' ",
+        "blockAdv": " -3 "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_5mk",
+        "name": "Standing Medium Kick",
+        "startup": "10",
+        "active": "3",
+        "recovery": "17",
+        "hitAdv": " +2 ",
+        "blockAdv": " -3 "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_5mp",
+        "name": "Standing Medium Punch",
+        "startup": "8",
+        "active": "3",
+        "recovery": "15",
+        "hitAdv": " '''+6''' ",
+        "blockAdv": " 0 "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_5mp_2hk",
+        "name": "Shadow Spear",
+        "startup": "16",
+        "active": "4",
+        "recovery": "20",
+        "hitAdv": " +3 ",
+        "blockAdv": " -3 "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_5mp_6hp",
+        "name": "Shadow Hammer",
+        "startup": "22",
+        "active": "3",
+        "recovery": "20",
+        "hitAdv": " +3 ",
+        "blockAdv": " -3 "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_5pppkkk",
+        "name": "Neutral Taunt",
+        "startup": "544 (total)",
+        "active": "-",
+        "recovery": "-",
+        "hitAdv": "-",
+        "blockAdv": "-"
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_5pppkkk_2",
+        "name": "Neutral Taunt (Down)",
+        "startup": "770 (total)",
+        "active": "-",
+        "recovery": "-",
+        "hitAdv": "-",
+        "blockAdv": "-"
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_5pppkkk_8",
+        "name": "Neutral Taunt (Up)",
+        "startup": "475 (total)",
+        "active": "-",
+        "recovery": "-",
+        "hitAdv": "-",
+        "blockAdv": "-"
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_623pp",
+        "name": "Psycho Burst",
+        "startup": "15",
+        "active": "4",
+        "recovery": "47",
+        "hitAdv": "KD +17",
+        "blockAdv": " '''-28''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_6hp",
+        "name": "Psycho Hammer",
+        "startup": "22",
+        "active": "3",
+        "recovery": "20",
+        "hitAdv": " +3 ",
+        "blockAdv": " -3 "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_6hphk",
+        "name": "Hell Drive (Block)",
+        "startup": "20",
+        "active": "3",
+        "recovery": "26(31)",
+        "hitAdv": "KD +23",
+        "blockAdv": " '''-6''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_6hphk_recovery",
+        "name": "Hell Drive (Recovery)",
+        "startup": "18",
+        "active": "3",
+        "recovery": "26(31)",
+        "hitAdv": "KD +23",
+        "blockAdv": " '''-6''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_6pppkkk",
+        "name": "Forward Taunt",
+        "startup": "411 (total)",
+        "active": "-",
+        "recovery": "-",
+        "hitAdv": "-",
+        "blockAdv": "-"
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_6pppkkk_mine",
+        "name": "Forward Taunt (Mine)",
+        "startup": "409",
+        "active": "2",
+        "recovery": "150",
+        "hitAdv": "KD",
+        "blockAdv": "-"
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_hphk",
+        "name": "Hell Twist",
+        "startup": "26",
+        "active": "2",
+        "recovery": "35",
+        "hitAdv": "KD +35 / Wall Splat KD +65",
+        "blockAdv": " -3 / Wall Splat HKD +72"
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_jhk",
+        "name": "Jumping Heavy Kick",
+        "startup": "10",
+        "active": "6",
+        "recovery": "3 land",
+        "hitAdv": " '''+11(+15)''' ",
+        "blockAdv": " '''+7(+11)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_jhp",
+        "name": "Jumping Heavy Punch",
+        "startup": "9",
+        "active": "6",
+        "recovery": "3 land",
+        "hitAdv": " '''+7(+15)''' ",
+        "blockAdv": " +3 '''(+11)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_jlk",
+        "name": "Jumping Light Kick",
+        "startup": "5",
+        "active": "7",
+        "recovery": "3 land",
+        "hitAdv": " '''+5(+10)''' ",
+        "blockAdv": " +1 '''(+6)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_jlp",
+        "name": "Jumping Light Punch",
+        "startup": "5",
+        "active": "4",
+        "recovery": "3 land",
+        "hitAdv": " '''+8(+9)''' ",
+        "blockAdv": " '''+4(+5)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_jmk",
+        "name": "Jumping Medium Kick",
+        "startup": "7",
+        "active": "7",
+        "recovery": "3 land",
+        "hitAdv": " '''+8(+13)''' ",
+        "blockAdv": " '''+4(+9)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_jmp",
+        "name": "Jumping Medium Punch",
+        "startup": "8",
+        "active": "4",
+        "recovery": "3 land",
+        "hitAdv": " '''+9(+11)''' ",
+        "blockAdv": " '''+5(+7)''' "
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_jmp_jmp",
+        "name": "Hell Attack",
+        "startup": "7",
+        "active": "4",
+        "recovery": "3 land",
+        "hitAdv": "-",
+        "blockAdv": "-"
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_lplk",
+        "name": "Deadly Throw",
+        "startup": "5",
+        "active": "3",
+        "recovery": "23",
+        "hitAdv": "KD +21",
+        "blockAdv": "-"
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_mpmk",
+        "name": "Drive Parry",
+        "startup": "1",
+        "active": "12 or until released",
+        "recovery": "33(1)(11)",
+        "hitAdv": "-",
+        "blockAdv": "-"
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_mpmk_66_drc",
+        "name": "Drive Rush Cancel",
+        "startup": "9",
+        "active": "-",
+        "recovery": "15(37)",
+        "hitAdv": "-",
+        "blockAdv": "-"
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_mpmk_66_pdr",
+        "name": "Parry Drive Rush",
+        "startup": "3+8",
+        "active": "-",
+        "recovery": "15(37)",
+        "hitAdv": "-",
+        "blockAdv": "-"
+      }
+    },
+    {
+      "title": {
+        "moveId": "m.bison_psycho_mine",
+        "name": "Psycho Mine (Detonation)",
+        "startup": "300",
+        "active": "1",
+        "recovery": "-",
+        "hitAdv": "KD",
+        "blockAdv": "-"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+import Link from "next/link";
+import { siteDomain, siteName, siteNameFull } from "@/lib/site";
+
+export function SiteFooter() {
+  return (
+    <footer className="border-t border-border/80 bg-background">
+      <div className="mx-auto max-w-6xl px-6 py-10 text-center sm:px-10">
+        <p className="text-[10px] font-bold tracking-[0.28em] text-accent uppercase">
+          {siteNameFull}
+        </p>
+        <p className="mt-2 text-xs tracking-wide text-muted">© 2026 {siteName}</p>
+        <p className="mt-1 text-xs text-muted/70">{siteDomain}</p>
+        <p className="mt-2 text-xs text-muted/80">
+          全29キャラ — 軽量JPG判定画像 + フレーム数値（lookup 0 MISS）
+        </p>
+        <div className="mt-4 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
+          <Link href="/characters" className="text-accent hover:text-accent-hover">
+            キャラ一覧 →
+          </Link>
+          <Link href="/about" className="text-accent hover:text-accent-hover">
+            About →
+          </Link>
+        </div>
+      </div>
+    </footer>
+  );
+}

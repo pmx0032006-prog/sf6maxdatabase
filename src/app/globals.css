@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f4f7f5;
+  --foreground: #141816;
+  --accent: #00b368;
+  --accent-hover: #009456;
+  --accent-soft: rgba(0, 179, 104, 0.12);
+  --accent-mint: #2dffb8;
+  --surface: #ffffff;
+  --muted: #6b7a72;
+  --border: #dde6e0;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-mint: var(--accent-mint);
+  --color-surface: var(--surface);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --font-sans: var(--font-geist-sans);
+  --font-display: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), "Hiragino Sans", "Yu Gothic UI", sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-geist-sans), "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-feature-settings: "ss01", "kern";
+}
+
+/* Character card — lightweight CSS hover only */
+.char-cell {
+  border: 1px solid rgba(221, 230, 224, 0.55);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.char-cell:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-mint);
+  box-shadow:
+    0 10px 28px rgba(0, 179, 104, 0.22),
+    0 0 0 1px rgba(45, 255, 184, 0.35),
+    0 4px 16px rgba(0, 179, 104, 0.12);
+}
+
+.char-cell:hover .char-name {
+  color: var(--accent-mint);
+  transition: color 0.3s ease;
+}
+
+.char-cell:has(.text-white.char-name):hover .char-name {
+  color: #ffffff;
+}
+
+.char-cell:has(.text-white.char-name) .char-name {
+  transition: color 0.3s ease;
+}
+
+/* Features block — thin green cushion on hover */
+.feature-card {
+  transition: background-color 0.3s ease;
+}
+
+.feature-card:hover {
+  background-color: rgba(0, 179, 104, 0.1);
+}
+
+/* Move data card — same hover language as roster */
+.move-data-card {
+  border: 1px solid rgba(221, 230, 224, 0.9);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.move-data-card:hover {
+  transform: translateY(-1px);
+  border-color: var(--accent-mint);
+  box-shadow:
+    0 6px 18px rgba(0, 179, 104, 0.18),
+    0 0 0 1px rgba(45, 255, 184, 0.3);
+}
+
+.move-frame-fade {
+  animation: move-frame-fade-in 0.3s ease;
+}
+
+@keyframes move-frame-fade-in {
+  from {
+    opacity: 0.35;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.site-header a {
+  text-decoration: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .char-cell {
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .char-cell:hover {
+    transform: none;
+  }
+
+  .move-data-card:hover {
+    transform: none;
+  }
+}
