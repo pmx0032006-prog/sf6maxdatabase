@@ -1,0 +1,44 @@
+SF6 MAX DATABASE — X Dedicated Account Setup
+================================================
+
+DISPLAY NAME:
+SF6 MAX DATABASE
+
+HANDLE (try in order):
+  @sf6maxdatabase
+  @SF6MaxDatabase
+  @sf6framedb
+  @sf6maxdb
+
+BIO (copy all):
+Lightweight SF6 frame data + JPG hitboxes for mobile.
+All 30 characters. Fast on low-spec phones.
+https://www.sf6maxdatabase.com
+
+WEBSITE:
+https://www.sf6maxdatabase.com
+
+PINNED POST (Day 1 — post first, then pin):
+----------------------------------------
+I built a lightweight Street Fighter 6 frame data site focused on fast mobile lookup.
+
+• All 30 characters
+• Frame data + JPG hitbox images
+• Designed for low-spec phones
+
+https://www.sf6maxdatabase.com
+
+#StreetFighter6 #SF6 #FGC
+
+SETUP CHECKLIST:
+  1. Open https://x.com/i/flow/signup in a private browser (optional)
+  2. Use a NEW email (not main account) OR new Google account
+  3. Pick handle from suggestions (first available wins)
+  4. Paste display name + bio from x-account-setup.txt
+  5. Set website URL in profile
+  6. Post pinned launch tweet (Day 1)
+  7. Do NOT link this account to your main or diet account
+  8. Wait 24h before Day 2 post (avoid spam flags)
+
+NOTE: Account creation must be done manually in browser.
+Python cannot bypass X phone/email verification.

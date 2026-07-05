@@ -1,0 +1,50 @@
+SF6 MAX DATABASE — X Post Queue
+================================================
+
+Day 1 (launch)
+----------------------------------------
+I built a lightweight Street Fighter 6 frame data site focused on fast mobile lookup.
+
+• All 30 characters
+• Frame data + JPG hitbox images
+• Designed for low-spec phones
+
+https://www.sf6maxdatabase.com
+
+#StreetFighter6 #SF6 #FGC
+
+Day 2 (differentiator)
+----------------------------------------
+Why JPG instead of GIF for SF6 hitboxes?
+
+Still frames load faster on mobile data and low-spec phones.
+Built for quick checks between matches.
+
+https://www.sf6maxdatabase.com
+
+#SF6 #FGC
+
+Day 3 (ingrid)
+----------------------------------------
+Ingrid frame data and hitbox images are live on SF6 MAX DATABASE.
+
+https://www.sf6maxdatabase.com/characters/ingrid
+
+#StreetFighter6 #SF6
+
+Day 4 (mobile)
+----------------------------------------
+Tip: Add the site to your phone home screen for quick frame checks mid-session.
+
+https://www.sf6maxdatabase.com
+
+#SF6 #FGC
+
+Day 5 (compare)
+----------------------------------------
+Not a strategy blog — just frame numbers and hitbox images, fast.
+Classic / Modern tabs included.
+
+https://www.sf6maxdatabase.com
+
+#StreetFighter6

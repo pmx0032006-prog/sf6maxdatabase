@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-07-05T05:56:52.779226+00:00",
+  "site_url": "https://www.sf6maxdatabase.com",
+  "profile": {
+    "display_name": "SF6 MAX DATABASE",
+    "handle_suggestions": [
+      "sf6maxdatabase",
+      "SF6MaxDatabase",
+      "sf6framedb",
+      "sf6maxdb"
+    ],
+    "bio": "Lightweight SF6 frame data + JPG hitboxes for mobile.\nAll 30 characters. Fast on low-spec phones.\nhttps://www.sf6maxdatabase.com",
+    "bio_short": "Mobile-first SF6 frame data & JPG hitboxes | 30 chars | https://www.sf6maxdatabase.com",
+    "location": "",
+    "website": "https://www.sf6maxdatabase.com",
+    "pinned_post": "I built a lightweight Street Fighter 6 frame data site focused on fast mobile lookup.\n\n• All 30 characters\n• Frame data + JPG hitbox images\n• Designed for low-spec phones\n\nhttps://www.sf6maxdatabase.com\n\n#StreetFighter6 #SF6 #FGC"
+  },
+  "posts": [
+    {
+      "day": 1,
+      "label": "launch",
+      "text": "I built a lightweight Street Fighter 6 frame data site focused on fast mobile lookup.\n\n• All 30 characters\n• Frame data + JPG hitbox images\n• Designed for low-spec phones\n\nhttps://www.sf6maxdatabase.com\n\n#StreetFighter6 #SF6 #FGC"
+    },
+    {
+      "day": 2,
+      "label": "differentiator",
+      "text": "Why JPG instead of GIF for SF6 hitboxes?\n\nStill frames load faster on mobile data and low-spec phones.\nBuilt for quick checks between matches.\n\nhttps://www.sf6maxdatabase.com\n\n#SF6 #FGC"
+    },
+    {
+      "day": 3,
+      "label": "ingrid",
+      "text": "Ingrid frame data and hitbox images are live on SF6 MAX DATABASE.\n\nhttps://www.sf6maxdatabase.com/characters/ingrid\n\n#StreetFighter6 #SF6"
+    },
+    {
+      "day": 4,
+      "label": "mobile",
+      "text": "Tip: Add the site to your phone home screen for quick frame checks mid-session.\n\nhttps://www.sf6maxdatabase.com\n\n#SF6 #FGC"
+    },
+    {
+      "day": 5,
+      "label": "compare",
+      "text": "Not a strategy blog — just frame numbers and hitbox images, fast.\nClassic / Modern tabs included.\n\nhttps://www.sf6maxdatabase.com\n\n#StreetFighter6"
+    }
+  ],
+  "reddit_draft": {
+    "subreddit": "r/StreetFighter",
+    "title": "[Resource] Lightweight SF6 frame data site with JPG hitboxes (mobile-friendly)",
+    "body": "I made a frame data site focused on fast mobile lookup:\n\n- https://www.sf6maxdatabase.com\n- All 30 characters\n- Frame data + still JPG hitbox images (lighter than GIF)\n- Built for low-spec phones\n\nNot affiliated with Capcom. Data sourced from SuperCombo Wiki.\nFeedback welcome if anything looks off."
+  },
+  "checklist": [
+    "Open https://x.com/i/flow/signup in a private browser (optional)",
+    "Use a NEW email (not main account) OR new Google account",
+    "Pick handle from suggestions (first available wins)",
+    "Paste display name + bio from x-account-setup.txt",
+    "Set website URL in profile",
+    "Post pinned launch tweet (Day 1)",
+    "Do NOT link this account to your main or diet account",
+    "Wait 24h before Day 2 post (avoid spam flags)"
+  ],
+  "limits": {
+    "bio_max_chars": 160,
+    "tweet_max_chars": 280
+  },
+  "char_counts": {
+    "bio_short": 86,
+    "pinned_post": 229
+  }
+}
