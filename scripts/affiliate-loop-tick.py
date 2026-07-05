@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -14,6 +15,17 @@ ADD_SCRIPT = ROOT / "scripts" / "add-amazon-affiliate.py"
 PUSH_SCRIPT = ROOT / "scripts" / "push_to_github.py"
 MARKER = 'id: "affiliate"'
 TAG = "sf6maxdatabas-20"
+AUTHOR_NAME = "pmx0032006-prog"
+AUTHOR_EMAIL = "pmx0032006@gmail.com"
+
+
+def git_env() -> dict[str, str]:
+    env = os.environ.copy()
+    env.setdefault("GIT_AUTHOR_NAME", AUTHOR_NAME)
+    env.setdefault("GIT_AUTHOR_EMAIL", AUTHOR_EMAIL)
+    env.setdefault("GIT_COMMITTER_NAME", AUTHOR_NAME)
+    env.setdefault("GIT_COMMITTER_EMAIL", AUTHOR_EMAIL)
+    return env
 
 
 def run_py(script: Path) -> int:
@@ -36,6 +48,7 @@ def git(*args: str) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
         ["git", *args],
         cwd=ROOT,
+        env=git_env(),
         text=True,
         capture_output=True,
         encoding="utf-8",
