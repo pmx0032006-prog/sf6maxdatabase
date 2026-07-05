@@ -18,38 +18,14 @@ const GEAR = [
   },
 ] as const;
 
-const LEFT_RAIL = [
-  GEAR[0],
-  GEAR[1],
-  GEAR[2],
-  GEAR[1],
-  GEAR[0],
-  GEAR[2],
-  GEAR[1],
-  GEAR[0],
-] as const;
-
-const RIGHT_RAIL = [
-  GEAR[1],
-  GEAR[0],
-  GEAR[2],
-  GEAR[0],
-  GEAR[1],
-  GEAR[2],
-  GEAR[0],
-  GEAR[1],
-] as const;
-
 function SideCard({
   label,
   href,
   note,
-  index,
 }: {
   label: string;
   href: string;
   note: string;
-  index: number;
 }) {
   return (
     <a
@@ -59,7 +35,7 @@ function SideCard({
       className="flex min-h-0 flex-1 flex-col justify-center rounded-lg border border-white/10 bg-[#0a0f0c]/95 p-2 text-center shadow-lg backdrop-blur-sm transition hover:border-accent/40"
     >
       <p className="text-[8px] font-bold tracking-[0.22em] text-accent uppercase">
-        Pick {index + 1}
+        Recommended
       </p>
       <p className="mt-1 text-[10px] font-semibold leading-snug text-white/80">
         {label}
@@ -70,33 +46,52 @@ function SideCard({
   );
 }
 
-function RailStack({
-  items,
-  side,
-}: {
-  items: readonly (typeof GEAR)[number][];
-  side: "left" | "right";
-}) {
+function AdSlot({ index }: { index: number }) {
+  return (
+    <div
+      aria-hidden
+      className="flex min-h-0 flex-1 flex-col items-center justify-center rounded-lg border border-dashed border-white/10 bg-surface/20 px-2 text-center text-[9px] leading-relaxed text-white/30"
+    >
+      Ad slot {index}
+      <br />
+      after AdSense approval
+    </div>
+  );
+}
+
+function AffiliateRail() {
   return (
     <div className="pointer-events-auto flex h-[calc(100vh-6rem)] flex-col gap-2 px-2 py-3">
-      <p className="rounded border border-accent/25 bg-surface/80 px-2 py-2 text-center text-[8px] font-bold tracking-[0.22em] text-accent uppercase">
+      <p className="shrink-0 rounded border border-accent/25 bg-surface/80 px-2 py-2 text-center text-[8px] font-bold tracking-[0.22em] text-accent uppercase">
         SF6 Gear
       </p>
-      {items.map((item, index) => (
+      {GEAR.map((item) => (
         <SideCard
-          key={`${side}-${item.href}-${index}`}
+          key={item.href}
           href={item.href}
-          index={index}
           label={item.label}
           note={item.note}
         />
       ))}
       <Link
         href="/about#affiliate"
-        className="rounded border border-white/10 bg-surface/70 px-2 py-2 text-center text-[9px] text-white/45 hover:text-accent"
+        className="shrink-0 rounded border border-white/10 bg-surface/70 px-2 py-2 text-center text-[9px] text-white/45 hover:text-accent"
       >
         Affiliate disclosure
       </Link>
+    </div>
+  );
+}
+
+function AdRail() {
+  return (
+    <div className="pointer-events-auto flex h-[calc(100vh-6rem)] flex-col gap-2 px-2 py-3">
+      <p className="shrink-0 rounded border border-white/10 bg-surface/80 px-2 py-2 text-center text-[8px] font-bold tracking-[0.22em] text-white/40 uppercase">
+        Sponsored
+      </p>
+      <AdSlot index={1} />
+      <AdSlot index={2} />
+      <AdSlot index={3} />
     </div>
   );
 }
@@ -105,17 +100,17 @@ export function DesktopSideRails() {
   return (
     <>
       <aside
-        aria-label="Desktop left rail"
+        aria-label="Desktop affiliate rail"
         className="pointer-events-none fixed inset-y-16 left-0 z-20 hidden w-[min(12rem,calc((100vw-80rem)/2))] 2xl:block"
       >
-        <RailStack items={LEFT_RAIL} side="left" />
+        <AffiliateRail />
       </aside>
 
       <aside
-        aria-label="Desktop right rail"
+        aria-label="Desktop ad rail"
         className="pointer-events-none fixed inset-y-16 right-0 z-20 hidden w-[min(12rem,calc((100vw-80rem)/2))] 2xl:block"
       >
-        <RailStack items={RIGHT_RAIL} side="right" />
+        <AdRail />
       </aside>
     </>
   );

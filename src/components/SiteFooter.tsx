@@ -15,7 +15,9 @@ export function SiteFooter() {
         <p className="mt-2 text-xs text-muted/80">
           All 30 characters — lightweight JPG hitboxes + frame data (lookup 0 MISS)
         </p>
-        <AffiliateGearStrip />
+        <div className="2xl:hidden">
+          <AffiliateGearStrip />
+        </div>
         <div className="mt-4 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
           <Link href="/characters" className="text-accent hover:text-accent-hover">
             Character roster →
