@@ -12,13 +12,16 @@ import {
   isCharacterReady,
 } from "@/lib/character-roster";
 import { siteUrl } from "@/lib/site";
+import { CharacterRelatedLinks } from "@/components/character/CharacterRelatedLinks";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { roster } from "@/data/characters";
 import { getCharacterMoveImageFiles } from "@/lib/character-images";
 import { resolveMoves } from "@/lib/resolve-moves";
 
-export const dynamic = "force-dynamic";
+export const dynamic = "force-dynamic"; // INTERNAL-LINKS-BACKBAR
+// INTERNAL-LINKS-RELATED
+
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -58,13 +61,21 @@ function BackBar() {
   return (
     <div className="border-b border-white/10 bg-[#0a0f0c]">
       <div className="mx-auto w-full max-w-[1440px] px-3 py-3 sm:px-5 lg:px-6">
-        <Link
-          href="/"
-          className="inline-flex items-center gap-2 text-[10px] font-bold tracking-[0.28em] text-white/50 hover:text-accent"
+        <nav
+          aria-label="Character page navigation"
+          className="flex flex-wrap items-center gap-x-4 gap-y-2 text-[10px] font-bold tracking-[0.28em] text-white/50"
         >
-          <span aria-hidden>←</span>
-          BACK TO HOME
-        </Link>
+          <Link
+            href="/"
+            className="inline-flex items-center gap-2 hover:text-accent"
+          >
+            <span aria-hidden>←</span>
+            SF6 MAX DATABASE Home
+          </Link>
+          <Link href="/characters" className="hover:text-accent">
+            SF6 Character List
+          </Link>
+        </nav>
       </div>
     </div>
   );
@@ -138,6 +149,7 @@ export default async function CharacterDetailPage({ params }: PageProps) {
           }
         />
       </main>
+        <CharacterRelatedLinks currentSlug={slug} currentName={character.en} />
 
       <SiteFooter />
     </div>
