@@ -67,6 +67,13 @@ const sections = [
       "Regional access and other launch details are configured at the edge (geo restrictions).",
     ],
   },
+  {
+    id: "affiliate",
+    title: "Affiliate Disclosure",
+    body: [
+      "Some links are affiliate links.",
+    ],
+  },
 ] as const;
 
 export default function AboutPage() {
@@ -118,6 +125,21 @@ export default function AboutPage() {
                 ) : null}
               </article>
             ))}
+
+            
+            <article id="affiliate-link" className="space-y-3">
+              <p className="text-sm leading-relaxed text-muted sm:text-base">
+                <a
+                  href="https://www.amazon.com/dp/B0BPJRGNSD?tag=sf6maxdatabas-20"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-accent hover:text-accent-hover"
+                >
+                  Street Fighter 6 (PS5) on Amazon
+                </a>
+              </p>
+            </article>
+
 
             <div className="flex flex-wrap gap-4 border-t border-border/80 pt-8">
               <Link
