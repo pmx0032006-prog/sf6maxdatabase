@@ -3,24 +3,21 @@ import Link from "next/link";
 const GEAR = [
   {
     shortLabel: "Street Fighter 6",
-    label: "Street Fighter 6 (PS5)",
     href: "https://www.amazon.com/dp/B0BPJRGNSD?tag=sf6maxdatabas-20",
     badge: "PS5 Game",
-    tagline: "Own the game. Check frame data faster.",
+    tagline: "Own SF6. Check frames faster.",
   },
   {
     shortLabel: "HORI Alpha Stick",
-    label: "HORI Fighting Stick Alpha SF6 Edition",
     href: "https://www.amazon.com/dp/B0BZQKCFSD?tag=sf6maxdatabas-20",
     badge: "SF6 Edition",
-    tagline: "Official SF6 fightstick for PS5 & PC.",
+    tagline: "Official SF6 fightstick for PS5 and PC.",
   },
   {
     shortLabel: "8BitDo Arcade Stick",
-    label: "8BitDo Arcade Stick",
     href: "https://www.amazon.com/dp/B08GJC5WSS?tag=sf6maxdatabas-20",
     badge: "Budget Pick",
-    tagline: "Wireless arcade stick for PC & Switch.",
+    tagline: "Wireless arcade stick for PC and Switch.",
   },
 ] as const;
 
@@ -46,18 +43,14 @@ function SideCard({
       href={href}
       target="_blank"
       rel="noopener noreferrer sponsored"
-      className="group flex min-h-0 flex-1 flex-col justify-between rounded-lg border border-accent/35 bg-gradient-to-b from-[#122018] to-[#0a0f0c] px-3 py-2.5 text-left shadow-md backdrop-blur-sm transition hover:border-accent hover:shadow-[0_0_18px_rgba(0,179,104,0.18)]"
+      className="group flex shrink-0 flex-col gap-1.5 rounded-lg border border-accent/35 bg-gradient-to-b from-[#122018] to-[#0a0f0c] px-3 py-2.5 text-left shadow-md backdrop-blur-sm transition hover:border-accent hover:shadow-[0_0_18px_rgba(0,179,104,0.18)]"
     >
-      <div>
-        <span className="inline-block rounded-full border border-accent/40 bg-accent/15 px-2 py-0.5 text-[9px] font-bold tracking-wide text-accent-mint uppercase">
-          {badge}
-        </span>
-        <p className="mt-2 text-[13px] font-black leading-tight text-white">
-          {shortLabel}
-        </p>
-        <p className="mt-1 text-[10px] leading-snug text-white/60">{tagline}</p>
-      </div>
-      <span className="mt-2 block rounded-md bg-accent py-1.5 text-center text-[10px] font-bold tracking-wide text-black transition group-hover:bg-accent-mint">
+      <span className="inline-block w-fit rounded-full border border-accent/40 bg-accent/15 px-2 py-0.5 text-[9px] font-bold tracking-wide text-accent-mint uppercase">
+        {badge}
+      </span>
+      <p className="text-[13px] font-black leading-tight text-white">{shortLabel}</p>
+      <p className="text-[10px] leading-snug text-white/65">{tagline}</p>
+      <span className="rounded-md bg-accent py-1.5 text-center text-[10px] font-bold tracking-wide text-black transition group-hover:bg-accent-mint">
         Shop on Amazon →
       </span>
     </a>
@@ -78,18 +71,22 @@ function RailStack({
       <p className="shrink-0 rounded-lg border border-accent/35 bg-accent/10 px-3 py-2 text-center text-[9px] font-bold tracking-[0.22em] text-accent-mint uppercase">
         {title}
       </p>
-      {Array.from({ length: RAIL_COUNT }, (_, index) => {
-        const item = pickGear(index, offset);
-        return (
-          <SideCard
-            key={`${side}-${index}`}
-            badge={item.badge}
-            href={item.href}
-            shortLabel={item.shortLabel}
-            tagline={item.tagline}
-          />
-        );
-      })}
+
+      <div className="flex min-h-0 flex-1 flex-col gap-1.5 overflow-y-auto pr-0.5 [scrollbar-width:thin]">
+        {Array.from({ length: RAIL_COUNT }, (_, index) => {
+          const item = pickGear(index, offset);
+          return (
+            <SideCard
+              key={`${side}-${index}`}
+              badge={item.badge}
+              href={item.href}
+              shortLabel={item.shortLabel}
+              tagline={item.tagline}
+            />
+          );
+        })}
+      </div>
+
       <Link
         href="/about#affiliate"
         className="shrink-0 rounded-md border border-white/10 bg-surface/70 px-3 py-1.5 text-center text-[9px] text-white/50 hover:text-accent"
