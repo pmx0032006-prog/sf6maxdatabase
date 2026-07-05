@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { siteDescription, siteDomain } from "@/lib/site";
+import { siteDescription, siteDomain, siteName, siteNameFull, siteUrl } from "@/lib/site";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
@@ -15,11 +15,28 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
-    default: siteDomain,
-    template: `%s | ${siteDomain}`,
+    default: siteNameFull,
+    template: `%s | ${siteName}`,
   },
   description: siteDescription,
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: siteUrl,
+    siteName: siteNameFull,
+    title: siteNameFull,
+    description: siteDescription,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteNameFull,
+    description: siteDescription,
+  },
+  alternates: {
+    canonical: siteUrl,
+  },
 };
 
 export default function RootLayout({
@@ -40,6 +57,19 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: siteNameFull,
+              url: siteUrl,
+              description: siteDescription,
+            }),
+          }}
+        />
         {children}
         <Analytics />
       </body>

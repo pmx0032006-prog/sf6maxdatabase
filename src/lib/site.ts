@@ -7,3 +7,5 @@ export const siteDescription =
 
 export const siteTagline =
   "Lightweight JPG hitboxes × frame data — a mobile-first SF6 database";
+
+export const siteUrl = "https://www.sf6maxdatabase.com";

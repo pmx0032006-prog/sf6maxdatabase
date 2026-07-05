@@ -5,7 +5,20 @@ import { PageMasthead } from "@/components/PageMasthead";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { roster } from "@/data/characters";
-import { siteTagline } from "@/lib/site";
+import type { Metadata } from "next";
+import { siteNameFull, siteTagline, siteUrl } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title: siteNameFull,
+  description: siteTagline,
+  alternates: { canonical: siteUrl },
+  openGraph: {
+    title: siteNameFull,
+    description: siteTagline,
+    url: siteUrl,
+  },
+};
+
 
 export default function Home() {
   return (

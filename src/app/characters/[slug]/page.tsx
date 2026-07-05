@@ -11,6 +11,7 @@ import {
   getCharacterBySlug,
   isCharacterReady,
 } from "@/lib/character-roster";
+import { siteUrl } from "@/lib/site";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { roster } from "@/data/characters";
@@ -32,11 +33,24 @@ export async function generateMetadata({ params }: PageProps) {
   const character = getCharacterBySlug(slug);
   if (!character) return { title: "Character" };
 
+  const title = isCharacterReady(slug)
+    ? `${character.en} SF6 Frame Data`
+    : `${character.en} SF6 Frame Data (Coming Soon)`;
+  const description = isCharacterReady(slug)
+    ? `${character.en} Street Fighter 6 frame data, startup, block advantage, damage, and lightweight JPG hitbox images. Mobile-friendly SF6 database.`
+    : `${character.en} Street Fighter 6 frame data page is coming soon on SF6 MAX DATABASE.`;
+
   return {
-    title: character.en,
-    description: isCharacterReady(slug)
-      ? `${character.en} — frame data and hitbox images`
-      : `${character.en} — coming soon`,
+    title,
+    description,
+    alternates: {
+      canonical: `${siteUrl}/characters/${slug}`,
+    },
+    openGraph: {
+      title: `${title} | SF6 MAX DATABASE`,
+      description,
+      url: `${siteUrl}/characters/${slug}`,
+    },
   };
 }
 
