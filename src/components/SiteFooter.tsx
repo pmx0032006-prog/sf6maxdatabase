@@ -20,6 +20,9 @@ export function SiteFooter() {
           <Link href="/about" className="text-accent hover:text-accent-hover">
             About →
           </Link>
+          <Link href="/privacy" className="text-accent hover:text-accent-hover">
+            Privacy →
+          </Link>
         </div>
       </div>
     </footer>
