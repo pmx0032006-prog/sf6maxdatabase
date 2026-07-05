@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { siteDescription, siteDomain, siteName, siteNameFull, siteUrl } from "@/lib/site";
 import { Analytics } from "@vercel/analytics/next";
+import { DesktopSideRails } from "@/components/DesktopSideRails";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -57,6 +58,7 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        {/* DESKTOP-SIDE-RAILS */}
         
         <script
           type="application/ld+json"
@@ -70,6 +72,7 @@ export default function RootLayout({
             }),
           }}
         />
+        <DesktopSideRails />
         {children}
         <Analytics />
       </body>
