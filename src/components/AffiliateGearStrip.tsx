@@ -7,7 +7,11 @@ const GEAR_LINKS = [
   },
   {
     label: "8BitDo Arcade Stick",
-    href: "https://www.amazon.com/dp/B0BX8N6F5K?tag=sf6maxdatabas-20",
+    href: "https://www.amazon.com/dp/B08GJC5WSS?tag=sf6maxdatabas-20",
+  },
+  {
+    label: "HORI Fighting Stick Alpha SF6 Edition",
+    href: "https://www.amazon.com/dp/B0BZQKCFSD?tag=sf6maxdatabas-20",
   },
 ] as const;
 

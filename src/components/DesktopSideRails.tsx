@@ -1,49 +1,102 @@
 import Link from "next/link";
 
-const LEFT_LINK = {
-  label: "Street Fighter 6 (PS5)",
-  href: "https://www.amazon.com/dp/B0BPJRGNSD?tag=sf6maxdatabas-20",
-} as const;
+const GEAR = [
+  {
+    label: "Street Fighter 6 (PS5)",
+    href: "https://www.amazon.com/dp/B0BPJRGNSD?tag=sf6maxdatabas-20",
+    note: "Game",
+  },
+  {
+    label: "HORI Fighting Stick Alpha SF6 Edition",
+    href: "https://www.amazon.com/dp/B0BZQKCFSD?tag=sf6maxdatabas-20",
+    note: "Fightstick",
+  },
+  {
+    label: "8BitDo Arcade Stick",
+    href: "https://www.amazon.com/dp/B08GJC5WSS?tag=sf6maxdatabas-20",
+    note: "Arcade stick",
+  },
+] as const;
 
-const RIGHT_LINK = {
-  label: "8BitDo Arcade Stick",
-  href: "https://www.amazon.com/dp/B0BX8N6F5K?tag=sf6maxdatabas-20",
-} as const;
+const LEFT_RAIL = [
+  GEAR[0],
+  GEAR[1],
+  GEAR[2],
+  GEAR[1],
+  GEAR[0],
+  GEAR[2],
+  GEAR[1],
+  GEAR[0],
+] as const;
+
+const RIGHT_RAIL = [
+  GEAR[1],
+  GEAR[0],
+  GEAR[2],
+  GEAR[0],
+  GEAR[1],
+  GEAR[2],
+  GEAR[0],
+  GEAR[1],
+] as const;
 
 function SideCard({
   label,
   href,
+  note,
+  index,
 }: {
   label: string;
   href: string;
+  note: string;
+  index: number;
 }) {
   return (
     <a
       href={href}
       target="_blank"
       rel="noopener noreferrer sponsored"
-      className="block rounded-lg border border-white/10 bg-[#0a0f0c]/95 p-3 text-center shadow-lg backdrop-blur-sm transition hover:border-accent/40"
+      className="flex min-h-0 flex-1 flex-col justify-center rounded-lg border border-white/10 bg-[#0a0f0c]/95 p-2 text-center shadow-lg backdrop-blur-sm transition hover:border-accent/40"
     >
-      <p className="text-[9px] font-bold tracking-[0.28em] text-accent uppercase">
-        Recommended
+      <p className="text-[8px] font-bold tracking-[0.22em] text-accent uppercase">
+        Pick {index + 1}
       </p>
-      <p className="mt-2 text-xs font-semibold leading-snug text-white/80">
+      <p className="mt-1 text-[10px] font-semibold leading-snug text-white/80">
         {label}
       </p>
-      <p className="mt-2 text-[10px] font-bold text-accent">Amazon →</p>
+      <p className="mt-1 text-[9px] text-white/35">{note}</p>
+      <p className="mt-1 text-[9px] font-bold text-accent">Amazon →</p>
     </a>
   );
 }
 
-function AdSlotPlaceholder({ side }: { side: "left" | "right" }) {
+function RailStack({
+  items,
+  side,
+}: {
+  items: readonly (typeof GEAR)[number][];
+  side: "left" | "right";
+}) {
   return (
-    <div
-      aria-hidden
-      className="mt-3 flex min-h-[250px] items-center justify-center rounded-lg border border-dashed border-white/10 bg-surface/20 px-2 text-center text-[10px] leading-relaxed text-white/30"
-    >
-      Ad slot ({side})
-      <br />
-      after AdSense approval
+    <div className="pointer-events-auto flex h-[calc(100vh-6rem)] flex-col gap-2 px-2 py-3">
+      <p className="rounded border border-accent/25 bg-surface/80 px-2 py-2 text-center text-[8px] font-bold tracking-[0.22em] text-accent uppercase">
+        SF6 Gear
+      </p>
+      {items.map((item, index) => (
+        <SideCard
+          key={`${side}-${item.href}-${index}`}
+          href={item.href}
+          index={index}
+          label={item.label}
+          note={item.note}
+        />
+      ))}
+      <Link
+        href="/about#affiliate"
+        className="rounded border border-white/10 bg-surface/70 px-2 py-2 text-center text-[9px] text-white/45 hover:text-accent"
+      >
+        Affiliate disclosure
+      </Link>
     </div>
   );
 }
@@ -53,32 +106,16 @@ export function DesktopSideRails() {
     <>
       <aside
         aria-label="Desktop left rail"
-        className="pointer-events-none fixed inset-y-0 left-0 z-20 hidden w-[min(11rem,calc((100vw-80rem)/2))] 2xl:block"
+        className="pointer-events-none fixed inset-y-16 left-0 z-20 hidden w-[min(12rem,calc((100vw-80rem)/2))] 2xl:block"
       >
-        <div className="pointer-events-auto sticky top-24 px-3 py-6">
-          <SideCard label={LEFT_LINK.label} href={LEFT_LINK.href} />
-          <AdSlotPlaceholder side="left" />
-          <p className="mt-2 text-center text-[9px] text-white/35">
-            <Link href="/about#affiliate" className="hover:text-accent">
-              Affiliate
-            </Link>
-          </p>
-        </div>
+        <RailStack items={LEFT_RAIL} side="left" />
       </aside>
 
       <aside
         aria-label="Desktop right rail"
-        className="pointer-events-none fixed inset-y-0 right-0 z-20 hidden w-[min(11rem,calc((100vw-80rem)/2))] 2xl:block"
+        className="pointer-events-none fixed inset-y-16 right-0 z-20 hidden w-[min(12rem,calc((100vw-80rem)/2))] 2xl:block"
       >
-        <div className="pointer-events-auto sticky top-24 px-3 py-6">
-          <SideCard label={RIGHT_LINK.label} href={RIGHT_LINK.href} />
-          <AdSlotPlaceholder side="right" />
-          <p className="mt-2 text-center text-[9px] text-white/35">
-            <Link href="/about#affiliate" className="hover:text-accent">
-              Affiliate
-            </Link>
-          </p>
-        </div>
+        <RailStack items={RIGHT_RAIL} side="right" />
       </aside>
     </>
   );
