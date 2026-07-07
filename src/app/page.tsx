@@ -1,12 +1,12 @@
 import { CharacterGrid } from "@/components/CharacterGrid";
 import { FeaturesSection } from "@/components/FeaturesSection";
 import { NewsSection } from "@/components/NewsSection";
-import { PageMasthead } from "@/components/PageMasthead";
+import { HomeHero } from "@/components/HomeHero";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { roster } from "@/data/characters";
 import type { Metadata } from "next";
-import { siteNameFull, siteTagline, siteUrl } from "@/lib/site";
+import { siteNameFull, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: siteNameFull,
@@ -26,13 +26,7 @@ export default function Home() {
       <SiteHeader active="home" />
 
       <main className="flex-1">
-        <PageMasthead
-          eyebrow="Street Fighter 6"
-          title="MAX"
-          titleAccent="DATABASE"
-          subtitle={siteTagline}
-          compact
-        />
+        <HomeHero />
 
         <section id="roster" className="bg-background">
           <div className="mx-auto max-w-6xl px-4 py-4 sm:px-10 sm:py-5">
