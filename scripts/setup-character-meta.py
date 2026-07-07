@@ -422,7 +422,17 @@ def meta_ts_content() -> str:
         lines.append(f'  {tier}: [{slugs}],')
     lines.append("} as const satisfies Record<Tier, readonly string[]>;")
     lines.append("")
-    core = ", ".join(f'"{s}"' for s in SNAPSHOT["matchup_core"])
+    core_sorted = sorted(
+        SNAPSHOT["matchup_core"],
+        key=lambda slug: next(
+            (ti, SNAPSHOT["tiers"][t].index(slug))
+            for ti, t in enumerate(("S", "A", "B", "C"))
+            if slug in SNAPSHOT["tiers"][t]
+        )
+        if any(slug in SNAPSHOT["tiers"][t] for t in ("S", "A", "B", "C"))
+        else (99, 99),
+    )
+    core = ", ".join(f'"{s}"' for s in core_sorted)
     lines.append(f"export const MATCHUP_CORE = [{core}] as const;")
     lines.append("")
     lines.append("export const MATCHUP_LABELS: Record<MatchupRating, string> = {")
