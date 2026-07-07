@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Suspense } from "react";
 import { MetaNextSteps } from "@/components/MetaNextSteps";
 import { MatchupTable } from "@/components/MatchupTable";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -46,7 +46,15 @@ export default function MatchupsPage() {
             上ほど強キャラ・下ほど弱キャラ（ティア順）。全30キャラ（イングリッドまで）。
           </p>
 
-          <MatchupTable coreChars={coreChars} />
+          <Suspense
+            fallback={
+              <p className="mt-4 rounded-lg border border-border bg-surface px-4 py-8 text-center text-sm text-muted">
+                相性表を読み込み中…
+              </p>
+            }
+          >
+            <MatchupTable coreChars={coreChars} />
+          </Suspense>
 
           <MetaNextSteps variant="matchups" />
         </div>
