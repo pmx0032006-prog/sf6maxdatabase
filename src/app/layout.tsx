@@ -51,6 +51,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
+        <meta name="google-adsense-account" content="ca-pub-8960641434315655" />
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8960641434315655"
@@ -72,6 +73,7 @@ export default function RootLayout({
             }),
           }}
         />
+        {/* MONETIZATION-SPLIT: Amazon 3 gear links in rails/footer; AdSense auto ads elsewhere */}
         <DesktopSideRails />
         {children}
         <Analytics />
