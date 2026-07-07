@@ -12,7 +12,7 @@ const TIER_STYLES: Record<string, string> = {
 export function TierBand() {
   return (
     <section
-      aria-label="Character tier snapshot"
+      aria-label="Character rank snapshot"
       className="border-b border-white/10 bg-[#0d1411] text-white"
     >
       <div className="mx-auto max-w-7xl px-4 py-3 sm:px-6">
@@ -22,14 +22,14 @@ export function TierBand() {
               Meta Snapshot
             </p>
             <p className="text-[11px] text-white/55">
-              Community tier list — updated {META_UPDATED}
+              Character rank — updated {META_UPDATED}
             </p>
           </div>
           <Link
             href="/tier"
             className="text-[10px] font-bold tracking-wide text-accent hover:text-accent-mint"
           >
-            Full tier list →
+            Character rank →
           </Link>
         </div>
 

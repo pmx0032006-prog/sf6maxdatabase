@@ -7,8 +7,8 @@ import type { Metadata } from "next";
 import { siteName, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: `Character Tier List | ${siteName}`,
-  description: "Community SF6 character tier list snapshot with links to frame data.",
+  title: `Character Rank | ${siteName}`,
+  description: "Community SF6 character rank snapshot with links to frame data.",
   alternates: { canonical: `${siteUrl}/tier` },
 };
 
@@ -21,7 +21,7 @@ export default function TierPage() {
         <div className="mx-auto max-w-5xl px-4 py-6 sm:px-6 sm:py-8">
           <p className="text-[10px] font-bold tracking-[0.32em] text-accent uppercase">Meta</p>
           <h1 className="mt-1 font-display text-2xl font-black uppercase tracking-tight text-foreground sm:text-3xl">
-            Character Tier List
+            Character Rank
           </h1>
           <p className="mt-2 max-w-2xl text-sm text-muted">
             Community snapshot for quick research. Open any character for frame data and hitboxes.
@@ -56,7 +56,7 @@ export default function TierPage() {
 
           <p className="mt-8 flex flex-wrap justify-center gap-4 text-sm">
             <Link href="/matchups" className="font-semibold text-accent hover:text-accent-hover">
-              Matchup chart →
+              Matchup Chart →
             </Link>
             <Link href="/" className="font-semibold text-muted hover:text-accent">
               ← Back to roster

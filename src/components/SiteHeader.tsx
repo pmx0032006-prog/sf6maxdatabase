@@ -8,8 +8,8 @@ type SiteHeaderProps = {
 const navItems = [
   { href: "/", label: "TOP", key: "home" as const },
   { href: "/characters", label: "CHARACTERS", key: "characters" as const },
-  { href: "/tier", label: "TIER", key: "tier" as const },
-  { href: "/matchups", label: "MATCHUPS", key: "matchups" as const },
+  { href: "/tier", label: "CHAR RANK", key: "tier" as const },
+  { href: "/matchups", label: "MATCH CHART", key: "matchups" as const },
   { href: "/about", label: "ABOUT", key: "about" as const },
   { href: "/#news", label: "NEWS", key: null },
 ];
@@ -64,13 +64,13 @@ export function SiteHeader({ active }: SiteHeaderProps) {
             CHARA
           </Link>
           <Link href="/tier" className={active === "tier" ? "text-accent" : "text-white/75"}>
-            TIER
+            RANK
           </Link>
           <Link
             href="/matchups"
             className={active === "matchups" ? "text-accent" : "text-white/75"}
           >
-            MATCH
+            CHART
           </Link>
         </nav>
       </div>
