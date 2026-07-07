@@ -8,9 +8,10 @@
     "sync:cammy": "node scripts/sync-cyam-images.mjs",
     "dev": "next dev",
     "dev:sync": "npm run sync:images && next dev",
-    "build": "npm run sync:images && next build",
+    "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "build:local": "npm run sync:images && next build"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
