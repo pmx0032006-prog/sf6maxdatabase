@@ -2,6 +2,7 @@ import { CharacterGrid } from "@/components/CharacterGrid";
 import { FeaturesSection } from "@/components/FeaturesSection";
 import { NewsSection } from "@/components/NewsSection";
 import { HomeHero } from "@/components/HomeHero";
+import { HomeGearSpot } from "@/components/HomeGearSpot";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { roster } from "@/data/characters";
@@ -27,6 +28,8 @@ export default function Home() {
 
       <main className="flex-1">
         <HomeHero />
+
+        <HomeGearSpot />
 
         <section id="roster" className="bg-background">
           <div className="mx-auto max-w-6xl px-4 py-4 sm:px-10 sm:py-5">

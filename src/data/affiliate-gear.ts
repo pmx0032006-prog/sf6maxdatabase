@@ -70,6 +70,18 @@ export const AFFILIATE_GEAR = [
   },
 ] as const satisfies readonly AffiliateGearItem[];
 
+export const HOME_PRIME_ASINS = ["B0BZQKCFSD", "B0BPJRGNSD"] as const;
+
+export function gearByAsin(asin: string): AffiliateGearItem | undefined {
+  return AFFILIATE_GEAR.find((item) => item.asin === asin);
+}
+
+export function homePrimeGear(): AffiliateGearItem[] {
+  return HOME_PRIME_ASINS.map((asin) => gearByAsin(asin)).filter(
+    (item): item is AffiliateGearItem => Boolean(item),
+  );
+}
+
 export function gearHref(asin: string): string {
   return `https://www.amazon.com/dp/${asin}?tag=${AFFILIATE_TAG}`;
 }
