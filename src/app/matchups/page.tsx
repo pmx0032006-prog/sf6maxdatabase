@@ -4,27 +4,27 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { roster } from "@/data/characters";
 import {
   MATCHUP_CORE,
-  MATCHUP_LABELS,
-  MATCHUP_LABELS_JA,
+  MATCHUP_NOTES,
   MATCHUPS,
   META_DISCLAIMER,
   META_UPDATED,
-  type MatchupRating,
+  type MatchupRatio,
 } from "@/data/character-meta";
 import type { Metadata } from "next";
 import { siteName, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: `Character Affinity | ${siteName}`,
-  description: "Full-roster SF6 character affinity chart — advantage between characters, not match results.",
+  description: "Full-roster SF6 character affinity diagram — win-rate style ratios, not match results.",
   alternates: { canonical: `${siteUrl}/matchups` },
 };
 
-function ratingClass(rating: MatchupRating): string {
-  if (rating === "++") return "bg-emerald-500/20 text-emerald-700";
-  if (rating === "+") return "bg-accent/15 text-accent";
-  if (rating === "=") return "bg-surface text-muted";
-  if (rating === "-") return "bg-orange-500/15 text-orange-700";
+function ratioClass(ratio: MatchupRatio): string {
+  const left = Number(ratio.split("-")[0] ?? 5);
+  if (left >= 7) return "bg-emerald-500/20 text-emerald-700";
+  if (left === 6) return "bg-accent/15 text-accent";
+  if (left === 5) return "bg-surface text-muted";
+  if (left === 4) return "bg-orange-500/15 text-orange-700";
   return "bg-red-500/15 text-red-700";
 }
 
@@ -44,13 +44,13 @@ export default function MatchupsPage() {
             キャラクター相性表
           </h1>
           <p className="mt-2 max-w-3xl text-sm text-muted">
-            縦のキャラが横のキャラに対してどれだけ有利か（試合結果ではなく相性の目安）。各キャラページのフレームデータと併用してください。
+            縦のキャラが横のキャラに対してどれだけ有利か（ダイヤグラム方式）。セルにカーソルを合わせると一言メモが出ます。
           </p>
           <p className="mt-1 text-xs text-muted/80">
             更新: {META_UPDATED} — {META_DISCLAIMER}
           </p>
           <p className="mt-2 text-xs text-muted">
-            <span translate="no">++</span> かなり有利 / <span translate="no">+</span> やや有利 / <span translate="no">=</span> 互角 / <span translate="no">-</span> やや不利 / <span translate="no">--</span> かなり不利
+            <span translate="no">7-3</span> かなり有利 / <span translate="no">6-4</span> やや有利 / <span translate="no">5-5</span> 互角 / <span translate="no">4-6</span> やや不利 / <span translate="no">3-7</span> かなり不利
           </p>
           <p className="mt-1 text-xs text-muted/80">
             上ほど強キャラ・下ほど弱キャラ（ティア順）。全30キャラ（イングリッドまで）。
@@ -100,15 +100,16 @@ export default function MatchupsPage() {
                           </td>
                         );
                       }
-                      const rating = MATCHUPS[row.slug]?.[col.slug] ?? ("=" as MatchupRating);
+                      const ratio = MATCHUPS[row.slug]?.[col.slug] ?? ("5-5" as MatchupRatio);
+                      const note = MATCHUP_NOTES[row.slug]?.[col.slug];
                       return (
                         <td key={col.slug} className="px-1 py-2">
                           <span
-                            className={`inline-block min-w-[1.75rem] rounded px-1 py-0.5 font-bold ${ratingClass(rating)}`}
-                            title={MATCHUP_LABELS_JA[rating]}
+                            className={`inline-block min-w-[2.25rem] rounded px-1 py-0.5 font-bold ${ratioClass(ratio)}`}
+                            title={note}
                             translate="no"
                           >
-                            {rating}
+                            {ratio}
                           </span>
                         </td>
                       );
