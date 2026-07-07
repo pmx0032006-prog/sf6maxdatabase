@@ -18,34 +18,29 @@ const features = [
 
 export function FeaturesSection() {
   return (
-    <section id="contents" className="border-t border-border/80">
-      <div className="border-b border-accent/30 bg-[#0a0f0c] px-4 py-8 sm:px-10 sm:py-10">
-        <div className="mx-auto max-w-6xl">
-          <p className="text-[10px] font-bold tracking-[0.4em] text-accent uppercase">
-            Contents
-          </p>
-          <h2 className="mt-2 font-display text-4xl font-black uppercase leading-none tracking-tight text-white sm:text-5xl">
-            Features
-          </h2>
-        </div>
+    <section id="contents" className="space-y-4">
+      <div className="space-y-1 border-l-4 border-accent pl-4">
+        <h2 className="text-sm font-semibold tracking-[0.2em] text-accent uppercase">
+          Features
+        </h2>
+        <p className="text-sm text-muted">What makes this database fast and useful</p>
       </div>
-      <div className="bg-surface">
-        <div className="mx-auto grid max-w-6xl gap-px border-x border-border/80 bg-border/80 px-4 sm:grid-cols-3 sm:px-10">
-          {features.map((item) => (
-            <article
-              key={item.label}
-              className="feature-card space-y-5 bg-surface px-6 py-10 sm:px-8 sm:py-12"
-            >
-              <p className="font-display text-4xl font-black leading-none text-accent sm:text-5xl">
-                {item.label}
-              </p>
-              <h3 className="text-xl font-bold tracking-tight text-foreground sm:text-2xl">
-                {item.title}
-              </h3>
-              <p className="text-sm leading-relaxed text-muted">{item.body}</p>
-            </article>
-          ))}
-        </div>
+
+      <div className="grid gap-3 sm:grid-cols-3">
+        {features.map((item) => (
+          <article
+            key={item.label}
+            className="feature-card space-y-3 rounded-lg border border-border bg-surface px-4 py-5"
+          >
+            <p className="font-display text-2xl font-black leading-none text-accent">
+              {item.label}
+            </p>
+            <h3 className="text-base font-bold tracking-tight text-foreground">
+              {item.title}
+            </h3>
+            <p className="text-[13px] leading-relaxed text-muted">{item.body}</p>
+          </article>
+        ))}
       </div>
     </section>
   );
