@@ -35,56 +35,19 @@ export function CharacterGrid({
 
   return (
     <section className="space-y-5">
-      <div className="flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between">
-        <div
-          className={`min-w-0 shrink-0 space-y-1 border-l-4 pl-4 ${styles.section} ${
-            mode === "modern" ? "border-l-[3px]" : ""
+      <div
+        className={`space-y-1 border-l-4 pl-4 ${styles.section} ${
+          mode === "modern" ? "border-l-[3px]" : ""
+        }`}
+      >
+        <h2
+          className={`text-sm font-semibold tracking-[0.2em] uppercase ${
+            mode === "modern" ? "text-accent-mint" : "text-accent"
           }`}
         >
-          <h2
-            className={`text-sm font-semibold tracking-[0.2em] uppercase ${
-              mode === "modern" ? "text-accent-mint" : "text-accent"
-            }`}
-          >
-            {title}
-          </h2>
-          <p className="max-w-md text-sm text-muted">{subtitle}</p>
-        </div>
-
-        <ul
-          className="flex min-w-0 flex-1 gap-1 overflow-x-auto pb-1 [scrollbar-width:thin] lg:max-w-[min(100%,42rem)] lg:justify-end"
-          aria-label="Quick pick characters"
-        >
-          {characters.map((character) => (
-            <li key={`quick-${mode}-${character.slug}`} className="shrink-0">
-              <Link
-                href={`/characters/${character.slug}?mode=${mode}`}
-                className="group relative block h-11 w-14 overflow-hidden rounded-md border border-border bg-[#0d1210] shadow-sm transition hover:border-accent/60 sm:h-12 sm:w-16"
-                translate="no"
-                lang="ja"
-                title={character.en}
-              >
-                {character.thumb ? (
-                  <span
-                    aria-hidden
-                    className="absolute inset-0 bg-cover bg-no-repeat transition duration-200 group-hover:scale-105"
-                    style={{
-                      backgroundImage: `url(${character.thumb})`,
-                      backgroundPosition: "center top",
-                    }}
-                  />
-                ) : (
-                  <span className="flex h-full items-center justify-center text-[8px] font-bold text-white/50">
-                    {character.ja}
-                  </span>
-                )}
-                <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 to-transparent px-0.5 py-0.5 text-center text-[7px] font-bold leading-none text-white/95 sm:text-[8px]">
-                  {character.ja}
-                </span>
-              </Link>
-            </li>
-          ))}
-        </ul>
+          {title}
+        </h2>
+        <p className="text-sm text-muted">{subtitle}</p>
       </div>
 
       <ul
@@ -135,13 +98,13 @@ export function CharacterGrid({
                   >
                     {character.en}
                   </span>
-                </span>
+</span>
               ) : (
                 <span className="relative z-[1] flex min-h-[5.5rem] flex-col items-center justify-center px-3 py-7 sm:min-h-[6.25rem]">
                   <span className={`char-name text-foreground ${styles.name}`}>
                     {character.en}
                   </span>
-                </span>
+</span>
               )}
             </Link>
           </li>
