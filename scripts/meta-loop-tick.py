@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Loop tick: verify tier/matchup meta layer, rebuild if missing, commit/push."""
+"""Loop tick: verify split /tier and /matchups pages."""
 from __future__ import annotations
 
 import json
@@ -10,11 +10,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SETUP = ROOT / "scripts" / "setup-character-meta.py"
+SETUP = ROOT / "scripts" / "split-meta-pages.py"
+TIER_PAGE = ROOT / "src" / "app" / "tier" / "page.tsx"
+MATCHUPS_PAGE = ROOT / "src" / "app" / "matchups" / "page.tsx"
 META_TS = ROOT / "src" / "data" / "character-meta.ts"
-META_PAGE = ROOT / "src" / "app" / "meta" / "page.tsx"
-TIER_BAND = ROOT / "src" / "components" / "TierBand.tsx"
-HOME = ROOT / "src" / "app" / "page.tsx"
+SIDEBAR = ROOT / "src" / "components" / "HomeSidebar.tsx"
+HEADER = ROOT / "src" / "components" / "SiteHeader.tsx"
 PUSH = ROOT / "scripts" / "push_to_github.py"
 RESTORE_TAG = "before-character-meta"
 
@@ -42,20 +43,22 @@ def git(*args: str) -> subprocess.CompletedProcess[str]:
 
 def checks() -> dict[str, bool]:
     meta = META_TS.read_text(encoding="utf-8") if META_TS.is_file() else ""
-    home = HOME.read_text(encoding="utf-8") if HOME.is_file() else ""
-    sidebar = (ROOT / "src" / "components" / "HomeSidebar.tsx").read_text(encoding="utf-8")
+    sidebar = SIDEBAR.read_text(encoding="utf-8") if SIDEBAR.is_file() else ""
+    header = HEADER.read_text(encoding="utf-8") if HEADER.is_file() else ""
     return {
         "meta_data": "export const TIERS" in meta and "export const MATCHUPS" in meta,
-        "meta_page": META_PAGE.is_file(),
-        "meta_sidebar_link": 'href="/meta"' in sidebar and "Tier + Matchups" in sidebar,
-        "home_no_tier_band": "<TierBand />" not in home,
+        "tier_page": TIER_PAGE.is_file() and "Character Tier List" in TIER_PAGE.read_text(encoding="utf-8"),
+        "matchups_page": MATCHUPS_PAGE.is_file()
+        and "Matchup Chart" in MATCHUPS_PAGE.read_text(encoding="utf-8"),
+        "split_nav": 'href="/tier"' in header and 'href="/matchups"' in header,
+        "split_sidebar": 'href="/tier"' in sidebar and 'href="/matchups"' in sidebar,
         "restore_tag": git("rev-parse", RESTORE_TAG).returncode == 0,
     }
 
 
 def main() -> int:
     c = checks()
-    required = ("meta_data", "meta_page", "meta_sidebar_link", "home_no_tier_band")
+    required = ("meta_data", "tier_page", "matchups_page", "split_nav", "split_sidebar")
     if not all(c[k] for k in required):
         if SETUP.is_file():
             subprocess.run([sys.executable, str(SETUP)], cwd=ROOT, check=False)

@@ -2,13 +2,14 @@ import Link from "next/link";
 import { siteName } from "@/lib/site";
 
 type SiteHeaderProps = {
-  active?: "home" | "characters" | "about" | "meta";
+  active?: "home" | "characters" | "tier" | "matchups" | "about";
 };
 
 const navItems = [
   { href: "/", label: "TOP", key: "home" as const },
   { href: "/characters", label: "CHARACTERS", key: "characters" as const },
-  { href: "/meta", label: "META", key: "meta" as const },
+  { href: "/tier", label: "TIER", key: "tier" as const },
+  { href: "/matchups", label: "MATCHUPS", key: "matchups" as const },
   { href: "/about", label: "ABOUT", key: "about" as const },
   { href: "/#news", label: "NEWS", key: null },
 ];
@@ -33,10 +34,7 @@ export function SiteHeader({ active }: SiteHeaderProps) {
           {navItems.map((item, index) => (
             <span key={item.href} className="flex items-center">
               {index > 0 ? (
-                <span
-                  className="mx-3 h-3 w-px bg-white/20"
-                  aria-hidden
-                />
+                <span className="mx-3 h-3 w-px bg-white/20" aria-hidden />
               ) : null}
               <Link
                 href={item.href}
@@ -53,34 +51,26 @@ export function SiteHeader({ active }: SiteHeaderProps) {
         </nav>
 
         <nav
-          className="flex items-center gap-3 text-[10px] font-bold tracking-[0.18em] sm:hidden"
+          className="flex items-center gap-2 text-[9px] font-bold tracking-[0.14em] sm:hidden"
           aria-label="Mobile navigation"
         >
-          <Link
-            href="/"
-            className={active === "home" ? "text-accent" : "text-white/75"}
-          >
+          <Link href="/" className={active === "home" ? "text-accent" : "text-white/75"}>
             TOP
           </Link>
           <Link
             href="/characters"
-            className={
-              active === "characters" ? "text-accent" : "text-white/75"
-            }
+            className={active === "characters" ? "text-accent" : "text-white/75"}
           >
             CHARA
           </Link>
-          <Link
-            href="/meta"
-            className={active === "meta" ? "text-accent" : "text-white/75"}
-          >
-            META
+          <Link href="/tier" className={active === "tier" ? "text-accent" : "text-white/75"}>
+            TIER
           </Link>
           <Link
-            href="/about"
-            className={active === "about" ? "text-accent" : "text-white/75"}
+            href="/matchups"
+            className={active === "matchups" ? "text-accent" : "text-white/75"}
           >
-            ABOUT
+            MATCH
           </Link>
         </nav>
       </div>

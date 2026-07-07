@@ -53,14 +53,22 @@ export function HomeSidebar() {
           Meta
         </p>
         <p className="mt-1 text-[11px] leading-snug text-muted">
-          Community tier list &amp; matchup chart ({META_UPDATED})
+          Community snapshot ({META_UPDATED})
         </p>
-        <Link
-          href="/meta"
-          className="mt-2 block rounded-md border border-accent/25 bg-accent-soft/30 px-3 py-2 text-center text-[11px] font-bold text-accent hover:border-accent hover:bg-accent-soft"
-        >
-          Tier + Matchups →
-        </Link>
+        <div className="mt-2 flex flex-col gap-1.5">
+          <Link
+            href="/tier"
+            className="block rounded-md border border-accent/25 bg-accent-soft/30 px-3 py-2 text-center text-[11px] font-bold text-accent hover:border-accent hover:bg-accent-soft"
+          >
+            Tier List →
+          </Link>
+          <Link
+            href="/matchups"
+            className="block rounded-md border border-accent/25 bg-accent-soft/30 px-3 py-2 text-center text-[11px] font-bold text-accent hover:border-accent hover:bg-accent-soft"
+          >
+            Matchups →
+          </Link>
+        </div>
       </section>
 
       <section className="rounded-lg border border-border bg-surface p-3 shadow-sm">

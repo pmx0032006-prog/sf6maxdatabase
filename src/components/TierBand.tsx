@@ -26,10 +26,10 @@ export function TierBand() {
             </p>
           </div>
           <Link
-            href="/meta"
+            href="/tier"
             className="text-[10px] font-bold tracking-wide text-accent hover:text-accent-mint"
           >
-            Full tiers + matchups →
+            Full tier list →
           </Link>
         </div>
 
