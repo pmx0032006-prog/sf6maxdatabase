@@ -77,24 +77,12 @@ GEAR = [
         "tagline": "Swap parts easily. PS4, Switch, and PC.",
         "asin": "B07DLFPG6G",
     },
-    {
-        "shortLabel": "HORI RAP V Kai",
-        "badge": "Tournament",
-        "tagline": "Hayabusa parts. PS4, PS3, and PC classic.",
-        "asin": "B07QZJ4RYV",
-    },
-    {
-        "shortLabel": "Xbox Wireless Pad",
-        "badge": "PC / Xbox",
-        "tagline": "Low-latency pad for PC and Xbox SF6 players.",
-        "asin": "B08K4QR62J",
-    },
 ]
 
 RAILS_TS = '''import Link from "next/link";
 import { AFFILIATE_GEAR, gearHref } from "@/data/affiliate-gear";
 
-const RAIL_HALF = Math.ceil(AFFILIATE_GEAR.length / 2); // phase 1: 6 left + 6 right, no overlap
+const RAIL_PER_SIDE = 5; // phase 1: 5 left + 5 right — fits viewport without clipping
 
 function SideCard({
   badge,
@@ -135,7 +123,7 @@ function RailStack({
   side: "left" | "right";
   title: string;
 }) {
-  const items = AFFILIATE_GEAR.slice(startIndex, startIndex + RAIL_HALF);
+  const items = AFFILIATE_GEAR.slice(startIndex, startIndex + RAIL_PER_SIDE);
 
   return (
     <div className="pointer-events-auto flex h-[calc(100vh-5rem)] flex-col gap-1.5 px-2.5 py-2">
@@ -179,7 +167,7 @@ export function DesktopSideRails() {
         aria-label="Desktop right rail"
         className="pointer-events-none fixed inset-y-14 right-0 z-20 hidden w-[min(15.5rem,calc((100vw-80rem)/2))] 2xl:block"
       >
-        <RailStack startIndex={RAIL_HALF} side="right" title="FGC Deals" />
+        <RailStack startIndex={5} side="right" title="FGC Deals" />
       </aside>
     </>
   );
@@ -292,7 +280,7 @@ def main() -> int:
         print(f"  - {item['shortLabel']} ({item['asin']})")
 
     git("add", "src/data/affiliate-gear.ts", "src/components/DesktopSideRails.tsx", "src/components/AffiliateGearStrip.tsx", "scripts/setup-fgc-gear-lineup.py", "scripts/affiliate_gear_lineup.json")
-    commit = git("commit", "-m", "Add 4 more US FGC gear picks — 6 cards per desktop rail")
+    commit = git("commit", "-m", "Cap desktop affiliate rails at 5 cards per side")
     if commit.returncode == 0:
         print("[done] committed")
         if PUSH.is_file():
