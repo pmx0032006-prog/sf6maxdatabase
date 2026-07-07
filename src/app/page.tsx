@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { CharacterGrid } from "@/components/CharacterGrid";
+import { HomeMetaLinks } from "@/components/HomeMetaLinks";
 import { FeaturesSection } from "@/components/FeaturesSection";
 import { NewsSection } from "@/components/NewsSection";
 import { HomeSidebar } from "@/components/HomeSidebar";
@@ -39,21 +39,8 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex min-w-0 flex-col gap-2 sm:flex-row sm:flex-wrap sm:items-center sm:gap-3 lg:flex-col lg:items-end lg:gap-2">
-            <Link
-              href="/tier"
-              className="font-display text-2xl font-black tracking-tight text-white transition hover:text-accent sm:text-3xl"
-              translate="no"
-            >
-              キャラランク →
-            </Link>
-            <Link
-              href="/matchups"
-              className="font-display text-2xl font-black tracking-tight text-accent transition hover:text-white sm:text-3xl"
-              translate="no"
-            >
-              キャラ相性 →
-            </Link>
+          <div className="min-w-0 lg:justify-self-end">
+            <HomeMetaLinks />
           </div>
         </div>
       </section>

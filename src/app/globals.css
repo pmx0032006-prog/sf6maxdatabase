@@ -125,3 +125,7 @@ body {
     transform: none;
   }
 }
+/* Home hero meta link cards */
+.meta-hero-card {
+  backdrop-filter: blur(6px);
+}
