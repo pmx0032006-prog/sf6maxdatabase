@@ -1,5 +1,7 @@
 {
   "project_name": "sf6maxdatabase",
-  "project_id": "",
-  "team_id": ""
+  "site_url": "https://www.sf6maxdatabase.com",
+  "dashboard_url": "https://vercel.com/dashboard",
+  "analytics_url": "https://vercel.com/dashboard（sf6maxdatabase → 左メニュー Analytics）",
+  "mode": "manual_alarm"
 }
