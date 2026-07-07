@@ -49,9 +49,9 @@ def checks() -> dict[str, bool]:
         "meta_data": "export const TIERS" in meta and "export const MATCHUPS" in meta,
         "tier_page": TIER_PAGE.is_file() and "Character Rank" in TIER_PAGE.read_text(encoding="utf-8"),
         "matchups_page": MATCHUPS_PAGE.is_file()
-        and "Matchup Chart" in MATCHUPS_PAGE.read_text(encoding="utf-8"),
-        "split_nav": 'label: "CHAR RANK"' in header and 'label: "MATCH CHART"' in header,
-        "split_sidebar": "Character Rank →" in sidebar and "Matchup Chart →" in sidebar,
+        and "Character Matchups" in MATCHUPS_PAGE.read_text(encoding="utf-8"),
+        "split_nav": 'label: "CHAR RANK"' in header and 'label: "CHAR MATCHUPS"' in header,
+        "split_sidebar": "Character Rank →" in sidebar and "Character Matchups →" in sidebar,
         "restore_tag": git("rev-parse", RESTORE_TAG).returncode == 0,
     }
 

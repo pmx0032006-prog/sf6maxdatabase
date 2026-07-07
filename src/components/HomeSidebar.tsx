@@ -53,7 +53,7 @@ export function HomeSidebar() {
           Meta
         </p>
         <p className="mt-1 text-[11px] leading-snug text-muted">
-          Character rank & matchup chart ({META_UPDATED})
+          Character rank & matchups ({META_UPDATED})
         </p>
         <div className="mt-2 flex flex-col gap-1.5">
           <Link
@@ -66,7 +66,7 @@ export function HomeSidebar() {
             href="/matchups"
             className="block rounded-md border border-accent/25 bg-accent-soft/30 px-3 py-2 text-center text-[11px] font-bold text-accent hover:border-accent hover:bg-accent-soft"
           >
-            Matchup Chart →
+            Character Matchups →
           </Link>
         </div>
       </section>

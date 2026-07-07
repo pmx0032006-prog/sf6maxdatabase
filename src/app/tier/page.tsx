@@ -56,7 +56,7 @@ export default function TierPage() {
 
           <p className="mt-8 flex flex-wrap justify-center gap-4 text-sm">
             <Link href="/matchups" className="font-semibold text-accent hover:text-accent-hover">
-              Matchup Chart →
+              Character Matchups →
             </Link>
             <Link href="/" className="font-semibold text-muted hover:text-accent">
               ← Back to roster
