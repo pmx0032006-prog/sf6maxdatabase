@@ -70,6 +70,12 @@ body {
   color: #ffffff;
 }
 
+
+.char-name-fit {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .char-cell:has(.text-white.char-name) .char-name {
   transition: color 0.3s ease;
 }

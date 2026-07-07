@@ -1,4 +1,18 @@
-import Link from "next/link";
+#!/usr/bin/env python3
+"""Character grid: single-line names, adaptive size, translate=no — keep faces visible."""
+from __future__ import annotations
+
+import os
+import subprocess
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+GRID = ROOT / "src" / "components" / "CharacterGrid.tsx"
+CSS = ROOT / "src" / "app" / "globals.css"
+PUSH = ROOT / "scripts" / "push_to_github.py"
+
+GRID_TSX = '''import Link from "next/link";
 import type { Character } from "@/data/characters";
 
 type CharacterGridProps = {
@@ -123,3 +137,65 @@ export function CharacterGrid({
     </section>
   );
 }
+'''
+
+CSS_SNIPPET = """
+.char-name-fit {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+"""
+
+
+def git_env() -> dict[str, str]:
+    env = os.environ.copy()
+    env.setdefault("GIT_AUTHOR_NAME", "pmx0032006-prog")
+    env.setdefault("GIT_AUTHOR_EMAIL", "pmx0032006@gmail.com")
+    env.setdefault("GIT_COMMITTER_NAME", "pmx0032006-prog")
+    env.setdefault("GIT_COMMITTER_EMAIL", "pmx0032006@gmail.com")
+    return env
+
+
+def git(*args: str) -> subprocess.CompletedProcess[str]:
+    return subprocess.run(
+        ["git", *args],
+        cwd=ROOT,
+        env=git_env(),
+        text=True,
+        capture_output=True,
+        encoding="utf-8",
+        errors="replace",
+    )
+
+
+def patch_css() -> None:
+    text = CSS.read_text(encoding="utf-8")
+    if ".char-name-fit" not in text:
+        marker = ".char-cell:has(.text-white.char-name) .char-name {"
+        if marker in text:
+            text = text.replace(marker, CSS_SNIPPET + marker, 1)
+        else:
+            text += CSS_SNIPPET
+        CSS.write_text(text, encoding="utf-8")
+
+
+def main() -> int:
+    GRID.write_text(GRID_TSX, encoding="utf-8")
+    patch_css()
+    print("[done] character grid names: single-line + adaptive size")
+
+    git(
+        "add",
+        "src/components/CharacterGrid.tsx",
+        "src/app/globals.css",
+        "scripts/patch-char-grid-name-wrap.py",
+    )
+    commit = git("commit", "-m", "Fix roster card name wrap hiding character faces")
+    if commit.returncode == 0 and PUSH.is_file():
+        subprocess.run([sys.executable, str(PUSH)], cwd=ROOT, check=False)
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
