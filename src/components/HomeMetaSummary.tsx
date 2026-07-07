@@ -26,10 +26,10 @@ export function HomeMetaSummary() {
       featured: true,
     },
     {
-      href: "/characters/alex",
+      href: "/characters/ingrid",
       kicker: "SLEEPER",
-      value: "ALEX",
-      note: "Underdogs win too",
+      value: "INGRID",
+      note: "Still sleeping on her?",
     },
     {
       href: "/matchups",
