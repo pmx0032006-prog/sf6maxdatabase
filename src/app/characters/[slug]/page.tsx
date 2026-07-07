@@ -149,7 +149,7 @@ export default async function CharacterDetailPage({ params }: PageProps) {
           }
         />
       </main>
-        <CharacterRelatedLinks currentSlug={slug} currentName={character.en} />
+        <CharacterRelatedLinks currentSlug={slug} currentName={character.en} currentJa={character.ja} />
 
       <SiteFooter />
     </div>

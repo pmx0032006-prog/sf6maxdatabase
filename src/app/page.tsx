@@ -1,6 +1,7 @@
 import { CharacterGrid } from "@/components/CharacterGrid";
 import { HomeMetaLinks } from "@/components/HomeMetaLinks";
 import { HomeMetaSummary } from "@/components/HomeMetaSummary";
+import { MetaNextSteps } from "@/components/MetaNextSteps";
 import { FeaturesSection } from "@/components/FeaturesSection";
 import { NewsSection } from "@/components/NewsSection";
 import { HomeSidebar } from "@/components/HomeSidebar";
@@ -32,7 +33,10 @@ export default function Home() {
             <p className="text-[9px] font-bold tracking-[0.32em] text-accent uppercase sm:text-[10px]">
               Street Fighter 6
             </p>
-            <h1 className="mt-0.5 font-display text-xl font-black uppercase leading-none tracking-tight text-white sm:text-2xl">
+            <h1
+              id="page-top"
+              className="mt-0.5 font-display text-xl font-black uppercase leading-none tracking-tight text-white sm:text-2xl"
+            >
               MAX <span className="text-accent">DATABASE</span>
             </h1>
             <p className="mt-1 max-w-xl text-[11px] leading-snug text-white/55 sm:text-xs">
@@ -56,6 +60,8 @@ export default function Home() {
             <section id="roster">
               <CharacterGrid mode="classic" characters={roster} hideHeader />
             </section>
+
+            <MetaNextSteps variant="home" />
 
             <FeaturesSection />
             <NewsSection />

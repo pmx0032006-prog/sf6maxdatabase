@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { MetaNextSteps } from "@/components/MetaNextSteps";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { roster } from "@/data/characters";
@@ -71,17 +72,7 @@ export default function TierPage() {
             ))}
           </div>
 
-          <p className="mt-8 flex flex-wrap justify-center gap-4 text-sm">
-            <Link href="/matchups" className="font-semibold text-accent hover:text-accent-hover">
-              キャラクター相性 →
-            </Link>
-            <Link href="/" className="font-semibold text-muted hover:text-accent">
-              ← ロスターへ戻る
-            </Link>
-            <a href="#page-top" className="font-semibold text-muted hover:text-accent">
-              上へ戻る ↑
-            </a>
-          </p>
+          <MetaNextSteps variant="tier" />
         </div>
       </main>
 

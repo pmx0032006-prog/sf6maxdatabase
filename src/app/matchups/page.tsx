@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { MetaNextSteps } from "@/components/MetaNextSteps";
 import { MatchupTable } from "@/components/MatchupTable";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
@@ -47,17 +48,7 @@ export default function MatchupsPage() {
 
           <MatchupTable coreChars={coreChars} />
 
-          <p className="mt-8 flex flex-wrap justify-center gap-4 text-sm">
-            <Link href="/tier" className="font-semibold text-accent hover:text-accent-hover">
-              ← キャラクターランク
-            </Link>
-            <Link href="/" className="font-semibold text-muted hover:text-accent">
-              ロスターへ戻る
-            </Link>
-            <a href="#page-top" className="font-semibold text-muted hover:text-accent">
-              上へ戻る ↑
-            </a>
-          </p>
+          <MetaNextSteps variant="matchups" />
         </div>
       </main>
 
