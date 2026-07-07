@@ -48,7 +48,7 @@ export function CharacterRelatedLinks({
         <p className="text-[10px] font-bold tracking-[0.32em] text-accent uppercase">次に見る</p>
         <div className="mt-3 grid gap-2.5 sm:grid-cols-3">
           <Link
-            href="/matchups"
+            href={`/matchups?char=${currentSlug}`}
             className="group rounded-lg border border-accent/35 bg-accent/[0.08] px-4 py-3.5 transition hover:border-accent/55 hover:shadow-[0_8px_28px_rgba(0,179,104,0.2)]"
             translate="no"
           >
@@ -56,7 +56,7 @@ export function CharacterRelatedLinks({
             <p className="mt-1 font-display text-base font-black text-white group-hover:text-accent-mint sm:text-lg">
               {ja}の相性表へ
             </p>
-            <p className="mt-1 text-[11px] text-white/45">相性表でこのキャラの行を確認</p>
+            <p className="mt-1 text-[11px] text-white/45">相性表で{ja}の行を自動ハイライト</p>
           </Link>
           <Link
             href="/tier"
