@@ -129,12 +129,8 @@ def main() -> int:
         print("[error] page.tsx masthead block not found")
         return 1
 
-    if "siteTagline" in page and "subtitle={siteTagline}" not in page:
-        page = page.replace(
-            'import { siteNameFull, siteTagline, siteUrl } from "@/lib/site";',
-            'import { siteNameFull, siteUrl } from "@/lib/site";',
-            1,
-        )
+    if "siteTagline" in page and "subtitle={siteTagline}" not in page and '<HomeHero />' in page:
+        pass  # metadata still uses siteTagline — keep import
 
     PAGE.write_text(page, encoding="utf-8")
     print(f"[done] patched {PAGE.relative_to(ROOT)}")

@@ -6,7 +6,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { roster } from "@/data/characters";
 import type { Metadata } from "next";
-import { siteNameFull, siteUrl } from "@/lib/site";
+import { siteNameFull, siteTagline, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: siteNameFull,
