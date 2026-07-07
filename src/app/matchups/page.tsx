@@ -14,8 +14,8 @@ import type { Metadata } from "next";
 import { siteName, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: `Character Matchups | ${siteName}`,
-  description: "Community SF6 character matchup snapshot — advantage between characters, not match results.",
+  title: `Character Affinity | ${siteName}`,
+  description: "Community SF6 character affinity snapshot — roster advantage ratings, not tournament results.",
   alternates: { canonical: `${siteUrl}/matchups` },
 };
 
@@ -40,10 +40,10 @@ export default function MatchupsPage() {
         <div className="mx-auto max-w-5xl px-4 py-6 sm:px-6 sm:py-8">
           <p className="text-[10px] font-bold tracking-[0.32em] text-accent uppercase">Meta</p>
           <h1 className="mt-1 font-display text-2xl font-black uppercase tracking-tight text-foreground sm:text-3xl">
-            Character Matchups
+            Character Affinity
           </h1>
           <p className="mt-2 max-w-2xl text-sm text-muted">
-            Who has the advantage when two characters meet. Row attacks into column. Pair with frame data on each character page.
+            Who has the edge on paper when two characters meet (相性). Row into column. Pair with frame data on each character page.
           </p>
           <p className="mt-1 text-xs text-muted/80">
             Last updated: {META_UPDATED} — {META_DISCLAIMER}
