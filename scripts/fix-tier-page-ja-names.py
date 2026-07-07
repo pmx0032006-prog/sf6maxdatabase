@@ -1,4 +1,17 @@
-import Link from "next/link";
+#!/usr/bin/env python3
+"""Fix tier page: show JA names (ジュリ not JURI→法 mistranslation)."""
+from __future__ import annotations
+
+import os
+import subprocess
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+TIER_PAGE = ROOT / "src" / "app" / "tier" / "page.tsx"
+PUSH = ROOT / "scripts" / "push_to_github.py"
+
+TIER_PAGE_TSX = '''import Link from "next/link";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { roster } from "@/data/characters";
@@ -74,3 +87,40 @@ export default function TierPage() {
     </div>
   );
 }
+'''
+
+
+def git_env() -> dict[str, str]:
+    env = os.environ.copy()
+    env.setdefault("GIT_AUTHOR_NAME", "pmx0032006-prog")
+    env.setdefault("GIT_AUTHOR_EMAIL", "pmx0032006@gmail.com")
+    env.setdefault("GIT_COMMITTER_NAME", "pmx0032006-prog")
+    env.setdefault("GIT_COMMITTER_EMAIL", "pmx0032006@gmail.com")
+    return env
+
+
+def git(*args: str) -> subprocess.CompletedProcess[str]:
+    return subprocess.run(
+        ["git", *args],
+        cwd=ROOT,
+        env=git_env(),
+        text=True,
+        capture_output=True,
+        encoding="utf-8",
+        errors="replace",
+    )
+
+
+def main() -> int:
+    TIER_PAGE.write_text(TIER_PAGE_TSX, encoding="utf-8")
+    print("[done] tier page uses JA names (ジュリ) with translate=no")
+
+    git("add", "src/app/tier/page.tsx", "scripts/fix-tier-page-ja-names.py", "scripts/meta-loop-tick.py")
+    commit = git("commit", "-m", "Fix tier page Japanese names to stop JURI mistranslation")
+    if commit.returncode == 0 and PUSH.is_file():
+        subprocess.run([sys.executable, str(PUSH)], cwd=ROOT, check=False)
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

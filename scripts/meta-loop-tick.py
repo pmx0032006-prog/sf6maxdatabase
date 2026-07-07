@@ -88,7 +88,7 @@ def checks() -> dict[str, bool]:
     header = HEADER.read_text(encoding="utf-8") if HEADER.is_file() else ""
     return {
         "meta_data": "export const TIERS" in meta and "export const MATCHUPS" in meta,
-        "tier_page": TIER_PAGE.is_file() and "Character Rank" in TIER_PAGE.read_text(encoding="utf-8"),
+        "tier_page": TIER_PAGE.is_file() and "キャラクターランク" in TIER_PAGE.read_text(encoding="utf-8"),
         "matchups_page": MATCHUPS_PAGE.is_file()
         and "キャラクター相性表" in MATCHUPS_PAGE.read_text(encoding="utf-8"),
         "split_nav": 'label: "CHAR RANK"' in header and 'label: "CHARACTER 相性"' in header,
