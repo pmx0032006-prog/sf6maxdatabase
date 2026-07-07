@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { CharacterGrid } from "@/components/CharacterGrid";
 import { FeaturesSection } from "@/components/FeaturesSection";
 import { NewsSection } from "@/components/NewsSection";
@@ -38,16 +39,21 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="min-w-0 border-l-0 border-accent pl-0 sm:border-l-4 sm:pl-4 lg:text-right">
-            <h2
-              className="text-sm font-semibold tracking-[0.2em] text-accent uppercase"
+          <div className="flex min-w-0 flex-col gap-2 sm:flex-row sm:flex-wrap sm:items-center sm:gap-3 lg:flex-col lg:items-end lg:gap-2">
+            <Link
+              href="/tier"
+              className="font-display text-2xl font-black tracking-tight text-white transition hover:text-accent sm:text-3xl"
               translate="no"
             >
-              名簿
-            </h2>
-            <p className="mt-1 text-[11px] leading-snug text-white/55 sm:text-xs">
-              フレームデータとヒットボックス画像を表示するキャラクターを選択
-            </p>
+              キャラランク →
+            </Link>
+            <Link
+              href="/matchups"
+              className="font-display text-2xl font-black tracking-tight text-accent transition hover:text-white sm:text-3xl"
+              translate="no"
+            >
+              キャラ相性 →
+            </Link>
           </div>
         </div>
       </section>
