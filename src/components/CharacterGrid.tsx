@@ -2,10 +2,11 @@ import Link from "next/link";
 import type { Character } from "@/data/characters";
 
 type CharacterGridProps = {
-  title: string;
-  subtitle: string;
+  title?: string;
+  subtitle?: string;
   mode: "classic" | "modern";
   characters: Character[];
+  hideHeader?: boolean;
 };
 
 const modeStyles = {
@@ -26,29 +27,32 @@ const modeStyles = {
 } as const;
 
 export function CharacterGrid({
-  title,
-  subtitle,
+  title = "Roster",
+  subtitle = "Pick a character for frame data and hitbox images",
   mode,
   characters,
+  hideHeader = false,
 }: CharacterGridProps) {
   const styles = modeStyles[mode];
 
   return (
-    <section className="space-y-5">
-      <div
-        className={`space-y-1 border-l-4 pl-4 ${styles.section} ${
-          mode === "modern" ? "border-l-[3px]" : ""
-        }`}
-      >
-        <h2
-          className={`text-sm font-semibold tracking-[0.2em] uppercase ${
-            mode === "modern" ? "text-accent-mint" : "text-accent"
+    <section className={hideHeader ? "" : "space-y-5"}>
+      {!hideHeader ? (
+        <div
+          className={`space-y-1 border-l-4 pl-4 ${styles.section} ${
+            mode === "modern" ? "border-l-[3px]" : ""
           }`}
         >
-          {title}
-        </h2>
-        <p className="text-sm text-muted">{subtitle}</p>
-      </div>
+          <h2
+            className={`text-sm font-semibold tracking-[0.2em] uppercase ${
+              mode === "modern" ? "text-accent-mint" : "text-accent"
+            }`}
+          >
+            {title}
+          </h2>
+          <p className="text-sm text-muted">{subtitle}</p>
+        </div>
+      ) : null}
 
       <ul
         className={`grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 ${styles.grid}`}
@@ -98,13 +102,13 @@ export function CharacterGrid({
                   >
                     {character.en}
                   </span>
-</span>
+                </span>
               ) : (
                 <span className="relative z-[1] flex min-h-[5.5rem] flex-col items-center justify-center px-3 py-7 sm:min-h-[6.25rem]">
                   <span className={`char-name text-foreground ${styles.name}`}>
                     {character.en}
                   </span>
-</span>
+                </span>
               )}
             </Link>
           </li>

@@ -25,16 +25,30 @@ export default function Home() {
       <SiteHeader active="home" />
 
       <section className="border-b border-white/10 bg-[#0a0f0c] text-white">
-        <div className="mx-auto max-w-7xl px-4 py-2.5 sm:px-6 sm:py-3">
-          <p className="text-[9px] font-bold tracking-[0.32em] text-accent uppercase sm:text-[10px]">
-            Street Fighter 6
-          </p>
-          <h1 className="mt-0.5 font-display text-xl font-black uppercase leading-none tracking-tight text-white sm:text-2xl">
-            MAX <span className="text-accent">DATABASE</span>
-          </h1>
-          <p className="mt-1 max-w-xl text-[11px] leading-snug text-white/55 sm:text-xs">
-            {siteTagline}
-          </p>
+        <div className="mx-auto grid max-w-7xl items-end gap-3 px-4 py-2.5 sm:px-6 sm:py-3 lg:grid-cols-[minmax(0,1fr)_minmax(0,20rem)] lg:gap-8">
+          <div className="min-w-0">
+            <p className="text-[9px] font-bold tracking-[0.32em] text-accent uppercase sm:text-[10px]">
+              Street Fighter 6
+            </p>
+            <h1 className="mt-0.5 font-display text-xl font-black uppercase leading-none tracking-tight text-white sm:text-2xl">
+              MAX <span className="text-accent">DATABASE</span>
+            </h1>
+            <p className="mt-1 max-w-xl text-[11px] leading-snug text-white/55 sm:text-xs">
+              {siteTagline}
+            </p>
+          </div>
+
+          <div className="min-w-0 border-l-0 border-accent pl-0 sm:border-l-4 sm:pl-4 lg:text-right">
+            <h2
+              className="text-sm font-semibold tracking-[0.2em] text-accent uppercase"
+              translate="no"
+            >
+              名簿
+            </h2>
+            <p className="mt-1 text-[11px] leading-snug text-white/55 sm:text-xs">
+              フレームデータとヒットボックス画像を表示するキャラクターを選択
+            </p>
+          </div>
         </div>
       </section>
 
@@ -42,12 +56,7 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl gap-4 px-4 py-4 sm:px-6 lg:grid-cols-[minmax(0,1fr)_15rem] lg:gap-5">
           <div className="min-w-0 space-y-8">
             <section id="roster">
-              <CharacterGrid
-                title="Roster"
-                subtitle="Pick a character for frame data and hitbox images"
-                mode="classic"
-                characters={roster}
-              />
+              <CharacterGrid mode="classic" characters={roster} hideHeader />
             </section>
 
             <FeaturesSection />
