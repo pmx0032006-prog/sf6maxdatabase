@@ -73,7 +73,7 @@ export default function RootLayout({
             }),
           }}
         />
-        {/* MONETIZATION-SPLIT: Amazon 3 gear links in rails/footer; AdSense auto ads elsewhere */}
+        {/* MONETIZATION-PHASE-1: dense Amazon rails (2xl+). AdSense auto ads after approval. */}
         <DesktopSideRails />
         {children}
         <Analytics />

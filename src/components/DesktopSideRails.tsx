@@ -21,7 +21,7 @@ const GEAR = [
   },
 ] as const;
 
-const RAIL_COUNT = 3; // one card per gear pick — rest is AdSense auto ads
+const RAIL_COUNT = 8; // phase 1: dense Amazon rails until AdSense is live
 
 function pickGear(index: number, offset: number) {
   return GEAR[(index + offset) % GEAR.length];
