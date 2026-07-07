@@ -2,12 +2,13 @@ import Link from "next/link";
 import { siteName } from "@/lib/site";
 
 type SiteHeaderProps = {
-  active?: "home" | "characters" | "about";
+  active?: "home" | "characters" | "about" | "meta";
 };
 
 const navItems = [
   { href: "/", label: "TOP", key: "home" as const },
   { href: "/characters", label: "CHARACTERS", key: "characters" as const },
+  { href: "/meta", label: "META", key: "meta" as const },
   { href: "/about", label: "ABOUT", key: "about" as const },
   { href: "/#news", label: "NEWS", key: null },
 ];
@@ -68,6 +69,12 @@ export function SiteHeader({ active }: SiteHeaderProps) {
             }
           >
             CHARA
+          </Link>
+          <Link
+            href="/meta"
+            className={active === "meta" ? "text-accent" : "text-white/75"}
+          >
+            META
           </Link>
           <Link
             href="/about"

@@ -1,0 +1,168 @@
+{
+  "updated": "2026-07",
+  "source_note": "Community snapshot for learning / SEO — not official Capcom data.",
+  "tiers": {
+    "S": [
+      "luke",
+      "juri",
+      "akuma",
+      "cammy",
+      "mai"
+    ],
+    "A": [
+      "ryu",
+      "ken",
+      "guile",
+      "rashid",
+      "chun-li",
+      "dee-jay",
+      "c-viper"
+    ],
+    "B": [
+      "jamie",
+      "kimberly",
+      "manon",
+      "marisa",
+      "jp",
+      "blanka",
+      "dhalsim",
+      "ed",
+      "terry",
+      "sagat",
+      "elena"
+    ],
+    "C": [
+      "lily",
+      "e-honda",
+      "zangief",
+      "aki",
+      "alex",
+      "m-bison",
+      "ingrid"
+    ]
+  },
+  "matchup_core": [
+    "ryu",
+    "ken",
+    "luke",
+    "juri",
+    "cammy",
+    "guile",
+    "chun-li",
+    "rashid",
+    "akuma",
+    "jamie"
+  ],
+  "matchups": {
+    "ryu": {
+      "ken": "+",
+      "luke": "-",
+      "juri": "-",
+      "cammy": "=",
+      "guile": "+",
+      "chun-li": "=",
+      "rashid": "-",
+      "akuma": "--",
+      "jamie": "+"
+    },
+    "ken": {
+      "ryu": "-",
+      "luke": "-",
+      "juri": "=",
+      "cammy": "=",
+      "guile": "+",
+      "chun-li": "+",
+      "rashid": "-",
+      "akuma": "--",
+      "jamie": "+"
+    },
+    "luke": {
+      "ryu": "+",
+      "ken": "+",
+      "juri": "=",
+      "cammy": "+",
+      "guile": "+",
+      "chun-li": "+",
+      "rashid": "+",
+      "akuma": "-",
+      "jamie": "+"
+    },
+    "juri": {
+      "ryu": "+",
+      "ken": "=",
+      "luke": "=",
+      "cammy": "-",
+      "guile": "+",
+      "chun-li": "+",
+      "rashid": "=",
+      "akuma": "-",
+      "jamie": "+"
+    },
+    "cammy": {
+      "ryu": "=",
+      "ken": "=",
+      "luke": "-",
+      "juri": "+",
+      "guile": "-",
+      "chun-li": "=",
+      "rashid": "=",
+      "akuma": "-",
+      "jamie": "+"
+    },
+    "guile": {
+      "ryu": "-",
+      "ken": "-",
+      "luke": "-",
+      "juri": "-",
+      "cammy": "+",
+      "chun-li": "-",
+      "rashid": "=",
+      "akuma": "--",
+      "jamie": "="
+    },
+    "chun-li": {
+      "ryu": "=",
+      "ken": "-",
+      "luke": "-",
+      "juri": "-",
+      "cammy": "=",
+      "guile": "+",
+      "rashid": "-",
+      "akuma": "--",
+      "jamie": "+"
+    },
+    "rashid": {
+      "ryu": "+",
+      "ken": "+",
+      "luke": "-",
+      "juri": "=",
+      "cammy": "=",
+      "guile": "=",
+      "chun-li": "+",
+      "akuma": "-",
+      "jamie": "+"
+    },
+    "akuma": {
+      "ryu": "++",
+      "ken": "++",
+      "luke": "+",
+      "juri": "+",
+      "cammy": "+",
+      "guile": "++",
+      "chun-li": "++",
+      "rashid": "+",
+      "jamie": "++"
+    },
+    "jamie": {
+      "ryu": "-",
+      "ken": "-",
+      "luke": "-",
+      "juri": "-",
+      "cammy": "-",
+      "guile": "=",
+      "chun-li": "-",
+      "rashid": "-",
+      "akuma": "--"
+    }
+  }
+}
