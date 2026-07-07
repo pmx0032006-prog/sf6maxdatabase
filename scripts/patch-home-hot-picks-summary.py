@@ -1,4 +1,17 @@
-import Link from "next/link";
+#!/usr/bin/env python3
+"""Hero summary: HOT PICKS / want to win? play these — English names for global audience."""
+from __future__ import annotations
+
+import os
+import subprocess
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+COMP = ROOT / "src" / "components" / "HomeMetaSummary.tsx"
+PUSH = ROOT / "scripts" / "push_to_github.py"
+
+COMP_TSX = '''import Link from "next/link";
 import { roster } from "@/data/characters";
 import { MATCHUP_CORE, META_UPDATED, TIERS } from "@/data/character-meta";
 
@@ -98,3 +111,40 @@ export function HomeMetaSummary() {
     </div>
   );
 }
+'''
+
+
+def git_env() -> dict[str, str]:
+    env = os.environ.copy()
+    env.setdefault("GIT_AUTHOR_NAME", "pmx0032006-prog")
+    env.setdefault("GIT_AUTHOR_EMAIL", "pmx0032006@gmail.com")
+    env.setdefault("GIT_COMMITTER_NAME", "pmx0032006-prog")
+    env.setdefault("GIT_COMMITTER_EMAIL", "pmx0032006@gmail.com")
+    return env
+
+
+def git(*args: str) -> subprocess.CompletedProcess[str]:
+    return subprocess.run(
+        ["git", *args],
+        cwd=ROOT,
+        env=git_env(),
+        text=True,
+        capture_output=True,
+        encoding="utf-8",
+        errors="replace",
+    )
+
+
+def main() -> int:
+    COMP.write_text(COMP_TSX, encoding="utf-8")
+    print("[done] home hot picks summary applied")
+
+    git("add", "src/components/HomeMetaSummary.tsx", "scripts/patch-home-hot-picks-summary.py")
+    commit = git("commit", "-m", "Hero summary: HOT NOW picks and sleeper Alex for global audience")
+    if commit.returncode == 0 and PUSH.is_file():
+        subprocess.run([sys.executable, str(PUSH)], cwd=ROOT, check=False)
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
