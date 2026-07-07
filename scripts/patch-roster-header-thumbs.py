@@ -1,4 +1,17 @@
-import Link from "next/link";
+#!/usr/bin/env python3
+"""Roster header: title left, scrollable character thumbs on the right."""
+from __future__ import annotations
+
+import os
+import subprocess
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+GRID = ROOT / "src" / "components" / "CharacterGrid.tsx"
+PUSH = ROOT / "scripts" / "push_to_github.py"
+
+GRID_TSX = '''import Link from "next/link";
 import type { Character } from "@/data/characters";
 
 type CharacterGridProps = {
@@ -150,3 +163,40 @@ export function CharacterGrid({
     </section>
   );
 }
+'''
+
+
+def git_env() -> dict[str, str]:
+    env = os.environ.copy()
+    env.setdefault("GIT_AUTHOR_NAME", "pmx0032006-prog")
+    env.setdefault("GIT_AUTHOR_EMAIL", "pmx0032006@gmail.com")
+    env.setdefault("GIT_COMMITTER_NAME", "pmx0032006-prog")
+    env.setdefault("GIT_COMMITTER_EMAIL", "pmx0032006@gmail.com")
+    return env
+
+
+def git(*args: str) -> subprocess.CompletedProcess[str]:
+    return subprocess.run(
+        ["git", *args],
+        cwd=ROOT,
+        env=git_env(),
+        text=True,
+        capture_output=True,
+        encoding="utf-8",
+        errors="replace",
+    )
+
+
+def main() -> int:
+    GRID.write_text(GRID_TSX, encoding="utf-8")
+    print("[done] roster header: 30 char thumbs in right strip")
+
+    git("add", "src/components/CharacterGrid.tsx", "scripts/patch-roster-header-thumbs.py")
+    commit = git("commit", "-m", "Add scrollable character strip beside roster title")
+    if commit.returncode == 0 and PUSH.is_file():
+        subprocess.run([sys.executable, str(PUSH)], cwd=ROOT, check=False)
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
