@@ -65,12 +65,36 @@ GEAR = [
         "tagline": "Slim PS5 and PS4 arcade stick with Sanwa feel.",
         "asin": "B0CLDC5QZ6",
     },
+    {
+        "shortLabel": "HORI OCTA Pro",
+        "badge": "Leverless Pro",
+        "tagline": "Official leverless for PS5, PS4, and PC.",
+        "asin": "B0DVB2JB1K",
+    },
+    {
+        "shortLabel": "Mayflash F500 Elite",
+        "badge": "Mod Friendly",
+        "tagline": "Swap parts easily. PS4, Switch, and PC.",
+        "asin": "B07DLFPG6G",
+    },
+    {
+        "shortLabel": "HORI RAP V Kai",
+        "badge": "Tournament",
+        "tagline": "Hayabusa parts. PS4, PS3, and PC classic.",
+        "asin": "B07QZJ4RYV",
+    },
+    {
+        "shortLabel": "Xbox Wireless Pad",
+        "badge": "PC / Xbox",
+        "tagline": "Low-latency pad for PC and Xbox SF6 players.",
+        "asin": "B08K4QR62J",
+    },
 ]
 
 RAILS_TS = '''import Link from "next/link";
 import { AFFILIATE_GEAR, gearHref } from "@/data/affiliate-gear";
 
-const RAIL_HALF = Math.ceil(AFFILIATE_GEAR.length / 2); // phase 1: 4 left + 4 right, no overlap
+const RAIL_HALF = Math.ceil(AFFILIATE_GEAR.length / 2); // phase 1: 6 left + 6 right, no overlap
 
 function SideCard({
   badge,
@@ -268,7 +292,7 @@ def main() -> int:
         print(f"  - {item['shortLabel']} ({item['asin']})")
 
     git("add", "src/data/affiliate-gear.ts", "src/components/DesktopSideRails.tsx", "src/components/AffiliateGearStrip.tsx", "scripts/setup-fgc-gear-lineup.py", "scripts/affiliate_gear_lineup.json")
-    commit = git("commit", "-m", "Split affiliate rails left/right with no duplicate gear cards")
+    commit = git("commit", "-m", "Add 4 more US FGC gear picks — 6 cards per desktop rail")
     if commit.returncode == 0:
         print("[done] committed")
         if PUSH.is_file():

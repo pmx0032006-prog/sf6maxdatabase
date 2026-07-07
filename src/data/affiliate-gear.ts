@@ -56,6 +56,30 @@ export const AFFILIATE_GEAR = [
     tagline: "Slim PS5 and PS4 arcade stick with Sanwa feel.",
     asin: "B0CLDC5QZ6",
   },
+  {
+    shortLabel: "HORI OCTA Pro",
+    badge: "Leverless Pro",
+    tagline: "Official leverless for PS5, PS4, and PC.",
+    asin: "B0DVB2JB1K",
+  },
+  {
+    shortLabel: "Mayflash F500 Elite",
+    badge: "Mod Friendly",
+    tagline: "Swap parts easily. PS4, Switch, and PC.",
+    asin: "B07DLFPG6G",
+  },
+  {
+    shortLabel: "HORI RAP V Kai",
+    badge: "Tournament",
+    tagline: "Hayabusa parts. PS4, PS3, and PC classic.",
+    asin: "B07QZJ4RYV",
+  },
+  {
+    shortLabel: "Xbox Wireless Pad",
+    badge: "PC / Xbox",
+    tagline: "Low-latency pad for PC and Xbox SF6 players.",
+    asin: "B08K4QR62J",
+  },
 ] as const satisfies readonly AffiliateGearItem[];
 
 export function gearHref(asin: string): string {

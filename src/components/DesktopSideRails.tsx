@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { AFFILIATE_GEAR, gearHref } from "@/data/affiliate-gear";
 
-const RAIL_HALF = Math.ceil(AFFILIATE_GEAR.length / 2); // phase 1: 4 left + 4 right, no overlap
+const RAIL_HALF = Math.ceil(AFFILIATE_GEAR.length / 2); // phase 1: 6 left + 6 right, no overlap
 
 function SideCard({
   badge,
