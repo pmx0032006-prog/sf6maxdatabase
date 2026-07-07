@@ -5,7 +5,7 @@ export function AffiliateGearStrip() {
   return (
     <section
       aria-label="Recommended gear"
-      className="mx-auto mt-8 max-w-2xl rounded-lg border border-border/60 bg-surface/40 px-4 py-5"
+      className="mx-auto mt-8 max-w-2xl rounded-lg border border-border/60 bg-surface/40 px-4 py-5 2xl:hidden"
     >
       <p className="text-[10px] font-bold tracking-[0.32em] text-accent uppercase">
         Recommended Gear

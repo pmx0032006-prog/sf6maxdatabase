@@ -1,11 +1,7 @@
 import Link from "next/link";
 import { AFFILIATE_GEAR, gearHref } from "@/data/affiliate-gear";
 
-const RAIL_COUNT = 8; // phase 1: dense Amazon rails until AdSense is live
-
-function pickGear(index: number, offset: number) {
-  return AFFILIATE_GEAR[(index + offset) % AFFILIATE_GEAR.length];
-}
+const RAIL_HALF = Math.ceil(AFFILIATE_GEAR.length / 2); // phase 1: 4 left + 4 right, no overlap
 
 function SideCard({
   badge,
@@ -38,14 +34,16 @@ function SideCard({
 }
 
 function RailStack({
-  offset,
+  startIndex,
   side,
   title,
 }: {
-  offset: number;
+  startIndex: number;
   side: "left" | "right";
   title: string;
 }) {
+  const items = AFFILIATE_GEAR.slice(startIndex, startIndex + RAIL_HALF);
+
   return (
     <div className="pointer-events-auto flex h-[calc(100vh-5rem)] flex-col gap-1.5 px-2.5 py-2">
       <p className="shrink-0 rounded-lg border border-accent/35 bg-accent/10 px-3 py-2 text-center text-[9px] font-bold tracking-[0.22em] text-accent-mint uppercase">
@@ -53,18 +51,15 @@ function RailStack({
       </p>
 
       <div className="flex min-h-0 flex-1 flex-col gap-1.5 overflow-y-auto pr-0.5 [scrollbar-width:thin]">
-        {Array.from({ length: RAIL_COUNT }, (_, index) => {
-          const item = pickGear(index, offset);
-          return (
-            <SideCard
-              key={`${side}-${index}`}
-              badge={item.badge}
-              href={gearHref(item.asin)}
-              shortLabel={item.shortLabel}
-              tagline={item.tagline}
-            />
-          );
-        })}
+        {items.map((item) => (
+          <SideCard
+            key={`${side}-${item.asin}`}
+            badge={item.badge}
+            href={gearHref(item.asin)}
+            shortLabel={item.shortLabel}
+            tagline={item.tagline}
+          />
+        ))}
       </div>
 
       <Link
@@ -84,14 +79,14 @@ export function DesktopSideRails() {
         aria-label="Desktop left rail"
         className="pointer-events-none fixed inset-y-14 left-0 z-20 hidden w-[min(15.5rem,calc((100vw-80rem)/2))] 2xl:block"
       >
-        <RailStack offset={0} side="left" title="SF6 Gear Picks" />
+        <RailStack startIndex={0} side="left" title="SF6 Gear Picks" />
       </aside>
 
       <aside
         aria-label="Desktop right rail"
         className="pointer-events-none fixed inset-y-14 right-0 z-20 hidden w-[min(15.5rem,calc((100vw-80rem)/2))] 2xl:block"
       >
-        <RailStack offset={1} side="right" title="FGC Deals" />
+        <RailStack startIndex={RAIL_HALF} side="right" title="FGC Deals" />
       </aside>
     </>
   );
