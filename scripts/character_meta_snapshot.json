@@ -42,15 +42,15 @@
     ]
   },
   "matchup_core": [
-    "ryu",
-    "ken",
     "luke",
     "juri",
-    "cammy",
-    "guile",
-    "chun-li",
-    "rashid",
     "akuma",
+    "cammy",
+    "ryu",
+    "ken",
+    "guile",
+    "rashid",
+    "chun-li",
     "jamie"
   ],
   "matchups": {

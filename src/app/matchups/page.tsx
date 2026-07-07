@@ -51,6 +51,9 @@ export default function MatchupsPage() {
           <p className="mt-2 text-xs text-muted">
             ++ strong / + slight edge / = even / - slight deficit / -- tough
           </p>
+          <p className="mt-1 text-xs text-muted/80">
+            Rows and columns run strong → weak (tier rank: top = strong, bottom = weak).
+          </p>
 
           <div className="mt-6 overflow-x-auto rounded-lg border border-border bg-surface shadow-sm">
             <table className="min-w-full border-collapse text-center text-xs">

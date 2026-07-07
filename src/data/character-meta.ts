@@ -14,7 +14,7 @@ export const TIERS = {
   C: ["lily", "e-honda", "zangief", "aki", "alex", "m-bison", "ingrid"],
 } as const satisfies Record<Tier, readonly string[]>;
 
-export const MATCHUP_CORE = ["ryu", "ken", "luke", "juri", "cammy", "guile", "chun-li", "rashid", "akuma", "jamie"] as const;
+export const MATCHUP_CORE = ["luke", "juri", "akuma", "cammy", "ryu", "ken", "guile", "rashid", "chun-li", "jamie"] as const;
 
 export const MATCHUP_LABELS: Record<MatchupRating, string> = {
   "++": "Strong advantage",
