@@ -1,7 +1,6 @@
 import { CharacterGrid } from "@/components/CharacterGrid";
 import { FeaturesSection } from "@/components/FeaturesSection";
 import { NewsSection } from "@/components/NewsSection";
-import { TierBand } from "@/components/TierBand";
 import { HomeSidebar } from "@/components/HomeSidebar";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
@@ -38,8 +37,6 @@ export default function Home() {
           </p>
         </div>
       </section>
-
-      <TierBand />
 
       <main className="flex-1 bg-background">
         <div className="mx-auto grid max-w-7xl gap-4 px-4 py-4 sm:px-6 lg:grid-cols-[minmax(0,1fr)_15rem] lg:gap-5">

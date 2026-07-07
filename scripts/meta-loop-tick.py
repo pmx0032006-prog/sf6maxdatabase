@@ -43,17 +43,20 @@ def git(*args: str) -> subprocess.CompletedProcess[str]:
 def checks() -> dict[str, bool]:
     meta = META_TS.read_text(encoding="utf-8") if META_TS.is_file() else ""
     home = HOME.read_text(encoding="utf-8") if HOME.is_file() else ""
+    sidebar = (ROOT / "src" / "components" / "HomeSidebar.tsx").read_text(encoding="utf-8")
     return {
         "meta_data": "export const TIERS" in meta and "export const MATCHUPS" in meta,
         "meta_page": META_PAGE.is_file(),
-        "tier_band": TIER_BAND.is_file() and "<TierBand />" in home,
+        "meta_sidebar_link": 'href="/meta"' in sidebar and "Tier + Matchups" in sidebar,
+        "home_no_tier_band": "<TierBand />" not in home,
         "restore_tag": git("rev-parse", RESTORE_TAG).returncode == 0,
     }
 
 
 def main() -> int:
     c = checks()
-    if not all(c[k] for k in ("meta_data", "meta_page", "tier_band")):
+    required = ("meta_data", "meta_page", "meta_sidebar_link", "home_no_tier_band")
+    if not all(c[k] for k in required):
         if SETUP.is_file():
             subprocess.run([sys.executable, str(SETUP)], cwd=ROOT, check=False)
         c = checks()
@@ -62,12 +65,12 @@ def main() -> int:
     ahead = git("rev-list", "--count", "@{u}..HEAD")
     unpushed = ahead.returncode == 0 and ahead.stdout.strip() not in ("", "0")
 
-    if all(c[k] for k in ("meta_data", "meta_page", "tier_band")) and unpushed and PUSH.is_file():
+    if all(c[k] for k in required) and unpushed and PUSH.is_file():
         subprocess.run([sys.executable, str(PUSH)], cwd=ROOT, check=False)
         unpushed = False
         dirty = bool(git("status", "--porcelain").stdout.strip())
 
-    all_ok = all(c[k] for k in ("meta_data", "meta_page", "tier_band")) and not dirty and not unpushed
+    all_ok = all(c[k] for k in required) and not dirty and not unpushed
     status = {
         "checked_at": datetime.now(timezone.utc).isoformat(),
         **c,

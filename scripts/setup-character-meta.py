@@ -468,18 +468,8 @@ def patch_header(text: str) -> str:
 
 
 def patch_home(text: str) -> str:
-    if "TierBand" in text:
-        return text
-    if 'import { HomeSidebar }' in text:
-        text = text.replace(
-            'import { HomeSidebar } from "@/components/HomeSidebar";',
-            'import { TierBand } from "@/components/TierBand";\nimport { HomeSidebar } from "@/components/HomeSidebar";',
-            1,
-        )
-    anchor = "      </section>\n\n      <main className=\"flex-1 bg-background\">"
-    insert = "      </section>\n\n      <TierBand />\n\n      <main className=\"flex-1 bg-background\">"
-    if anchor in text:
-        text = text.replace(anchor, insert, 1)
+    text = text.replace('import { TierBand } from "@/components/TierBand";\n', "")
+    text = text.replace("\n      <TierBand />\n\n", "\n")
     return text
 
 
