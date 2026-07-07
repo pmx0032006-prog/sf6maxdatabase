@@ -46,12 +46,14 @@ export function HomeMetaSummary() {
       className="meta-summary-band flex flex-wrap items-stretch justify-center gap-1.5 sm:gap-2 lg:justify-center"
       aria-label="メタデータ概要"
     >
-      {items.map((item) => (
+      {items.map((item) => {
+        const muted = "muted" in item && item.muted;
+        return (
         <Link
           key={item.kicker}
           href={item.href}
           className={`meta-summary-chip group flex min-w-[4.5rem] flex-col rounded-md border px-2.5 py-2 transition duration-300 hover:-translate-y-0.5 sm:min-w-[5rem] sm:px-3 ${
-            item.muted
+            muted
               ? "border-white/8 bg-white/[0.03] hover:border-white/20"
               : "border-accent/25 bg-accent/[0.06] hover:border-accent/50 hover:bg-accent/[0.12] hover:shadow-[0_0_20px_rgba(0,179,104,0.2)]"
           }`}
@@ -62,14 +64,15 @@ export function HomeMetaSummary() {
           </span>
           <span
             className={`mt-0.5 font-display text-base font-black leading-none sm:text-lg ${
-              item.muted ? "text-white/55" : "text-white group-hover:text-accent-mint"
+              muted ? "text-white/55" : "text-white group-hover:text-accent-mint"
             }`}
           >
             {item.value}
           </span>
           <span className="mt-1 text-[8px] leading-none text-white/40 sm:text-[9px]">{item.note}</span>
         </Link>
-      ))}
+        );
+      })}
     </div>
   );
 }
