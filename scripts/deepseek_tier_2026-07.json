@@ -1,0 +1,59 @@
+{
+  "updated": "2026-07",
+  "source_note": "Community snapshot — not official Capcom data.",
+  "research_summary": "North American and European community discussions and tier lists from mid-2026 indicate a stable meta with Ed, JP, Mai, and Ryu at the top. Post-EVO 2025 data and the recent Ingrid patch (without major balance changes) have solidified the perceived top tiers, while characters like Jamie and Manon are widely considered underperformers.",
+  "tiers": {
+    "S": ["ed", "jp", "mai", "ryu", "akuma"],
+    "A": ["ken", "c-viper", "guile", "terry", "rashid", "cammy", "blanka", "chun-li", "luke", "m-bison"],
+    "B": ["sagat", "aki", "dee-jay", "juri", "kimberly", "zangief", "dhalsim", "e-honda"],
+    "C": ["jamie", "manon", "marisa", "lily", "elena", "alex", "ingrid"]
+  },
+  "tier_notes": {
+    "ed": "Universally considered a top-tier pick due to his powerful and versatile toolset.",
+    "jp": "Remains a top competitor with strong zoning and mix-ups, performing exceptionally well in tournaments.",
+    "mai": "A top-tier threat with excellent mid-to-long-range pressure and strong tournament results.",
+    "ryu": "Has seen a significant rise in popularity and viability, now considered a top-tier character.",
+    "akuma": "A consistent and powerful character with great flexibility and match-up coverage.",
+    "ken": "Remains a strong and popular pick in tournaments, though perhaps slightly less dominant than the S-tier.",
+    "c-viper": "Early community feedback and high-level play suggest she is a very strong addition to the roster.",
+    "guile": "A patient and fundamental-based zoner that remains a viable and strong pick.",
+    "terry": "Has proven to be a solid tournament pick with good neutral and damage tools.",
+    "rashid": "A strong character with good mix-ups and mobility, viable at high levels.",
+    "cammy": "A consistent presence in top 8s, showing strong tournament viability.",
+    "blanka": "Won EVO Vegas 2025, proving his strength, though opinions on his consistency vary.",
+    "chun-li": "A solid, technical character that rewards strong fundamentals.",
+    "luke": "A historically strong character who remains a potent pick, though slightly outshone by current top tiers.",
+    "m-bison": "A popular and strong character, with good tournament representation.",
+    "sagat": "Received a boost from the December patch and is now considered a solid B-tier character.",
+    "aki": "A strong and viable mid-tier character with a dedicated player base.",
+    "dee-jay": "A solid character with strong neutral tools, though his tournament consistency is sometimes questioned.",
+    "juri": "A solid pick with a good neutral game, but often considered to require more effort to win with.",
+    "kimberly": "Has seen good tournament usage, but her performance is often inconsistent.",
+    "zangief": "A grappler who can be very strong in the right hands, but has difficult match-ups.",
+    "dhalsim": "A niche zoner who is extremely difficult to play but can be effective in the right match-ups.",
+    "e-honda": "A dominant character in lower ranks, but considered to have clear weaknesses at a tournament level.",
+    "jamie": "Consistently placed in the lowest tier due to his risky drink mechanic and weak early game.",
+    "manon": "Another character frequently mentioned as being among the weakest in the current meta.",
+    "marisa": "Considered a situational or low-tier pick, with poor tournament presence.",
+    "lily": "Generally placed in the lowest tier, struggling against the majority of the roster.",
+    "elena": "Lacks significant tournament presence and is viewed as a weaker addition.",
+    "alex": "Recent addition with limited high-level data; early opinions place him in the lower tiers.",
+    "ingrid": "Newest character; community tier lists still settling. High mobility but currently a wildcard."
+  },
+  "controversial": [
+    {"slug": "zangief", "why": "Some pros rank him higher due to damage and Kobayan, others low-tier vs zoners."},
+    {"slug": "sagat", "why": "Split between A-tier after buffs vs solid predictable B-tier."},
+    {"slug": "ryu", "why": "Many place S-tier; some pros say slightly overrated (A+)."}
+  ],
+  "rising_underdogs": [
+    {"slug": "ryu", "why": "Huge surge in usage and tournament success."},
+    {"slug": "zangief", "why": "Kobayan results raised his placement in some lists."}
+  ],
+  "sources_consulted": [
+    "EventHubs - Evo 2025 stats, Lab Monster top 5, Snake Eyez tier list",
+    "TRLST - Post Evo & Viper Release Tier List",
+    "MEGASHOCK - Community thread on Jamie, Manon, and Nemo's tier list",
+    "Finding Dulcinea - June 2026 Tier List",
+    "Gamer.org - Ingrid patch analysis and meta impact"
+  ]
+}
