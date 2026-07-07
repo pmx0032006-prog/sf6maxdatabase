@@ -1,30 +1,10 @@
 import Link from "next/link";
-
-const GEAR = [
-  {
-    shortLabel: "Street Fighter 6",
-    href: "https://www.amazon.com/dp/B0BPJRGNSD?tag=sf6maxdatabas-20",
-    badge: "PS5 Game",
-    tagline: "Own SF6. Check frames faster.",
-  },
-  {
-    shortLabel: "HORI Alpha Stick",
-    href: "https://www.amazon.com/dp/B0BZQKCFSD?tag=sf6maxdatabas-20",
-    badge: "SF6 Edition",
-    tagline: "Official SF6 fightstick for PS5 and PC.",
-  },
-  {
-    shortLabel: "8BitDo Arcade Stick",
-    href: "https://www.amazon.com/dp/B08GJC5WSS?tag=sf6maxdatabas-20",
-    badge: "Budget Pick",
-    tagline: "Wireless arcade stick for PC and Switch.",
-  },
-] as const;
+import { AFFILIATE_GEAR, gearHref } from "@/data/affiliate-gear";
 
 const RAIL_COUNT = 8; // phase 1: dense Amazon rails until AdSense is live
 
 function pickGear(index: number, offset: number) {
-  return GEAR[(index + offset) % GEAR.length];
+  return AFFILIATE_GEAR[(index + offset) % AFFILIATE_GEAR.length];
 }
 
 function SideCard({
@@ -79,7 +59,7 @@ function RailStack({
             <SideCard
               key={`${side}-${index}`}
               badge={item.badge}
-              href={item.href}
+              href={gearHref(item.asin)}
               shortLabel={item.shortLabel}
               tagline={item.tagline}
             />
