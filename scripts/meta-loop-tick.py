@@ -19,7 +19,9 @@ HEADER = ROOT / "src" / "components" / "SiteHeader.tsx"
 PUSH = ROOT / "scripts" / "push_to_github.py"
 RESTORE_TAG = "before-character-meta"
 SORT_SCRIPT = ROOT / "scripts" / "sort-matchup-core-by-tier.py"
+EXPAND_SCRIPT = ROOT / "scripts" / "expand-full-roster-matchups.py"
 TIER_ORDER = ("S", "A", "B", "C")
+FULL_ROSTER = 30
 
 
 def _parse_matchup_core(meta: str) -> list[str]:
@@ -88,19 +90,32 @@ def checks() -> dict[str, bool]:
         "meta_data": "export const TIERS" in meta and "export const MATCHUPS" in meta,
         "tier_page": TIER_PAGE.is_file() and "Character Rank" in TIER_PAGE.read_text(encoding="utf-8"),
         "matchups_page": MATCHUPS_PAGE.is_file()
-        and "Character Affinity" in MATCHUPS_PAGE.read_text(encoding="utf-8"),
+        and "キャラクター相性表" in MATCHUPS_PAGE.read_text(encoding="utf-8"),
         "split_nav": 'label: "CHAR RANK"' in header and 'label: "CHARACTER 相性"' in header,
         "split_sidebar": "Character Rank →" in sidebar and "キャラクター相性 →" in sidebar,
         "matchup_sorted": _matchup_core_tier_sorted(),
+        "full_roster": len(_parse_matchup_core(meta)) == FULL_ROSTER,
+        "ja_labels": "キャラクター相性表" in (MATCHUPS_PAGE.read_text(encoding="utf-8") if MATCHUPS_PAGE.is_file() else ""),
         "restore_tag": git("rev-parse", RESTORE_TAG).returncode == 0,
     }
 
 
 def main() -> int:
     c = checks()
-    required = ("meta_data", "tier_page", "matchups_page", "split_nav", "split_sidebar", "matchup_sorted")
+    required = (
+        "meta_data",
+        "tier_page",
+        "matchups_page",
+        "split_nav",
+        "split_sidebar",
+        "matchup_sorted",
+        "full_roster",
+        "ja_labels",
+    )
     if not all(c[k] for k in required):
-        if not c.get("matchup_sorted") and SORT_SCRIPT.is_file():
+        if (not c.get("full_roster") or not c.get("ja_labels")) and EXPAND_SCRIPT.is_file():
+            subprocess.run([sys.executable, str(EXPAND_SCRIPT)], cwd=ROOT, check=False)
+        elif not c.get("matchup_sorted") and SORT_SCRIPT.is_file():
             subprocess.run([sys.executable, str(SORT_SCRIPT)], cwd=ROOT, check=False)
         elif SETUP.is_file():
             subprocess.run([sys.executable, str(SETUP)], cwd=ROOT, check=False)

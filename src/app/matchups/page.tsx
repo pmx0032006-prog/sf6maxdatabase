@@ -5,6 +5,7 @@ import { roster } from "@/data/characters";
 import {
   MATCHUP_CORE,
   MATCHUP_LABELS,
+  MATCHUP_LABELS_JA,
   MATCHUPS,
   META_DISCLAIMER,
   META_UPDATED,
@@ -15,7 +16,7 @@ import { siteName, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: `Character Affinity | ${siteName}`,
-  description: "Community SF6 character affinity snapshot — roster advantage ratings, not tournament results.",
+  description: "Full-roster SF6 character affinity chart — advantage between characters, not match results.",
   alternates: { canonical: `${siteUrl}/matchups` },
 };
 
@@ -37,35 +38,41 @@ export default function MatchupsPage() {
       <SiteHeader active="matchups" />
 
       <main className="flex-1 bg-background">
-        <div className="mx-auto max-w-5xl px-4 py-6 sm:px-6 sm:py-8">
+        <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-8">
           <p className="text-[10px] font-bold tracking-[0.32em] text-accent uppercase">Meta</p>
-          <h1 className="mt-1 font-display text-2xl font-black uppercase tracking-tight text-foreground sm:text-3xl">
-            Character Affinity
+          <h1 className="mt-1 font-display text-2xl font-black tracking-tight text-foreground sm:text-3xl" translate="no">
+            キャラクター相性表
           </h1>
-          <p className="mt-2 max-w-2xl text-sm text-muted">
-            Who has the edge on paper when two characters meet (相性). Row into column. Pair with frame data on each character page.
+          <p className="mt-2 max-w-3xl text-sm text-muted">
+            縦のキャラが横のキャラに対してどれだけ有利か（試合結果ではなく相性の目安）。各キャラページのフレームデータと併用してください。
           </p>
           <p className="mt-1 text-xs text-muted/80">
-            Last updated: {META_UPDATED} — {META_DISCLAIMER}
+            更新: {META_UPDATED} — {META_DISCLAIMER}
           </p>
           <p className="mt-2 text-xs text-muted">
-            ++ strong / + slight edge / = even / - slight deficit / -- tough
+            <span translate="no">++</span> かなり有利 / <span translate="no">+</span> やや有利 / <span translate="no">=</span> 互角 / <span translate="no">-</span> やや不利 / <span translate="no">--</span> かなり不利
           </p>
           <p className="mt-1 text-xs text-muted/80">
-            Rows and columns run strong → weak (tier rank: top = strong, bottom = weak).
+            上ほど強キャラ・下ほど弱キャラ（ティア順）。全30キャラ（イングリッドまで）。
           </p>
 
           <div className="mt-6 overflow-x-auto rounded-lg border border-border bg-surface shadow-sm">
-            <table className="min-w-full border-collapse text-center text-xs">
+            <table className="min-w-full border-collapse text-center text-[10px] sm:text-xs">
               <thead>
                 <tr className="border-b border-border bg-background">
-                  <th className="sticky left-0 z-10 bg-background px-2 py-2 text-left font-bold">
-                    vs
+                  <th className="sticky left-0 z-10 bg-background px-2 py-2 text-left font-bold" translate="no">
+                    相手 →
                   </th>
                   {coreChars.map((col) => (
-                    <th key={col.slug} className="px-2 py-2 font-bold">
-                      <Link href={`/characters/${col.slug}`} className="hover:text-accent">
-                        {col.en}
+                    <th key={col.slug} className="min-w-[2.5rem] px-1 py-2 font-bold">
+                      <Link
+                        href={`/characters/${col.slug}`}
+                        className="hover:text-accent"
+                        translate="no"
+                        lang="ja"
+                        title={col.en}
+                      >
+                        {col.ja}
                       </Link>
                     </th>
                   ))}
@@ -75,24 +82,31 @@ export default function MatchupsPage() {
                 {coreChars.map((row) => (
                   <tr key={row.slug} className="border-b border-border/70 last:border-0">
                     <th className="sticky left-0 z-10 bg-surface px-2 py-2 text-left font-bold">
-                      <Link href={`/characters/${row.slug}`} className="hover:text-accent">
-                        {row.en}
+                      <Link
+                        href={`/characters/${row.slug}`}
+                        className="hover:text-accent"
+                        translate="no"
+                        lang="ja"
+                        title={row.en}
+                      >
+                        {row.ja}
                       </Link>
                     </th>
                     {coreChars.map((col) => {
                       if (row.slug === col.slug) {
                         return (
-                          <td key={col.slug} className="px-2 py-2 text-muted">
+                          <td key={col.slug} className="px-1 py-2 text-muted">
                             —
                           </td>
                         );
                       }
                       const rating = MATCHUPS[row.slug]?.[col.slug] ?? ("=" as MatchupRating);
                       return (
-                        <td key={col.slug} className="px-2 py-2">
+                        <td key={col.slug} className="px-1 py-2">
                           <span
-                            className={`inline-block min-w-[2rem] rounded px-1.5 py-0.5 font-bold ${ratingClass(rating)}`}
-                            title={MATCHUP_LABELS[rating]}
+                            className={`inline-block min-w-[1.75rem] rounded px-1 py-0.5 font-bold ${ratingClass(rating)}`}
+                            title={MATCHUP_LABELS_JA[rating]}
+                            translate="no"
                           >
                             {rating}
                           </span>
@@ -107,10 +121,10 @@ export default function MatchupsPage() {
 
           <p className="mt-8 flex flex-wrap justify-center gap-4 text-sm">
             <Link href="/tier" className="font-semibold text-accent hover:text-accent-hover">
-              ← Character Rank
+              ← キャラクターランク
             </Link>
             <Link href="/" className="font-semibold text-muted hover:text-accent">
-              Back to roster
+              ロスターへ戻る
             </Link>
           </p>
         </div>
