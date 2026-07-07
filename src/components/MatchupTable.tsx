@@ -24,22 +24,35 @@ function NoteContent({
   col,
   ratio,
   note,
+  copied,
+  onCopy,
 }: {
   row: Character;
   col: Character;
   ratio: MatchupRatio;
   note: string;
+  copied: boolean;
+  onCopy: () => void;
 }) {
   return (
-    <p className="leading-relaxed text-foreground">
-      <span className="font-bold text-accent" translate="no">
-        {row.ja} → {col.ja}
-      </span>
-      <span className="mx-2 font-bold" translate="no">
-        {ratio}
-      </span>
-      <span className="text-muted">{note || "メモなし"}</span>
-    </p>
+    <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+      <p className="leading-relaxed text-foreground">
+        <span className="font-bold text-accent" translate="no">
+          {row.ja} → {col.ja}
+        </span>
+        <span className="mx-2 font-bold" translate="no">
+          {ratio}
+        </span>
+        <span className="text-muted">{note || "メモなし"}</span>
+      </p>
+      <button
+        type="button"
+        onClick={onCopy}
+        className="shrink-0 self-start rounded-full border border-accent/30 px-2.5 py-1 text-[10px] font-bold text-accent transition hover:border-accent hover:bg-accent/10"
+      >
+        {copied ? "コピー済み" : "リンクコピー"}
+      </button>
+    </div>
   );
 }
 
@@ -51,10 +64,26 @@ export function MatchupTable({ coreChars }: MatchupTableProps) {
     note: string;
   } | null>(null);
   const [focusRow, setFocusRow] = useState<string | null>(null);
+  const [copied, setCopied] = useState(false);
   const searchParams = useSearchParams();
   const rowRefs = useRef<Record<string, HTMLTableRowElement | null>>({});
 
   useEffect(() => {
+    const rowParam = searchParams.get("row");
+    const colParam = searchParams.get("col");
+    if (rowParam && colParam) {
+      const row = coreChars.find((c) => c.slug === rowParam);
+      const col = coreChars.find((c) => c.slug === colParam);
+      if (!row || !col || row.slug === col.slug) return;
+      const ratio = MATCHUPS[row.slug]?.[col.slug] ?? ("5-5" as MatchupRatio);
+      const note = MATCHUP_NOTES[row.slug]?.[col.slug] ?? "";
+      setSelected({ row, col, ratio, note });
+      setFocusRow(row.slug);
+      rowRefs.current[row.slug]?.scrollIntoView({ behavior: "smooth", block: "center" });
+      const timer = window.setTimeout(() => setFocusRow(null), 4000);
+      return () => window.clearTimeout(timer);
+    }
+
     const charParam = searchParams.get("char");
     if (!charParam) return;
     const exists = coreChars.some((c) => c.slug === charParam);
@@ -69,6 +98,22 @@ export function MatchupTable({ coreChars }: MatchupTableProps) {
   }, [searchParams, coreChars]);
 
   const focusChar = focusRow ? coreChars.find((c) => c.slug === focusRow) : null;
+
+  function selectMatchup(row: Character, col: Character, ratio: MatchupRatio, note: string) {
+    setSelected({ row, col, ratio, note });
+    setCopied(false);
+    const params = new URLSearchParams({ row: row.slug, col: col.slug });
+    window.history.replaceState(null, "", `/matchups?${params.toString()}`);
+  }
+
+  async function copySelectedLink() {
+    if (!selected) return;
+    const params = new URLSearchParams({ row: selected.row.slug, col: selected.col.slug });
+    const url = `${window.location.origin}/matchups?${params.toString()}`;
+    await navigator.clipboard.writeText(url);
+    setCopied(true);
+    window.setTimeout(() => setCopied(false), 1800);
+  }
 
   return (
     <div>
@@ -91,6 +136,8 @@ export function MatchupTable({ coreChars }: MatchupTableProps) {
               col={selected.col}
               ratio={selected.ratio}
               note={selected.note}
+              copied={copied}
+              onCopy={copySelectedLink}
             />
           ) : (
             <p className="text-muted">相性表の数字をタップすると、ここにメモが出ます。</p>
@@ -164,7 +211,7 @@ export function MatchupTable({ coreChars }: MatchupTableProps) {
                     <td key={col.slug} className="px-1 py-2">
                       <button
                         type="button"
-                        onClick={() => setSelected({ row, col, ratio, note })}
+                        onClick={() => selectMatchup(row, col, ratio, note)}
                         className={`inline-block min-w-[2.25rem] cursor-pointer rounded px-1 py-0.5 font-bold transition ${ratioClass(ratio)} ${
                           isSelected ? "ring-2 ring-accent ring-offset-1" : "hover:brightness-95"
                         }`}
