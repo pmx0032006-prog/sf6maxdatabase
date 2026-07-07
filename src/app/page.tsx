@@ -1,5 +1,6 @@
 import { CharacterGrid } from "@/components/CharacterGrid";
 import { HomeMetaLinks } from "@/components/HomeMetaLinks";
+import { HomeMetaSummary } from "@/components/HomeMetaSummary";
 import { FeaturesSection } from "@/components/FeaturesSection";
 import { NewsSection } from "@/components/NewsSection";
 import { HomeSidebar } from "@/components/HomeSidebar";
@@ -26,7 +27,7 @@ export default function Home() {
       <SiteHeader active="home" />
 
       <section className="border-b border-white/10 bg-[#0a0f0c] text-white">
-        <div className="mx-auto grid max-w-7xl items-center gap-2.5 px-4 py-2 sm:px-6 sm:py-2.5 lg:grid-cols-[minmax(0,1fr)_minmax(0,19rem)] lg:items-end lg:gap-6 xl:grid-cols-[minmax(0,1fr)_minmax(0,21rem)]">
+        <div className="mx-auto grid max-w-7xl items-center gap-2.5 px-4 py-2 sm:px-6 sm:py-2.5 lg:grid-cols-[minmax(0,1fr)_auto_minmax(0,19rem)] lg:gap-4 xl:grid-cols-[minmax(0,1fr)_auto_minmax(0,21rem)] xl:gap-5">
           <div className="min-w-0">
             <p className="text-[9px] font-bold tracking-[0.32em] text-accent uppercase sm:text-[10px]">
               Street Fighter 6
@@ -37,6 +38,10 @@ export default function Home() {
             <p className="mt-1 max-w-xl text-[11px] leading-snug text-white/55 sm:text-xs">
               {siteTagline}
             </p>
+          </div>
+
+          <div className="min-w-0 lg:px-1">
+            <HomeMetaSummary />
           </div>
 
           <div className="min-w-0 lg:justify-self-end">

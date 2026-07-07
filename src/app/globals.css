@@ -142,3 +142,6 @@ body {
   color: #e8fff4;
   text-shadow: 0 0 28px rgba(45, 255, 184, 0.35);
 }
+.meta-summary-chip {
+  backdrop-filter: blur(8px);
+}
