@@ -8,9 +8,16 @@ import type { Metadata } from "next";
 import { siteName, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: `Character Rank | ${siteName}`,
-  description: "Community SF6 character rank snapshot with links to frame data.",
+  title: `SF6 Character Tier List (30 Fighters) | ${siteName}`,
+  description:
+    "Street Fighter 6 community character tier list — S+ through C rank for all 30 fighters. Tap any name for frame data and hitbox images. Updated 2026-07.",
   alternates: { canonical: `${siteUrl}/tier` },
+  openGraph: {
+    title: `SF6 Character Tier List | ${siteName}`,
+    description:
+      "Community tier rankings for all 30 SF6 characters. S+ Mai at top. Links to frame data for every fighter.",
+    url: `${siteUrl}/tier`,
+  },
 };
 
 export default function TierPage() {

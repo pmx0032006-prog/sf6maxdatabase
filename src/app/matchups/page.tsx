@@ -9,9 +9,16 @@ import type { Metadata } from "next";
 import { siteName, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: `Character Affinity | ${siteName}`,
-  description: "Full-roster SF6 character affinity diagram — win-rate style ratios, not match results.",
+  title: `SF6 Matchup Chart (30×29 Grid) | ${siteName}`,
+  description:
+    "Full Street Fighter 6 matchup chart for all 30 characters. Win-rate style ratios (7-3 to 3-7), tap-to-read notes, shareable links. Mobile-friendly.",
   alternates: { canonical: `${siteUrl}/matchups` },
+  openGraph: {
+    title: `SF6 Character Matchup Chart | ${siteName}`,
+    description:
+      "870 matchup cells with community notes. Diagram-style ratios for every SF6 character pairing. Tap a cell to read tips.",
+    url: `${siteUrl}/matchups`,
+  },
 };
 
 export default function MatchupsPage() {
