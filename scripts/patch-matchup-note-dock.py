@@ -1,4 +1,17 @@
-"use client";
+#!/usr/bin/env python3
+"""Lock hint + memo dock at top; table scrolls inside its own panel."""
+from __future__ import annotations
+
+import os
+import subprocess
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+TABLE = ROOT / "src" / "components" / "MatchupTable.tsx"
+PUSH = ROOT / "scripts" / "push_to_github.py"
+
+TABLE_TSX = '''"use client";
 
 import Link from "next/link";
 import { useState } from "react";
@@ -146,3 +159,44 @@ export function MatchupTable({ coreChars }: MatchupTableProps) {
     </div>
   );
 }
+'''
+
+
+def git_env() -> dict[str, str]:
+    env = os.environ.copy()
+    env.setdefault("GIT_AUTHOR_NAME", "pmx0032006-prog")
+    env.setdefault("GIT_AUTHOR_EMAIL", "pmx0032006@gmail.com")
+    env.setdefault("GIT_COMMITTER_NAME", "pmx0032006-prog")
+    env.setdefault("GIT_COMMITTER_EMAIL", "pmx0032006@gmail.com")
+    return env
+
+
+def git(*args: str) -> subprocess.CompletedProcess[str]:
+    return subprocess.run(
+        ["git", *args],
+        cwd=ROOT,
+        env=git_env(),
+        text=True,
+        capture_output=True,
+        encoding="utf-8",
+        errors="replace",
+    )
+
+
+def main() -> int:
+    TABLE.write_text(TABLE_TSX, encoding="utf-8")
+    print("[done] memo dock lock + table scroll panel applied")
+
+    git(
+        "add",
+        "src/components/MatchupTable.tsx",
+        "scripts/patch-matchup-note-dock.py",
+    )
+    commit = git("commit", "-m", "Lock matchup memo dock and scroll table in panel")
+    if commit.returncode == 0 and PUSH.is_file():
+        subprocess.run([sys.executable, str(PUSH)], cwd=ROOT, check=False)
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
