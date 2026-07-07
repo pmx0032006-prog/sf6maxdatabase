@@ -3,23 +3,26 @@
 from __future__ import annotations
 
 import json
+import subprocess
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 RAILS = ROOT / "src" / "components" / "DesktopSideRails.tsx"
 LAYOUT = ROOT / "src" / "app" / "layout.tsx"
 PHASE_FILE = ROOT / "scripts" / "monetization_phase.json"
-DENSE_LINE = "const RAIL_COUNT = 8; // phase 1: dense Amazon rails until AdSense is live"
+SETUP_SCRIPT = ROOT / "scripts" / "setup-fgc-gear-lineup.py"
+DENSE_MARKERS = ("RAIL_HALF", "startIndex={RAIL_HALF}")
 SPLIT_LINE = "const RAIL_COUNT = 3; // phase 2: one card per gear — AdSense fills the rest"
 
 
 def patch_rails(text: str) -> tuple[str, bool]:
-    if DENSE_LINE.split(";")[0] in text:
+    if all(m in text for m in DENSE_MARKERS):
         return text, False
-    for old in (SPLIT_LINE, "const RAIL_COUNT = 3; // one card per gear pick — rest is AdSense auto ads", "const RAIL_COUNT = 8;"):
-        if old in text:
-            return text.replace(old, DENSE_LINE, 1), True
-    print("[warn] RAIL_COUNT anchor not found")
+    if SETUP_SCRIPT.is_file():
+        subprocess.run([sys.executable, str(SETUP_SCRIPT)], cwd=ROOT, check=False)
+        return RAILS.read_text(encoding="utf-8"), True
+    print("[warn] setup-fgc-gear-lineup.py missing; cannot restore split rails")
     return text, False
 
 
@@ -46,9 +49,9 @@ def main() -> int:
     rails_text, rails_changed = patch_rails(rails_text)
     if rails_changed:
         RAILS.write_text(rails_text, encoding="utf-8")
-        print("[done] DesktopSideRails: restored 8 cards/side (dense Amazon)")
+        print("[done] DesktopSideRails: restored split rails (no duplicate gear)")
     else:
-        print("[info] DesktopSideRails already dense (8/side)")
+        print("[info] DesktopSideRails already split (left/right unique)")
 
     if LAYOUT.is_file():
         layout_text = LAYOUT.read_text(encoding="utf-8")
