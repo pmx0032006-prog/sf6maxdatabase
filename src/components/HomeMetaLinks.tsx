@@ -17,33 +17,37 @@ const links = [
 
 export function HomeMetaLinks() {
   return (
-    <div className="grid w-full gap-2.5 sm:grid-cols-2 lg:w-auto lg:min-w-[18rem] lg:max-w-[22rem] lg:gap-3">
+    <div className="flex w-full flex-col gap-2.5 sm:flex-row sm:items-stretch sm:gap-3 lg:max-w-[21rem] lg:flex-col">
       {links.map((item) => (
         <Link
           key={item.href}
           href={item.href}
-          className="meta-hero-card group relative block overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-white/[0.08] via-white/[0.03] to-transparent px-4 py-3.5 transition duration-300 hover:-translate-y-0.5 hover:border-accent/55 hover:shadow-[0_8px_32px_rgba(0,179,104,0.28)] sm:min-h-[5.5rem]"
+          className="meta-hero-card group relative flex min-w-0 flex-1 items-stretch overflow-hidden rounded-md border border-white/[0.12] bg-[#0d1410]/80 transition duration-300 hover:-translate-y-0.5 hover:border-accent/50 hover:shadow-[0_12px_40px_rgba(0,179,104,0.3)]"
           translate="no"
         >
           <div
-            className="pointer-events-none absolute -right-8 -top-8 h-24 w-24 rounded-full bg-accent/10 blur-2xl transition duration-300 group-hover:bg-accent/25"
+            className="w-[3px] shrink-0 bg-gradient-to-b from-accent/30 via-accent to-accent/30 transition duration-300 group-hover:from-accent-mint/50 group-hover:via-accent-mint group-hover:to-accent-mint/50"
             aria-hidden
           />
+          <div className="relative min-w-0 flex-1 px-3.5 py-3 pr-10 sm:px-4 sm:py-3.5">
+            <div
+              className="pointer-events-none absolute -right-4 top-0 h-full w-24 bg-gradient-to-l from-accent/[0.07] to-transparent opacity-0 transition duration-300 group-hover:opacity-100"
+              aria-hidden
+            />
+            <p className="text-[8px] font-bold tracking-[0.34em] text-accent/90 sm:text-[9px]">
+              {item.badge}
+            </p>
+            <p className="meta-hero-title mt-1.5 whitespace-nowrap text-[1.05rem] font-black leading-none tracking-tight text-white sm:text-lg">
+              {item.title}
+            </p>
+            <p className="mt-2 text-[10px] leading-snug text-white/40">{item.desc}</p>
+          </div>
           <div
-            className="pointer-events-none absolute bottom-0 left-0 h-px w-0 bg-gradient-to-r from-accent/80 to-transparent transition-all duration-300 group-hover:w-full"
-            aria-hidden
-          />
-          <p className="text-[9px] font-bold tracking-[0.3em] text-accent/85">{item.badge}</p>
-          <p className="mt-1 font-display text-xl font-black leading-none tracking-tight text-white sm:text-[1.35rem]">
-            {item.title}
-          </p>
-          <p className="mt-1.5 text-[10px] leading-snug text-white/45">{item.desc}</p>
-          <span
-            className="absolute bottom-3 right-3 flex h-8 w-8 items-center justify-center rounded-full border border-white/15 bg-black/20 text-sm text-white/60 transition duration-300 group-hover:border-accent/70 group-hover:bg-accent/15 group-hover:text-accent"
+            className="flex w-9 shrink-0 items-center justify-center border-l border-white/[0.08] bg-white/[0.02] text-sm text-white/45 transition duration-300 group-hover:border-accent/35 group-hover:bg-accent/10 group-hover:text-accent"
             aria-hidden
           >
             →
-          </span>
+          </div>
         </Link>
       ))}
     </div>

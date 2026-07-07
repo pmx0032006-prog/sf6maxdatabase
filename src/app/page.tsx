@@ -26,7 +26,7 @@ export default function Home() {
       <SiteHeader active="home" />
 
       <section className="border-b border-white/10 bg-[#0a0f0c] text-white">
-        <div className="mx-auto grid max-w-7xl items-end gap-3 px-4 py-2.5 sm:px-6 sm:py-3 lg:grid-cols-[minmax(0,1fr)_minmax(0,20rem)] lg:gap-8">
+        <div className="mx-auto grid max-w-7xl items-end gap-3 px-4 py-2.5 sm:px-6 sm:py-3 lg:grid-cols-[minmax(0,1fr)_minmax(0,21rem)] lg:gap-8">
           <div className="min-w-0">
             <p className="text-[9px] font-bold tracking-[0.32em] text-accent uppercase sm:text-[10px]">
               Street Fighter 6

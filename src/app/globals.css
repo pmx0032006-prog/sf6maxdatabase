@@ -127,5 +127,18 @@ body {
 }
 /* Home hero meta link cards */
 .meta-hero-card {
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(10px);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.06),
+    0 4px 24px rgba(0, 0, 0, 0.35);
+}
+
+.meta-hero-title {
+  font-family: var(--font-geist-sans), "Hiragino Sans", "Yu Gothic UI", sans-serif;
+  text-shadow: 0 0 24px rgba(0, 179, 104, 0.15);
+}
+
+.meta-hero-card:hover .meta-hero-title {
+  color: #e8fff4;
+  text-shadow: 0 0 28px rgba(45, 255, 184, 0.35);
 }
