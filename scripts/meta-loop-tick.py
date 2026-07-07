@@ -90,7 +90,8 @@ def checks() -> dict[str, bool]:
         "meta_data": "export const TIERS" in meta and "export const MATCHUPS" in meta,
         "tier_page": TIER_PAGE.is_file() and '"S+"' in META_TS.read_text(encoding="utf-8"),
         "matchups_page": MATCHUPS_PAGE.is_file()
-        and "キャラクター相性表" in MATCHUPS_PAGE.read_text(encoding="utf-8"),
+        and "キャラクター相性表" in MATCHUPS_PAGE.read_text(encoding="utf-8")
+        and "7-3" in MATCHUPS_PAGE.read_text(encoding="utf-8"),
         "split_nav": 'label: "CHAR RANK"' in header and 'label: "CHARACTER 相性"' in header,
         "split_sidebar": "Character Rank →" in sidebar and "キャラクター相性 →" in sidebar,
         "matchup_sorted": _matchup_core_tier_sorted(),
