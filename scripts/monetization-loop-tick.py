@@ -93,7 +93,7 @@ def local_ok() -> dict[str, bool]:
     phase = current_phase()
     asin_source = gear if gear else rails
     asins_ok = all(a in asin_source for a in ASINS)
-    rail_dense = "RAIL_HALF" in rails and "startIndex={RAIL_HALF}" in rails and asins_ok
+    rail_dense = "RAIL_PER_SIDE = 5" in rails and "startIndex={5}" in rails and asins_ok
     rail_split = "const RAIL_COUNT = 3;" in rails and asins_ok
     rails_ok = rail_dense if phase == "amazon_dense" else rail_split
     adsense_meta = 'name="google-adsense-account"' in layout

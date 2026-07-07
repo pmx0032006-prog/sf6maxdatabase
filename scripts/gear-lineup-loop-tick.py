@@ -50,9 +50,9 @@ def unique_asins(text: str) -> list[str]:
 
 
 def rails_ok(rails: str, gear: str) -> bool:
-    if "RAIL_HALF" not in rails:
+    if "RAIL_PER_SIDE = 5" not in rails:
         return False
-    if "startIndex={0}" not in rails or "startIndex={RAIL_HALF}" not in rails:
+    if "startIndex={0}" not in rails or "startIndex={5}" not in rails:
         return False
     if "pickGear" in rails or "offset={1}" in rails:
         return False

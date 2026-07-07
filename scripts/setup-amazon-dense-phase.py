@@ -12,7 +12,7 @@ RAILS = ROOT / "src" / "components" / "DesktopSideRails.tsx"
 LAYOUT = ROOT / "src" / "app" / "layout.tsx"
 PHASE_FILE = ROOT / "scripts" / "monetization_phase.json"
 SETUP_SCRIPT = ROOT / "scripts" / "setup-fgc-gear-lineup.py"
-DENSE_MARKERS = ("RAIL_HALF", "startIndex={RAIL_HALF}")
+DENSE_MARKERS = ("RAIL_PER_SIDE = 5", "startIndex={5}")
 SPLIT_LINE = "const RAIL_COUNT = 3; // phase 2: one card per gear — AdSense fills the rest"
 
 
