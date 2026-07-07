@@ -48,25 +48,25 @@ export const AFFILIATE_GEAR = [
     shortLabel: "Victrix Pro FS",
     badge: "Pro Stick",
     tagline: "Premium PS5 fightstick with swappable gate.",
-    asin: "B09V7X3CWG",
+    asin: "B0B3VRDML3",
   },
   {
     shortLabel: "Mad Catz EGO",
     badge: "Mid-Range",
-    tagline: "Slim PS5 and PS4 arcade stick with Sanwa feel.",
-    asin: "B0CLDC5QZ6",
+    tagline: "Sanwa parts. PS4, Switch, Xbox One, and PC.",
+    asin: "B08HFNSCMV",
   },
   {
     shortLabel: "HORI OCTA Pro",
-    badge: "Leverless Pro",
-    tagline: "Official leverless for PS5, PS4, and PC.",
+    badge: "Fightpad Pro",
+    tagline: "Wireless tournament fightpad for PS5 and PC.",
     asin: "B0DVB2JB1K",
   },
   {
     shortLabel: "Mayflash F500 Elite",
     badge: "Mod Friendly",
-    tagline: "Swap parts easily. PS4, Switch, and PC.",
-    asin: "B07DLFPG6G",
+    tagline: "Sanwa parts. Mod-friendly for PS4, Switch, Xbox, and PC.",
+    asin: "B07QJ1JJ7J",
   },
 ] as const satisfies readonly AffiliateGearItem[];
 
