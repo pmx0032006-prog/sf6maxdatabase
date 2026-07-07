@@ -1,15 +1,9 @@
 import Link from "next/link";
+import { MatchupTable } from "@/components/MatchupTable";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { roster } from "@/data/characters";
-import {
-  MATCHUP_CORE,
-  MATCHUP_NOTES,
-  MATCHUPS,
-  META_DISCLAIMER,
-  META_UPDATED,
-  type MatchupRatio,
-} from "@/data/character-meta";
+import { MATCHUP_CORE, META_DISCLAIMER, META_UPDATED } from "@/data/character-meta";
 import type { Metadata } from "next";
 import { siteName, siteUrl } from "@/lib/site";
 
@@ -18,15 +12,6 @@ export const metadata: Metadata = {
   description: "Full-roster SF6 character affinity diagram — win-rate style ratios, not match results.",
   alternates: { canonical: `${siteUrl}/matchups` },
 };
-
-function ratioClass(ratio: MatchupRatio): string {
-  const left = Number(ratio.split("-")[0] ?? 5);
-  if (left >= 7) return "bg-emerald-500/20 text-emerald-700";
-  if (left === 6) return "bg-accent/15 text-accent";
-  if (left === 5) return "bg-surface text-muted";
-  if (left === 4) return "bg-orange-500/15 text-orange-700";
-  return "bg-red-500/15 text-red-700";
-}
 
 export default function MatchupsPage() {
   const coreChars = MATCHUP_CORE.map((slug) => roster.find((c) => c.slug === slug)).filter(
@@ -44,7 +29,7 @@ export default function MatchupsPage() {
             キャラクター相性表
           </h1>
           <p className="mt-2 max-w-3xl text-sm text-muted">
-            縦のキャラが横のキャラに対してどれだけ有利か（ダイヤグラム方式）。セルにカーソルを合わせると一言メモが出ます。
+            縦のキャラが横のキャラに対してどれだけ有利か（ダイヤグラム方式）。
           </p>
           <p className="mt-1 text-xs text-muted/80">
             更新: {META_UPDATED} — {META_DISCLAIMER}
@@ -56,69 +41,7 @@ export default function MatchupsPage() {
             上ほど強キャラ・下ほど弱キャラ（ティア順）。全30キャラ（イングリッドまで）。
           </p>
 
-          <div className="mt-6 overflow-x-auto rounded-lg border border-border bg-surface shadow-sm">
-            <table className="min-w-full border-collapse text-center text-[10px] sm:text-xs">
-              <thead>
-                <tr className="border-b border-border bg-background">
-                  <th className="sticky left-0 z-10 bg-background px-2 py-2 text-left font-bold" translate="no">
-                    相手 →
-                  </th>
-                  {coreChars.map((col) => (
-                    <th key={col.slug} className="min-w-[2.5rem] px-1 py-2 font-bold">
-                      <Link
-                        href={`/characters/${col.slug}`}
-                        className="hover:text-accent"
-                        translate="no"
-                        lang="ja"
-                        title={col.en}
-                      >
-                        {col.ja}
-                      </Link>
-                    </th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                {coreChars.map((row) => (
-                  <tr key={row.slug} className="border-b border-border/70 last:border-0">
-                    <th className="sticky left-0 z-10 bg-surface px-2 py-2 text-left font-bold">
-                      <Link
-                        href={`/characters/${row.slug}`}
-                        className="hover:text-accent"
-                        translate="no"
-                        lang="ja"
-                        title={row.en}
-                      >
-                        {row.ja}
-                      </Link>
-                    </th>
-                    {coreChars.map((col) => {
-                      if (row.slug === col.slug) {
-                        return (
-                          <td key={col.slug} className="px-1 py-2 text-muted">
-                            —
-                          </td>
-                        );
-                      }
-                      const ratio = MATCHUPS[row.slug]?.[col.slug] ?? ("5-5" as MatchupRatio);
-                      const note = MATCHUP_NOTES[row.slug]?.[col.slug];
-                      return (
-                        <td key={col.slug} className="px-1 py-2">
-                          <span
-                            className={`inline-block min-w-[2.25rem] rounded px-1 py-0.5 font-bold ${ratioClass(ratio)}`}
-                            title={note}
-                            translate="no"
-                          >
-                            {ratio}
-                          </span>
-                        </td>
-                      );
-                    })}
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+          <MatchupTable coreChars={coreChars} />
 
           <p className="mt-8 flex flex-wrap justify-center gap-4 text-sm">
             <Link href="/tier" className="font-semibold text-accent hover:text-accent-hover">
