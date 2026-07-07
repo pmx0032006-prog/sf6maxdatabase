@@ -1,7 +1,6 @@
 import { CharacterGrid } from "@/components/CharacterGrid";
 import { FeaturesSection } from "@/components/FeaturesSection";
 import { NewsSection } from "@/components/NewsSection";
-import { HomeNav } from "@/components/HomeNav";
 import { HomeSidebar } from "@/components/HomeSidebar";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
@@ -40,9 +39,7 @@ export default function Home() {
       </section>
 
       <main className="flex-1 bg-background">
-        <div className="mx-auto grid max-w-7xl gap-4 px-4 py-4 sm:px-6 lg:grid-cols-[12rem_minmax(0,1fr)_15rem] lg:gap-5">
-          <HomeNav />
-
+        <div className="mx-auto grid max-w-7xl gap-4 px-4 py-4 sm:px-6 lg:grid-cols-[minmax(0,1fr)_15rem] lg:gap-5">
           <div className="min-w-0 space-y-8">
             <section id="roster">
               <CharacterGrid
