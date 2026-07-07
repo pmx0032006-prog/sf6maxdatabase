@@ -17,6 +17,7 @@ SETUP_DENSE = ROOT / "scripts" / "setup-amazon-dense-phase.py"
 SETUP_SPLIT = ROOT / "scripts" / "setup-monetization-split.py"
 ADSENSE_TICK = ROOT / "scripts" / "adsense-loop-tick.py"
 RAILS = ROOT / "src" / "components" / "DesktopSideRails.tsx"
+GEAR_DATA = ROOT / "src" / "data" / "affiliate-gear.ts"
 LAYOUT = ROOT / "src" / "app" / "layout.tsx"
 PUSH_SCRIPT = ROOT / "scripts" / "push_to_github.py"
 AUTHOR_NAME = "pmx0032006-prog"
@@ -87,9 +88,11 @@ def current_phase() -> str:
 
 def local_ok() -> dict[str, bool]:
     rails = RAILS.read_text(encoding="utf-8") if RAILS.is_file() else ""
+    gear = GEAR_DATA.read_text(encoding="utf-8") if GEAR_DATA.is_file() else ""
     layout = LAYOUT.read_text(encoding="utf-8") if LAYOUT.is_file() else ""
     phase = current_phase()
-    asins_ok = all(a in rails for a in ASINS)
+    asin_source = gear if gear else rails
+    asins_ok = all(a in asin_source for a in ASINS)
     rail_dense = "const RAIL_COUNT = 8;" in rails and asins_ok
     rail_split = "const RAIL_COUNT = 3;" in rails and asins_ok
     rails_ok = rail_dense if phase == "amazon_dense" else rail_split
