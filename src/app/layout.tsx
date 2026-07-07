@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { siteDescription, siteDomain, siteName, siteNameFull, siteUrl } from "@/lib/site";
 import { Analytics } from "@vercel/analytics/next";
+import { BackToTop } from "@/components/BackToTop";
 import { DesktopSideRails } from "@/components/DesktopSideRails";
 import "./globals.css";
 
@@ -76,6 +77,7 @@ export default function RootLayout({
         {/* MONETIZATION-PHASE-1: dense Amazon rails (2xl+). AdSense auto ads after approval. */}
         <DesktopSideRails />
         {children}
+        <BackToTop />
         <Analytics />
       </body>
     </html>

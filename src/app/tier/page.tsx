@@ -20,7 +20,11 @@ export default function TierPage() {
       <main className="flex-1 bg-background">
         <div className="mx-auto max-w-5xl px-4 py-6 sm:px-6 sm:py-8">
           <p className="text-[10px] font-bold tracking-[0.32em] text-accent uppercase">Meta</p>
-          <h1 className="mt-1 font-display text-2xl font-black tracking-tight text-foreground sm:text-3xl" translate="no">
+          <h1
+            id="page-top"
+            className="mt-1 font-display text-2xl font-black tracking-tight text-foreground sm:text-3xl"
+            translate="no"
+          >
             キャラクターランク
           </h1>
           <p className="mt-2 max-w-2xl text-sm text-muted">
@@ -74,6 +78,9 @@ export default function TierPage() {
             <Link href="/" className="font-semibold text-muted hover:text-accent">
               ← ロスターへ戻る
             </Link>
+            <a href="#page-top" className="font-semibold text-muted hover:text-accent">
+              上へ戻る ↑
+            </a>
           </p>
         </div>
       </main>
