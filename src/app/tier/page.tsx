@@ -27,13 +27,21 @@ export default function TierPage() {
             コミュニティの強さ目安。キャラ名を押すとフレームデータ・ヒットボックスへ。
           </p>
           <p className="mt-1 text-xs text-muted/80">
-            更新: {META_UPDATED} — {META_DISCLAIMER}
+            各ティアは左ほど強い → 右ほど弱い。更新: {META_UPDATED} — {META_DISCLAIMER}
           </p>
 
           <div className="mt-8 grid gap-3 sm:grid-cols-2">
             {TIER_ORDER.map((tier) => (
-              <div key={tier} className="rounded-lg border border-border bg-surface p-4 shadow-sm">
-                <p className="text-lg font-black text-foreground" translate="no">
+              <div
+                key={tier}
+                className={`rounded-lg border bg-surface p-4 shadow-sm ${
+                  tier === "S+" ? "border-amber-400/60 sm:col-span-2" : "border-border"
+                }`}
+              >
+                <p
+                  className={`text-lg font-black ${tier === "S+" ? "text-amber-600" : "text-foreground"}`}
+                  translate="no"
+                >
                   ティア {tier}
                 </p>
                 <ul className="mt-2 flex flex-wrap gap-2">

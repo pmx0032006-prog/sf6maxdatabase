@@ -1,0 +1,47 @@
+{
+  "updated": "2026-07",
+  "source_note": "Community snapshot — not official Capcom data.",
+  "editor": "Doc + DeepSeek baseline",
+  "tiers": {
+    "S+": [
+      "mai"
+    ],
+    "S": [
+      "blanka",
+      "jp",
+      "ryu",
+      "ed",
+      "akuma"
+    ],
+    "A": [
+      "m-bison",
+      "luke",
+      "elena",
+      "cammy",
+      "rashid",
+      "terry",
+      "guile",
+      "chun-li",
+      "c-viper",
+      "ken"
+    ],
+    "B": [
+      "sagat",
+      "aki",
+      "dee-jay",
+      "juri",
+      "kimberly",
+      "zangief",
+      "dhalsim",
+      "e-honda"
+    ],
+    "C": [
+      "jamie",
+      "manon",
+      "marisa",
+      "lily",
+      "alex",
+      "ingrid"
+    ]
+  }
+}

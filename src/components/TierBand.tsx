@@ -3,6 +3,7 @@ import { roster } from "@/data/characters";
 import { META_DISCLAIMER, META_UPDATED, TIER_ORDER, TIERS } from "@/data/character-meta";
 
 const TIER_STYLES: Record<string, string> = {
+  "S+": "border-yellow-300/60 bg-yellow-400/15 text-yellow-100",
   S: "border-amber-400/50 bg-amber-400/10 text-amber-200",
   A: "border-accent/50 bg-accent/10 text-accent-mint",
   B: "border-sky-400/40 bg-sky-400/10 text-sky-200",
@@ -42,7 +43,7 @@ export function TierBand() {
                 key={tier}
                 className={`min-w-[9.5rem] shrink-0 rounded-lg border px-2.5 py-2 ${style}`}
               >
-                <p className="text-[10px] font-black tracking-[0.2em]">TIER {tier}</p>
+                <p className="text-[10px] font-black tracking-[0.2em]">TIER {tier === "S+" ? "S+" : tier}</p>
                 <ul className="mt-1.5 flex flex-col gap-0.5">
                   {slugs.map((slug) => {
                     const char = roster.find((c) => c.slug === slug);

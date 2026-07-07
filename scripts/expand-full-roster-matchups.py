@@ -14,7 +14,7 @@ META_TS = ROOT / "src" / "data" / "character-meta.ts"
 MATCHUPS_PAGE = ROOT / "src" / "app" / "matchups" / "page.tsx"
 PUSH = ROOT / "scripts" / "push_to_github.py"
 
-TIER_ORDER = ("S", "A", "B", "C")
+TIER_ORDER = ("S+", "S", "A", "B", "C")
 ROSTER_COUNT = 30
 
 
