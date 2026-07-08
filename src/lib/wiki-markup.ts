@@ -89,16 +89,32 @@ const INVULN_TYPE_JA: Record<string, string> = {
   throw: "投無敵",
 };
 
+const INVULN_TYPE_EN: Record<string, string> = {
+  full: "full invuln",
+  "strike/throw": "strike/throw invuln",
+  air: "airborne invuln",
+  "lower body projectile": "lower-body projectile invuln",
+  "upper body projectile": "upper-body projectile invuln",
+  strike: "strike invuln",
+  projectile: "projectile invuln",
+  throw: "throw invuln",
+};
+
 function invulnTypeJa(raw: string): string {
   const base = raw.replace(/\s*\([^)]*\)/g, "").trim().toLowerCase();
   return INVULN_TYPE_JA[base] ?? raw.trim();
 }
 
-function formatInvulnRange(start: string, end: string): string {
-  return `${start}〜${end}f`;
+function invulnTypeEn(raw: string): string {
+  const base = raw.replace(/\s*\([^)]*\)/g, "").trim().toLowerCase();
+  return INVULN_TYPE_EN[base] ?? raw.trim();
 }
 
-function formatInvulnSegment(segment: string): string {
+function formatInvulnRange(start: string, end: string): string {
+  return `${start}-${end}f`;
+}
+
+function formatInvulnSegment(segment: string, typeFn: (raw: string) => string): string {
   const s = segment.trim();
   if (!s) return "";
 
@@ -106,17 +122,17 @@ function formatInvulnSegment(segment: string): string {
     /^(\d+(?:\(\d+\))?)\s*[-–]\s*(\d+(?:\(\d+\))?)\s+(.+)$/i,
   );
   if (rangeType) {
-    return `${formatInvulnRange(rangeType[1], rangeType[2])} ${invulnTypeJa(rangeType[3])}`;
+    return `${formatInvulnRange(rangeType[1], rangeType[2])} ${typeFn(rangeType[3])}`;
   }
 
   const singleType = s.match(/^(\d+)\s+(.+)$/i);
   if (singleType) {
-    return `${singleType[1]}f ${invulnTypeJa(singleType[2])}`;
+    return `${singleType[1]}f ${typeFn(singleType[2])}`;
   }
 
   const typeRange = s.match(/^(.+?)\s+(\d+)\s*[-–]\s*(\d+(?:\(\d+\))?)$/i);
   if (typeRange) {
-    return `${formatInvulnRange(typeRange[2], typeRange[3])} ${invulnTypeJa(typeRange[1])}`;
+    return `${formatInvulnRange(typeRange[2], typeRange[3])} ${typeFn(typeRange[1])}`;
   }
 
   const typeRangeNote = s.match(
@@ -124,10 +140,22 @@ function formatInvulnSegment(segment: string): string {
   );
   if (typeRangeNote) {
     const type = `${typeRangeNote[1]} (${typeRangeNote[4]})`;
-    return `${formatInvulnRange(typeRangeNote[2], typeRangeNote[3])} ${invulnTypeJa(type)}`;
+    return `${formatInvulnRange(typeRangeNote[2], typeRangeNote[3])} ${typeFn(type)}`;
   }
 
-  return s.replace(/(\d+)\s*[-–]\s*(\d+)/g, "$1〜$2f");
+  return s.replace(/(\d+)\s*[-–]\s*(\d+)/g, "$1-$2f");
+}
+
+/** Wiki invuln notation → e.g. 1-13f full invuln */
+export function formatInvulnEn(value: string | null | undefined): string | null {
+  const cleaned = cleanWikiText(value);
+  if (!cleaned) return null;
+
+  const segments = cleaned
+    .split(/,\s*/)
+    .map((segment) => formatInvulnSegment(segment, invulnTypeEn))
+    .filter(Boolean);
+  return segments.length > 0 ? segments.join(" / ") : null;
 }
 
 /** Wiki無敵表記 → 1〜13f 全身無敵 など */
@@ -135,10 +163,13 @@ export function formatInvulnJa(value: string | null | undefined): string | null 
   const cleaned = cleanWikiText(value);
   if (!cleaned) return null;
 
-  const segments = cleaned.split(/,\s*/).map(formatInvulnSegment).filter(Boolean);
+  const segments = cleaned
+    .split(/,\s*/)
+    .map((segment) => formatInvulnSegment(segment, invulnTypeJa))
+    .filter(Boolean);
   return segments.length > 0 ? segments.join(" / ") : null;
 }
 
 export function hasInvuln(value: string | null | undefined): boolean {
-  return formatInvulnJa(value) !== null;
+  return formatInvulnEn(value) !== null;
 }

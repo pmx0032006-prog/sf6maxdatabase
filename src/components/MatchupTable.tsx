@@ -39,7 +39,7 @@ function NoteContent({
     <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
       <p className="leading-relaxed text-foreground">
         <span className="font-bold text-accent" translate="no">
-          {row.ja} → {col.ja}
+          {row.en} vs {col.en}
         </span>
         <span className="mx-2 font-bold" translate="no">
           {ratio}
@@ -120,11 +120,11 @@ export function MatchupTable({ coreChars }: MatchupTableProps) {
     <div>
       <div className="sticky top-14 z-40 -mx-4 border-b border-border bg-background/95 px-4 py-2 shadow-sm backdrop-blur-sm sm:-mx-6 sm:px-6">
         <p className="text-xs text-accent/90">
-          数字をタップ（PCはクリック）すると、メモがここに表示されます（スクロールしても追従）。
+          Tap a ratio (click on desktop) to read the note here — stays visible while you scroll.
         </p>
         {focusChar ? (
           <p className="mt-1 text-[11px] text-accent" translate="no">
-            <span className="font-bold">{focusChar.ja}</span> の相性行をハイライト中
+            Highlighting <span className="font-bold">{focusChar.en}</span>&apos;s row
           </p>
         ) : null}
         <div
@@ -141,7 +141,7 @@ export function MatchupTable({ coreChars }: MatchupTableProps) {
               onCopy={copySelectedLink}
             />
           ) : (
-            <p className="text-muted">相性表の数字をタップすると、ここにメモが出ます。</p>
+            <p className="text-muted">Tap any ratio in the chart to show matchup notes here.</p>
           )}
         </div>
       </div>
@@ -151,7 +151,7 @@ export function MatchupTable({ coreChars }: MatchupTableProps) {
           <thead>
             <tr className="border-b border-border bg-background">
               <th className="sticky left-0 top-0 z-20 bg-background px-2 py-2 text-left font-bold" translate="no">
-                相手 →
+                Opponent →
               </th>
               {coreChars.map((col) => (
                 <th key={col.slug} className="sticky top-0 z-10 min-w-[2.5rem] bg-background px-1 py-2 font-bold">
@@ -159,10 +159,9 @@ export function MatchupTable({ coreChars }: MatchupTableProps) {
                     href={`/characters/${col.slug}`}
                     className="hover:text-accent"
                     translate="no"
-                    lang="ja"
-                    title={col.en}
+                    title={col.ja}
                   >
-                    {col.ja}
+                    {col.en}
                   </Link>
                 </th>
               ))}
@@ -190,10 +189,9 @@ export function MatchupTable({ coreChars }: MatchupTableProps) {
                     href={`/characters/${row.slug}`}
                     className="hover:text-accent"
                     translate="no"
-                    lang="ja"
-                    title={row.en}
+                    title={row.ja}
                   >
-                    {row.ja}
+                    {row.en}
                   </Link>
                 </th>
                 {coreChars.map((col) => {
@@ -217,7 +215,7 @@ export function MatchupTable({ coreChars }: MatchupTableProps) {
                           isSelected ? "ring-2 ring-accent ring-offset-1" : "hover:brightness-95"
                         }`}
                         title={note || undefined}
-                        aria-label={`${row.ja}対${col.ja} ${ratio} ${note}`}
+                        aria-label={`${row.en} vs ${col.en} ${ratio} ${note}`}
                         translate="no"
                       >
                         {ratio}

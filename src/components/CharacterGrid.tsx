@@ -79,7 +79,7 @@ export function CharacterGrid({
                   : styles.cell
               }`}
               translate="no"
-              title={character.ja}
+              title={`${character.en} (${character.ja})`}
             >
               {character.thumb ? (
                 <>
@@ -100,10 +100,9 @@ export function CharacterGrid({
                   </span>
                   <span className="absolute inset-x-0 bottom-0 z-[1] px-2 pb-2 pt-4">
                     <span
-                      className={`char-name char-name-fit block w-full truncate text-center text-white drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)] ${styles.name} ${charNameSizeClass(character.ja)}`}
-                      lang="ja"
+                      className={`char-name char-name-fit block w-full truncate text-center text-white drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)] ${styles.name} ${charNameSizeClass(character.en)}`}
                     >
-                      {character.ja}
+                      {character.en}
                     </span>
                   </span>
                 </>

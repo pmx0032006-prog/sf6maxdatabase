@@ -4,14 +4,14 @@ const links = [
   {
     href: "/tier",
     badge: "RANK",
-    title: "キャラランク",
-    desc: "ティア順",
+    title: "Tier list",
+    desc: "Community ranks",
   },
   {
     href: "/matchups",
-    badge: "相性",
-    title: "キャラ相性",
-    desc: "相性表",
+    badge: "MATCH",
+    title: "Matchups",
+    desc: "870-cell chart",
   },
 ] as const;
 

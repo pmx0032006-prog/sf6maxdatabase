@@ -1,4 +1,4 @@
-import { formatInvulnJa } from "@/lib/wiki-markup";
+import { formatInvulnEn } from "@/lib/wiki-markup";
 
 type InvulnBadgeProps = {
   invuln?: string | null;
@@ -7,7 +7,7 @@ type InvulnBadgeProps = {
 
 /** 無敵フレーム — 発生・ヒット・ガードの直下に目立つ表示 */
 export function InvulnBadge({ invuln, size = "sm" }: InvulnBadgeProps) {
-  const text = formatInvulnJa(invuln);
+  const text = formatInvulnEn(invuln);
   if (!text) return null;
 
   const isMd = size === "md";

@@ -21,7 +21,7 @@ export function MoveFilterBar({
           type="search"
           value={value}
           onChange={(event) => onChange(event.target.value)}
-          placeholder="Search move — 5LP, hadoken, 波動…"
+          placeholder="Search move — 5LP, hadoken, shoryu…"
           className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm text-foreground placeholder:text-muted/70 focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent/40"
           autoComplete="off"
           spellCheck={false}

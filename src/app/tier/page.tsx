@@ -31,15 +31,14 @@ export default function TierPage() {
           <h1
             id="page-top"
             className="mt-1 font-display text-2xl font-black tracking-tight text-foreground sm:text-3xl"
-            translate="no"
           >
-            キャラクターランク
+            Character Tier List
           </h1>
           <p className="mt-2 max-w-2xl text-sm text-muted">
-            コミュニティの強さ目安。キャラ名を押すとフレームデータ・ヒットボックスへ。
+            Community strength snapshot. Tap a name for frame data and hitbox images.
           </p>
           <p className="mt-1 text-xs text-muted/80">
-            各ティアは左ほど強い → 右ほど弱い。更新: {META_UPDATED} — {META_DISCLAIMER}
+            Left = stronger within each tier, right = weaker. Updated: {META_UPDATED} — {META_DISCLAIMER}
           </p>
 
           <div className="mt-8 grid gap-3 sm:grid-cols-2">
@@ -54,7 +53,7 @@ export default function TierPage() {
                   className={`text-lg font-black ${tier === "S+" ? "text-amber-600" : "text-foreground"}`}
                   translate="no"
                 >
-                  ティア {tier}
+                  Tier {tier}
                 </p>
                 <ul className="mt-2 flex flex-wrap gap-2">
                   {TIERS[tier].map((slug) => {
@@ -66,10 +65,9 @@ export default function TierPage() {
                           href={`/characters/${slug}`}
                           className="rounded-full border border-border bg-background px-2.5 py-1 text-xs font-semibold text-foreground hover:border-accent hover:text-accent"
                           translate="no"
-                          lang="ja"
-                          title={char.en}
+                          title={char.ja}
                         >
-                          {char.ja}
+                          {char.en}
                         </Link>
                       </li>
                     );

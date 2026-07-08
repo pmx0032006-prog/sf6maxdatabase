@@ -11,7 +11,7 @@ const navItems = [
   { href: "/", label: "TOP", key: "home" as const },
   { href: "/characters", label: "CHARACTERS", key: "characters" as const },
   { href: "/tier", label: "CHAR RANK", key: "tier" as const },
-  { href: "/matchups", label: "CHARACTER 相性", key: "matchups" as const },
+  { href: "/matchups", label: "MATCHUPS", key: "matchups" as const },
   { href: "/about", label: "ABOUT", key: "about" as const },
   { href: "/#news", label: "NEWS", key: null },
 ];
@@ -81,7 +81,7 @@ export function SiteHeader({ active }: SiteHeaderProps) {
             href="/matchups"
             className={active === "matchups" ? "text-accent" : "text-white/75"}
           >
-            相性
+            MATCH
           </Link>
         </nav>
         </div>

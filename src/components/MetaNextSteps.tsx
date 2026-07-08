@@ -3,7 +3,7 @@ import Link from "next/link";
 type MetaNextStepsProps = {
   variant: "home" | "tier" | "matchups";
   characterSlug?: string;
-  characterJa?: string;
+  characterEn?: string;
 };
 
 const steps = {
@@ -11,60 +11,60 @@ const steps = {
     primary: {
       href: "/matchups",
       kicker: "NEXT",
-      title: "キャラ相性を見る",
-      desc: "870マス・タップでメモ",
+      title: "View matchup chart",
+      desc: "870 cells — tap for notes",
     },
     secondary: {
       href: "/tier",
       kicker: "RANK",
-      title: "キャラランクを見る",
-      desc: "30キャラ・ティア順",
+      title: "View tier list",
+      desc: "All 30 fighters ranked",
     },
     tertiary: {
       href: "/characters",
       kicker: "DATA",
-      title: "フレームデータへ",
-      desc: "技表・ヒットボックス",
+      title: "Frame data roster",
+      desc: "Moves & hitbox images",
     },
   },
   tier: {
     primary: {
       href: "/matchups",
       kicker: "NEXT",
-      title: "相性表で確認する",
-      desc: "ランクだけじゃ決まらない",
+      title: "Check matchups",
+      desc: "Tier rank is not the full story",
     },
     secondary: {
       href: "/characters",
       kicker: "DATA",
-      title: "キャラ詳細へ",
-      desc: "フレーム・ヒットボックス",
+      title: "Character details",
+      desc: "Frame data & hitboxes",
     },
     tertiary: {
       href: "/",
       kicker: "HOME",
-      title: "ロスターへ戻る",
-      desc: "全キャラ一覧",
+      title: "Back to roster",
+      desc: "All characters",
     },
   },
   matchups: {
     primary: {
       href: "/characters",
       kicker: "NEXT",
-      title: "フレームデータを見る",
-      desc: "相性の次は技データ",
+      title: "Open frame data",
+      desc: "After matchups, check moves",
     },
     secondary: {
       href: "/tier",
       kicker: "RANK",
-      title: "キャラランクへ",
-      desc: "強さの目安を確認",
+      title: "View tier list",
+      desc: "Community strength snapshot",
     },
     tertiary: {
       href: "/",
       kicker: "HOME",
-      title: "ロスターへ戻る",
-      desc: "全キャラ一覧",
+      title: "Back to roster",
+      desc: "All characters",
     },
   },
 } as const;
@@ -102,21 +102,21 @@ function StepCard({
   );
 }
 
-export function MetaNextSteps({ variant, characterSlug, characterJa }: MetaNextStepsProps) {
+export function MetaNextSteps({ variant, characterSlug, characterEn }: MetaNextStepsProps) {
   const block = steps[variant];
   const primary =
-    characterSlug && characterJa
+    characterSlug && characterEn
       ? {
           href: `/characters/${characterSlug}`,
           kicker: "CHAR",
-          title: `${characterJa}のフレームデータ`,
-          desc: "このキャラの技・ヒットボックス",
+          title: `${characterEn} frame data`,
+          desc: "Moves & hitbox images for this fighter",
         }
       : block.primary;
 
   return (
-    <section className="mt-8 rounded-xl border border-border bg-surface/60 p-4 sm:p-5" aria-label="次に見る">
-      <p className="text-[10px] font-bold tracking-[0.28em] text-accent uppercase">次に見る</p>
+    <section className="mt-8 rounded-xl border border-border bg-surface/60 p-4 sm:p-5" aria-label="Next steps">
+      <p className="text-[10px] font-bold tracking-[0.28em] text-accent uppercase">Next up</p>
       <div className="mt-3 grid gap-2.5 sm:grid-cols-3 sm:gap-3">
         <StepCard {...primary} featured />
         <StepCard {...block.secondary} />
@@ -124,7 +124,7 @@ export function MetaNextSteps({ variant, characterSlug, characterJa }: MetaNextS
       </div>
       <p className="mt-4 flex flex-wrap justify-center gap-4 text-sm">
         <a href="#page-top" className="font-semibold text-muted hover:text-accent">
-          上へ戻る ↑
+          Back to top ↑
         </a>
       </p>
     </section>

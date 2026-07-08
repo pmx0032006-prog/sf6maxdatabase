@@ -5,18 +5,18 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 const pillars = [
   {
     label: "01",
-    title: "フレームデータ",
-    body: "数値と余白だけで、技の輪郭をすばやく掴む。",
+    title: "Frame Data",
+    body: "Startup, advantage, and damage — grouped for fast mid-match lookup.",
   },
   {
     label: "02",
-    title: "キャラ攻略",
-    body: "クラシックとモダン、二つの操作思想を並べて読む。",
+    title: "Lightweight Hitboxes",
+    body: "Still JPG hitboxes on every move — faster than GIFs on mobile data.",
   },
   {
     label: "03",
-    title: "用語とメタ",
-    body: "記事と表がつながる、日本語の対戦データベース。",
+    title: "Meta & Matchups",
+    body: "Tier list and matchup chart linked to every character page.",
   },
 ];
 

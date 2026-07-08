@@ -82,7 +82,7 @@ function MoveCard({ characterSlug, move, priority, onOpen }: MoveCardProps) {
         >
           <Image
             src={imageSrc}
-            alt={move.nameJa}
+            alt={move.nameEn || move.nameJa}
             width={320}
             height={180}
             unoptimized
@@ -116,7 +116,7 @@ function MoveCard({ characterSlug, move, priority, onOpen }: MoveCardProps) {
                       frame.imageSlug,
                       frame.imageExt ?? ".jpg",
                     )}
-                    alt={`${move.nameJa} ${getFrameLabel(frame.imageSlug, fi)}`}
+                    alt={`${move.nameEn || move.nameJa} ${getFrameLabel(frame.imageSlug, fi)}`}
                     width={64}
                     height={36}
                     unoptimized
@@ -136,7 +136,7 @@ function MoveCard({ characterSlug, move, priority, onOpen }: MoveCardProps) {
         ) : (
           <span className="space-y-1 px-2 py-2">
             <span className="block text-[11px] font-bold leading-tight text-foreground group-hover:text-accent">
-              {move.nameJa}
+              {move.nameEn || move.nameJa}
             </span>
             <span className="block truncate text-[9px] font-medium tracking-wide text-muted uppercase">
               {displayWikiValue(move.input) !== "—"
@@ -317,7 +317,7 @@ export function MoveDataGrid({ characterSlug, moves }: MoveDataGridProps) {
                   currentFrame.imageSlug,
                   currentFrame.imageExt ?? ".jpg",
                 )}
-                alt={`${active.nameJa} ${getFrameLabel(currentFrame.imageSlug, frameIndex)}`}
+                alt={`${active.nameEn || active.nameJa} ${getFrameLabel(currentFrame.imageSlug, frameIndex)}`}
                 width={960}
                 height={540}
                 unoptimized
@@ -383,7 +383,7 @@ export function MoveDataGrid({ characterSlug, moves }: MoveDataGridProps) {
                 <div className="mt-4 space-y-1">
                   <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
                     <h3 className="text-lg font-bold text-foreground">
-                      {active.nameJa}
+                      {active.nameEn || active.nameJa}
                     </h3>
                     <span className="font-mono text-sm font-bold tabular-nums text-accent">
                       {displayWikiValue(active.input)}
