@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { HitboxColorLegend } from "@/components/character/HitboxColorLegend";
 import { PageMasthead } from "@/components/PageMasthead";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
@@ -27,6 +28,15 @@ const sections = [
       "This site uses still JPG images so you can check frames on mobile data or between matches.",
       "When a move has multiple frames (_1, _2, _3 …), switch them in-card or in the expanded view with ← → keys.",
     ],
+  },
+  {
+    id: "hitbox-colors",
+    title: "Hitbox Colors",
+    body: [
+      "Each JPG still uses the standard Street Fighter 6 hitbox color coding. Red boxes are where the move can hit; green is where the character can be hit.",
+      "Use this legend when checking a move between rounds — same colors as community frame databases.",
+    ],
+    legend: true,
   },
   {
     id: "read",
@@ -134,6 +144,9 @@ export default function AboutPage() {
                       </div>
                     ))}
                   </dl>
+                ) : null}
+                {"legend" in section && section.legend ? (
+                  <HitboxColorLegend variant="full" />
                 ) : null}
               </article>
             ))}

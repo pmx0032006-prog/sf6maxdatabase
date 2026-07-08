@@ -45,7 +45,7 @@ export function CharacterRelatedLinks({
   return (
     <section className="border-t border-white/10 bg-[#0a0f0c]">
       <div className="mx-auto w-full max-w-[1440px] px-3 py-8 sm:px-5 lg:px-6">
-        <p className="text-[10px] font-bold tracking-[0.32em] text-accent uppercase">次に見る</p>
+        <p className="text-[10px] font-bold tracking-[0.32em] text-accent uppercase">Next</p>
         <div className="mt-3 grid gap-2.5 sm:grid-cols-3">
           <Link
             href={`/matchups?char=${currentSlug}`}
@@ -54,9 +54,9 @@ export function CharacterRelatedLinks({
           >
             <span className="text-[8px] font-bold tracking-[0.3em] text-accent/85">MATCHUP</span>
             <p className="mt-1 font-display text-base font-black text-white group-hover:text-accent-mint sm:text-lg">
-              {ja}の相性表へ
+              {currentName} matchup chart
             </p>
-            <p className="mt-1 text-[11px] text-white/45">相性表で{ja}の行を自動ハイライト</p>
+            <p className="mt-1 text-[11px] text-white/45">Highlights this character&apos;s row</p>
           </Link>
           <Link
             href="/tier"
@@ -65,9 +65,9 @@ export function CharacterRelatedLinks({
           >
             <span className="text-[8px] font-bold tracking-[0.3em] text-accent/85">RANK</span>
             <p className="mt-1 font-display text-base font-black text-white group-hover:text-accent sm:text-lg">
-              キャラランクを見る
+              Tier list
             </p>
-            <p className="mt-1 text-[11px] text-white/45">ティア順で強さを確認</p>
+            <p className="mt-1 text-[11px] text-white/45">Community strength snapshot</p>
           </Link>
           <Link
             href="/characters"
@@ -75,9 +75,9 @@ export function CharacterRelatedLinks({
           >
             <span className="text-[8px] font-bold tracking-[0.3em] text-accent/85">ROSTER</span>
             <p className="mt-1 font-display text-base font-black text-white group-hover:text-accent sm:text-lg">
-              他キャラを見る
+              All characters
             </p>
-            <p className="mt-1 text-[11px] text-white/45">全キャラのフレームデータ</p>
+            <p className="mt-1 text-[11px] text-white/45">Frame data for every fighter</p>
           </Link>
         </div>
 

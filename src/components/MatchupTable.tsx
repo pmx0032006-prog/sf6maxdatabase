@@ -4,7 +4,8 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import type { Character } from "@/data/characters";
-import { MATCHUP_NOTES, MATCHUPS, type MatchupRatio } from "@/data/character-meta";
+import { getMatchupNoteEn } from "@/data/matchup-notes-en";
+import { MATCHUPS, type MatchupRatio } from "@/data/character-meta";
 
 type MatchupTableProps = {
   coreChars: Character[];
@@ -43,14 +44,14 @@ function NoteContent({
         <span className="mx-2 font-bold" translate="no">
           {ratio}
         </span>
-        <span className="text-muted">{note || "メモなし"}</span>
+        <span className="text-muted">{note || "No note"}</span>
       </p>
       <button
         type="button"
         onClick={onCopy}
         className="shrink-0 self-start rounded-full border border-accent/30 px-2.5 py-1 text-[10px] font-bold text-accent transition hover:border-accent hover:bg-accent/10"
       >
-        {copied ? "コピー済み" : "リンクコピー"}
+        {copied ? "Copied" : "Copy link"}
       </button>
     </div>
   );
@@ -76,7 +77,7 @@ export function MatchupTable({ coreChars }: MatchupTableProps) {
       const col = coreChars.find((c) => c.slug === colParam);
       if (!row || !col || row.slug === col.slug) return;
       const ratio = MATCHUPS[row.slug]?.[col.slug] ?? ("5-5" as MatchupRatio);
-      const note = MATCHUP_NOTES[row.slug]?.[col.slug] ?? "";
+      const note = getMatchupNoteEn(row.slug, col.slug);
       setSelected({ row, col, ratio, note });
       setFocusRow(row.slug);
       rowRefs.current[row.slug]?.scrollIntoView({ behavior: "smooth", block: "center" });
@@ -204,7 +205,7 @@ export function MatchupTable({ coreChars }: MatchupTableProps) {
                     );
                   }
                   const ratio = MATCHUPS[row.slug]?.[col.slug] ?? ("5-5" as MatchupRatio);
-                  const note = MATCHUP_NOTES[row.slug]?.[col.slug] ?? "";
+                  const note = getMatchupNoteEn(row.slug, col.slug);
                   const isSelected =
                     selected?.row.slug === row.slug && selected?.col.slug === col.slug;
                   return (

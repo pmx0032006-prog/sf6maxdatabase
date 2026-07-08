@@ -45,7 +45,7 @@ function RailStack({
   const items = AFFILIATE_GEAR.slice(startIndex, startIndex + RAIL_PER_SIDE);
 
   return (
-    <div className="pointer-events-auto flex h-[calc(100vh-5rem)] flex-col gap-1.5 px-2.5 py-2">
+    <div className="pointer-events-auto flex h-[calc(100vh-9.5rem)] flex-col gap-1.5 px-2.5 py-2">
       <p className="shrink-0 rounded-lg border border-accent/35 bg-accent/10 px-3 py-2 text-center text-[9px] font-bold tracking-[0.22em] text-accent-mint uppercase">
         {title}
       </p>
@@ -64,7 +64,7 @@ function RailStack({
 
       <Link
         href="/about#affiliate"
-        className="shrink-0 rounded-md border border-white/10 bg-surface/70 px-3 py-1.5 text-center text-[9px] text-white/50 hover:text-accent"
+        className="shrink-0 rounded-md border border-white/10 bg-white/[0.04] px-3 py-1.5 text-center text-[9px] text-white/45 hover:border-accent/30 hover:text-accent"
       >
         Affiliate disclosure
       </Link>
@@ -77,14 +77,14 @@ export function DesktopSideRails() {
     <>
       <aside
         aria-label="Desktop left rail"
-        className="pointer-events-none fixed inset-y-14 left-0 z-20 hidden w-[min(15.5rem,calc((100vw-80rem)/2))] 2xl:block"
+        className="pointer-events-none fixed top-[7rem] bottom-10 z-20 left-[max(0px,calc((100vw-80rem)/2-min(15.5rem,(100vw-80rem)/2)-1.25rem))] hidden w-[min(15.5rem,calc((100vw-80rem)/2))] 2xl:block"
       >
         <RailStack startIndex={0} side="left" title="SF6 Gear Picks" />
       </aside>
 
       <aside
         aria-label="Desktop right rail"
-        className="pointer-events-none fixed inset-y-14 right-0 z-20 hidden w-[min(15.5rem,calc((100vw-80rem)/2))] 2xl:block"
+        className="pointer-events-none fixed top-[7rem] bottom-10 z-20 right-[max(0px,calc((100vw-80rem)/2-min(15.5rem,(100vw-80rem)/2)-1.25rem))] hidden w-[min(15.5rem,calc((100vw-80rem)/2))] 2xl:block"
       >
         <RailStack startIndex={5} side="right" title="FGC Deals" />
       </aside>

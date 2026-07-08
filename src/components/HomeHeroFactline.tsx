@@ -12,6 +12,11 @@ const chips = [
     title: "Why we use lightweight JPGs instead of GIFs",
   },
   {
+    label: "hitbox colors",
+    href: "/about#hitbox-colors",
+    title: "Red, green, pink hitbox color legend",
+  },
+  {
     label: "read guide",
     href: "/about#read",
     title: "How to read St, Bk, and multi-frame hitboxes",
@@ -25,7 +30,7 @@ type HomeHeroFactlineProps = {
 export function HomeHeroFactline({ className = "" }: HomeHeroFactlineProps) {
   return (
     <nav
-      className={`home-hero-factline hidden min-w-0 flex-1 flex-nowrap items-center justify-center gap-1 overflow-x-auto px-1 sm:flex sm:gap-1.5 sm:overflow-visible ${className}`}
+      className={`home-hero-factline hidden min-w-0 flex-nowrap items-center justify-center gap-1 overflow-x-auto px-1 sm:flex sm:gap-1.5 sm:overflow-visible lg:flex-1 ${className}`}
       aria-label="Quick data shortcuts"
       translate="no"
     >

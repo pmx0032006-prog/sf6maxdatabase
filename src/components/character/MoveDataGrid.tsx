@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import type { MoveFrameData, MoveImageFrame } from "@/data/characters/cammy";
 import { FrameDataDetailTable } from "@/components/character/FrameDataDetailTable";
+import { MoveFilterBar } from "@/components/character/MoveFilterBar";
 import { WikiFrameDataCardPreview } from "@/components/character/WikiFrameDataCardPreview";
 import { WikiFrameDataTable } from "@/components/character/WikiFrameDataTable";
 import { characterMoveImagePath } from "@/lib/character-image-path";
@@ -27,6 +28,23 @@ type MoveDataGridProps = {
   characterSlug: string;
   moves: MoveFrameData[];
 };
+
+function moveMatchesQuery(move: MoveFrameData, query: string): boolean {
+  const q = query.trim().toLowerCase();
+  if (!q) return true;
+  const input = displayWikiValue(move.input);
+  const shortInput = getShortInput(move.input);
+  const haystack = [
+    move.nameJa,
+    move.nameEn,
+    move.input ?? "",
+    input,
+    shortInput,
+  ]
+    .join(" ")
+    .toLowerCase();
+  return haystack.includes(q);
+}
 
 function getImageFrames(move: MoveFrameData): MoveImageFrame[] {
   if (move.imageFrames && move.imageFrames.length > 0) {
@@ -140,7 +158,15 @@ function MoveCard({ characterSlug, move, priority, onOpen }: MoveCardProps) {
 }
 
 export function MoveDataGrid({ characterSlug, moves }: MoveDataGridProps) {
-  const sections = useMemo(() => splitMovesIntoSections(moves), [moves]);
+  const [query, setQuery] = useState("");
+  const filteredMoves = useMemo(
+    () => moves.filter((move) => moveMatchesQuery(move, query)),
+    [moves, query],
+  );
+  const sections = useMemo(
+    () => splitMovesIntoSections(filteredMoves),
+    [filteredMoves],
+  );
   const [active, setActive] = useState<MoveFrameData | null>(null);
   const [frameIndex, setFrameIndex] = useState(0);
 
@@ -185,13 +211,25 @@ export function MoveDataGrid({ characterSlug, moves }: MoveDataGridProps) {
 
   return (
     <>
-      <p className="text-[10px] font-semibold tracking-[0.2em] text-muted uppercase">
-        {moves.length} moves — click thumbnail to expand
-        {moves.some((m) => (m.imageFrames?.length ?? 0) > 1)
+      <MoveFilterBar
+        value={query}
+        onChange={setQuery}
+        total={moves.length}
+        visible={filteredMoves.length}
+      />
+
+      <p className="mt-3 text-[10px] font-semibold tracking-[0.2em] text-muted uppercase">
+        {filteredMoves.length} moves — click thumbnail to expand
+        {filteredMoves.some((m) => (m.imageFrames?.length ?? 0) > 1)
           ? "(_1 _2 _3 … shown in card / use ← → when expanded)"
           : ""}
       </p>
 
+      {filteredMoves.length === 0 ? (
+        <p className="mt-4 rounded-lg border border-dashed border-border bg-surface px-4 py-8 text-center text-sm text-muted">
+          No moves match &ldquo;{query.trim()}&rdquo;. Try input (5LP), English name, or Japanese name.
+        </p>
+      ) : (
       <div className="mt-4 space-y-10">
         {sections.map((section) => (
           <section key={section.id} aria-labelledby={`section-${section.id}`}>
@@ -225,6 +263,7 @@ export function MoveDataGrid({ characterSlug, moves }: MoveDataGridProps) {
           </section>
         ))}
       </div>
+      )}
 
       {active && currentFrame ? (
         <div

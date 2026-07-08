@@ -9,10 +9,10 @@ export function HomeSidebar() {
   return (
     <aside
       aria-label="Recommendations and updates"
-      className="flex flex-col gap-4 lg:sticky lg:top-16 lg:self-start"
+      className="flex flex-col gap-3.5 lg:sticky lg:top-[4.25rem] lg:self-start"
     >
       {/* ADSENSE-HOME-SIDEBAR: swap or stack AdSense units here after approval */}
-      <section className="rounded-lg border border-border bg-surface p-3 shadow-sm">
+      <section className="rounded-lg border border-border/80 bg-surface p-3 shadow-sm">
         <p className="text-[10px] font-bold tracking-[0.28em] text-muted uppercase">
           Recommended
         </p>

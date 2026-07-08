@@ -28,24 +28,27 @@ export default function Home() {
       <SiteHeader active="home" />
 
       <section className="border-b border-white/10 bg-[#0a0f0c] text-white">
-        <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-x-2 gap-y-2 px-4 py-2 sm:gap-x-3 sm:px-6 sm:py-2.5 lg:flex-nowrap lg:gap-x-4">
+        <div className="mx-auto grid max-w-7xl items-center gap-2 px-4 py-2.5 sm:px-6 sm:gap-3 lg:grid-cols-[minmax(0,1fr)_auto_auto] lg:gap-4 lg:py-3">
           <h1 id="page-top" className="sr-only">
             {siteNameFull}
           </h1>
-          <p className="min-w-[10rem] max-w-xs shrink-0 text-[11px] font-semibold leading-snug text-white/75 sm:max-w-sm sm:text-sm lg:max-w-md">
+          <p className="min-w-0 max-w-md text-[11px] font-semibold leading-snug text-white/75 sm:text-sm">
             {siteTagline}
           </p>
-          <HomeHeroFactline />
-          <div className="min-w-0 w-full sm:ml-auto sm:w-auto sm:flex-1 lg:flex-none lg:shrink-0">
+          <HomeHeroFactline className="justify-self-center" />
+          <div className="min-w-0 w-full justify-self-stretch sm:justify-self-end lg:w-auto lg:shrink-0">
             <HomeMetaSummary />
           </div>
         </div>
       </section>
 
       <main className="flex-1 bg-background">
-        <div className="mx-auto grid max-w-7xl gap-4 px-4 py-4 sm:px-6 lg:grid-cols-[minmax(0,1fr)_15rem] lg:gap-5">
-          <div className="min-w-0 space-y-8">
-            <section id="roster">
+        <div className="mx-auto grid max-w-7xl gap-4 px-4 py-3 sm:px-6 sm:py-4 lg:grid-cols-[minmax(0,1fr)_14.5rem] lg:gap-6">
+          <div className="min-w-0 space-y-7">
+            <section
+              id="roster"
+              className="rounded-xl border border-border/70 bg-surface p-3 shadow-sm sm:p-4"
+            >
               <CharacterGrid mode="classic" characters={roster} hideHeader />
             </section>
 

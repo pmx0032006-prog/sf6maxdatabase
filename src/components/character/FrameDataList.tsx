@@ -1,4 +1,5 @@
 import type { MoveFrameData } from "@/data/characters/cammy";
+import { HitboxColorLegend } from "@/components/character/HitboxColorLegend";
 import { MoveDataGrid } from "@/components/character/MoveDataGrid";
 import { isCharacterFullyReady } from "@/lib/character-roster";
 
@@ -21,6 +22,7 @@ export function FrameDataList({ characterSlug, moves }: FrameDataListProps) {
 
   return (
     <div className="space-y-4">
+      <HitboxColorLegend />
       {!isCharacterFullyReady(characterSlug) ? (
         <p className="rounded-lg border border-accent/25 bg-accent/5 px-4 py-3 text-center text-xs leading-relaxed text-muted sm:text-sm">
           Hitbox images are live. Frame data (startup, block advantage, etc.) is coming soon.

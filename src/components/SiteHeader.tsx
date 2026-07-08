@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { FavoriteSlots } from "@/components/FavoriteSlots";
+import { HeaderCharacterSearch } from "@/components/HeaderCharacterSearch";
 import { HeaderMetaStrip } from "@/components/HeaderMetaStrip";
 
 type SiteHeaderProps = {
@@ -17,7 +19,7 @@ const navItems = [
 export function SiteHeader({ active }: SiteHeaderProps) {
   return (
     <header className="site-header sticky top-0 z-50 border-b border-accent/40 bg-[#0a0f0c] text-white">
-      <div className="mx-auto grid w-full max-w-6xl grid-cols-[auto_1fr_auto] items-center gap-x-2 gap-y-1 px-4 py-1.5 sm:gap-x-3 sm:px-5 sm:py-2">
+      <div className="mx-auto grid w-full max-w-7xl grid-cols-[auto_1fr_auto] items-center gap-x-2 gap-y-1 px-4 py-1.5 sm:gap-x-3 sm:px-6 sm:py-2">
         <Link href="/" className="group col-start-1 row-start-1 min-w-0 shrink-0 leading-none justify-self-start">
           <p className="text-[9px] font-bold tracking-[0.32em] text-accent sm:text-[10px]">
             STREET FIGHTER 6
@@ -27,11 +29,15 @@ export function SiteHeader({ active }: SiteHeaderProps) {
           </p>
         </Link>
 
-        {active !== "home" ? (
-          <HeaderMetaStrip className="col-start-2 row-start-1 hidden min-w-0 md:flex" />
-        ) : null}
+        <div className="col-span-3 row-start-2 flex min-w-0 flex-col items-stretch gap-1 px-0.5 sm:col-span-1 sm:col-start-2 sm:row-start-1 sm:max-w-xs sm:justify-self-center sm:px-2">
+          <HeaderCharacterSearch />
+          {active !== "home" ? (
+            <HeaderMetaStrip className="hidden min-w-0 xl:flex" />
+          ) : null}
+        </div>
 
-        <div className="col-start-3 row-start-1 flex shrink-0 items-center justify-self-end">
+        <div className="col-start-3 row-start-1 flex shrink-0 items-center justify-self-end gap-2">
+        <FavoriteSlots />
         <nav
           className="hidden shrink-0 items-center gap-0 border-l border-white/15 pl-4 text-[9px] font-bold tracking-[0.16em] sm:flex sm:pl-5 sm:text-[10px]"
           aria-label="Main navigation"

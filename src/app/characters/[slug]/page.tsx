@@ -95,7 +95,7 @@ export default async function CharacterDetailPage({ params }: PageProps) {
         <SiteHeader active="characters" />
         <BackBar />
         <main className="flex-1">
-          <CharacterDetailHeader en={character.en} ja={character.ja} />
+          <CharacterDetailHeader en={character.en} ja={character.ja} slug={slug} />
           <CharacterPreparing en={character.en} ja={character.ja} />
         </main>
         <SiteFooter />
@@ -115,7 +115,7 @@ export default async function CharacterDetailPage({ params }: PageProps) {
       <BackBar />
 
       <main className="flex-1">
-        <CharacterDetailHeader en={character.en} ja={character.ja} />
+        <CharacterDetailHeader en={character.en} ja={character.ja} slug={slug} />
 
         <CharacterTabs
           frameContent={<FrameDataList characterSlug={slug} moves={moves} />}
