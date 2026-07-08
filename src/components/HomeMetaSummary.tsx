@@ -48,7 +48,7 @@ export function HomeMetaSummary() {
 
   return (
     <div
-      className="meta-summary-band flex flex-wrap items-stretch justify-center gap-1.5 sm:gap-2 lg:justify-center"
+      className="meta-summary-band flex flex-nowrap items-stretch justify-start gap-1.5 overflow-x-auto pb-0.5 sm:justify-end sm:gap-2 sm:overflow-visible sm:pb-0 lg:justify-end"
       aria-label="Meta picks overview"
     >
       {items.map((item) => {

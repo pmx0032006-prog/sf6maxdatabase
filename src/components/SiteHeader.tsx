@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { siteName } from "@/lib/site";
+import { HeaderMetaStrip } from "@/components/HeaderMetaStrip";
 
 type SiteHeaderProps = {
   active?: "home" | "characters" | "tier" | "matchups" | "about";
@@ -17,24 +17,29 @@ const navItems = [
 export function SiteHeader({ active }: SiteHeaderProps) {
   return (
     <header className="site-header sticky top-0 z-50 border-b border-accent/40 bg-[#0a0f0c] text-white">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-2 sm:px-10 sm:py-2.5">
-        <Link href="/" className="group min-w-0 shrink leading-tight">
-          <p className="text-[9px] font-bold tracking-[0.28em] text-accent sm:text-[10px]">
+      <div className="mx-auto grid w-full max-w-6xl grid-cols-[auto_1fr_auto] items-center gap-x-2 gap-y-1 px-4 py-1.5 sm:gap-x-3 sm:px-5 sm:py-2">
+        <Link href="/" className="group col-start-1 row-start-1 min-w-0 shrink-0 leading-none justify-self-start">
+          <p className="text-[9px] font-bold tracking-[0.32em] text-accent sm:text-[10px]">
             STREET FIGHTER 6
           </p>
-          <p className="truncate font-display text-sm font-bold tracking-[0.1em] text-white group-hover:text-accent sm:text-base">
-            {siteName.replace("SF6 ", "")}
+          <p className="mt-0.5 truncate font-display text-base font-black uppercase leading-none tracking-tight text-white group-hover:text-accent sm:text-xl lg:text-2xl">
+            MAX <span className="text-accent">DATABASE</span>
           </p>
         </Link>
 
+        {active !== "home" ? (
+          <HeaderMetaStrip className="col-start-2 row-start-1 hidden min-w-0 md:flex" />
+        ) : null}
+
+        <div className="col-start-3 row-start-1 flex shrink-0 items-center justify-self-end">
         <nav
-          className="hidden items-center gap-0 text-[9px] font-bold tracking-[0.18em] sm:flex sm:text-[10px]"
+          className="hidden shrink-0 items-center gap-0 border-l border-white/15 pl-4 text-[9px] font-bold tracking-[0.16em] sm:flex sm:pl-5 sm:text-[10px]"
           aria-label="Main navigation"
         >
           {navItems.map((item, index) => (
             <span key={item.href} className="flex items-center">
               {index > 0 ? (
-                <span className="mx-3 h-3 w-px bg-white/20" aria-hidden />
+                <span className="mx-2 h-3 w-px bg-white/20 sm:mx-2.5" aria-hidden />
               ) : null}
               <Link
                 href={item.href}
@@ -51,7 +56,7 @@ export function SiteHeader({ active }: SiteHeaderProps) {
         </nav>
 
         <nav
-          className="flex items-center gap-2 text-[9px] font-bold tracking-[0.14em] sm:hidden"
+          className="flex shrink-0 items-center gap-1.5 text-[9px] font-bold tracking-[0.12em] sm:hidden"
           aria-label="Mobile navigation"
         >
           <Link href="/" className={active === "home" ? "text-accent" : "text-white/75"}>
@@ -73,6 +78,7 @@ export function SiteHeader({ active }: SiteHeaderProps) {
             相性
           </Link>
         </nav>
+        </div>
       </div>
     </header>
   );

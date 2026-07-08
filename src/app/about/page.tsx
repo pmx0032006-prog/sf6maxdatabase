@@ -16,7 +16,7 @@ const sections = [
     title: "About This Site",
     body: [
       `${siteNameFull} is a database focused on opening Street Fighter 6 frame data and hitbox images quickly on smartphones.`,
-      "We use low-quality JPGs extracted from ~30k assets so low-spec devices can load move data without heavy downloads.",
+      "We use lightweight JPG stills so low-spec phones load hitboxes fast — no heavy GIF downloads.",
     ],
   },
   {
@@ -33,8 +33,18 @@ const sections = [
     title: "How to Read the Data",
     items: [
       {
-        term: "St / Bk / DMG",
-        desc: "Startup frames, block advantage, damage, and more — sourced from the Wiki frame table.",
+        term: "St (Startup)",
+        anchor: "startup",
+        desc: "Frames from your input until the move becomes active. Lower St means a faster button.",
+      },
+      {
+        term: "Bk (Advantage)",
+        anchor: "advantage",
+        desc: "Block advantage on guard — positive (+) means you recover first; negative (−) means your opponent does.",
+      },
+      {
+        term: "DMG & columns",
+        desc: "Damage and other frame-table fields shown on each move row.",
       },
       {
         term: "_1 _2 _3 …",
@@ -51,12 +61,13 @@ const sections = [
     ],
   },
   {
-    id: "source",
-    title: "Data Sources",
+    id: "coverage",
+    title: "What You Get",
     body: [
-      "Frame numbers are based on SuperCombo Wiki (Cargo API), processed and merged for this site.",
-      "Hitbox images come from a proprietary asset set (~30k extracted images).",
-      "Accuracy is always improving — corrections will ship in future updates.",
+      "All 30 roster fighters with move-by-move frame numbers and JPG hitbox stills.",
+      "St, Bk, damage, cancels, and move notes — laid out for quick mid-match lookup.",
+      "Multi-frame moves (_1, _2, _3 …) and expanded detail on every character page.",
+      "We keep shipping fixes and roster updates as SF6 evolves.",
     ],
   },
   {
@@ -111,7 +122,8 @@ export default function AboutPage() {
                     {section.items.map((item) => (
                       <div
                         key={item.term}
-                        className="grid gap-1 px-4 py-3 sm:grid-cols-[9rem_1fr] sm:gap-4 sm:px-5 sm:py-4"
+                        id={"anchor" in item ? item.anchor : undefined}
+                        className="grid scroll-mt-24 gap-1 px-4 py-3 sm:grid-cols-[9rem_1fr] sm:gap-4 sm:px-5 sm:py-4"
                       >
                         <dt className="text-xs font-bold tracking-wide text-accent sm:text-sm">
                           {item.term}

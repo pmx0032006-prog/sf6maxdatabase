@@ -63,7 +63,7 @@ const sections = [
     id: "third-party",
     title: "Third-Party Links",
     body: [
-      "Our site links to external services (for example, Amazon, SuperCombo Wiki, and ad networks). We are not responsible for their privacy practices.",
+      "Our site links to external services (for example, Amazon and ad networks). We are not responsible for their privacy practices.",
       "Please review the privacy policies of any third-party sites you visit.",
     ],
   },

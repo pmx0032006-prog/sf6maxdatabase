@@ -45,7 +45,7 @@
   "reddit_draft": {
     "subreddit": "r/StreetFighter",
     "title": "[Resource] Lightweight SF6 frame data site with JPG hitboxes (mobile-friendly)",
-    "body": "I made a frame data site focused on fast mobile lookup:\n\n- https://www.sf6maxdatabase.com\n- All 30 characters\n- Frame data + still JPG hitbox images (lighter than GIF)\n- Built for low-spec phones\n\nNot affiliated with Capcom. Data sourced from SuperCombo Wiki.\nFeedback welcome if anything looks off."
+    "body": "I made a frame data site focused on fast mobile lookup:\n\n- https://www.sf6maxdatabase.com\n- All 30 characters\n- Frame data + still JPG hitbox images (lighter than GIF)\n- Built for low-spec phones\n\nNot affiliated with Capcom. All 30 fighters — frame data + JPG hitboxes.\nFeedback welcome if anything looks off."
   },
   "checklist": [
     "Open https://x.com/i/flow/signup in a private browser (optional)",

@@ -1,5 +1,5 @@
 import { CharacterGrid } from "@/components/CharacterGrid";
-import { HomeMetaLinks } from "@/components/HomeMetaLinks";
+import { HomeHeroFactline } from "@/components/HomeHeroFactline";
 import { HomeMetaSummary } from "@/components/HomeMetaSummary";
 import { MetaNextSteps } from "@/components/MetaNextSteps";
 import { FeaturesSection } from "@/components/FeaturesSection";
@@ -28,28 +28,16 @@ export default function Home() {
       <SiteHeader active="home" />
 
       <section className="border-b border-white/10 bg-[#0a0f0c] text-white">
-        <div className="mx-auto grid max-w-7xl items-center gap-2.5 px-4 py-2 sm:px-6 sm:py-2.5 lg:grid-cols-[minmax(0,1fr)_auto_minmax(0,19rem)] lg:gap-4 xl:grid-cols-[minmax(0,1fr)_auto_minmax(0,21rem)] xl:gap-5">
-          <div className="min-w-0">
-            <p className="text-[9px] font-bold tracking-[0.32em] text-accent uppercase sm:text-[10px]">
-              Street Fighter 6
-            </p>
-            <h1
-              id="page-top"
-              className="mt-0.5 font-display text-xl font-black uppercase leading-none tracking-tight text-white sm:text-2xl"
-            >
-              MAX <span className="text-accent">DATABASE</span>
-            </h1>
-            <p className="mt-1 max-w-xl text-[11px] leading-snug text-white/55 sm:text-xs">
-              {siteTagline}
-            </p>
-          </div>
-
-          <div className="min-w-0 lg:px-1">
+        <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-x-2 gap-y-2 px-4 py-2 sm:gap-x-3 sm:px-6 sm:py-2.5 lg:flex-nowrap lg:gap-x-4">
+          <h1 id="page-top" className="sr-only">
+            {siteNameFull}
+          </h1>
+          <p className="min-w-[10rem] max-w-xs shrink-0 text-[11px] font-semibold leading-snug text-white/75 sm:max-w-sm sm:text-sm lg:max-w-md">
+            {siteTagline}
+          </p>
+          <HomeHeroFactline />
+          <div className="min-w-0 w-full sm:ml-auto sm:w-auto sm:flex-1 lg:flex-none lg:shrink-0">
             <HomeMetaSummary />
-          </div>
-
-          <div className="min-w-0 lg:justify-self-end">
-            <HomeMetaLinks />
           </div>
         </div>
       </section>

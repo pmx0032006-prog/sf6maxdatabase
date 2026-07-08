@@ -7,7 +7,7 @@ const features = [
   {
     label: "02",
     title: "Lightweight JPG Hitboxes",
-    body: "Low-quality JPGs extracted from ~30k assets. Lighter than GIFs — opens fast on low-spec phones.",
+    body: "Still JPG hitboxes on every move — lighter than GIFs, fast on mobile data and low-spec phones.",
   },
   {
     label: "03",

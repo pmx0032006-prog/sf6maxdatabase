@@ -80,7 +80,7 @@ export function WikiFrameDataTable({ move }: WikiFrameDataTableProps) {
 
         <div className="overflow-x-auto rounded-md border border-border/70">
           <p className="border-b border-border/60 bg-[#0a0f0c]/5 px-3 py-1.5 text-[10px] font-bold tracking-widest text-muted">
-            Details (Wiki)
+            Frame details
           </p>
           <div className="px-2 py-3">
             <FrameStatRow move={move} columns={DETAIL_FRAME_COLUMNS} size="md" />
