@@ -57,6 +57,7 @@ export default function RootLayout({
     >
       <head>
         <meta name='impact-site-verification' value='3e22c3d0-b35a-419f-b3f4-efc54540e266' />
+        <meta name="impact-site-verification" content="3e22c3d0-b35a-419f-b3f4-efc54540e266" />
         <meta name="google-adsense-account" content="ca-pub-8960641434315655" />
         <script
           async
