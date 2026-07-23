@@ -16,7 +16,7 @@ type WikiFrameDataTableProps = {
 export function WikiFrameDataTable({ move }: WikiFrameDataTableProps) {
   const input = displayWikiValue(move.input);
   const shortInput = getShortInput(move.input);
-  const moveName = move.nameEn || move.nameJa;
+  const moveName = move.nameEn || move.nameJa || "—";
   const cancel = displayWikiValue(move.cancel);
 
   const extras = WIKI_FRAME_EXTRA_ROWS.filter((row) => {

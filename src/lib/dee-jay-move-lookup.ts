@@ -21,6 +21,7 @@ function normalizeDeeJayKey(rawKey: string): string {
     .replace(/^dj_/, "")
     .replace(/2c-8/gi, "28")
     .replace(/4c-6/gi, "46")
+    .replace(/4c6/gi, "46")
     .replace(/4-6/gi, "46")
     .replace(/214lk/gi, "214k")
     .replace(/_6lp/gi, "_6p")

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { MetaNextSteps } from "@/components/MetaNextSteps";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { roster } from "@/data/characters";
@@ -24,6 +25,9 @@ export default function TierPage() {
   return (
     <div className="flex min-h-full flex-col">
       <SiteHeader active="tier" />
+      <BreadcrumbJsonLd
+        items={[{ name: "Home", item: siteUrl }, { name: "Tier List", item: `${siteUrl}/tier` }]}
+      />
 
       <main className="flex-1 bg-background">
         <div className="mx-auto max-w-5xl px-4 py-6 sm:px-6 sm:py-8">

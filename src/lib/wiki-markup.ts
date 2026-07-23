@@ -39,6 +39,7 @@ export function frameAdvantageClass(tone: FrameAdvantageTone): string {
 export function getShortInput(input: string | null | undefined): string {
   const cleaned = cleanWikiText(input);
   if (!cleaned) return "—";
+  if (cleaned.includes("+")) return cleaned;
   return cleaned
     .replace(/LP$/i, "L")
     .replace(/MP$/i, "M")

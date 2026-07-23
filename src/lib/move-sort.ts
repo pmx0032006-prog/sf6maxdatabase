@@ -61,6 +61,9 @@ const NORMAL_BUTTON_ORDER: Record<string, number> = {
   lk: 4,
   mk: 5,
   hk: 6,
+  pp: 7,
+  kk: 7,
+  od: 7,
 };
 
 const SIMPLE_STANDING = /^5(lp|mp|hp|lk|mk|hk)$/i;
@@ -123,8 +126,30 @@ function getSectionIndex(slug: string): number {
 }
 
 function getNormalButtonOrder(key: string): number {
-  const match = key.match(/(lp|mp|hp|lk|mk|hk)/i);
-  return match ? (NORMAL_BUTTON_ORDER[match[1].toLowerCase()] ?? 99) : 99;
+  return getButtonStrengthOrder(key);
+}
+
+/** LP→MP→HP→LK→MK→HK (OD/PP/KK last) for any move key. */
+function getButtonStrengthOrder(key: string): number {
+  const lower = key.toLowerCase();
+  const token = lower.match(/(lp|mp|hp|lk|mk|hk|pp|kk|od)/);
+  if (token) {
+    return NORMAL_BUTTON_ORDER[token[1]] ?? 99;
+  }
+
+  const generic = lower.match(/(?:236|623|214|412|360|720|22|44|66|886|898|896|9)([pk])$/);
+  if (generic) {
+    return generic[1] === "p" ? 2 : 5;
+  }
+
+  return 99;
+}
+
+function compareButtonStrength(keyA: string, keyB: string): number {
+  const strengthDiff =
+    getButtonStrengthOrder(keyA) - getButtonStrengthOrder(keyB);
+  if (strengthDiff !== 0) return strengthDiff;
+  return keyA.localeCompare(keyB, "en", { numeric: true });
 }
 
 function getNormalSortTuple(key: string): [number, number, string] {
@@ -132,7 +157,7 @@ function getNormalSortTuple(key: string): [number, number, string] {
     const btn = key.slice(1).toLowerCase();
     return [0, NORMAL_BUTTON_ORDER[btn] ?? 99, key];
   }
-  return [1, 0, key];
+  return [1, getButtonStrengthOrder(key), key];
 }
 
 function compareNormalKeys(keyA: string, keyB: string): number {
@@ -205,6 +230,75 @@ function getSpecialMotionOrder(key: string): number {
   return 99;
 }
 
+/** 214+P (Dimachaerus) vs 214+K (Scutum) vs other 214* within Special Moves */
+type Motion214Bucket = "214p-line" | "214k-family" | "214-other" | "not-214";
+
+function is214KFamilyKey(key: string): boolean {
+  const k = key.toLowerCase();
+  if (/^214(l|m|h)p/.test(k)) return false;
+  if (/^214pp/.test(k)) return false;
+  if (/^214p_/.test(k)) return false;
+  if (k === "214k" || k.startsWith("214k_")) return true;
+  if (k === "214_lplk" || k.startsWith("214_lplk")) return true;
+  if (k === "214k_lp_lk" || k.startsWith("214k_lp_lk")) return true;
+  if (k === "214kk" || k.startsWith("214kk")) return true;
+  if (k.startsWith("214kkod")) return true;
+  return false;
+}
+
+function get214Bucket(key: string): Motion214Bucket {
+  const k = key.toLowerCase();
+  if (!k.startsWith("214")) return "not-214";
+  if (is214KFamilyKey(k)) return "214k-family";
+  if (/^214(l|m|h)p/.test(k) || /^214pp/.test(k) || /^214p_/.test(k)) {
+    return "214p-line";
+  }
+  return "214-other";
+}
+
+function get214BucketOrder(bucket: Motion214Bucket): number {
+  switch (bucket) {
+    case "214p-line":
+      return 1;
+    case "214k-family":
+      return 2;
+    case "214-other":
+      return 3;
+    default:
+      return 0;
+  }
+}
+
+/** Scutum stance → counters → Tonitrus → Procella → Enfold */
+function get214KFamilyOrder(key: string): number {
+  const k = key.toLowerCase();
+  if (k === "214k" || /^214k_(hold|partial_hold)$/.test(k)) return 1;
+  if (k === "214kk" || k.startsWith("214kkod") || /^214kk(_|$)/.test(k)) {
+    return 2;
+  }
+  if (k.includes("counter")) return 3;
+  if (k.startsWith("214k_p")) return 4;
+  if (k.startsWith("214k_k")) return 5;
+  if (k.startsWith("214k_lp_lk") || k === "214k_lplk") return 6;
+  if (k === "214_lplk" || k.startsWith("214_lplk")) return 6;
+  if (k.startsWith("214k_lk")) return 8;
+  return 50;
+}
+
+function compare214SpecialKeys(keyA: string, keyB: string): number {
+  const bucketA = get214Bucket(keyA);
+  const bucketB = get214Bucket(keyB);
+  const bucketDiff = get214BucketOrder(bucketA) - get214BucketOrder(bucketB);
+  if (bucketDiff !== 0) return bucketDiff;
+
+  if (bucketA === "214k-family") {
+    const familyDiff = get214KFamilyOrder(keyA) - get214KFamilyOrder(keyB);
+    if (familyDiff !== 0) return familyDiff;
+  }
+
+  return compareButtonStrength(keyA, keyB);
+}
+
 function getSuperOrder(key: string): number {
   if (/sa1/.test(key)) return 1;
   if (/sa2/.test(key)) return 2;
@@ -232,15 +326,18 @@ export function compareMoveSlugs(a: string, b: string): number {
       const motionDiff =
         getSpecialMotionOrder(keyA) - getSpecialMotionOrder(keyB);
       if (motionDiff !== 0) return motionDiff;
-      return keyA.localeCompare(keyB, "en", { numeric: true });
+      if (keyA.startsWith("214") && keyB.startsWith("214")) {
+        return compare214SpecialKeys(keyA, keyB);
+      }
+      return compareButtonStrength(keyA, keyB);
     }
     case "super": {
       const saDiff = getSuperOrder(keyA) - getSuperOrder(keyB);
       if (saDiff !== 0) return saDiff;
-      return keyA.localeCompare(keyB, "en", { numeric: true });
+      return compareButtonStrength(keyA, keyB);
     }
     default:
-      return keyA.localeCompare(keyB, "en", { numeric: true });
+      return compareButtonStrength(keyA, keyB);
   }
 }
 

@@ -13,12 +13,20 @@ export function FrameStatCell({
 }: {
   move: MoveFrameData;
   col: WikiFrameColumn;
-  size?: "sm" | "md";
+  size?: "sm" | "card" | "card-lg" | "card-xl" | "md";
 }) {
   const value = displayWikiValue(move[col.key] as string | undefined);
   const tone = col.advantage ? getFrameAdvantageTone(value) : "neutral";
   const sizeClass =
-    size === "md" ? "text-sm sm:text-base" : "text-[7px] sm:text-[8px]";
+    size === "md"
+      ? "text-sm sm:text-base"
+      : size === "card-xl"
+        ? "text-xs sm:text-[13px]"
+        : size === "card-lg"
+          ? "text-[10px] sm:text-[11px]"
+          : size === "card"
+            ? "text-[9px] sm:text-[10px]"
+            : "text-[7px] sm:text-[8px]";
 
   return (
     <span
@@ -39,7 +47,7 @@ export function FrameStatRow({
 }: {
   move: MoveFrameData;
   columns: WikiFrameColumn[];
-  size?: "sm" | "md";
+  size?: "sm" | "card" | "card-lg" | "card-xl" | "md";
   highlight?: boolean;
 }) {
   return (
@@ -51,8 +59,20 @@ export function FrameStatRow({
               key={col.key}
               className={`whitespace-nowrap px-0.5 pb-0.5 font-bold leading-tight text-muted ${
                 highlight
-                  ? "text-[7px] sm:text-[8px]"
-                  : "text-[6px] sm:text-[7px]"
+                  ? size === "card-xl"
+                    ? "text-[10px] sm:text-[11px]"
+                    : size === "card-lg"
+                      ? "text-[9px] sm:text-[10px]"
+                      : size === "card"
+                        ? "text-[8px] sm:text-[9px]"
+                        : "text-[7px] sm:text-[8px]"
+                  : size === "card-xl"
+                    ? "text-[9px] sm:text-[10px]"
+                    : size === "card-lg"
+                      ? "text-[8px] sm:text-[9px]"
+                      : size === "card"
+                        ? "text-[7px] sm:text-[8px]"
+                        : "text-[6px] sm:text-[7px]"
               }`}
               title={col.label}
             >
@@ -67,7 +87,13 @@ export function FrameStatRow({
             <td
               key={col.key}
               className={`whitespace-nowrap px-0.5 py-0.5 ${
-                highlight ? "py-1" : ""
+                highlight
+                  ? size === "card-xl"
+                    ? "py-2"
+                    : size === "card-lg"
+                      ? "py-1.5"
+                      : "py-1"
+                  : ""
               }`}
             >
               <FrameStatCell move={move} col={col} size={size} />

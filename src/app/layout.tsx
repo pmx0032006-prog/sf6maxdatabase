@@ -4,6 +4,7 @@ import { siteDescription, siteDomain, siteName, siteNameFull, siteUrl } from "@/
 import { Analytics } from "@vercel/analytics/next";
 import { BackToTop } from "@/components/BackToTop";
 import { DesktopSideRails } from "@/components/DesktopSideRails";
+import { JsonLd } from "@/components/JsonLd";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -24,17 +25,20 @@ export const metadata: Metadata = {
   },
   description: siteDescription,
   openGraph: {
+    // SEO-STRENGTHEN-20260721
     type: "website",
     locale: "en_US",
     url: siteUrl,
     siteName: siteNameFull,
     title: siteNameFull,
     description: siteDescription,
+    images: [{ url: "/characters/ryu.jpg", width: 1200, height: 630, alt: siteNameFull }],
   },
   twitter: {
     card: "summary_large_image",
     title: siteNameFull,
     description: siteDescription,
+    images: ["/characters/ryu.jpg"],
   },
   alternates: {
     canonical: siteUrl,
@@ -62,16 +66,21 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-background text-foreground">
         {/* DESKTOP-SIDE-RAILS */}
         
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebSite",
-              name: siteNameFull,
-              url: siteUrl,
-              description: siteDescription,
-            }),
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: siteNameFull,
+            url: siteUrl,
+            description: siteDescription,
+            potentialAction: {
+              "@type": "SearchAction",
+              target: {
+                "@type": "EntryPoint",
+                urlTemplate: `${siteUrl}/characters?search={search_term_string}`,
+              },
+              "query-input": "required name=search_term_string",
+            },
           }}
         />
         {/* MONETIZATION-PHASE-1: dense Amazon rails (2xl+). AdSense auto ads after approval. */}

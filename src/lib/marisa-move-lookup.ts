@@ -7,11 +7,12 @@ const MARISA_ALIASES: Record<string, string[]> = {
   "214mk": ["214mp"],
   "22hp": ["nj2hp", "nj2hp_hold"],
   "6hp": ["6mp_hp"],
-  "214_lplk": ["4lplk", "214k_lplk"],
+  "214_lplk": ["214k_lp_lk", "214k_lplk"],
+  "214k_lp_lk": ["214k_lplk"],
   "214p_6p": ["214lp_6p", "214mp_6p", "214hp_6p"],
   "214kkod_k": ["214k_k", "214kk"],
   "214kkod_p": ["214k_p", "214k_p_p", "214kk"],
-  "214kkod_lplk": ["214k_lplk", "214kk"],
+  "214kkod_lplk": ["214k_lp_lk", "214k_lplk", "214kk"],
   "214kkod_p_2": ["214k_p_p", "214k_p"],
   "3hphp": ["3hp_3hp"],
   "hphp": ["5hp_hp"],
@@ -22,6 +23,11 @@ const MARISA_ALIASES: Record<string, string[]> = {
   "j2hp": ["nj2hp", "nj2hp_hold"],
   "2km": ["2mk"],
   "236p_ch": ["236lp_hold", "236mp_hold", "236hp_hold"],
+  "214k_lk": ["214k_lp_lk", "214k_lplk"],
+  "214lkmk": ["214k_lp_lk", "214k_lplk"],
+  "214lpmk": ["214k_lp_lk", "214k_lplk"],
+  "236p": ["236lp"],
+  "623p": ["623lp"],
 };
 
 function chargeHoldCandidates(motion: string): string[] {

@@ -1,0 +1,8622 @@
+{
+  "ryu": {
+    "214214p": {
+      "nameEn": "SA2 Shin Hashogeki（Lv1）",
+      "nameJa": "波掌撃"
+    },
+    "214214p_denjin": {
+      "nameEn": "L Hashogeki",
+      "nameJa": "波掌撃"
+    },
+    "214214p_denjin_lv2": {
+      "nameEn": "L Hashogeki",
+      "nameJa": "波掌撃"
+    },
+    "214214p_denjin_lv3": {
+      "nameEn": "L Hashogeki",
+      "nameJa": "波掌撃"
+    },
+    "214214p_lv2": {
+      "nameEn": "SA2 Shin Hashogeki（Lv2）",
+      "nameJa": "波掌撃"
+    },
+    "214214p_lv3": {
+      "nameEn": "SA2 Shin Hashogeki（Lv3）",
+      "nameJa": "波掌撃"
+    },
+    "214hk": {
+      "nameEn": "H Tatsumaki Senpu-kyaku",
+      "nameJa": "竜巻旋風脚"
+    },
+    "214hp": {
+      "nameEn": "H Hashogeki",
+      "nameJa": "波掌撃"
+    },
+    "214kk": {
+      "nameEn": "OD Tatsumaki Senpu-kyaku",
+      "nameJa": "竜巻旋風脚"
+    },
+    "214lk": {
+      "nameEn": "L Tatsumaki Senpu-kyaku",
+      "nameJa": "竜巻旋風脚"
+    },
+    "214lp": {
+      "nameEn": "L Hashogeki",
+      "nameJa": "波掌撃"
+    },
+    "214mk": {
+      "nameEn": "M Tatsumaki Senpu-kyaku",
+      "nameJa": "竜巻旋風脚"
+    },
+    "214mp": {
+      "nameEn": "M Hashogeki",
+      "nameJa": "波掌撃"
+    },
+    "214p(charged)": {
+      "nameEn": "H Hashogeki",
+      "nameJa": "波掌撃"
+    },
+    "214pp": {
+      "nameEn": "OD Hashogeki",
+      "nameJa": "波掌撃"
+    },
+    "214pp(charged)": {
+      "nameEn": "OD Hashogeki",
+      "nameJa": "波掌撃"
+    },
+    "22p": {
+      "nameEn": "Denjin Charge",
+      "nameJa": "電刃錬気"
+    },
+    "236236k": {
+      "nameEn": "SA3 Shin Shoryuken",
+      "nameJa": "真・昇龍拳"
+    },
+    "236236k(ca)": {
+      "nameEn": "CA Shin Shoryuken",
+      "nameJa": "真・昇龍拳"
+    },
+    "236236p": {
+      "nameEn": "SA1 Shinku Hadoken",
+      "nameJa": "真空波動拳"
+    },
+    "236236p_denjin": {
+      "nameEn": "L Hadoken",
+      "nameJa": "波動拳"
+    },
+    "236hk": {
+      "nameEn": "H High Blade Kick",
+      "nameJa": "上段足刀蹴り"
+    },
+    "236hp": {
+      "nameEn": "H Hadoken",
+      "nameJa": "波動拳"
+    },
+    "236kk": {
+      "nameEn": "OD High Blade Kick",
+      "nameJa": "上段足刀蹴り"
+    },
+    "236lk": {
+      "nameEn": "L High Blade Kick",
+      "nameJa": "上段足刀蹴り"
+    },
+    "236lp": {
+      "nameEn": "L Hadoken",
+      "nameJa": "波動拳"
+    },
+    "236mk": {
+      "nameEn": "M High Blade Kick",
+      "nameJa": "上段足刀蹴り"
+    },
+    "236mp": {
+      "nameEn": "M Hadoken",
+      "nameJa": "波動拳"
+    },
+    "236p(charged)": {
+      "nameEn": "H Hadoken",
+      "nameJa": "波動拳"
+    },
+    "236pp": {
+      "nameEn": "OD Hadoken",
+      "nameJa": "波動拳"
+    },
+    "236pp(charged)": {
+      "nameEn": "OD Hadoken",
+      "nameJa": "波動拳"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "回転足払い"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "突き上げアッパー"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "しゃがみ弱K（キック）"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "しゃがみ弱P（ジャブ）"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "しゃがみ中K（くるぶしキック）"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "しゃがみ中P（ストレート）"
+    },
+    "4hk": {
+      "nameEn": "Axe Kick",
+      "nameJa": "かかと落とし"
+    },
+    "4hp": {
+      "nameEn": "Short Uppercut",
+      "nameJa": "上げ突き"
+    },
+    "4lplk": {
+      "nameEn": "Somersault Throw",
+      "nameJa": "巴投げ"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "後ろ回し蹴り"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "正拳突き"
+    },
+    "5hp_hk": {
+      "nameEn": "High Double Strike",
+      "nameJa": "上段二連撃"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "立ち弱K（ローキック）"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "立ち弱P（ジャブ）"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "横蹴り"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "鉤突き"
+    },
+    "5mp_lk": {
+      "nameEn": "L Fuwa Triple Strike",
+      "nameJa": "不破三連撃"
+    },
+    "5mp_lk_hk": {
+      "nameEn": "Fuwa Triple Strike(2)",
+      "nameJa": "不破三連撃"
+    },
+    "623hp": {
+      "nameEn": "H Shoryuken",
+      "nameJa": "昇龍拳"
+    },
+    "623lp": {
+      "nameEn": "L Shoryuken",
+      "nameJa": "昇龍拳"
+    },
+    "623mp": {
+      "nameEn": "M Shoryuken",
+      "nameJa": "昇龍拳"
+    },
+    "623pp": {
+      "nameEn": "OD Shoryuken",
+      "nameJa": "昇龍拳"
+    },
+    "6hk": {
+      "nameEn": "Whirlwind Kick",
+      "nameJa": "旋風脚"
+    },
+    "6hk_214k": {
+      "nameEn": "Aerial Tatsumaki Senpu-kyaku",
+      "nameJa": "空中竜巻旋風脚"
+    },
+    "6hk_214kk": {
+      "nameEn": "OD Aerial Tatsumaki Senpu-kyaku",
+      "nameJa": "空中竜巻旋風脚"
+    },
+    "6hp": {
+      "nameEn": "Solar Plexus Strike",
+      "nameJa": "鳩尾砕き"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Chest Strike",
+      "nameJa": "胸尖打ち"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Chest Strike",
+      "nameJa": "胸尖打ち"
+    },
+    "6mp": {
+      "nameEn": "Collarbone Breaker",
+      "nameJa": "鎖骨割り"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Shingeki",
+      "nameJa": "震撃"
+    },
+    "j214k": {
+      "nameEn": "Aerial Tatsumaki Senpu-kyaku",
+      "nameJa": "空中竜巻旋風脚"
+    },
+    "j214kk": {
+      "nameEn": "OD Aerial Tatsumaki Senpu-kyaku",
+      "nameJa": "空中竜巻旋風脚"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "跳び前蹴り"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "ジャンプ強P（ストレート）"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "ひざ蹴り"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "肘落とし"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "飛び蹴り"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "すくい突き"
+    },
+    "lplk": {
+      "nameEn": "Shoulder Throw",
+      "nameJa": "背負い投げ"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  },
+  "ken": {
+    "214214k": {
+      "nameEn": "SA1 Dragonlash Flame",
+      "nameJa": "龍尾烈脚"
+    },
+    "214hk": {
+      "nameEn": "H Tatsumaki Senpu-kyaku",
+      "nameJa": "竜巻旋風脚"
+    },
+    "214kk": {
+      "nameEn": "OD Tatsumaki Senpu-kyaku",
+      "nameJa": "竜巻旋風脚"
+    },
+    "214lk": {
+      "nameEn": "L Tatsumaki Senpu-kyaku",
+      "nameJa": "竜巻旋風脚"
+    },
+    "214mk": {
+      "nameEn": "M Tatsumaki Senpu-kyaku",
+      "nameJa": "竜巻旋風脚"
+    },
+    "236236k": {
+      "nameEn": "SA2 Shippu Jinrai-kyaku",
+      "nameJa": "疾風迅雷脚"
+    },
+    "236236p": {
+      "nameEn": "SA3 Shinryu Reppa",
+      "nameJa": "神龍烈破"
+    },
+    "236236p(ca)": {
+      "nameEn": "CA Shinryu Reppa",
+      "nameJa": "神龍烈破"
+    },
+    "236hk": {
+      "nameEn": "H Jinrai Kick",
+      "nameJa": "迅雷脚"
+    },
+    "236hp": {
+      "nameEn": "H Hadoken",
+      "nameJa": "波動拳"
+    },
+    "236k_6hk": {
+      "nameEn": "Senka Snap Kick",
+      "nameJa": "閃火脚"
+    },
+    "236k_6lk": {
+      "nameEn": "Kazekama Shin Kick",
+      "nameJa": "風鎌蹴り"
+    },
+    "236k_6mk": {
+      "nameEn": "Gorai Axe Kick",
+      "nameJa": "轟雷落とし"
+    },
+    "236kk": {
+      "nameEn": "OD Jinrai Kick",
+      "nameJa": "迅雷脚"
+    },
+    "236kk_6hk": {
+      "nameEn": "Senka Snap Kick",
+      "nameJa": "閃火脚"
+    },
+    "236kk_6hk_6k": {
+      "nameEn": "Kasai Thrust Kick",
+      "nameJa": "火砕蹴"
+    },
+    "236kk_6lk": {
+      "nameEn": "Kazekama Shin Kick",
+      "nameJa": "風鎌蹴り"
+    },
+    "236kk_6lk_6k": {
+      "nameEn": "Kasai Thrust Kick",
+      "nameJa": "火砕蹴"
+    },
+    "236kk_6mk": {
+      "nameEn": "Gorai Axe Kick",
+      "nameJa": "轟雷落とし"
+    },
+    "236kk_6mk_6k": {
+      "nameEn": "Kasai Thrust Kick",
+      "nameJa": "火砕蹴"
+    },
+    "236lk": {
+      "nameEn": "L Jinrai Kick",
+      "nameJa": "迅雷脚"
+    },
+    "236lp": {
+      "nameEn": "L Hadoken",
+      "nameJa": "波動拳"
+    },
+    "236mk": {
+      "nameEn": "M Jinrai Kick",
+      "nameJa": "迅雷脚"
+    },
+    "236mp": {
+      "nameEn": "M Hadoken",
+      "nameJa": "波動拳"
+    },
+    "236pp": {
+      "nameEn": "OD Hadoken",
+      "nameJa": "波動拳"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "回転足払い"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "突き上げアッパー"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "しゃがみ弱K（キック）"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "しゃがみ弱P （ジャブ）"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "しゃがみ中K （くるぶしキック）"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "しゃがみ中P （ストレート）"
+    },
+    "4lplk": {
+      "nameEn": "Hell Wheel",
+      "nameJa": "地獄車"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "一文字蹴り"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "正拳突き"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "立ち弱K （ローキック）"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "立ち弱P （ジャブ）"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "上段横蹴り"
+    },
+    "5mk_mk": {
+      "nameEn": "M Triple Flash Kicks",
+      "nameJa": "閃光連脚"
+    },
+    "5mk_mk_hk": {
+      "nameEn": "Triple Flash Kicks (2)",
+      "nameJa": "閃光連脚"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "顎撥"
+    },
+    "5mp_hp": {
+      "nameEn": "Chin Buster",
+      "nameJa": "顎撥二連"
+    },
+    "623hk": {
+      "nameEn": "H Dragonlash Kick",
+      "nameJa": "龍尾脚"
+    },
+    "623hp": {
+      "nameEn": "H Shoryuken",
+      "nameJa": "昇龍拳"
+    },
+    "623kk": {
+      "nameEn": "OD Dragonlash Kick",
+      "nameJa": "龍尾脚"
+    },
+    "623lk": {
+      "nameEn": "L Dragonlash Kick",
+      "nameJa": "龍尾脚"
+    },
+    "623lp": {
+      "nameEn": "L Shoryuken",
+      "nameJa": "昇龍拳"
+    },
+    "623mk": {
+      "nameEn": "M Dragonlash Kick",
+      "nameJa": "龍尾脚"
+    },
+    "623mp": {
+      "nameEn": "M Shoryuken",
+      "nameJa": "昇龍拳"
+    },
+    "623pp": {
+      "nameEn": "OD Shoryuken",
+      "nameJa": "昇龍拳"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Lightning Crack",
+      "nameJa": "雷突蹴"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Lightning Crack",
+      "nameJa": "雷突蹴"
+    },
+    "8jhk": {
+      "nameEn": "Neutral Jumping Heavy Kick",
+      "nameJa": "飛び旋風脚"
+    },
+    "hphk": {
+      "nameEn": "Perfect Parry (strike)",
+      "nameJa": "焔撃ち"
+    },
+    "j214k": {
+      "nameEn": "Aerial Tatsumaki Senpu-kyaku",
+      "nameJa": "空中竜巻旋風脚"
+    },
+    "j214kk": {
+      "nameEn": "OD Aerial Tatsumaki Senpu-kyaku",
+      "nameJa": "空中竜巻旋風脚"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "飛び蹴り"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "打ち下ろしストレート"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "ひざ蹴り"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "肘打ち"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "ひざ落とし"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "ジャンプ中P （ストレート）"
+    },
+    "kk": {
+      "nameEn": "Quick Dash",
+      "nameJa": "奮迅脚"
+    },
+    "kk_214k": {
+      "nameEn": "L Tatsumaki Senpu-kyaku",
+      "nameJa": "竜巻旋風脚"
+    },
+    "kk_623k": {
+      "nameEn": "L Dragonlash Kick",
+      "nameJa": "龍尾脚"
+    },
+    "kk_623p": {
+      "nameEn": "L Shoryuken",
+      "nameJa": "昇龍拳"
+    },
+    "kk_hk": {
+      "nameEn": "Forward Step Kick",
+      "nameJa": "踏み込み前蹴り"
+    },
+    "kk_lk": {
+      "nameEn": "Emergency Stop",
+      "nameJa": "急停止"
+    },
+    "kk_mk": {
+      "nameEn": "Thunder Kick",
+      "nameJa": "紫電カカト落とし"
+    },
+    "lplk": {
+      "nameEn": "Knee Strikes",
+      "nameJa": "掴み膝蹴り"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  },
+  "luke": {
+    "214214p": {
+      "nameEn": "SA2 Eraser",
+      "nameJa": "イレイザー"
+    },
+    "214hp": {
+      "nameEn": "H Flash Knuckle",
+      "nameJa": "フラッシュナックル"
+    },
+    "214hp_hold": {
+      "nameEn": "L Flash Knuckle(Charged)",
+      "nameJa": "フラッシュナックル"
+    },
+    "214hp_perfect": {
+      "nameEn": "L Flash Knuckle(Perfect)",
+      "nameJa": "フラッシュナックル"
+    },
+    "214lp": {
+      "nameEn": "L Flash Knuckle",
+      "nameJa": "フラッシュナックル"
+    },
+    "214lp_hold": {
+      "nameEn": "L Flash Knuckle(Charged)",
+      "nameJa": "フラッシュナックル"
+    },
+    "214lp_perfect": {
+      "nameEn": "L Flash Knuckle(Perfect)",
+      "nameJa": "フラッシュナックル"
+    },
+    "214mp": {
+      "nameEn": "M Flash Knuckle",
+      "nameJa": "フラッシュナックル"
+    },
+    "214mp_hold": {
+      "nameEn": "L Flash Knuckle(Charged)",
+      "nameJa": "フラッシュナックル"
+    },
+    "214mp_perfect": {
+      "nameEn": "L Flash Knuckle(Perfect)",
+      "nameJa": "フラッシュナックル"
+    },
+    "214pp": {
+      "nameEn": "OD Flash Knuckle",
+      "nameJa": "フラッシュナックル"
+    },
+    "214pp_pp": {
+      "nameEn": "DDT",
+      "nameJa": "DDT"
+    },
+    "236236k": {
+      "nameEn": "SA3 Pale Rider",
+      "nameJa": "ペイルライダー"
+    },
+    "236236k(ca)": {
+      "nameEn": "CA Pale Rider",
+      "nameJa": "ペイルライダー"
+    },
+    "236236p": {
+      "nameEn": "SA1 Vulcan Blast",
+      "nameJa": "バルカンブラスト"
+    },
+    "236hp": {
+      "nameEn": "H Sand Blast",
+      "nameJa": "サンドブラスト"
+    },
+    "236k": {
+      "nameEn": "Avenger",
+      "nameJa": "アベンジャー"
+    },
+    "236k_k": {
+      "nameEn": "Impaler",
+      "nameJa": "インパラー"
+    },
+    "236k_p": {
+      "nameEn": "No Chaser",
+      "nameJa": "ノーチェイサー"
+    },
+    "236kk": {
+      "nameEn": "OD Avenger",
+      "nameJa": "アベンジャー"
+    },
+    "236kk_k": {
+      "nameEn": "Impaler",
+      "nameJa": "インパラー"
+    },
+    "236kk_p": {
+      "nameEn": "No Chaser",
+      "nameJa": "ノーチェイサー"
+    },
+    "236lp": {
+      "nameEn": "L Sand Blast",
+      "nameJa": "サンドブラスト"
+    },
+    "236mp": {
+      "nameEn": "M Sand Blast",
+      "nameJa": "サンドブラスト"
+    },
+    "236pp": {
+      "nameEn": "OD Sand Blast",
+      "nameJa": "サンドブラスト"
+    },
+    "236pp_pp": {
+      "nameEn": "Fatal Shot",
+      "nameJa": "フェイタルショット"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "しゃがみ強K（トレンチブレイク）"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "しゃがみ強P（アンチエアランチャー）"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "しゃがみ弱K（アンクルスナイプ）"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "しゃがみ弱P（ファストジャブ）"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "しゃがみ中K（カーフスカッシュ）"
+    },
+    "2mk_2hp": {
+      "nameEn": "Nose Breaker",
+      "nameJa": "ノーズブレイカー"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "しゃがみ中P（スラッグショット）"
+    },
+    "4hk": {
+      "nameEn": "Outlaw Kick",
+      "nameJa": "アウトローキック"
+    },
+    "4hp": {
+      "nameEn": "Suppressor",
+      "nameJa": "サプレッサー"
+    },
+    "4lplk": {
+      "nameEn": "Scrapper",
+      "nameJa": "スクラッパー"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "立ち強K（キャノンボール）"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P（クラッシャー）"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "立ち弱K（レッグハント）"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "立ち弱P（ファーストスティンガー）"
+    },
+    "5lp_mp": {
+      "nameEn": "Triple Impact(2)",
+      "nameJa": "トリプルインパクト"
+    },
+    "5lp_mp_hp": {
+      "nameEn": "Triple Impact(2)",
+      "nameJa": "トリプルインパクト"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "立ち中K（アンブッシュスピア）"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "立ち中P（トリガーフィスト）"
+    },
+    "5mp_mp": {
+      "nameEn": "Snapback Combo(2)",
+      "nameJa": "スナップバックコンボ"
+    },
+    "5mp_mp_mp": {
+      "nameEn": "Snapback Combo(2)",
+      "nameJa": "スナップバックコンボ"
+    },
+    "5mp_mp_mp_mp": {
+      "nameEn": "Snapback Combo(3)",
+      "nameJa": "スナップバックコンボ"
+    },
+    "623hp": {
+      "nameEn": "H Rising Uppercut",
+      "nameJa": "ライジングアッパー"
+    },
+    "623lp": {
+      "nameEn": "L Rising Uppercut",
+      "nameJa": "ライジングアッパー"
+    },
+    "623mp": {
+      "nameEn": "M Rising Uppercut",
+      "nameJa": "ライジングアッパー"
+    },
+    "623pp": {
+      "nameEn": "OD Rising Uppercut",
+      "nameJa": "ライジングアッパー"
+    },
+    "623pp_pp": {
+      "nameEn": "Slam Dunk",
+      "nameJa": "スラムダンク"
+    },
+    "6hp_hp": {
+      "nameEn": "Double Impact(1)",
+      "nameJa": "ダブルインパクト"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Battering Ram",
+      "nameJa": "ドライブリバーサル（バッターリングラム）"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Battering Ram",
+      "nameJa": "ドライブリバーサル（バッターリングラム）"
+    },
+    "6mp": {
+      "nameEn": "Rawhide",
+      "nameJa": "ローハイド"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Muzzle Flash",
+      "nameJa": "ドライブインパクト（マズルフラッシュ）"
+    },
+    "j214p": {
+      "nameEn": "Aerial Flash Knuckle",
+      "nameJa": "エアフラッシュナックル"
+    },
+    "j214p_hold": {
+      "nameEn": "Aerial Flash Knuckle(Charged)",
+      "nameJa": "フラッシュナックル"
+    },
+    "j214pp": {
+      "nameEn": "OD Aerial Flash Knuckle",
+      "nameJa": "エアフラッシュナックル"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "ジャンプ強K（ヘブンリーストライク）"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "ジャンプ強P（ガンメタルハンマー）"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "ジャンプ弱K（デルタニー）"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "ジャンプ弱P（ワンバレット）"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "ジャンプ中K（バーチカルテイル）"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "ジャンプ中P（エア・インターセプター）"
+    },
+    "lplk": {
+      "nameEn": "Sweeper",
+      "nameJa": "スウィーパー"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  },
+  "jamie": {
+    "214214p": {
+      "nameEn": "SA2 The Devil's Song",
+      "nameJa": "絶唱魔身"
+    },
+    "214hp_dl2": {
+      "nameEn": "H Swagger Step",
+      "nameJa": "酔疾歩"
+    },
+    "214lp_dl2": {
+      "nameEn": "L Swagger Step",
+      "nameJa": "酔疾歩"
+    },
+    "214mp_dl2": {
+      "nameEn": "M Swagger Step",
+      "nameJa": "酔疾歩"
+    },
+    "214p_6p": {
+      "nameEn": "Swagger Hermit Punch",
+      "nameJa": "疾歩仙掌"
+    },
+    "214pp_6p": {
+      "nameEn": "Swagger Hermit Punch",
+      "nameJa": "疾歩仙掌"
+    },
+    "214pp_dl2": {
+      "nameEn": "OD Swagger Step",
+      "nameJa": "酔疾歩"
+    },
+    "22p": {
+      "nameEn": "The Devil Inside",
+      "nameJa": "魔身"
+    },
+    "22p_2": {
+      "nameEn": "The Devil Inside",
+      "nameJa": "魔身"
+    },
+    "22p_3": {
+      "nameEn": "The Devil Inside",
+      "nameJa": "魔身"
+    },
+    "22p_4": {
+      "nameEn": "The Devil Inside",
+      "nameJa": "魔身"
+    },
+    "22p_activation": {
+      "nameEn": "The Devil Inside",
+      "nameJa": "魔身"
+    },
+    "236236k_dl2": {
+      "nameEn": "SA1 Breakin'",
+      "nameJa": "武麗禽"
+    },
+    "236236k_drink_dl2": {
+      "nameEn": "SA1 Breakin'",
+      "nameJa": "武麗禽"
+    },
+    "236236p(ca)_dl2": {
+      "nameEn": "CA Getsuga Saiho",
+      "nameJa": "月牙叉炮"
+    },
+    "236236p_dl2": {
+      "nameEn": "SA3 Getsuga Saiho",
+      "nameJa": "月牙叉炮"
+    },
+    "236hk_dl2": {
+      "nameEn": "H Bakkai",
+      "nameJa": "爆廻"
+    },
+    "236hp_6k_6k_dl2": {
+      "nameEn": "M Freeflow Kicks(2)",
+      "nameJa": "流酔脚"
+    },
+    "236hp_6k_dl2": {
+      "nameEn": "Freeflow Kicks",
+      "nameJa": "流酔脚"
+    },
+    "236hp_6p_6p_dl2": {
+      "nameEn": "Freeflow Strikes",
+      "nameJa": "流酔拳"
+    },
+    "236hp_6p_6p_dl4": {
+      "nameEn": "Freeflow Strikes",
+      "nameJa": "流酔拳"
+    },
+    "236hp_6p_dl2": {
+      "nameEn": "Freeflow Strikes",
+      "nameJa": "流酔拳"
+    },
+    "236hp_6p_dl4": {
+      "nameEn": "Freeflow Strikes",
+      "nameJa": "流酔拳"
+    },
+    "236hp_dl2": {
+      "nameEn": "H Freeflow Strikes(1)",
+      "nameJa": "流酔拳"
+    },
+    "236hp_dl4": {
+      "nameEn": "H Freeflow Strikes(1)",
+      "nameJa": "流酔拳"
+    },
+    "236kk_dl2": {
+      "nameEn": "OD Bakkai",
+      "nameJa": "爆廻"
+    },
+    "236lk_dl2": {
+      "nameEn": "L Bakkai",
+      "nameJa": "爆廻"
+    },
+    "236lp_6k_6k_dl2": {
+      "nameEn": "M Freeflow Kicks(2)",
+      "nameJa": "流酔脚"
+    },
+    "236lp_6k_dl2": {
+      "nameEn": "Freeflow Kicks",
+      "nameJa": "流酔脚"
+    },
+    "236lp_6p_6p_dl2": {
+      "nameEn": "Freeflow Strikes",
+      "nameJa": "流酔拳"
+    },
+    "236lp_6p_6p_dl4": {
+      "nameEn": "Freeflow Strikes",
+      "nameJa": "流酔拳"
+    },
+    "236lp_6p_dl2": {
+      "nameEn": "Freeflow Strikes",
+      "nameJa": "流酔拳"
+    },
+    "236lp_6p_dl4": {
+      "nameEn": "Freeflow Strikes",
+      "nameJa": "流酔拳"
+    },
+    "236lp_dl2": {
+      "nameEn": "L Freeflow Strikes(1)",
+      "nameJa": "流酔拳"
+    },
+    "236lp_dl4": {
+      "nameEn": "L Freeflow Strikes(1)",
+      "nameJa": "流酔拳"
+    },
+    "236mk_dl2": {
+      "nameEn": "M Bakkai",
+      "nameJa": "爆廻"
+    },
+    "236mp_6k_6k_dl2": {
+      "nameEn": "M Freeflow Kicks(2)",
+      "nameJa": "流酔脚"
+    },
+    "236mp_6k_dl2": {
+      "nameEn": "Freeflow Kicks",
+      "nameJa": "流酔脚"
+    },
+    "236mp_6p_6p_dl2": {
+      "nameEn": "Freeflow Strikes",
+      "nameJa": "流酔拳"
+    },
+    "236mp_6p_6p_dl4": {
+      "nameEn": "Freeflow Strikes",
+      "nameJa": "流酔拳"
+    },
+    "236mp_6p_dl2": {
+      "nameEn": "Freeflow Strikes",
+      "nameJa": "流酔拳"
+    },
+    "236mp_6p_dl4": {
+      "nameEn": "Freeflow Strikes",
+      "nameJa": "流酔拳"
+    },
+    "236mp_dl2": {
+      "nameEn": "M Freeflow Strikes(1)",
+      "nameJa": "流酔拳"
+    },
+    "236mp_dl4": {
+      "nameEn": "M Freeflow Strikes(1)",
+      "nameJa": "流酔拳"
+    },
+    "236pp_6k_6k_dl2": {
+      "nameEn": "M Freeflow Kicks(2)",
+      "nameJa": "流酔脚"
+    },
+    "236pp_6k_dl2": {
+      "nameEn": "Freeflow Kicks",
+      "nameJa": "流酔脚"
+    },
+    "236pp_6p_6p_dl2": {
+      "nameEn": "Freeflow Strikes",
+      "nameJa": "流酔拳"
+    },
+    "236pp_6p_6p_dl4": {
+      "nameEn": "Freeflow Strikes",
+      "nameJa": "流酔拳"
+    },
+    "236pp_6p_dl2": {
+      "nameEn": "Freeflow Strikes",
+      "nameJa": "流酔拳"
+    },
+    "236pp_6p_dl4": {
+      "nameEn": "Freeflow Strikes",
+      "nameJa": "流酔拳"
+    },
+    "236pp_dl2": {
+      "nameEn": "OD Freeflow Strikes(1)",
+      "nameJa": "流酔拳"
+    },
+    "236pp_dl4": {
+      "nameEn": "OD Freeflow Strikes(1)",
+      "nameJa": "流酔拳"
+    },
+    "2hk_dl2": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "始廻"
+    },
+    "2hk_hk_dl2": {
+      "nameEn": "H Phantom Sway",
+      "nameJa": "幻酔舞"
+    },
+    "2hk_hk_p_dl2": {
+      "nameEn": "Phantom Sway",
+      "nameJa": "幻酔舞"
+    },
+    "2hp_dl2": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "月穿"
+    },
+    "2kk_dl2": {
+      "nameEn": "Tensei Kick",
+      "nameJa": "天晴脚"
+    },
+    "2lk_dl2": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "先歩"
+    },
+    "2lp_dl2": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "杯打"
+    },
+    "2mk_dl2": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "膝降蹴"
+    },
+    "2mp_dl2": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "透骨拳"
+    },
+    "4hp_dl2": {
+      "nameEn": "Hermit's Elbow",
+      "nameJa": "仙姑肘"
+    },
+    "4hp_dl3": {
+      "nameEn": "Hermit's Elbow",
+      "nameJa": "仙姑肘"
+    },
+    "4hp_hp_dl3": {
+      "nameEn": "Intoxicated Assault(1)",
+      "nameJa": "酩酊襲"
+    },
+    "4hp_hp_hk_dl3": {
+      "nameEn": "Intoxicated Assault(2)",
+      "nameJa": "酩酊襲"
+    },
+    "4lplk_dl2": {
+      "nameEn": "Wheel Punch",
+      "nameJa": "転輪衝"
+    },
+    "5hk_dl2": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "魔霞弧"
+    },
+    "5hp_dl2": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "連發拳"
+    },
+    "5lk_dl2": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "頂奏"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "杯打"
+    },
+    "5lp_dl2": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "杯打"
+    },
+    "5lp_lk_dl2": {
+      "nameEn": "Bitter Strikes(1)",
+      "nameJa": "鋭鍾打"
+    },
+    "5lp_lk_mp_dl2": {
+      "nameEn": "Bitter Strikes(2)",
+      "nameJa": "鋭鍾打"
+    },
+    "5mk_dl2": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "瞬歩脚"
+    },
+    "5mp_dl2": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "背束拳"
+    },
+    "623hk_dl2": {
+      "nameEn": "H Arrow Kick",
+      "nameJa": "張弓腿"
+    },
+    "623kk_dl2": {
+      "nameEn": "OD Arrow Kick",
+      "nameJa": "張弓腿"
+    },
+    "623lk_dl2": {
+      "nameEn": "L Arrow Kick",
+      "nameJa": "張弓腿"
+    },
+    "623mk_dl2": {
+      "nameEn": "M Arrow Kick",
+      "nameJa": "張弓腿"
+    },
+    "63214k_dl3": {
+      "nameEn": "Tenshin",
+      "nameJa": "点辰"
+    },
+    "63214kk_dl3": {
+      "nameEn": "OD Tenshin",
+      "nameJa": "点辰"
+    },
+    "6hk_4hk_dl4": {
+      "nameEn": "H Ransui Haze",
+      "nameJa": "乱酔旋"
+    },
+    "6hk_4hk_p_close_dl4": {
+      "nameEn": "Ransui Haze",
+      "nameJa": "乱酔旋"
+    },
+    "6hk_4hk_p_far_dl4": {
+      "nameEn": "Ransui Haze",
+      "nameJa": "乱酔旋"
+    },
+    "6hk_4hk_p_mid_dl4": {
+      "nameEn": "Ransui Haze",
+      "nameJa": "乱酔旋"
+    },
+    "6hk_dl2": {
+      "nameEn": "Senei Kick",
+      "nameJa": "旋影脚"
+    },
+    "6hk_dl4": {
+      "nameEn": "Senei Kick",
+      "nameJa": "旋影脚"
+    },
+    "6hphk_dl2": {
+      "nameEn": "Drive Reversal (while blocking): Leg Sweep",
+      "nameJa": "空掃腿"
+    },
+    "6hphk_dl2_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Leg Sweep",
+      "nameJa": "空掃腿"
+    },
+    "6mk": {
+      "nameEn": "Falling Star Kick",
+      "nameJa": "落星脚"
+    },
+    "6mk_dl2": {
+      "nameEn": "Falling Star Kick",
+      "nameJa": "落星脚"
+    },
+    "6mk_mk_dl2": {
+      "nameEn": "M Full Moon Kick",
+      "nameJa": "円月脚"
+    },
+    "6mk_mk_p_dl2": {
+      "nameEn": "Full Moon Kick",
+      "nameJa": "円月脚"
+    },
+    "j214k_dl2": {
+      "nameEn": "M Luminous Dive Kick",
+      "nameJa": "無影蹴"
+    },
+    "j214kk_dl2": {
+      "nameEn": "OD Luminous Dive Kick",
+      "nameJa": "無影蹴"
+    },
+    "jhk_dl2": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "連空腿"
+    },
+    "jhp_dl2": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "鞭槌打"
+    },
+    "jlk_dl2": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "麓刺"
+    },
+    "jlp_dl2": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "裏肘落"
+    },
+    "jmk_dl2": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "飛燕腿"
+    },
+    "jmp_dl2": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "雲掴"
+    },
+    "lplk_dl2": {
+      "nameEn": "Back Shaver",
+      "nameJa": "背剪手"
+    },
+    "lplk_dl2_hold": {
+      "nameEn": "Back Shaver",
+      "nameJa": "背剪手"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  },
+  "manon": {
+    "214214k": {
+      "nameEn": "SA2 Étoile",
+      "nameJa": "エトワール"
+    },
+    "214hk": {
+      "nameEn": "H  Dégagé",
+      "nameJa": "デガジェ"
+    },
+    "214kk": {
+      "nameEn": "OD Dégagé",
+      "nameJa": "デガジェ"
+    },
+    "214lk": {
+      "nameEn": "L Dégagé",
+      "nameJa": "デガジェ"
+    },
+    "214mk": {
+      "nameEn": "M Dégagé",
+      "nameJa": "デガジェ"
+    },
+    "236236k": {
+      "nameEn": "SA1 Arabesque",
+      "nameJa": "アラベスク"
+    },
+    "236236p": {
+      "nameEn": "SA3 Pas de Deux",
+      "nameJa": "パ・ド・ドゥ"
+    },
+    "236236p(ca)": {
+      "nameEn": "CA Pas de Deux",
+      "nameJa": "パ・ド・ドゥ"
+    },
+    "236hk": {
+      "nameEn": "H Rond-point",
+      "nameJa": "ロン・ポワン"
+    },
+    "236hp": {
+      "nameEn": "H Renversé",
+      "nameJa": "ランヴェルセ"
+    },
+    "236kk": {
+      "nameEn": "OD Rond-point",
+      "nameJa": "ロン・ポワン"
+    },
+    "236lk": {
+      "nameEn": "L Rond-point",
+      "nameJa": "ロン・ポワン"
+    },
+    "236lp": {
+      "nameEn": "L Renversé",
+      "nameJa": "ランヴェルセ"
+    },
+    "236mk": {
+      "nameEn": "M Rond-point",
+      "nameJa": "ロン・ポワン"
+    },
+    "236mp": {
+      "nameEn": "M Renversé",
+      "nameJa": "ランヴェルセ"
+    },
+    "236p_hold": {
+      "nameEn": "L Renversé(Attack changes according to Medal level)",
+      "nameJa": "ランヴェルセ"
+    },
+    "236p_k": {
+      "nameEn": "Grand Fouetté",
+      "nameJa": "グラン・フェッテ"
+    },
+    "236pp": {
+      "nameEn": "OD Renversé(Attack changes according to Medal level)",
+      "nameJa": "ランヴェルセ"
+    },
+    "236pp_hold": {
+      "nameEn": "L Renversé(Attack changes according to Medal level)",
+      "nameJa": "ランヴェルセ"
+    },
+    "236pp_k": {
+      "nameEn": "OD Grand Fouetté",
+      "nameJa": "グラン・フェッテ"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "しゃがみ強K（クロワゼ）"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "しゃがみ強P（ヴィクトワール・ポーム）"
+    },
+    "2hp_hp": {
+      "nameEn": "Allongé",
+      "nameJa": "アロンジェ"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "しゃがみ弱K（シーニュ・ナジェ）"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "しゃがみ弱P（ソデキリ）"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "しゃがみ中K（ストゥニュー）"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "しゃがみ中P（ヒキテ）"
+    },
+    "3hk": {
+      "nameEn": "Tomoe Derrière",
+      "nameJa": "トモエ・デリエール"
+    },
+    "4hp": {
+      "nameEn": "Révérence",
+      "nameJa": "レベランス"
+    },
+    "4lplk": {
+      "nameEn": "Uchi Mata",
+      "nameJa": "ウチマタ"
+    },
+    "4mk_mk": {
+      "nameEn": "En Haut(1)",
+      "nameJa": "アン・オー"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "立ち強K（ピエ・ドンジュ）"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P（ランドリ）"
+    },
+    "5hp_hp": {
+      "nameEn": "Temps Lié",
+      "nameJa": "タン・リエ"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "立ち弱K（タンジュ）"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "立ち弱P（ハジメ）"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "立ち中K（ラ・シェーヌ）"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "立ち中P（ツリテ）"
+    },
+    "5mp_mk": {
+      "nameEn": "À Terre",
+      "nameJa": "ア・テール"
+    },
+    "63214hp": {
+      "nameEn": "H Manège Doré",
+      "nameJa": "マネージュ・ドレ"
+    },
+    "63214lp": {
+      "nameEn": "L Manège Doré",
+      "nameJa": "マネージュ・ドレ"
+    },
+    "63214mp": {
+      "nameEn": "M Manège Doré",
+      "nameJa": "マネージュ・ドレ"
+    },
+    "63214pp": {
+      "nameEn": "OD Manège Doré(Attack changes according to Medal level)",
+      "nameJa": "マネージュ・ドレ"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Écarté",
+      "nameJa": "ドライブリバーサル（エカルテ）"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Écarté",
+      "nameJa": "ドライブリバーサル（エカルテ）"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Glissade",
+      "nameJa": "ドライブインパクト（グリッサード）"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "ジャンプ強K（カブリオール）"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "ジャンプ強P（グロワール・ポーム）"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "ジャンプ弱K（シエル・パッセ）"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "ジャンプ弱P（シエル・クーデ）"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "ジャンプ中K（アレグロ）"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "ジャンプ中P（クロワゼ・ドゥヴァン）"
+    },
+    "lplk": {
+      "nameEn": "Ouchi Gari",
+      "nameJa": "オーウチガリ"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  },
+  "kimberly": {
+    "214214p": {
+      "nameEn": "SA2 Bushin Scramble",
+      "nameJa": "武神天翔亢竜"
+    },
+    "214hk": {
+      "nameEn": "H Bushin Senpukyaku",
+      "nameJa": "武神旋風脚"
+    },
+    "214kk": {
+      "nameEn": "OD Bushin Senpukyaku",
+      "nameJa": "武神旋風脚"
+    },
+    "214lk": {
+      "nameEn": "L Bushin Senpukyaku",
+      "nameJa": "武神旋風脚"
+    },
+    "214mk": {
+      "nameEn": "M Bushin Senpukyaku",
+      "nameJa": "武神旋風脚"
+    },
+    "214p": {
+      "nameEn": "Hidden Variable",
+      "nameJa": "彩隠形"
+    },
+    "214pp": {
+      "nameEn": "OD Hidden Variable",
+      "nameJa": "彩隠形"
+    },
+    "22p_0stock": {
+      "nameEn": "Genius at Play",
+      "nameJa": "召雷細工"
+    },
+    "22p_1stock": {
+      "nameEn": "L Shuriken Bomb",
+      "nameJa": "細工手裏剣"
+    },
+    "22pp_0stock": {
+      "nameEn": "Genius at Play",
+      "nameJa": "召雷細工"
+    },
+    "22pp_2stock": {
+      "nameEn": "L Shuriken Bomb Spread",
+      "nameJa": "乱れ細工手裏剣"
+    },
+    "236236k_0stock": {
+      "nameEn": "SA1 Bushin Beats",
+      "nameJa": "武神乱拍子"
+    },
+    "236236k_1stock": {
+      "nameEn": "SA1 Bushin Thunderous Beats",
+      "nameJa": "武神乱拍子・雷譜"
+    },
+    "236236p": {
+      "nameEn": "SA3 Bushin Ninjastar Cypher",
+      "nameJa": "武神顕現神楽"
+    },
+    "236236p(ca)": {
+      "nameEn": "CA Bushin Ninjastar Cypher",
+      "nameJa": "武神顕現神楽"
+    },
+    "236hp": {
+      "nameEn": "H Vagabond Edge",
+      "nameJa": "流転一文字"
+    },
+    "236k": {
+      "nameEn": "Sprint",
+      "nameJa": "疾駆け"
+    },
+    "236k_hk": {
+      "nameEn": "Neck Hunter",
+      "nameJa": "首狩り"
+    },
+    "236k_lk": {
+      "nameEn": "Torso Cleaver",
+      "nameJa": "胴刎ね"
+    },
+    "236k_mk": {
+      "nameEn": "Shadow Slide",
+      "nameJa": "影すくい"
+    },
+    "236k_p": {
+      "nameEn": "Emergency Stop",
+      "nameJa": "急停止"
+    },
+    "236k_prox": {
+      "nameEn": "Arc Step",
+      "nameJa": "弧空"
+    },
+    "236k_prox_k": {
+      "nameEn": "Bushin Hojin Kick",
+      "nameJa": "武神鉾刃脚"
+    },
+    "236k_prox_p": {
+      "nameEn": "Bushin Izuna Otoshi",
+      "nameJa": "武神イズナ落とし"
+    },
+    "236kk": {
+      "nameEn": "OD Sprint",
+      "nameJa": "疾駆け"
+    },
+    "236kk_hk": {
+      "nameEn": "Neck Hunter",
+      "nameJa": "首狩り"
+    },
+    "236kk_lk": {
+      "nameEn": "Torso Cleaver",
+      "nameJa": "胴刎ね"
+    },
+    "236kk_mk": {
+      "nameEn": "Shadow Slide",
+      "nameJa": "影すくい"
+    },
+    "236kk_p": {
+      "nameEn": "Emergency Stop",
+      "nameJa": "急停止"
+    },
+    "236kk_prox": {
+      "nameEn": "Arc Step",
+      "nameJa": "弧空"
+    },
+    "236kk_prox_k": {
+      "nameEn": "Bushin Hojin Kick",
+      "nameJa": "武神鉾刃脚"
+    },
+    "236kk_prox_p": {
+      "nameEn": "Bushin Izuna Otoshi",
+      "nameJa": "武神イズナ落とし"
+    },
+    "236lp": {
+      "nameEn": "L Vagabond Edge",
+      "nameJa": "流転一文字"
+    },
+    "236mp": {
+      "nameEn": "M Vagabond Edge",
+      "nameJa": "流転一文字"
+    },
+    "236pp": {
+      "nameEn": "OD Vagabond Edge",
+      "nameJa": "流転一文字"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "水面蹴り"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "肘打ち"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "連撃蹴"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "裏拳"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "脛割り"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "水平手刀"
+    },
+    "3mk": {
+      "nameEn": "Water Slicer Slide",
+      "nameJa": "水切り蹴り"
+    },
+    "4hk": {
+      "nameEn": "Windmill Kick",
+      "nameJa": "風車"
+    },
+    "4lplk": {
+      "nameEn": "Bell Ringer",
+      "nameJa": "鍾打巴"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "旋風蹴り"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "旋回手刀"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "抜刀蹴"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "裏拳"
+    },
+    "5lp_mp": {
+      "nameEn": "M Bushin Prism Strikes",
+      "nameJa": "武神天架拳"
+    },
+    "5lp_mp_2hp": {
+      "nameEn": "H Bushin Hellchain",
+      "nameJa": "武神獄鎖拳"
+    },
+    "5lp_mp_2hp_2hk": {
+      "nameEn": "Bushin Hellchain Throw",
+      "nameJa": "武神獄鎖投げ"
+    },
+    "5lp_mp_2hp_hk": {
+      "nameEn": "H Bushin Hellchain",
+      "nameJa": "武神獄鎖拳"
+    },
+    "5lp_mp_hp": {
+      "nameEn": "Bushin Prism Strikes(2)",
+      "nameJa": "武神天架拳"
+    },
+    "5lp_mp_hp_hk": {
+      "nameEn": "Bushin Prism Strikes(3)",
+      "nameJa": "武神天架拳"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "刹那蹴り"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "胴突き"
+    },
+    "5mp_hp": {
+      "nameEn": "Bushin Tiger Fangs",
+      "nameJa": "武神虎連牙"
+    },
+    "6hk": {
+      "nameEn": "Hisen Kick",
+      "nameJa": "飛箭蹴"
+    },
+    "6hk_7": {
+      "nameEn": "Step Up",
+      "nameJa": "矢来越え"
+    },
+    "6hk_8": {
+      "nameEn": "Step Up",
+      "nameJa": "矢来越え"
+    },
+    "6hk_9": {
+      "nameEn": "Step Up",
+      "nameJa": "矢来越え"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Shapeless State",
+      "nameJa": "転"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Shapeless State",
+      "nameJa": "転"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Steadfast Strike",
+      "nameJa": "不動咎"
+    },
+    "j214214p": {
+      "nameEn": "SA2 Soaring Bushin Scramble",
+      "nameJa": "空中武神天翔亢竜"
+    },
+    "j214k": {
+      "nameEn": "Aerial Bushin Senpukyaku",
+      "nameJa": "空中武神旋風脚"
+    },
+    "j214kk": {
+      "nameEn": "OD Aerial Bushin Senpukyaku",
+      "nameJa": "空中武神旋風脚"
+    },
+    "j236p": {
+      "nameEn": "Nue Twister",
+      "nameJa": "荒鵺捻り"
+    },
+    "j236pp": {
+      "nameEn": "OD Nue Twister",
+      "nameJa": "荒鵺捻り"
+    },
+    "j2mp": {
+      "nameEn": "Elbow Drop",
+      "nameJa": "肘落とし"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "旋回蹴り"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "空肘打ち"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "跳び膝"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "空平手"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "会心脚"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "空裏拳"
+    },
+    "lplk": {
+      "nameEn": "Ripcord Throw",
+      "nameJa": "縄掛背負い"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  },
+  "marisa": {
+    "214214p": {
+      "nameEn": "SA2 Meteorite",
+      "nameJa": "メテオリティス"
+    },
+    "214hp": {
+      "nameEn": "H Dimachaerus(1)",
+      "nameJa": "ディマカイルス"
+    },
+    "214hp_6p": {
+      "nameEn": "L Dimachaerus(2)",
+      "nameJa": "ディマカイルス"
+    },
+    "214k": {
+      "nameEn": "Scutum",
+      "nameJa": "スクトゥム"
+    },
+    "214k_counter": {
+      "nameEn": "Scutum",
+      "nameJa": "スクトゥム"
+    },
+    "214k_k": {
+      "nameEn": "Procella",
+      "nameJa": "プロケッラ"
+    },
+    "214k_lplk": {
+      "nameEn": "Enfold",
+      "nameJa": "エンフォルド"
+    },
+    "214k_p": {
+      "nameEn": "Tonitrus(1)",
+      "nameJa": "トニトルス"
+    },
+    "214k_p_p": {
+      "nameEn": "Tonitrus(2)",
+      "nameJa": "トニトルス"
+    },
+    "214kk": {
+      "nameEn": "OD Scutum",
+      "nameJa": "スクトゥム"
+    },
+    "214kk_counter": {
+      "nameEn": "OD Scutum",
+      "nameJa": "スクトゥム"
+    },
+    "214lp": {
+      "nameEn": "L Dimachaerus(1)",
+      "nameJa": "ディマカイルス"
+    },
+    "214lp_6p": {
+      "nameEn": "L Dimachaerus(2)",
+      "nameJa": "ディマカイルス"
+    },
+    "214mp": {
+      "nameEn": "M Dimachaerus(1)",
+      "nameJa": "ディマカイルス"
+    },
+    "214mp_6p": {
+      "nameEn": "L Dimachaerus(2)",
+      "nameJa": "ディマカイルス"
+    },
+    "214pp": {
+      "nameEn": "OD Dimachaerus(1)",
+      "nameJa": "ディマカイルス"
+    },
+    "214pp_6p": {
+      "nameEn": "OD Dimachaerus(2)",
+      "nameJa": "ディマカイルス"
+    },
+    "236236k": {
+      "nameEn": "SA3 Goddess of the Hunt",
+      "nameJa": "アポロウーサ"
+    },
+    "236236k(ca)": {
+      "nameEn": "CA Goddess of the Hunt",
+      "nameJa": "アポロウーサ"
+    },
+    "236236p": {
+      "nameEn": "SA1 Javelin of Marisa",
+      "nameJa": "マリーザジャベリン"
+    },
+    "236236p_counter": {
+      "nameEn": "SA1 Javelin of Marisa",
+      "nameJa": "マリーザジャベリン"
+    },
+    "236236p_hold": {
+      "nameEn": "SA1 Javelin of Marisa(Charged)",
+      "nameJa": "マリーザジャベリン"
+    },
+    "236hk": {
+      "nameEn": "H Quadriga",
+      "nameJa": "クアドリガ"
+    },
+    "236hp": {
+      "nameEn": "H Gladius",
+      "nameJa": "グラディウス"
+    },
+    "236hp_hold": {
+      "nameEn": "L Gladius(Charged)",
+      "nameJa": "グラディウス"
+    },
+    "236kk": {
+      "nameEn": "OD Quadriga",
+      "nameJa": "クアドリガ"
+    },
+    "236lk": {
+      "nameEn": "L Quadriga",
+      "nameJa": "クアドリガ"
+    },
+    "236lp": {
+      "nameEn": "L Gladius",
+      "nameJa": "グラディウス"
+    },
+    "236lp_hold": {
+      "nameEn": "L Gladius(Charged)",
+      "nameJa": "グラディウス"
+    },
+    "236mk": {
+      "nameEn": "M Quadriga",
+      "nameJa": "クアドリガ"
+    },
+    "236mp": {
+      "nameEn": "M Gladius",
+      "nameJa": "グラディウス"
+    },
+    "236mp_hold": {
+      "nameEn": "L Gladius(Charged)",
+      "nameJa": "グラディウス"
+    },
+    "236pp": {
+      "nameEn": "OD Gladius",
+      "nameJa": "グラディウス"
+    },
+    "236pp_hold": {
+      "nameEn": "L Gladius(Charged)",
+      "nameJa": "グラディウス"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "しゃがみ強K（ガイアバッシュ）"
+    },
+    "2hk_hold": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "しゃがみ強K（ガイアバッシュ）"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "しゃがみ強P（ハーフハート）"
+    },
+    "2hp_hold": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "しゃがみ強P（ハーフハート）"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "しゃがみ弱K（フットバッシュ）"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "しゃがみ弱P（アンダーライト）"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "しゃがみ中K（レッグバッシュ）"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "しゃがみ中P（アンダーミドル）"
+    },
+    "3hp": {
+      "nameEn": "Malleus Breaker(1)",
+      "nameJa": "マレウスビート"
+    },
+    "3hp_3hp": {
+      "nameEn": "Malleus Breaker(2)",
+      "nameJa": "マレウスビート"
+    },
+    "3hp_hold": {
+      "nameEn": "Malleus Breaker(1)(Charged)",
+      "nameJa": "マレウスビート"
+    },
+    "4hp": {
+      "nameEn": "Magna Bunker",
+      "nameJa": "マグナバンカー"
+    },
+    "4hp_hold": {
+      "nameEn": "Magna Bunker(Charged)",
+      "nameJa": "マグナバンカー"
+    },
+    "4lplk": {
+      "nameEn": "Ponte Milvio",
+      "nameJa": "ミルヴィオブリッジ"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "立ち強K（リブブレイク）"
+    },
+    "5hk_hold": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "立ち強K（リブブレイク）"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P（ヘビィーパンチ）"
+    },
+    "5hp_hold": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P（ヘビィーパンチ）"
+    },
+    "5hp_hp": {
+      "nameEn": "Heavy Two Hitter",
+      "nameJa": "ヘビィーワンツー"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "立ち弱K（ティビアブレイク）"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "立ち弱P（ライトパンチ）"
+    },
+    "5lp_lp": {
+      "nameEn": "Light Two Hitter",
+      "nameJa": "ライトワンツー"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "立ち中K（スターナムブレイク）"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "立ち中P（ミドルパンチ）"
+    },
+    "5mp_mp": {
+      "nameEn": "Medium Two Hitter",
+      "nameJa": "ミドルワンツー"
+    },
+    "623hp": {
+      "nameEn": "H Phalanx",
+      "nameJa": "ファランクス"
+    },
+    "623lp": {
+      "nameEn": "L Phalanx",
+      "nameJa": "ファランクス"
+    },
+    "623mp": {
+      "nameEn": "M Phalanx",
+      "nameJa": "ファランクス"
+    },
+    "623pp": {
+      "nameEn": "OD Phalanx",
+      "nameJa": "ファランクス"
+    },
+    "6hk": {
+      "nameEn": "Falx Crusher(1)",
+      "nameJa": "ファルクスクラッシュ"
+    },
+    "6hk_6hk": {
+      "nameEn": "Falx Crusher(2)",
+      "nameJa": "ファルクスクラッシュ"
+    },
+    "6hk_hold": {
+      "nameEn": "Falx Crusher(1)(Charged)",
+      "nameJa": "ファルクスクラッシュ"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Love Tap",
+      "nameJa": "ドライブリバーサル（アモルショック）"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Love Tap",
+      "nameJa": "ドライブリバーサル（アモルショック）"
+    },
+    "6mp_hk": {
+      "nameEn": "Novacula Thrust",
+      "nameJa": "ノバキュラシュート"
+    },
+    "6mp_hp": {
+      "nameEn": "Novacula Swipe",
+      "nameJa": "ノバキュラスワイプ"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Secutor",
+      "nameJa": "ドライブインパクト（セクトール）"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "ジャンプ強K（ウラノスフォール）"
+    },
+    "jhk_hold": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "ジャンプ強K（ウラノスフォール）"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "ジャンプ強P（アイテルフィスト）"
+    },
+    "jhp_hold": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "ジャンプ強P（アイテルフィスト）"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "ジャンプ弱K（シグナスフォール）"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "ジャンプ弱P（ノックフィスト）"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "ジャンプ中K（ラブリュスフォール）"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "ジャンプ中P（ヴォラーレフィスト）"
+    },
+    "jmp_mp": {
+      "nameEn": "Volare Combo",
+      "nameJa": "ヴォラーレコンボ"
+    },
+    "lplk": {
+      "nameEn": "Mounted Grace",
+      "nameJa": "マウントグレイズ"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    },
+    "nj2hp": {
+      "nameEn": "Caelum Arc",
+      "nameJa": "カエルムアーク"
+    },
+    "nj2hp_hold": {
+      "nameEn": "Caelum Arc(Charged)",
+      "nameJa": "カエルムアーク"
+    }
+  },
+  "lily": {
+    "214214p": {
+      "nameEn": "SA3 Raging Typhoon",
+      "nameJa": "レイジングタイフーン"
+    },
+    "214214p(ca)": {
+      "nameEn": "CA Raging Typhoon",
+      "nameJa": "レイジングタイフーン"
+    },
+    "214hp": {
+      "nameEn": "L Condor Wind",
+      "nameJa": "コンドルウィンド"
+    },
+    "214lp": {
+      "nameEn": "L Condor Wind",
+      "nameJa": "コンドルウィンド"
+    },
+    "214mp": {
+      "nameEn": "L Condor Wind",
+      "nameJa": "コンドルウィンド"
+    },
+    "214pp": {
+      "nameEn": "L Condor Wind",
+      "nameJa": "コンドルウィンド"
+    },
+    "214pp_hold": {
+      "nameEn": "L Condor Wind",
+      "nameJa": "コンドルウィンド"
+    },
+    "236236k": {
+      "nameEn": "SA2 Thunderbird",
+      "nameJa": "サンダーバード"
+    },
+    "236236k_1stock": {
+      "nameEn": "SA2 Thunderbird",
+      "nameJa": "サンダーバード"
+    },
+    "236236p": {
+      "nameEn": "SA1 Breezing Hawk",
+      "nameJa": "ブリージングホーク"
+    },
+    "236hk": {
+      "nameEn": "H Condor Spire",
+      "nameJa": "コンドルスパイア"
+    },
+    "236hk_1stock": {
+      "nameEn": "H Condor Spire",
+      "nameJa": "コンドルスパイア"
+    },
+    "236kk": {
+      "nameEn": "OD Condor Spire",
+      "nameJa": "コンドルスパイア"
+    },
+    "236lk": {
+      "nameEn": "L Condor Spire",
+      "nameJa": "コンドルスパイア"
+    },
+    "236lk_1stock": {
+      "nameEn": "L Condor Spire",
+      "nameJa": "コンドルスパイア"
+    },
+    "236lkmk_1stock": {
+      "nameEn": "H Condor Spire",
+      "nameJa": "コンドルスパイア"
+    },
+    "236mk": {
+      "nameEn": "M Condor Spire",
+      "nameJa": "コンドルスパイア"
+    },
+    "236mk_1stock": {
+      "nameEn": "M Condor Spire",
+      "nameJa": "コンドルスパイア"
+    },
+    "236mkhk_1stock": {
+      "nameEn": "H Condor Spire",
+      "nameJa": "コンドルスパイア"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "しゃがみ強K（スコールキック）"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "しゃがみ強P（ハンマーアクス）"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "しゃがみ弱K（ロープレスキック）"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "しゃがみ弱P（リリーショット）"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "しゃがみ中K（ヒールスライドキック）"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "しゃがみ中P（ホーリーアース）"
+    },
+    "360hp": {
+      "nameEn": "H Mexican Typhoon",
+      "nameJa": "メキシカンタイフーン"
+    },
+    "360lp": {
+      "nameEn": "L Mexican Typhoon",
+      "nameJa": "メキシカンタイフーン"
+    },
+    "360mp": {
+      "nameEn": "M Mexican Typhoon",
+      "nameJa": "メキシカンタイフーン"
+    },
+    "360pp": {
+      "nameEn": "OD Mexican Typhoon",
+      "nameJa": "メキシカンタイフーン"
+    },
+    "3hp": {
+      "nameEn": "Ridge Thrust",
+      "nameJa": "スラストリッジ"
+    },
+    "4hp": {
+      "nameEn": "Horn Breaker",
+      "nameJa": "ホーンブレイク"
+    },
+    "4lplk": {
+      "nameEn": "Falling Cliff",
+      "nameJa": "クリフフォール"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "立ち強K（ヘビートラースキック）"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P（メキシカンクロスホーン）"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "立ち弱K（ストマックプレスキック）"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "立ち弱P（コンドルビーク）"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "立ち中K（ロンリーキック）"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "立ち中P（タタンカホーン）"
+    },
+    "623hp": {
+      "nameEn": "H Tomahawk Buster",
+      "nameJa": "トマホークバスター"
+    },
+    "623hp_1stock": {
+      "nameEn": "H Tomahawk Buster",
+      "nameJa": "トマホークバスター"
+    },
+    "623lp": {
+      "nameEn": "L Tomahawk Buster",
+      "nameJa": "トマホークバスター"
+    },
+    "623lp_1stock": {
+      "nameEn": "L Tomahawk Buster",
+      "nameJa": "トマホークバスター"
+    },
+    "623mp": {
+      "nameEn": "M Tomahawk Buster",
+      "nameJa": "トマホークバスター"
+    },
+    "623mp_1stock": {
+      "nameEn": "M Tomahawk Buster",
+      "nameJa": "トマホークバスター"
+    },
+    "623pp": {
+      "nameEn": "OD Tomahawk Buster",
+      "nameJa": "トマホークバスター"
+    },
+    "623pp_1stock": {
+      "nameEn": "OD Tomahawk Buster",
+      "nameJa": "トマホークバスター"
+    },
+    "6hp": {
+      "nameEn": "Desert Storm(1)",
+      "nameJa": "デザートストーム"
+    },
+    "6hp_hp": {
+      "nameEn": "Desert Storm(2)",
+      "nameJa": "デザートストーム"
+    },
+    "6hp_hp_hp": {
+      "nameEn": "Desert Storm(3)",
+      "nameJa": "デザートストーム"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Cross Hammer",
+      "nameJa": "ドライブリバーサル（クロスハンマー）"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Cross Hammer",
+      "nameJa": "ドライブリバーサル（クロスハンマー）"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Earth's Rage",
+      "nameJa": "ドライブインパクト（アースレイジ）"
+    },
+    "j236236k": {
+      "nameEn": "SA2 Soaring Thunderbird",
+      "nameJa": "スカイサンダーバード"
+    },
+    "j236236k_1stock": {
+      "nameEn": "SA2 Thunderbird",
+      "nameJa": "サンダーバード"
+    },
+    "j2hp": {
+      "nameEn": "Great Spin",
+      "nameJa": "グレートスピン"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "ジャンプ強K（アングリードロップキック）"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "ジャンプ強P（アズテックストライク）"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "ジャンプ弱K（ビガーニーキック）"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "ジャンプ弱P（アローシュート）"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "ジャンプ中K（デザートトゥーキック）"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "ジャンプ中P（アングリーボウ）"
+    },
+    "jmp_mp": {
+      "nameEn": "Double Arrow",
+      "nameJa": "ダブルアロー"
+    },
+    "jpp": {
+      "nameEn": "OD Condor Dive",
+      "nameJa": "コンドルダイブ"
+    },
+    "jpp_1stock": {
+      "nameEn": "OD Condor Dive",
+      "nameJa": "コンドルダイブ"
+    },
+    "jpp_pp_1stock": {
+      "nameEn": "OD Condor Dive",
+      "nameJa": "コンドルダイブ"
+    },
+    "jpp_ppp_1stock": {
+      "nameEn": "OD Condor Dive",
+      "nameJa": "コンドルダイブ"
+    },
+    "jppp": {
+      "nameEn": "OD Condor Dive",
+      "nameJa": "コンドルダイブ"
+    },
+    "jppp_1stock": {
+      "nameEn": "OD Condor Dive",
+      "nameJa": "コンドルダイブ"
+    },
+    "lplk": {
+      "nameEn": "Canyon Throw",
+      "nameJa": "キャニオンスロー"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  },
+  "jp": {
+    "214214p": {
+      "nameEn": "SA2 Lovushka",
+      "nameJa": "ラヴーシュカ"
+    },
+    "214k": {
+      "nameEn": "Embrace",
+      "nameJa": "アブニマーチ"
+    },
+    "214kk": {
+      "nameEn": "OD Embrace",
+      "nameJa": "アブニマーチ"
+    },
+    "214p": {
+      "nameEn": "L Departure",
+      "nameJa": "ヴィーハト"
+    },
+    "214p_214hp": {
+      "nameEn": "Departure: Shadow",
+      "nameJa": "ヴィーハト・チェーニ"
+    },
+    "214p_214lp_mp": {
+      "nameEn": "Departure: Window",
+      "nameJa": "ヴィーハト・アクノ"
+    },
+    "214pp": {
+      "nameEn": "OD L Departure",
+      "nameJa": "ヴィーハト"
+    },
+    "214pp_214hp": {
+      "nameEn": "Departure: Shadow",
+      "nameJa": "ヴィーハト・チェーニ"
+    },
+    "22k": {
+      "nameEn": "Amnesia",
+      "nameJa": "アムネジア"
+    },
+    "22k_bomb": {
+      "nameEn": "Amnesia",
+      "nameJa": "アムネジア"
+    },
+    "22kk": {
+      "nameEn": "OD Amnesia",
+      "nameJa": "アムネジア"
+    },
+    "22kk_bomb": {
+      "nameEn": "Amnesia",
+      "nameJa": "アムネジア"
+    },
+    "22p": {
+      "nameEn": "L Triglav",
+      "nameJa": "トリグラフ"
+    },
+    "22pp": {
+      "nameEn": "OD L Triglav",
+      "nameJa": "トリグラフ"
+    },
+    "236236k": {
+      "nameEn": "SA3 Interdiction",
+      "nameJa": "ザプリェット"
+    },
+    "236236k(ca)": {
+      "nameEn": "CA Interdiction",
+      "nameJa": "ザプリェット"
+    },
+    "236236p": {
+      "nameEn": "SA1 Chornobog",
+      "nameJa": "チェルノボーグ"
+    },
+    "236hk": {
+      "nameEn": "H Torbalan",
+      "nameJa": "トルバラン"
+    },
+    "236hp": {
+      "nameEn": "H Stribog",
+      "nameJa": "ストリボーグ"
+    },
+    "236k_hold": {
+      "nameEn": "L Torbalan",
+      "nameJa": "トルバラン"
+    },
+    "236kk": {
+      "nameEn": "OD Torbalan",
+      "nameJa": "トルバラン"
+    },
+    "236lk": {
+      "nameEn": "L Torbalan",
+      "nameJa": "トルバラン"
+    },
+    "236lp": {
+      "nameEn": "L Stribog",
+      "nameJa": "ストリボーグ"
+    },
+    "236mk": {
+      "nameEn": "M Torbalan",
+      "nameJa": "トルバラン"
+    },
+    "236mp": {
+      "nameEn": "M Stribog",
+      "nameJa": "ストリボーグ"
+    },
+    "236pp": {
+      "nameEn": "OD Stribog",
+      "nameJa": "ストリボーグ"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "しゃがみ強K（ジョーキル）"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "しゃがみ強P（マリートヴァ）"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "しゃがみ弱K（リョーフキー・ウダール）"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "しゃがみ弱P（ブィストルイ・ウダール）"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "しゃがみ中K（ズローバ）"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "しゃがみ中P（ズミヤー）"
+    },
+    "3hp": {
+      "nameEn": "Malice",
+      "nameJa": "シャーロスチ"
+    },
+    "4lplk": {
+      "nameEn": "Uragan",
+      "nameJa": "ウラガーン"
+    },
+    "4mp": {
+      "nameEn": "Grom Strelka(1)",
+      "nameJa": "グロームストレルカ"
+    },
+    "4mp_mp": {
+      "nameEn": "Grom Strelka(2)",
+      "nameJa": "グロームストレルカ"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "立ち強K（オボロートニ）"
+    },
+    "5hk_hp": {
+      "nameEn": "Zilant",
+      "nameJa": "ジラント"
+    },
+    "5hk_hp_hk": {
+      "nameEn": "Zilant Low",
+      "nameJa": "ジラントナガー"
+    },
+    "5hk_hp_hp": {
+      "nameEn": "Zilant",
+      "nameJa": "ジラント"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P（キンターヴル）"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "立ち弱K（ニージニイ・ウダール）"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "立ち弱P（ノーシ）"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "立ち中K（ウームヌィ・ウダール）"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "立ち中P（シュトゥールム）"
+    },
+    "6hk": {
+      "nameEn": "Bylina",
+      "nameJa": "ヴィリーナ"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Exilio",
+      "nameJa": "ドライブリバーサル（エクシリオ）"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Exilio",
+      "nameJa": "ドライブリバーサル（エクシリオ）"
+    },
+    "6mk": {
+      "nameEn": "Guillotinna",
+      "nameJa": "ギリオチーナ"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Espada",
+      "nameJa": "ドライブインパクト（エスパーダ）"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "ジャンプ強K（ジャール・プチーツァ）"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "ジャンプ強P（イディナローク）"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "ジャンプ弱K（ヴァローナ）"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "ジャンプ弱P（ルイースイ）"
+    },
+    "jlplk": {
+      "nameEn": "Tornado",
+      "nameJa": "タルナード"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "ジャンプ中K（コンダ）"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "ジャンプ中P（ローシャッチ）"
+    },
+    "lplk": {
+      "nameEn": "Ravina",
+      "nameJa": "ラヴィーナ"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  },
+  "juri": {
+    "214214k": {
+      "nameEn": "SA3 Kaisen Dankai Raku",
+      "nameJa": "回旋断界落"
+    },
+    "214214k(ca)": {
+      "nameEn": "CA Kaisen Dankai Raku",
+      "nameJa": "回旋断界落"
+    },
+    "214214p": {
+      "nameEn": "SA2 Feng Shui Engine",
+      "nameJa": "風水エンジン"
+    },
+    "214214p_hold": {
+      "nameEn": "SA2 Feng Shui Engine",
+      "nameJa": "風水エンジン"
+    },
+    "214hk": {
+      "nameEn": "H Fuhajin",
+      "nameJa": "風破刃"
+    },
+    "214kk": {
+      "nameEn": "OD Fuhajin",
+      "nameJa": "風破刃"
+    },
+    "214lk": {
+      "nameEn": "L Fuhajin",
+      "nameJa": "風破刃"
+    },
+    "214mk": {
+      "nameEn": "M Fuhajin",
+      "nameJa": "風破刃"
+    },
+    "236236k": {
+      "nameEn": "SA1 Sakkai Fuhazan",
+      "nameJa": "殺界風破斬"
+    },
+    "236236k_hold": {
+      "nameEn": "SA1 Sakkai Fuhazan",
+      "nameJa": "殺界風破斬"
+    },
+    "236hk": {
+      "nameEn": "Go Ohsatsu",
+      "nameJa": "五黄殺"
+    },
+    "236hk_stock": {
+      "nameEn": "Go Ohsatsu",
+      "nameJa": "五黄殺"
+    },
+    "236lk": {
+      "nameEn": "Saihasho",
+      "nameJa": "歳破衝"
+    },
+    "236lk_stock": {
+      "nameEn": "Saihasho",
+      "nameJa": "歳破衝"
+    },
+    "236lkhk": {
+      "nameEn": "Ankensatsu",
+      "nameJa": "暗剣殺"
+    },
+    "236lkmk": {
+      "nameEn": "Saihasho",
+      "nameJa": "歳破衝"
+    },
+    "236mk": {
+      "nameEn": "Ankensatsu",
+      "nameJa": "暗剣殺"
+    },
+    "236mk_stock": {
+      "nameEn": "Ankensatsu",
+      "nameJa": "暗剣殺"
+    },
+    "236mkhk": {
+      "nameEn": "Go Ohsatsu",
+      "nameJa": "五黄殺"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "刈脚"
+    },
+    "2hk_fse": {
+      "nameEn": "Slash Kick",
+      "nameJa": "刈脚"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "穿開脚"
+    },
+    "2hp_fse": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "穿開脚"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "踵打"
+    },
+    "2lk_fse": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "踵打"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "狙腓打"
+    },
+    "2lp_fse": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "狙腓打"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "剥影脚"
+    },
+    "2mk_fse": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "剥影脚"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "妖撞"
+    },
+    "2mp_fse": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "妖撞"
+    },
+    "4hk": {
+      "nameEn": "Korenzan",
+      "nameJa": "鉤鎌斬"
+    },
+    "4hk_fse": {
+      "nameEn": "Korenzan",
+      "nameJa": "鉤鎌斬"
+    },
+    "4lplk": {
+      "nameEn": "Shadow Kick Throw",
+      "nameJa": "苛影脚"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "空耀脚"
+    },
+    "5hk_fse": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "空耀脚"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "蜘殺"
+    },
+    "5hp_fse": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "蜘殺"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "微弄脚"
+    },
+    "5lk_fse": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "微弄脚"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "首甲殺"
+    },
+    "5lp_fse": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "首甲殺"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "伸腿蹴"
+    },
+    "5mk_fse": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "伸腿蹴"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "胸破殺"
+    },
+    "5mp_4hp": {
+      "nameEn": "H Death Crest",
+      "nameJa": "死紋蹴"
+    },
+    "5mp_4hp_hp": {
+      "nameEn": "Death Crest(2)",
+      "nameJa": "死紋蹴"
+    },
+    "5mp_fse": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "胸破殺"
+    },
+    "623hp": {
+      "nameEn": "H Tensenrin",
+      "nameJa": "天穿輪"
+    },
+    "623lp": {
+      "nameEn": "L Tensenrin",
+      "nameJa": "天穿輪"
+    },
+    "623mp": {
+      "nameEn": "M Tensenrin",
+      "nameJa": "天穿輪"
+    },
+    "623pp": {
+      "nameEn": "OD Tensenrin",
+      "nameJa": "天穿輪"
+    },
+    "6hp": {
+      "nameEn": "Renko Kicks",
+      "nameJa": "連剋脚"
+    },
+    "6hp_fse": {
+      "nameEn": "Renko Kicks",
+      "nameJa": "連剋脚"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Kaita Raid",
+      "nameJa": "廻躱襲"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Kaita Raid",
+      "nameJa": "廻躱襲"
+    },
+    "6mk": {
+      "nameEn": "Senkai Kick",
+      "nameJa": "殲廻脚"
+    },
+    "6mk_fse": {
+      "nameEn": "Senkai Kick",
+      "nameJa": "殲廻脚"
+    },
+    "6mp": {
+      "nameEn": "Kyosesho",
+      "nameJa": "狂背掌"
+    },
+    "6mp_fse": {
+      "nameEn": "Kyosesho",
+      "nameJa": "狂背掌"
+    },
+    "8jhk": {
+      "nameEn": "Neutral Jumping Heavy Kick",
+      "nameJa": "横圧殺"
+    },
+    "8jhk_fse": {
+      "nameEn": "Neutral Jumping Heavy Kick",
+      "nameJa": "横圧殺"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Sekkan Kick",
+      "nameJa": "殺環蹴"
+    },
+    "j214k": {
+      "nameEn": "Shiku-sen",
+      "nameJa": "疾空閃"
+    },
+    "j214kk": {
+      "nameEn": "OD Shiku-sen",
+      "nameJa": "疾空閃"
+    },
+    "j214kk~k": {
+      "nameEn": "OD Shiren-sen",
+      "nameJa": "死連閃"
+    },
+    "j214k~k": {
+      "nameEn": "Shiren-sen",
+      "nameJa": "死連閃"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "玄空蹴"
+    },
+    "jhk_fse": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "玄空蹴"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "空震脚"
+    },
+    "jhp_fse": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "空震脚"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "膝空打"
+    },
+    "jlk_fse": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "膝空打"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "空形殺"
+    },
+    "jlp_fse": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "空形殺"
+    },
+    "jlplk": {
+      "nameEn": "Zanka-sen",
+      "nameJa": "斬架閃"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "被陰脚"
+    },
+    "jmk_fse": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "被陰脚"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "空洛刃"
+    },
+    "jmp_fse": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "空洛刃"
+    },
+    "lplk": {
+      "nameEn": "Spider Fang Throw",
+      "nameJa": "蜘穿脚"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  },
+  "cammy": {
+    "214214p": {
+      "nameEn": "SA2 Killer Bee Spin",
+      "nameJa": "キラービースピン"
+    },
+    "214hp": {
+      "nameEn": "H Quick Spin Knuckle",
+      "nameJa": "アクセルスピンナックル"
+    },
+    "214lp": {
+      "nameEn": "L Quick Spin Knuckle",
+      "nameJa": "アクセルスピンナックル"
+    },
+    "214mp": {
+      "nameEn": "M Quick Spin Knuckle",
+      "nameJa": "アクセルスピンナックル"
+    },
+    "214pp": {
+      "nameEn": "OD Quick Spin Knuckle",
+      "nameJa": "アクセルスピンナックル"
+    },
+    "236236k": {
+      "nameEn": "SA1 Spin Drive Smasher",
+      "nameJa": "スピンドライブスマッシャー"
+    },
+    "236236p": {
+      "nameEn": "SA3 Delta Red Assault",
+      "nameJa": "デルタレッドアサルト"
+    },
+    "236236p(ca)": {
+      "nameEn": "CA Delta Red Assault",
+      "nameJa": "デルタレッドアサルト"
+    },
+    "236hk": {
+      "nameEn": "H Spiral Arrow",
+      "nameJa": "スパイラルアロー"
+    },
+    "236hk_hold": {
+      "nameEn": "H Spiral Arrow(Charged)",
+      "nameJa": "スパイラルアロー"
+    },
+    "236hp_hold": {
+      "nameEn": "Hooligan Combination(Charged)",
+      "nameJa": "フーリガンコンビネーション"
+    },
+    "236hp_hold_2k": {
+      "nameEn": "Reverse Edge(Charged)",
+      "nameJa": "リバースエッジ"
+    },
+    "236hp_hold_k": {
+      "nameEn": "Cannon Strike(Charged)",
+      "nameJa": "キャノンストライク"
+    },
+    "236hp_hold_lplk": {
+      "nameEn": "Fatal Leg Twister(Charged)",
+      "nameJa": "フェイタルレッグツイスター"
+    },
+    "236hp_hold_no_input": {
+      "nameEn": "Razor's Edge Slicer(Charged)",
+      "nameJa": "レイザーエッジスライサー"
+    },
+    "236hp_hold_p": {
+      "nameEn": "Silent Step(Charged)",
+      "nameJa": "サイレントステップ"
+    },
+    "236kk": {
+      "nameEn": "OD Spiral Arrow",
+      "nameJa": "スパイラルアロー"
+    },
+    "236lk": {
+      "nameEn": "L Spiral Arrow",
+      "nameJa": "スパイラルアロー"
+    },
+    "236mk": {
+      "nameEn": "M Spiral Arrow",
+      "nameJa": "スパイラルアロー"
+    },
+    "236p": {
+      "nameEn": "Hooligan Combination",
+      "nameJa": "フーリガンコンビネーション"
+    },
+    "236p_2k": {
+      "nameEn": "Reverse Edge",
+      "nameJa": "リバースエッジ"
+    },
+    "236p_k": {
+      "nameEn": "Cannon Strike",
+      "nameJa": "キャノンストライク"
+    },
+    "236p_lplk": {
+      "nameEn": "Fatal Leg Twister",
+      "nameJa": "フェイタルレッグツイスター"
+    },
+    "236p_no_input": {
+      "nameEn": "Razor's Edge Slicer",
+      "nameJa": "レイザーエッジスライサー"
+    },
+    "236p_p": {
+      "nameEn": "Silent Step",
+      "nameJa": "サイレントステップ"
+    },
+    "236pp": {
+      "nameEn": "OD Hooligan Combination",
+      "nameJa": "フーリガンコンビネーション"
+    },
+    "236pp_2k": {
+      "nameEn": "Reverse Edge",
+      "nameJa": "リバースエッジ"
+    },
+    "236pp_k": {
+      "nameEn": "Cannon Strike",
+      "nameJa": "キャノンストライク"
+    },
+    "236pp_lplk": {
+      "nameEn": "Fatal Leg Twister",
+      "nameJa": "フェイタルレッグツイスター"
+    },
+    "236pp_no_input": {
+      "nameEn": "Razor's Edge Slicer",
+      "nameJa": "レイザーエッジスライサー"
+    },
+    "236pp_p": {
+      "nameEn": "Silent Step",
+      "nameJa": "サイレントステップ"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "しゃがみ強K（グランドスイープ）"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "しゃがみ強P（トーピードーシェル）"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "しゃがみ弱K（スタンレイピア）"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "しゃがみ弱P（ラピッドショット）"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "しゃがみ中K（トゥーバズソー）"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "しゃがみ中P（ライトグレネード）"
+    },
+    "4hk": {
+      "nameEn": "Assault Blade",
+      "nameJa": "アサルトブレード"
+    },
+    "4lplk": {
+      "nameEn": "Delta Throw",
+      "nameJa": "デルタスルー"
+    },
+    "4mp": {
+      "nameEn": "Lift Uppercut",
+      "nameJa": "リフトアッパー"
+    },
+    "4mp_hk": {
+      "nameEn": "Lift Combination",
+      "nameJa": "リフトコンビネーション"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "立ち強K（スティールスライサー）"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P（スイングナックル）"
+    },
+    "5hp_hk": {
+      "nameEn": "Swing Combination",
+      "nameJa": "スイングコンビネーション"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "立ち弱K（フーリガンローキック）"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "立ち弱P（フーリガンジャブ）"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "立ち中K（トゥースマッシュ）"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "立ち中P（フーリガンストレート）"
+    },
+    "623hk": {
+      "nameEn": "H Cannon Spike",
+      "nameJa": "キャノンスパイク"
+    },
+    "623hk_hold": {
+      "nameEn": "H Cannon Spike(Charged)",
+      "nameJa": "キャノンスパイク"
+    },
+    "623kk": {
+      "nameEn": "OD Cannon Spike",
+      "nameJa": "キャノンスパイク"
+    },
+    "623lk": {
+      "nameEn": "L Cannon Spike",
+      "nameJa": "キャノンスパイク"
+    },
+    "623mk": {
+      "nameEn": "M Cannon Spike",
+      "nameJa": "キャノンスパイク"
+    },
+    "6hk": {
+      "nameEn": "Delayed Ripper",
+      "nameJa": "ディレイリーパー"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Countersnipe",
+      "nameJa": "ドライブリバーサル（カウンタースナイプ）"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Countersnipe",
+      "nameJa": "ドライブリバーサル（カウンタースナイプ）"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Spin Raider",
+      "nameJa": "ドライブインパクト（スピンレイダー）"
+    },
+    "j214214p": {
+      "nameEn": "SA2 Aerial Killer Bee Spin",
+      "nameJa": "エアキラービースピン"
+    },
+    "j214k": {
+      "nameEn": "Cannon Strike",
+      "nameJa": "キャノンストライク"
+    },
+    "j214kk": {
+      "nameEn": "OD Cannon Strike",
+      "nameJa": "キャノンストライク"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "ジャンプ強K（クリティカルストライク）"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "ジャンプ強P（フィストボム）"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "ジャンプ弱K（レイダーニー）"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "ジャンプ弱P（ダガーショット）"
+    },
+    "jlplk": {
+      "nameEn": "Leg Scissors Choke",
+      "nameJa": "レッグシザースチョーク"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "ジャンプ中K（スナイピングスピア）"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "ジャンプ中P（アラウンドブレード）"
+    },
+    "lplk": {
+      "nameEn": "Rough Landing",
+      "nameJa": "ラフランディング"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  },
+  "guile": {
+    "214214p": {
+      "nameEn": "SA2 Solid Puncher",
+      "nameJa": "ソリッドパンチャー"
+    },
+    "214hp": {
+      "nameEn": "H Sonic Blade",
+      "nameJa": "ソニックブレイド"
+    },
+    "214lp": {
+      "nameEn": "L Sonic Blade",
+      "nameJa": "ソニックブレイド"
+    },
+    "214mp": {
+      "nameEn": "M Sonic Blade",
+      "nameJa": "ソニックブレイド"
+    },
+    "214p_6p": {
+      "nameEn": "L Sonic Cross",
+      "nameJa": "ソニッククロス"
+    },
+    "214p_6pp": {
+      "nameEn": "OD Sonic Cross",
+      "nameJa": "ソニッククロス"
+    },
+    "214pp": {
+      "nameEn": "OD Sonic Cross",
+      "nameJa": "ソニッククロス"
+    },
+    "214pp_6p": {
+      "nameEn": "L Sonic Cross",
+      "nameJa": "ソニッククロス"
+    },
+    "214pp_6pp": {
+      "nameEn": "OD Sonic Cross",
+      "nameJa": "ソニッククロス"
+    },
+    "28hk": {
+      "nameEn": "H Somersault Kick",
+      "nameJa": "サマーソルトキック"
+    },
+    "28kk": {
+      "nameEn": "OD Somersault Kick",
+      "nameJa": "サマーソルトキック"
+    },
+    "28lk": {
+      "nameEn": "L Somersault Kick",
+      "nameJa": "サマーソルトキック"
+    },
+    "28mk": {
+      "nameEn": "M Somersault Kick",
+      "nameJa": "サマーソルトキック"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "しゃがみ強K （ドラゴンスイープ）"
+    },
+    "2hk_3hk": {
+      "nameEn": "Phantom Cutter",
+      "nameJa": "ファントムカッター"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "しゃがみ強P （リフトアッパー）"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "しゃがみ弱K （キック）"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "しゃがみ弱P （ジャブ）"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "しゃがみ中K （スライドスイープ）"
+    },
+    "2mk_6mp": {
+      "nameEn": "Drake Fang",
+      "nameJa": "ドレイクファング"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "しゃがみ中P （ストレート）"
+    },
+    "2mp_2mp": {
+      "nameEn": "Double Shot",
+      "nameJa": "ダブルバレット"
+    },
+    "3hk": {
+      "nameEn": "Guile High Kick",
+      "nameJa": "ガイルハイキック"
+    },
+    "4646hp": {
+      "nameEn": "SA1 Sonic Hurricane(Side)",
+      "nameJa": "ソニックハリケーン"
+    },
+    "4646k": {
+      "nameEn": "SA3 Crossfire Somersault",
+      "nameJa": "クロスファイアサマーソルト"
+    },
+    "4646k(ca)": {
+      "nameEn": "CA Crossfire Somersault",
+      "nameJa": "クロスファイアサマーソルト"
+    },
+    "4646p": {
+      "nameEn": "SA1 Sonic Hurricane(Side)",
+      "nameJa": "ソニックハリケーン"
+    },
+    "46hp": {
+      "nameEn": "H Sonic Boom",
+      "nameJa": "ソニックブーム"
+    },
+    "46lp": {
+      "nameEn": "L Sonic Boom",
+      "nameJa": "ソニックブーム"
+    },
+    "46mp": {
+      "nameEn": "M Sonic Boom",
+      "nameJa": "ソニックブーム"
+    },
+    "46p_p_followup": {
+      "nameEn": "OD Sonic Break",
+      "nameJa": "ソニックブレイク"
+    },
+    "46pp": {
+      "nameEn": "OD Sonic Boom",
+      "nameJa": "ソニックブーム"
+    },
+    "46pp_p_followup": {
+      "nameEn": "OD Sonic Break",
+      "nameJa": "ソニックブレイク"
+    },
+    "4hp": {
+      "nameEn": "Burning Straight",
+      "nameJa": "バーンストレート"
+    },
+    "4lk": {
+      "nameEn": "Knee Bazooka",
+      "nameJa": "ニーバズーカ"
+    },
+    "4lplk": {
+      "nameEn": "Judo Throw",
+      "nameJa": "ジュードースルー"
+    },
+    "4mk_or_6mk": {
+      "nameEn": "Rolling Sobat",
+      "nameJa": "ローリングソバット"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "立ち強K （ヘビースタブキック）"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P （サイクロンフック）"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "立ち弱K （ムエタイキック）"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "立ち弱P （ジャブ）"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "立ち中K （トラースキック）"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "立ち中P （フック）"
+    },
+    "5mp_4hp": {
+      "nameEn": "Recoil Cannon",
+      "nameJa": "リコイルキャノン"
+    },
+    "6hk": {
+      "nameEn": "Reverse Spin Kick",
+      "nameJa": "リバーススピンキック"
+    },
+    "6hp": {
+      "nameEn": "Spinning Back Knuckle",
+      "nameJa": "スピニングバックナックル"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Strike Eagle",
+      "nameJa": "ドライブリバーサル （ストライクイーグル）"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Strike Eagle",
+      "nameJa": "ドライブリバーサル（ストライクイーグル）"
+    },
+    "6mp": {
+      "nameEn": "Full Bullet Magnum",
+      "nameJa": "フルブレットマグナム"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Blitz Combination",
+      "nameJa": "ドライブインパクト（ブリッツコンビネーション）"
+    },
+    "j4lplk": {
+      "nameEn": "Flying Buster Drop",
+      "nameJa": "フライングバスタードロップ"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "ジャンプ強K （アンチラウンドキック）"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "ジャンプ強P （ジャンプチョップ）"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "ジャンプ弱K （ジャンピングニーアタック）"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "ジャンプ弱P （ジャンプパンチ）"
+    },
+    "jlplk": {
+      "nameEn": "Flying Mare",
+      "nameJa": "フライングメイヤー"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "ジャンプ中K （ガイルキック）"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "ジャンプ中P （ジャンプストレート）"
+    },
+    "lplk": {
+      "nameEn": "Dragon Suplex",
+      "nameJa": "ドラゴンスープレックス"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    },
+    "pp": {
+      "nameEn": "OD Sonic Break",
+      "nameJa": "ソニックブレイク"
+    }
+  },
+  "chun-li": {
+    "214214k": {
+      "nameEn": "SA3 Soten Ranka",
+      "nameJa": "蒼天乱華"
+    },
+    "214214k(ca)": {
+      "nameEn": "CA Soten Ranka",
+      "nameJa": "蒼天乱華"
+    },
+    "214hk": {
+      "nameEn": "H Hazanshu",
+      "nameJa": "覇山蹴"
+    },
+    "214kk": {
+      "nameEn": "OD Hazanshu",
+      "nameJa": "覇山蹴"
+    },
+    "214lk": {
+      "nameEn": "L Hazanshu",
+      "nameJa": "覇山蹴"
+    },
+    "214mk": {
+      "nameEn": "M Hazanshu",
+      "nameJa": "覇山蹴"
+    },
+    "214p": {
+      "nameEn": "Serenity Stream",
+      "nameJa": "行雲流水"
+    },
+    "214p_214p": {
+      "nameEn": "Serenity Stream",
+      "nameJa": "行雲流水"
+    },
+    "214p_hk": {
+      "nameEn": "Tenku Kick",
+      "nameJa": "天空脚"
+    },
+    "214p_hp": {
+      "nameEn": "Lotus Fist",
+      "nameJa": "蓮掌"
+    },
+    "214p_lk": {
+      "nameEn": "Forward Strike",
+      "nameJa": "前突"
+    },
+    "214p_lp": {
+      "nameEn": "Orchid Palm",
+      "nameJa": "蘭華"
+    },
+    "214p_mk": {
+      "nameEn": "Senpu Kick",
+      "nameJa": "仙風"
+    },
+    "214p_mp": {
+      "nameEn": "Snake Strike",
+      "nameJa": "這蛇突"
+    },
+    "22hk": {
+      "nameEn": "H Tensho Kicks",
+      "nameJa": "天昇脚"
+    },
+    "22kk": {
+      "nameEn": "OD Tensho Kicks",
+      "nameJa": "天昇脚"
+    },
+    "22lk": {
+      "nameEn": "L Tensho Kicks",
+      "nameJa": "天昇脚"
+    },
+    "22mk": {
+      "nameEn": "M Tensho Kicks",
+      "nameJa": "天昇脚"
+    },
+    "236236k": {
+      "nameEn": "SA2 Hoyoku-sen",
+      "nameJa": "鳳翼扇"
+    },
+    "236236p": {
+      "nameEn": "SA1 Kikosho",
+      "nameJa": "気功掌"
+    },
+    "236hk": {
+      "nameEn": "H Hundred Lightning Kicks",
+      "nameJa": "百裂脚"
+    },
+    "236kk": {
+      "nameEn": "OD Hundred Lightning Kicks",
+      "nameJa": "百裂脚"
+    },
+    "236kk_kk": {
+      "nameEn": "Lightning Kick Barrage",
+      "nameJa": "百裂連脚"
+    },
+    "236lk": {
+      "nameEn": "L Hundred Lightning Kicks",
+      "nameJa": "百裂脚"
+    },
+    "236mk": {
+      "nameEn": "M Hundred Lightning Kicks",
+      "nameJa": "百裂脚"
+    },
+    "28hk": {
+      "nameEn": "H Spinning Bird Kick",
+      "nameJa": "スピニングバードキック"
+    },
+    "28kk": {
+      "nameEn": "OD Spinning Bird Kick",
+      "nameJa": "スピニングバードキック"
+    },
+    "28lk": {
+      "nameEn": "L Spinning Bird Kick",
+      "nameJa": "スピニングバードキック"
+    },
+    "28mk": {
+      "nameEn": "M Spinning Bird Kick",
+      "nameJa": "スピニングバードキック"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "元伝暗殺蹴"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "孔雀掌"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "前掃腿"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "尖打"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "後掃旋腿"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "丹頂拳"
+    },
+    "3hk": {
+      "nameEn": "Falling Crane",
+      "nameJa": "鶴脚落"
+    },
+    "3hp": {
+      "nameEn": "Water Lotus Fist",
+      "nameJa": "水蓮掌"
+    },
+    "46hp": {
+      "nameEn": "H Kikoken",
+      "nameJa": "気功拳"
+    },
+    "46lp": {
+      "nameEn": "L Kikoken",
+      "nameJa": "気功拳"
+    },
+    "46mp": {
+      "nameEn": "M Kikoken",
+      "nameJa": "気功拳"
+    },
+    "46pp": {
+      "nameEn": "OD Kikoken",
+      "nameJa": "気功拳"
+    },
+    "4hp": {
+      "nameEn": "Hakkei",
+      "nameJa": "発勁"
+    },
+    "4lplk": {
+      "nameEn": "Taiji Fan",
+      "nameJa": "太極扇"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "前周脚"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "顎狙突拳"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "斧刃脚"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "手突"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "外擺脚"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "頸穿刀"
+    },
+    "6hk": {
+      "nameEn": "Yokusen Kick",
+      "nameJa": "翼旋脚"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Hoyoku Kick",
+      "nameJa": "鳳翼脚"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Hoyoku Kick",
+      "nameJa": "鳳翼脚"
+    },
+    "6mp": {
+      "nameEn": "Swift Thrust",
+      "nameJa": "追突拳"
+    },
+    "8jhk": {
+      "nameEn": "Neutral Jumping Heavy Kick",
+      "nameJa": "鶴翼脚"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Hosen Kick",
+      "nameJa": "鳳翼脚"
+    },
+    "j236236p": {
+      "nameEn": "SA1 Aerial Kikosho",
+      "nameJa": "空中気功掌"
+    },
+    "j236hk": {
+      "nameEn": "H Aerial Hundred Lightning Kicks",
+      "nameJa": "空中百裂脚"
+    },
+    "j236kk": {
+      "nameEn": "OD Aerial Hundred Lightning Kicks",
+      "nameJa": "空中百裂脚"
+    },
+    "j236lk": {
+      "nameEn": "L Aerial Hundred Lightning Kicks",
+      "nameJa": "空中百裂脚"
+    },
+    "j236mk": {
+      "nameEn": "M Aerial Hundred Lightning Kicks",
+      "nameJa": "空中百裂脚"
+    },
+    "j2mk": {
+      "nameEn": "Yoso Kick(1)",
+      "nameJa": "鷹爪脚"
+    },
+    "j2mk_2": {
+      "nameEn": "Yoso Kick(2)",
+      "nameJa": "鷹爪脚"
+    },
+    "j2mk_3": {
+      "nameEn": "Yoso Kick(3)",
+      "nameJa": "鷹爪脚"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "鷹翔脚"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "鷹嘴拳"
+    },
+    "jhp_jhp": {
+      "nameEn": "Soaring Eagle Punches",
+      "nameJa": "鷹嘴連拳"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "鶴脚打"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "鶴嘴拳"
+    },
+    "jlplk": {
+      "nameEn": "Ryuseiraku",
+      "nameJa": "龍星落"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "飛翔脚"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "落昇旋"
+    },
+    "lplk": {
+      "nameEn": "Koshuto",
+      "nameJa": "虎襲倒"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    },
+    "walljump": {
+      "nameEn": "Wall Jump",
+      "nameJa": "三角跳び"
+    }
+  },
+  "blanka": {
+    "214214p": {
+      "nameEn": "SA2 Lightning Beast",
+      "nameJa": "ライトニングビースト"
+    },
+    "214p": {
+      "nameEn": "Electric Thunder",
+      "nameJa": "エレクトリックサンダー"
+    },
+    "214pp": {
+      "nameEn": "OD Electric Thunder",
+      "nameJa": "エレクトリックサンダー"
+    },
+    "22p": {
+      "nameEn": "Blanka-chan Bomb",
+      "nameJa": "ブランカちゃん爆弾"
+    },
+    "22p_214p": {
+      "nameEn": "Blanka-chan Bomb",
+      "nameJa": "ブランカちゃん爆弾"
+    },
+    "22p_214pp": {
+      "nameEn": "Blanka-chan Bomb",
+      "nameJa": "ブランカちゃん爆弾"
+    },
+    "22p_236236p": {
+      "nameEn": "Blanka-chan Bomb",
+      "nameJa": "ブランカちゃん爆弾"
+    },
+    "236236k": {
+      "nameEn": "SA3 Ground Shave Cannonball",
+      "nameJa": "グランドシェイブキャノンボール"
+    },
+    "236236k(ca)": {
+      "nameEn": "CA Ground Shave Cannonball",
+      "nameJa": "グランドシェイブキャノンボール"
+    },
+    "236236p": {
+      "nameEn": "SA1 Shout of Earth",
+      "nameJa": "シャウトオブアース"
+    },
+    "236hk": {
+      "nameEn": "H Wild Hunt",
+      "nameJa": "ワイルドハント"
+    },
+    "236kk": {
+      "nameEn": "OD Wild Hunt",
+      "nameJa": "ワイルドハント"
+    },
+    "236lk": {
+      "nameEn": "L Wild Hunt",
+      "nameJa": "ワイルドハント"
+    },
+    "236mk": {
+      "nameEn": "M Wild Hunt",
+      "nameJa": "ワイルドハント"
+    },
+    "28hk": {
+      "nameEn": "H Vertical Rolling Attack",
+      "nameJa": "バーチカルローリング"
+    },
+    "28hk_sa2": {
+      "nameEn": "H Rolling Attack",
+      "nameJa": "ローリングアタック"
+    },
+    "28kk": {
+      "nameEn": "OD Vertical Rolling Attack",
+      "nameJa": "バーチカルローリング"
+    },
+    "28kk_sa2": {
+      "nameEn": "OD Rolling Attack",
+      "nameJa": "ローリングアタック"
+    },
+    "28lk": {
+      "nameEn": "L Vertical Rolling Attack",
+      "nameJa": "バーチカルローリング"
+    },
+    "28lk_sa2": {
+      "nameEn": "L Rolling Attack",
+      "nameJa": "ローリングアタック"
+    },
+    "28mk": {
+      "nameEn": "M Vertical Rolling Attack",
+      "nameJa": "バーチカルローリング"
+    },
+    "28mk_sa2": {
+      "nameEn": "M Rolling Attack",
+      "nameJa": "ローリングアタック"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "しゃがみ強K （ビーストテイル）"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "しゃがみ強P （スネークアッパー）"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "しゃがみ弱K （ジャングルトラップ）"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "しゃがみ弱P （キャットクロー）"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "しゃがみ中K （ビーストステップ）"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "しゃがみ中P （ベアクロー）"
+    },
+    "2pp": {
+      "nameEn": "Coward Crouch",
+      "nameJa": "フィアーダウン"
+    },
+    "2pp_k": {
+      "nameEn": "Raid Jump",
+      "nameJa": "レイドジャンプ"
+    },
+    "2pp_p": {
+      "nameEn": "Wild Lift",
+      "nameJa": "ワイルドリフト"
+    },
+    "3hp": {
+      "nameEn": "Amazon River Run",
+      "nameJa": "アマゾンリバーラン"
+    },
+    "46hp": {
+      "nameEn": "H Rolling Attack",
+      "nameJa": "ローリングアタック"
+    },
+    "46hp_sa2": {
+      "nameEn": "H Rolling Attack",
+      "nameJa": "ローリングアタック"
+    },
+    "46lp": {
+      "nameEn": "L Rolling Attack",
+      "nameJa": "ローリングアタック"
+    },
+    "46lp_sa2": {
+      "nameEn": "L Rolling Attack",
+      "nameJa": "ローリングアタック"
+    },
+    "46mp": {
+      "nameEn": "M Rolling Attack",
+      "nameJa": "ローリングアタック"
+    },
+    "46mp_sa2": {
+      "nameEn": "M Rolling Attack",
+      "nameJa": "ローリングアタック"
+    },
+    "46pp": {
+      "nameEn": "OD Rolling Attack",
+      "nameJa": "ローリングアタック"
+    },
+    "46pp_sa2": {
+      "nameEn": "OD Rolling Attack",
+      "nameJa": "ローリングアタック"
+    },
+    "4kkk": {
+      "nameEn": "Surprise Back Hop",
+      "nameJa": "サプライズバック"
+    },
+    "4lplk": {
+      "nameEn": "Jungle Flip",
+      "nameJa": "ジャングルフリップ"
+    },
+    "4mk": {
+      "nameEn": "Wild Edge",
+      "nameJa": "ワイルドエッジ"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "立ち強K （ワイルドダンス）"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P （ジャングルアーチ）"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "立ち弱K （ビーストキック）"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "立ち弱P （ベアアタック）"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "立ち中K （ブラッディーテイル）"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "立ち中P （ビーストチョップ）"
+    },
+    "63214hk": {
+      "nameEn": "H Backstep Rolling Attack",
+      "nameJa": "バックステップローリング"
+    },
+    "63214hk_sa2": {
+      "nameEn": "H Rolling Attack",
+      "nameJa": "ローリングアタック"
+    },
+    "63214kk": {
+      "nameEn": "OD Backstep Rolling Attack",
+      "nameJa": "バックステップローリング"
+    },
+    "63214kk_sa2": {
+      "nameEn": "OD Rolling Attack",
+      "nameJa": "ローリングアタック"
+    },
+    "63214lk": {
+      "nameEn": "L Backstep Rolling Attack",
+      "nameJa": "バックステップローリング"
+    },
+    "63214lk_sa2": {
+      "nameEn": "L Rolling Attack",
+      "nameJa": "ローリングアタック"
+    },
+    "63214mk": {
+      "nameEn": "M Backstep Rolling Attack",
+      "nameJa": "バックステップローリング"
+    },
+    "63214mk_sa2": {
+      "nameEn": "M Rolling Attack",
+      "nameJa": "ローリングアタック"
+    },
+    "6hp": {
+      "nameEn": "Wild Nail",
+      "nameJa": "ワイルドネイル"
+    },
+    "6hphk": {
+      "nameEn": "H Rolling Attack",
+      "nameJa": "ローリングアタック"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Quick Rolling Attack",
+      "nameJa": "ローリングアタック"
+    },
+    "6kkk": {
+      "nameEn": "Surprise Forward Hop",
+      "nameJa": "サプライズフォワード"
+    },
+    "6mk": {
+      "nameEn": "Double Knee Bombs",
+      "nameJa": "ダブルニーボンバー"
+    },
+    "6mp": {
+      "nameEn": "Rock Crusher",
+      "nameJa": "ロッククラッシュ"
+    },
+    "8jhp": {
+      "nameEn": "Neutral Jumping Heavy Punch",
+      "nameJa": "垂直"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Wild Scratch",
+      "nameJa": "ドライブインパクト（ワイルドスクラッチ）"
+    },
+    "j46p": {
+      "nameEn": "L Aerial Rolling Attack",
+      "nameJa": "エリアルローリング"
+    },
+    "j46p_sa2": {
+      "nameEn": "L Rolling Attack",
+      "nameJa": "ローリングアタック"
+    },
+    "j46pp": {
+      "nameEn": "OD Aerial Rolling Attack",
+      "nameJa": "エリアルローリング"
+    },
+    "j46pp_sa2": {
+      "nameEn": "OD Rolling Attack",
+      "nameJa": "ローリングアタック"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "ジャンプ強K （サバイバルキック）"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "ジャンプ強P （サバイバルクロー）"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "ジャンプ弱K （フライングヴァイパー）"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "ジャンプ弱P （パンサークロー）"
+    },
+    "jlplk": {
+      "nameEn": "Wild Bites",
+      "nameJa": "ワイルドバイツ"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "ジャンプ中K （ワイルドヒール）"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "ジャンプ中P （フィストドロップ）"
+    },
+    "lplk": {
+      "nameEn": "Wild Fang",
+      "nameJa": "ワイルドファング"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    },
+    "xp": {
+      "nameEn": "Rolling Cannon",
+      "nameJa": "ローリングキャノン"
+    }
+  },
+  "dhalsim": {
+    "1hk": {
+      "nameEn": "Karma Kick",
+      "nameJa": "因果キック"
+    },
+    "1hp": {
+      "nameEn": "Nirvana Punch",
+      "nameJa": "涅槃パンチ"
+    },
+    "1lk": {
+      "nameEn": "Agile Kick",
+      "nameJa": "アジャイルキック"
+    },
+    "1mk": {
+      "nameEn": "Thrust Kick",
+      "nameJa": "スラストキック"
+    },
+    "214214k": {
+      "nameEn": "SA2 Yoga Sunburst(Lv1)",
+      "nameJa": "ヨガサンバースト"
+    },
+    "214214k_hold": {
+      "nameEn": "SA2 Yoga Sunburst(Lv1)",
+      "nameJa": "ヨガサンバースト"
+    },
+    "214214k_partial_hold": {
+      "nameEn": "SA2 Yoga Sunburst(Lv1)",
+      "nameJa": "ヨガサンバースト"
+    },
+    "236236hp": {
+      "nameEn": "SA1 L Yoga Inferno",
+      "nameJa": "ヨガインフェルノ"
+    },
+    "236236k": {
+      "nameEn": "SA3 Merciless Yoga",
+      "nameJa": "ヨガマーシレス"
+    },
+    "236236k(ca)": {
+      "nameEn": "CA Merciless Yoga",
+      "nameJa": "ヨガマーシレス"
+    },
+    "236236lp": {
+      "nameEn": "SA1 L Yoga Inferno",
+      "nameJa": "ヨガインフェルノ"
+    },
+    "236236mp": {
+      "nameEn": "SA1 L Yoga Inferno",
+      "nameJa": "ヨガインフェルノ"
+    },
+    "236k": {
+      "nameEn": "L Yoga Arch",
+      "nameJa": "ヨガアーチ"
+    },
+    "236kk": {
+      "nameEn": "OD L Yoga Arch",
+      "nameJa": "ヨガアーチ"
+    },
+    "236p": {
+      "nameEn": "L Yoga Fire",
+      "nameJa": "ヨガファイア"
+    },
+    "236p_hold": {
+      "nameEn": "L Yoga Fire(Charged)",
+      "nameJa": "ヨガファイア"
+    },
+    "236pp": {
+      "nameEn": "OD L Yoga Fire",
+      "nameJa": "ヨガファイア"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "しゃがみ強K（ロングスライディング）"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "しゃがみ強P（ダブルヨガパンチ）"
+    },
+    "2kk": {
+      "nameEn": "Yoga Float(immediately)",
+      "nameJa": "ヨガフロート"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "しゃがみ弱K（スライディング）"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "手刀水平チョップ"
+    },
+    "2lplk": {
+      "nameEn": "Yoga Splash",
+      "nameJa": "ヨガスプラッシュ"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "しゃがみ中K（ヨガスライディング）"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "しゃがみ中P（しゃがみズームパンチ）"
+    },
+    "4hk": {
+      "nameEn": "Yoga Mountain",
+      "nameJa": "ヨガマウンテン"
+    },
+    "4hp": {
+      "nameEn": "Yoga Lance",
+      "nameJa": "ヨガランス"
+    },
+    "4lplk": {
+      "nameEn": "Yoga Throw",
+      "nameJa": "ヨガスルー"
+    },
+    "4mk": {
+      "nameEn": "Divine Kick",
+      "nameJa": "合掌キック"
+    },
+    "4mp": {
+      "nameEn": "Yoga Uppercut",
+      "nameJa": "ヨガアッパー"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "合掌ズームスピンキック"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P（ダブルズームパンチ）"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "合掌フロントローキック"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "手刀チョップ"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "合掌ズームローキック"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "立ち中P（ズームストレート）"
+    },
+    "63214hk": {
+      "nameEn": "H Yoga Blast",
+      "nameJa": "ヨガブラスト"
+    },
+    "63214hp": {
+      "nameEn": "H Yoga Flame",
+      "nameJa": "ヨガフレイム"
+    },
+    "63214kk": {
+      "nameEn": "OD Yoga Blast",
+      "nameJa": "ヨガブラスト"
+    },
+    "63214lk": {
+      "nameEn": "L Yoga Blast",
+      "nameJa": "ヨガブラスト"
+    },
+    "63214lp": {
+      "nameEn": "L Yoga Flame",
+      "nameJa": "ヨガフレイム"
+    },
+    "63214mk": {
+      "nameEn": "M Yoga Blast",
+      "nameJa": "ヨガブラスト"
+    },
+    "63214mp": {
+      "nameEn": "M Yoga Flame",
+      "nameJa": "ヨガフレイム"
+    },
+    "63214pp": {
+      "nameEn": "OD Yoga Flame",
+      "nameJa": "ヨガフレイム"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Yoga Illusion",
+      "nameJa": "ドライブリバーサル（ヨガイリュージョン）"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Yoga Illusion",
+      "nameJa": "ドライブリバーサル（ヨガイリュージョン）"
+    },
+    "6ppp_6kkk_4ppp_4kkk": {
+      "nameEn": "Yoga Teleport (Backward)",
+      "nameJa": "ヨガテレポート"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Yoga Rise",
+      "nameJa": "ドライブインパクト（ヨガライズ）"
+    },
+    "j2hk": {
+      "nameEn": "H Drill Kick",
+      "nameJa": "ドリルキック"
+    },
+    "j2kk": {
+      "nameEn": "Aerial Yoga Float",
+      "nameJa": "空中ヨガフロート"
+    },
+    "j2lk": {
+      "nameEn": "L Drill Kick",
+      "nameJa": "ドリルキック"
+    },
+    "j2lp": {
+      "nameEn": "Yoga Mummy",
+      "nameJa": "ドリル頭突き"
+    },
+    "j2mk": {
+      "nameEn": "M Drill Kick",
+      "nameJa": "ドリルキック"
+    },
+    "j63214p": {
+      "nameEn": "L Yoga Comet",
+      "nameJa": "ヨガコメット"
+    },
+    "j63214pp": {
+      "nameEn": "OD Yoga Comet",
+      "nameJa": "ヨガコメット"
+    },
+    "j6ppp_6kkk_4ppp_4kkk": {
+      "nameEn": "P Aerial Yoga Teleport (Forward)",
+      "nameJa": "空中ヨガテレポート"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "ジャンプ強K（ジャンプズームハイキック）"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "合掌ハンマー"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "ジャンプヨガ前蹴り"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "ジャンプ掌底"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "合掌ジャンプアンダーキック"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "ジャンプ中P（ジャンプズームサイドパンチ）"
+    },
+    "lplk": {
+      "nameEn": "Yoga Smash",
+      "nameJa": "ヨガスマッシュ"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  },
+  "e-honda": {
+    "214214p": {
+      "nameEn": "SA3 The Final Bout",
+      "nameJa": "千秋楽"
+    },
+    "214214p(ca)": {
+      "nameEn": "CA The Final Bout",
+      "nameJa": "千秋楽"
+    },
+    "214hp": {
+      "nameEn": "H Hundred Hand Slap",
+      "nameJa": "百裂張り手"
+    },
+    "214lp": {
+      "nameEn": "L Hundred Hand Slap",
+      "nameJa": "百裂張り手"
+    },
+    "214mp": {
+      "nameEn": "M Hundred Hand Slap",
+      "nameJa": "百裂張り手"
+    },
+    "214pp": {
+      "nameEn": "OD Hundred Hand Slap",
+      "nameJa": "百裂張り手"
+    },
+    "22k": {
+      "nameEn": "Sumo Spirit",
+      "nameJa": "肩屋入り"
+    },
+    "22p": {
+      "nameEn": "Neko Damashi",
+      "nameJa": "猫だまし"
+    },
+    "236236p": {
+      "nameEn": "SA1 Show of Force",
+      "nameJa": "発揮爆砕"
+    },
+    "236k": {
+      "nameEn": "Sumo Dash",
+      "nameJa": "相撲ステップ"
+    },
+    "236k_2p": {
+      "nameEn": "Taiho Cannon Lift",
+      "nameJa": "大砲"
+    },
+    "236k_p": {
+      "nameEn": "Teppo Triple Slap(1)",
+      "nameJa": "鉄砲"
+    },
+    "236k_p_p": {
+      "nameEn": "Teppo Triple Slap(2)",
+      "nameJa": "鉄砲"
+    },
+    "236kk": {
+      "nameEn": "OD Sumo Dash",
+      "nameJa": "相撲ステップ"
+    },
+    "236kk_2p": {
+      "nameEn": "Taiho Cannon Lift",
+      "nameJa": "大砲"
+    },
+    "236kk_p": {
+      "nameEn": "Teppo Triple Slap(1)",
+      "nameJa": "鉄砲"
+    },
+    "236kk_p_p": {
+      "nameEn": "Teppo Triple Slap(2)",
+      "nameJa": "鉄砲"
+    },
+    "28hk": {
+      "nameEn": "H Sumo Smash",
+      "nameJa": "スーパー百貫落とし"
+    },
+    "28kk": {
+      "nameEn": "OD Sumo Smash",
+      "nameJa": "スーパー百貫落とし"
+    },
+    "28lk": {
+      "nameEn": "L Sumo Smash",
+      "nameJa": "スーパー百貫落とし"
+    },
+    "28mk": {
+      "nameEn": "M Sumo Smash",
+      "nameJa": "スーパー百貫落とし"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "土俵払い"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "スーパー出足払い"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "向こうずねキック"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "しゃがみ張り手"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "掛け足"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "しゃがみ突っ張り"
+    },
+    "3hk": {
+      "nameEn": "Power Stomp",
+      "nameJa": "力足"
+    },
+    "4646k": {
+      "nameEn": "SA2 Ultimate Killer Head Ram",
+      "nameJa": "スーパー鬼無双"
+    },
+    "46hp": {
+      "nameEn": "H Sumo Headbutt",
+      "nameJa": "スーパー頭突き"
+    },
+    "46lp": {
+      "nameEn": "L Sumo Headbutt",
+      "nameJa": "スーパー頭突き"
+    },
+    "46mp": {
+      "nameEn": "M Sumo Headbutt",
+      "nameJa": "スーパー頭突き"
+    },
+    "46pp": {
+      "nameEn": "OD Sumo Headbutt",
+      "nameJa": "スーパー頭突き"
+    },
+    "4lplk": {
+      "nameEn": "Tawara Throw",
+      "nameJa": "俵投げ"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "丸太蹴り"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P（ごっつぁんチョップ）"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "立ち弱K（けたぐり）"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "張り手"
+    },
+    "5lp_mp": {
+      "nameEn": "Double Slaps",
+      "nameJa": "連ね張り手"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "四股蹴り"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "突っ張り"
+    },
+    "5mp_3hk": {
+      "nameEn": "Toko Shizume",
+      "nameJa": "地鎮"
+    },
+    "63214hk": {
+      "nameEn": "H Oicho Throw",
+      "nameJa": "大銀杏投げ"
+    },
+    "63214kk": {
+      "nameEn": "OD Oicho Throw",
+      "nameJa": "大銀杏投げ"
+    },
+    "63214lk": {
+      "nameEn": "L Oicho Throw",
+      "nameJa": "大銀杏投げ"
+    },
+    "63214mk": {
+      "nameEn": "M Oicho Throw",
+      "nameJa": "大銀杏投げ"
+    },
+    "6hk": {
+      "nameEn": "Harai Kick",
+      "nameJa": "払い蹴り"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Raiden-Ho",
+      "nameJa": "雷電砲"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Raiden-Ho",
+      "nameJa": "雷電砲"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Sumo Crunch",
+      "nameJa": "ドライブインパクト（ぶちかまし）"
+    },
+    "j2mk": {
+      "nameEn": "Flying Sumo Press",
+      "nameJa": "フライングスモウプレス"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "跳び丸太蹴り"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "ジャンプ張り手"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "百貫落とし"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "ジャンプ突き手"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "わらじ蹴り"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "ジャンプ中P（ジャンプチョップ）"
+    },
+    "lplk": {
+      "nameEn": "Saba Ori",
+      "nameJa": "さば折り"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  },
+  "dee-jay": {
+    "214214p": {
+      "nameEn": "SA3 Weekend Pleasure",
+      "nameJa": "サタデーナイト"
+    },
+    "214214p(ca)": {
+      "nameEn": "CA Weekend Pleasure",
+      "nameJa": "サタデーナイト"
+    },
+    "214hp": {
+      "nameEn": "H Machine Gun Uppercut",
+      "nameJa": "マシンガンアッパー"
+    },
+    "214k": {
+      "nameEn": "Jus Cool",
+      "nameJa": "ジョスクール"
+    },
+    "214k_6p": {
+      "nameEn": "Juggling Dash",
+      "nameJa": "ジャグリンステップ"
+    },
+    "214k_6p_4p": {
+      "nameEn": "Juggling Sway",
+      "nameJa": "ジャグリンスウェイ"
+    },
+    "214k_hk": {
+      "nameEn": "Maximum Strike",
+      "nameJa": "マキシマムストライク"
+    },
+    "214k_lk": {
+      "nameEn": "Funky Slicer",
+      "nameJa": "ファンキースライサー"
+    },
+    "214k_mk": {
+      "nameEn": "Waning Moon",
+      "nameJa": "ワニングムーン"
+    },
+    "214kk": {
+      "nameEn": "OD Jus Cool",
+      "nameJa": "ジョスクール"
+    },
+    "214kk_6p": {
+      "nameEn": "Juggling Dash",
+      "nameJa": "ジャグリンステップ"
+    },
+    "214kk_6p_4p": {
+      "nameEn": "Juggling Sway",
+      "nameJa": "ジャグリンスウェイ"
+    },
+    "214kk_hk": {
+      "nameEn": "Maximum Strike",
+      "nameJa": "マキシマムストライク"
+    },
+    "214kk_lk": {
+      "nameEn": "Funky Slicer",
+      "nameJa": "ファンキースライサー"
+    },
+    "214kk_mk": {
+      "nameEn": "Waning Moon",
+      "nameJa": "ワニングムーン"
+    },
+    "214lp": {
+      "nameEn": "L Machine Gun Uppercut",
+      "nameJa": "マシンガンアッパー"
+    },
+    "214mp": {
+      "nameEn": "M Machine Gun Uppercut",
+      "nameJa": "マシンガンアッパー"
+    },
+    "214pp": {
+      "nameEn": "OD Machine Gun Uppercut",
+      "nameJa": "マシンガンアッパー"
+    },
+    "22pp": {
+      "nameEn": "Speedy Maracas",
+      "nameJa": "マラカスビート"
+    },
+    "22pp_2bar": {
+      "nameEn": "Speedy Maracas",
+      "nameJa": "マラカスビート"
+    },
+    "236236hp": {
+      "nameEn": "SA2 Headliner Sunrise Festival",
+      "nameJa": "サンライズフェスティバル・マキシマム"
+    },
+    "236236hp_lp": {
+      "nameEn": "SA3 Weekend Pleasure",
+      "nameJa": "サタデーナイト"
+    },
+    "236236hp_lp_mp": {
+      "nameEn": "SA3 Weekend Pleasure",
+      "nameJa": "サタデーナイト"
+    },
+    "236236hp_lp_mp_hp": {
+      "nameEn": "SA3 Weekend Pleasure",
+      "nameJa": "サタデーナイト"
+    },
+    "236236hp_lp_mp_hp_lk": {
+      "nameEn": "SA3 Weekend Pleasure",
+      "nameJa": "サタデーナイト"
+    },
+    "236236hp_lp_mp_hp_lk_mk": {
+      "nameEn": "SA3 Weekend Pleasure",
+      "nameJa": "サタデーナイト"
+    },
+    "236236hp_lp_mp_hp_lk_mk_hk": {
+      "nameEn": "SA3 Weekend Pleasure",
+      "nameJa": "サタデーナイト"
+    },
+    "236236hp_lp_mp_hp_lk_mk_hk_hk": {
+      "nameEn": "SA2 Encore Beat (Marvelous)",
+      "nameJa": "アンコールビート"
+    },
+    "236236hp_lp_mp_hp_lk_mk_hk_hp": {
+      "nameEn": "SA2 Climactic Strike (Marvelous)",
+      "nameJa": "クライマックスブロー"
+    },
+    "236236k": {
+      "nameEn": "SA1 The Greatest Sobat",
+      "nameJa": "グレイテストソバット"
+    },
+    "236236lp": {
+      "nameEn": "SA2 Lowkey Sunrise Festival",
+      "nameJa": "サンライズフェスティバル・ライト"
+    },
+    "236236lp_lp": {
+      "nameEn": "SA3 Weekend Pleasure",
+      "nameJa": "サタデーナイト"
+    },
+    "236236lp_lp_mp": {
+      "nameEn": "SA3 Weekend Pleasure",
+      "nameJa": "サタデーナイト"
+    },
+    "236236lp_lp_mp_hp": {
+      "nameEn": "SA3 Weekend Pleasure",
+      "nameJa": "サタデーナイト"
+    },
+    "236236lp_lp_mp_hp_lk": {
+      "nameEn": "SA3 Weekend Pleasure",
+      "nameJa": "サタデーナイト"
+    },
+    "236236lp_lp_mp_hp_lk_mk": {
+      "nameEn": "SA3 Weekend Pleasure",
+      "nameJa": "サタデーナイト"
+    },
+    "236236lp_lp_mp_hp_lk_mk_hk": {
+      "nameEn": "SA3 Weekend Pleasure",
+      "nameJa": "サタデーナイト"
+    },
+    "236236mp": {
+      "nameEn": "SA2 Marvelous Sunrise Festival",
+      "nameJa": "サンライズフェスティバル・マーベラス"
+    },
+    "236236mp_lp": {
+      "nameEn": "SA3 Weekend Pleasure",
+      "nameJa": "サタデーナイト"
+    },
+    "236236mp_lp_mp": {
+      "nameEn": "SA3 Weekend Pleasure",
+      "nameJa": "サタデーナイト"
+    },
+    "236236mp_lp_mp_hp": {
+      "nameEn": "SA3 Weekend Pleasure",
+      "nameJa": "サタデーナイト"
+    },
+    "236236mp_lp_mp_hp_lk": {
+      "nameEn": "SA3 Weekend Pleasure",
+      "nameJa": "サタデーナイト"
+    },
+    "236236mp_lp_mp_hp_lk_mk": {
+      "nameEn": "SA3 Weekend Pleasure",
+      "nameJa": "サタデーナイト"
+    },
+    "236236mp_lp_mp_hp_lk_mk_hk": {
+      "nameEn": "SA3 Weekend Pleasure",
+      "nameJa": "サタデーナイト"
+    },
+    "236236mp_lp_mp_hp_lk_mk_hk_hk": {
+      "nameEn": "SA2 Encore Beat (Marvelous)",
+      "nameJa": "アンコールビート"
+    },
+    "236236mp_lp_mp_hp_lk_mk_hk_hp": {
+      "nameEn": "SA2 Climactic Strike (Marvelous)",
+      "nameJa": "クライマックスブロー"
+    },
+    "236hk": {
+      "nameEn": "Double Rolling Sobat",
+      "nameJa": "ダブルローリングソバット"
+    },
+    "236kk": {
+      "nameEn": "OD Double Rolling Sobat",
+      "nameJa": "ダブルローリングソバット"
+    },
+    "236lk": {
+      "nameEn": "Roll Through Feint",
+      "nameJa": "フェイクロールステップ"
+    },
+    "236mk": {
+      "nameEn": "Quick Rolling Sobat",
+      "nameJa": "クイックローリングソバット"
+    },
+    "28hk": {
+      "nameEn": "H Jackknife Maximum",
+      "nameJa": "ジャックナイフマキシマム"
+    },
+    "28kk": {
+      "nameEn": "OD Jackknife Maximum",
+      "nameJa": "ジャックナイフマキシマム"
+    },
+    "28lk": {
+      "nameEn": "L Jackknife Maximum",
+      "nameJa": "ジャックナイフマキシマム"
+    },
+    "28mk": {
+      "nameEn": "M Jackknife Maximum",
+      "nameJa": "ジャックナイフマキシマム"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "しゃがみ強K （スライディングヒールアッパー）"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "しゃがみ強P （バーストフック）"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "しゃがみ弱K （アンダーウィップ）"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "しゃがみ弱P （アンダージャブ）"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "しゃがみ中K （グランドスクラッチ）"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "しゃがみ中P （レッグクラッシュエルボー）"
+    },
+    "46hp": {
+      "nameEn": "H Air Slasher",
+      "nameJa": "エアスラッシャー"
+    },
+    "46lp": {
+      "nameEn": "L Air Slasher",
+      "nameJa": "エアスラッシャー"
+    },
+    "46mp": {
+      "nameEn": "M Air Slasher",
+      "nameJa": "エアスラッシャー"
+    },
+    "46pp": {
+      "nameEn": "OD Air Slasher",
+      "nameJa": "エアスラッシャー"
+    },
+    "4hk": {
+      "nameEn": "Face Breaker",
+      "nameJa": "フェイスブレイカー"
+    },
+    "4lplk": {
+      "nameEn": "Flip Throw",
+      "nameJa": "フリップスルー"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "立ち強K （マキシマムキック）"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P （ブラストアッパー）"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "立ち弱K （ローキック）"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "立ち弱P （ジャブ）"
+    },
+    "5lp_mk": {
+      "nameEn": "M Threebeat Combo",
+      "nameJa": "3ビートコンボ"
+    },
+    "5lp_mk_mk": {
+      "nameEn": "Threebeat Combo (2)",
+      "nameJa": "3ビートコンボ"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "立ち中K （ミドルキック）"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "立ち中P （フロントフック）"
+    },
+    "5mp_hp": {
+      "nameEn": "H Dee Jay Special",
+      "nameJa": "ディージェイスペシャル"
+    },
+    "5mp_hp_hk": {
+      "nameEn": "Dee Jay Special (2)",
+      "nameJa": "ディージェイスペシャル"
+    },
+    "5mp_mp": {
+      "nameEn": "M Funky Dance",
+      "nameJa": "ファンキーダンス"
+    },
+    "5mp_mp_4hp": {
+      "nameEn": "Funky Dance Feint",
+      "nameJa": "ファンキーダンス・フェイク"
+    },
+    "5mp_mp_hp": {
+      "nameEn": "Funky Dance (2)",
+      "nameJa": "ファンキーダンス"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Leg Scratch",
+      "nameJa": "ドライブリバーサル （レッグスクラッチ）"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Leg Scratch",
+      "nameJa": "ドライブリバーサル（レッグスクラッチ）"
+    },
+    "6mk": {
+      "nameEn": "Sunrise Heel",
+      "nameJa": "サンライズヒール"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Wild Beat",
+      "nameJa": "ドライブインパクト（ワイルドビート）"
+    },
+    "j2lk": {
+      "nameEn": "Knee Shot",
+      "nameJa": "ニーショット"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "ジャンプ強K （フライングカリビアンソバット）"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "ジャンプ強P （ファンクバウンド）"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "ジャンプ弱K （ファンクウィップ）"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "ジャンプ弱P （ファンクストレート）"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "ジャンプ中K （フライングムエタイキック）"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "ジャンプ中P （ファンクアッパー）"
+    },
+    "jmp_hp": {
+      "nameEn": "Party in the Air",
+      "nameJa": "フライングパーティー"
+    },
+    "lplk": {
+      "nameEn": "Diss Track",
+      "nameJa": "スタンプ・ザ・ビート"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  },
+  "zangief": {
+    "1lplk": {
+      "nameEn": "Russian Drop",
+      "nameJa": "ロシアンドロップ"
+    },
+    "22hk": {
+      "nameEn": "Tundra Storm",
+      "nameJa": "ツンドラストーム"
+    },
+    "22mk_mk": {
+      "nameEn": "Power Stomps(2)",
+      "nameJa": "ストンピング"
+    },
+    "22mk_mk_mk": {
+      "nameEn": "Power Stomps(3)",
+      "nameJa": "ストンピング"
+    },
+    "236236k": {
+      "nameEn": "SA1 Aerial Russian Slam",
+      "nameJa": "エリアルロシアンスラム"
+    },
+    "236236p": {
+      "nameEn": "SA2 Cyclone Lariat(Charged)",
+      "nameJa": "サイクロンラリアット"
+    },
+    "236236p_hold_p": {
+      "nameEn": "SA3 Bolshoi Storm Buster",
+      "nameJa": "サイクロンラリアット"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "しゃがみ強K（ビッグスタンプ）"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "しゃがみ強P（ダイナマイトエルボ－）"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "しゃがみ弱K（ショートスタンプ）"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "しゃがみ弱P（ヘルフィンガー）"
+    },
+    "2lplk": {
+      "nameEn": "Brain Buster",
+      "nameJa": "ブレーンバスター"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "しゃがみ中K（ダイナマイトキック）"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "しゃがみ中P（ロシアンフィスト）"
+    },
+    "360hp": {
+      "nameEn": "H Screw Piledriver",
+      "nameJa": "スクリューパイルドライバー"
+    },
+    "360lp": {
+      "nameEn": "L Screw Piledriver",
+      "nameJa": "スクリューパイルドライバー"
+    },
+    "360mp": {
+      "nameEn": "M Screw Piledriver",
+      "nameJa": "スクリューパイルドライバー"
+    },
+    "360pp": {
+      "nameEn": "OD Screw Piledriver",
+      "nameJa": "スクリューパイルドライバー"
+    },
+    "3hk": {
+      "nameEn": "Smetana Dropkick",
+      "nameJa": "スメタナドロップキック"
+    },
+    "3lplk": {
+      "nameEn": "Spinebuster",
+      "nameJa": "スパインバスター"
+    },
+    "3mp": {
+      "nameEn": "Hellstab",
+      "nameJa": "ヘルスタブ"
+    },
+    "4lplk": {
+      "nameEn": "Capture Suplex",
+      "nameJa": "キャプチュード"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "立ち強K（ロシアンハイキック）"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P（ダイナマイトパンチ）"
+    },
+    "5hp_hold": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P（ダイナマイトパンチ）"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "立ち弱K（ローキック）"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "立ち弱P（ブレーンチョップ）"
+    },
+    "5lplk": {
+      "nameEn": "Bodyslam",
+      "nameJa": "ボディスラム"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "立ち中K（ミドルキック）"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "立ち中P（カウンターチョップ）"
+    },
+    "5mp_mp": {
+      "nameEn": "M Machine Gun Chops",
+      "nameJa": "マシンガンチョップ"
+    },
+    "5mp_mp_mp": {
+      "nameEn": "Machine Gun Chops(2)",
+      "nameJa": "マシンガンチョップ"
+    },
+    "63214k_close": {
+      "nameEn": "Russian Suplex",
+      "nameJa": "ロシアンスープレックス"
+    },
+    "63214k_far": {
+      "nameEn": "Siberian Express(Close range)",
+      "nameJa": "シベリアンエクスプレス"
+    },
+    "63214k_mid": {
+      "nameEn": "Siberian Express(Close range)",
+      "nameJa": "シベリアンエクスプレス"
+    },
+    "63214kk_close": {
+      "nameEn": "Russian Suplex",
+      "nameJa": "ロシアンスープレックス"
+    },
+    "63214kk_far": {
+      "nameEn": "Siberian Express(Close range)",
+      "nameJa": "シベリアンエクスプレス"
+    },
+    "63214kk_mid": {
+      "nameEn": "Siberian Express(Close range)",
+      "nameJa": "シベリアンエクスプレス"
+    },
+    "6hk": {
+      "nameEn": "Cyclone Wheel Kick",
+      "nameJa": "サイクロンニールキック"
+    },
+    "6hp": {
+      "nameEn": "Headbutt",
+      "nameJa": "ヘッドバット"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Reverse Russian Kick",
+      "nameJa": "ドライブリバーサル（リバースロシアンキック）"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Reverse Russian Kick",
+      "nameJa": "ドライブリバーサル（リバースロシアンキック）"
+    },
+    "6lplk": {
+      "nameEn": "German Suplex",
+      "nameJa": "ジャーマンスープレックス"
+    },
+    "6mk": {
+      "nameEn": "Knee Hammer",
+      "nameJa": "ニーバット"
+    },
+    "720p": {
+      "nameEn": "SA3 Bolshoi Storm Buster",
+      "nameJa": "ボリショイストームバスター"
+    },
+    "720p(ca)": {
+      "nameEn": "CA Bolshoi Storm Buster",
+      "nameJa": "ボリショイストームバスター"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Double Russian Chop",
+      "nameJa": "ドライブインパクト（ダブルロシアンチョップ）"
+    },
+    "j2hp": {
+      "nameEn": "Flying Body Press",
+      "nameJa": "フライングボディプレス"
+    },
+    "j360k": {
+      "nameEn": "Borscht Dynamite",
+      "nameJa": "ボルシチダイナマイト"
+    },
+    "j360kk": {
+      "nameEn": "OD Borscht Dynamite",
+      "nameJa": "ボルシチダイナマイト"
+    },
+    "j8hp": {
+      "nameEn": "Flying Headbutt",
+      "nameJa": "フライングヘッドバット"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "ジャンプ強K（ドロップキック）"
+    },
+    "jhk_hold": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "ジャンプ強K（ドロップキック）"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "ジャンプ強P（ジャンピングロシアンチョップ）"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "ジャンプ弱K（ダブルニードロップ）"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "ジャンプ弱P（ジャンピングフィンガー）"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "ジャンプ中K（ジャンピングロシアンスタンプ）"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "ジャンプ中P（ジャンピングフィスト）"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    },
+    "pp": {
+      "nameEn": "OD Double Lariat",
+      "nameJa": "ダブルラリアット"
+    },
+    "ppp": {
+      "nameEn": "OD Double Lariat",
+      "nameJa": "ダブルラリアット"
+    }
+  },
+  "aki": {
+    "214214p": {
+      "nameEn": "SA2 Tainted Talons",
+      "nameJa": "紫煙裂爪"
+    },
+    "214hk": {
+      "nameEn": "H Cruel Fate",
+      "nameJa": "凶襲突"
+    },
+    "214hp": {
+      "nameEn": "Toxic Wreath",
+      "nameJa": "紫泡撒"
+    },
+    "214kk": {
+      "nameEn": "OD Cruel Fate",
+      "nameJa": "凶襲突"
+    },
+    "214lk": {
+      "nameEn": "L Cruel Fate",
+      "nameJa": "凶襲突"
+    },
+    "214lp": {
+      "nameEn": "Nightshade Pulse",
+      "nameJa": "紫煙砲"
+    },
+    "214lp_6p": {
+      "nameEn": "Nightshade Chaser",
+      "nameJa": "紫煙追"
+    },
+    "214lp_6p_burst": {
+      "nameEn": "Nightshade Chaser (Burst)",
+      "nameJa": "紫煙追"
+    },
+    "214mk": {
+      "nameEn": "M Cruel Fate",
+      "nameJa": "凶襲突"
+    },
+    "214mp": {
+      "nameEn": "Orchid Spring",
+      "nameJa": "紫泡泉"
+    },
+    "214pp": {
+      "nameEn": "OD Nightshade Pulse",
+      "nameJa": "紫煙砲"
+    },
+    "214pp_6p": {
+      "nameEn": "Nightshade Chaser",
+      "nameJa": "紫煙追"
+    },
+    "214pp_6p_burst": {
+      "nameEn": "Nightshade Chaser (Burst)",
+      "nameJa": "紫煙追"
+    },
+    "236236k": {
+      "nameEn": "SA1 Deadly Implication",
+      "nameJa": "死屍累々"
+    },
+    "236236p": {
+      "nameEn": "SA3 Claws of Ya Zi",
+      "nameJa": "睚眦"
+    },
+    "236236p(ca)": {
+      "nameEn": "CA Claws of Ya Zi",
+      "nameJa": "睚眦"
+    },
+    "236hk": {
+      "nameEn": "H Snake Step",
+      "nameJa": "蛇軽功"
+    },
+    "236hp": {
+      "nameEn": "H Serpent Lash",
+      "nameJa": "蛇頭鞭"
+    },
+    "236kk": {
+      "nameEn": "OD Snake Step",
+      "nameJa": "蛇軽功"
+    },
+    "236lk": {
+      "nameEn": "L Snake Step",
+      "nameJa": "蛇軽功"
+    },
+    "236lp": {
+      "nameEn": "L Serpent Lash",
+      "nameJa": "蛇頭鞭"
+    },
+    "236mk": {
+      "nameEn": "M Snake Step",
+      "nameJa": "蛇軽功"
+    },
+    "236mp": {
+      "nameEn": "M Serpent Lash",
+      "nameJa": "蛇頭鞭"
+    },
+    "236pp": {
+      "nameEn": "OD Serpent Lash",
+      "nameJa": "蛇頭鞭"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "蛇尾脚"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "修蛇"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "蹴突蛇"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "潜蛇突"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "蛇落蹴"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "蛇伸突"
+    },
+    "2pp": {
+      "nameEn": "Sinister Slide",
+      "nameJa": "悪鬼蛇行"
+    },
+    "2pp_8": {
+      "nameEn": "Sinister Slide",
+      "nameJa": "悪鬼蛇行"
+    },
+    "2pp_k": {
+      "nameEn": "Heel Strike",
+      "nameJa": "蛇連咬"
+    },
+    "2pp_lplk": {
+      "nameEn": "Entrapment",
+      "nameJa": "雁字搦"
+    },
+    "2pp_p": {
+      "nameEn": "Venomous Fang",
+      "nameJa": "猛毒牙"
+    },
+    "3mp": {
+      "nameEn": "Pu Lao",
+      "nameJa": "蒲牢"
+    },
+    "4lplk": {
+      "nameEn": "Gluttony",
+      "nameJa": "饕餮"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "蛇旋脚"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "蛇突牙"
+    },
+    "5hp_hp": {
+      "nameEn": "Qiong Qi (2)",
+      "nameJa": "窮奇"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "蛇咬脚"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "蛇突"
+    },
+    "5lp_lp": {
+      "nameEn": "Hun Dun(2)",
+      "nameJa": "渾沌"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "蛇蝎蹴"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "蛇咬手"
+    },
+    "6hk": {
+      "nameEn": "Qiu Niu",
+      "nameJa": "囚牛"
+    },
+    "6hp": {
+      "nameEn": "Chi Wen",
+      "nameJa": "螭吻"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Feng Shi",
+      "nameJa": "封豕"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Feng Shi",
+      "nameJa": "封豕"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Zao Chi",
+      "nameJa": "鑿歯"
+    },
+    "j2hp": {
+      "nameEn": "Gong Fu",
+      "nameJa": "蚣蝮"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "騰空双蹴蛇"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "騰空双蛇突"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "空蛇蹴"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "空蛇突"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "蛇天蹴"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "回旋蛇"
+    },
+    "lplk": {
+      "nameEn": "Whisper",
+      "nameJa": "贔屓"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  },
+  "ed": {
+    "214214p": {
+      "nameEn": "SA2 Psycho Cannon",
+      "nameJa": "サイコキャノン"
+    },
+    "214hp": {
+      "nameEn": "H Psycho Blitz",
+      "nameJa": "サイコブリッツ"
+    },
+    "214lp": {
+      "nameEn": "L Psycho Blitz",
+      "nameJa": "サイコブリッツ"
+    },
+    "214mp": {
+      "nameEn": "M Psycho Blitz",
+      "nameJa": "サイコブリッツ"
+    },
+    "214pp": {
+      "nameEn": "OD Psycho Blitz",
+      "nameJa": "サイコブリッツ"
+    },
+    "236236k": {
+      "nameEn": "SA1 Psycho Storm",
+      "nameJa": "サイコストーム"
+    },
+    "236236p": {
+      "nameEn": "SA3 Psycho Chamber",
+      "nameJa": "サイコチェンバー"
+    },
+    "236236p(ca)": {
+      "nameEn": "CA Psycho Chamber",
+      "nameJa": "サイコチェンバー"
+    },
+    "236hk": {
+      "nameEn": "H Psycho Flicker",
+      "nameJa": "サイコフリッカー"
+    },
+    "236hk_hold": {
+      "nameEn": "L Psycho Flicker (Charged)",
+      "nameJa": "サイコフリッカー"
+    },
+    "236kk": {
+      "nameEn": "OD Psycho Flicker",
+      "nameJa": "サイコフリッカー"
+    },
+    "236lk": {
+      "nameEn": "L Psycho Flicker",
+      "nameJa": "サイコフリッカー"
+    },
+    "236lk_hold": {
+      "nameEn": "L Psycho Flicker (Charged)",
+      "nameJa": "サイコフリッカー"
+    },
+    "236mk": {
+      "nameEn": "M Psycho Flicker",
+      "nameJa": "サイコフリッカー"
+    },
+    "236mk_hold": {
+      "nameEn": "L Psycho Flicker (Charged)",
+      "nameJa": "サイコフリッカー"
+    },
+    "236p": {
+      "nameEn": "Psycho Spark",
+      "nameJa": "サイコスパーク"
+    },
+    "236p_6p": {
+      "nameEn": "L Psycho Shoot",
+      "nameJa": "サイコシュート"
+    },
+    "236pp": {
+      "nameEn": "OD Psycho Spark",
+      "nameJa": "サイコスパーク"
+    },
+    "236pp_6p": {
+      "nameEn": "L Psycho Shoot",
+      "nameJa": "サイコシュート"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "しゃがみ強K（ローフリッカー）"
+    },
+    "2hk_hp": {
+      "nameEn": "Low Smash Combination",
+      "nameJa": "ロースマッシュコンビネーション"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "しゃがみ強P（ローフックパンチ）"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "しゃがみ弱K（ジャブフリッカー）"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "しゃがみ弱P（アンダーブロー）"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "しゃがみ中K（オーバーフリッカー）"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "しゃがみ中P（アンダーフック）"
+    },
+    "4kk": {
+      "nameEn": "Kill Rush (Backward)",
+      "nameJa": "後方"
+    },
+    "4lplk": {
+      "nameEn": "Rib Crusher",
+      "nameJa": "リブクラッシャー"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "立ち強K（ライジングフリッカー）"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P（ソリッドナックル）"
+    },
+    "5hp_hold_lv1": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P（ソリッドナックル）"
+    },
+    "5hp_hold_lv2": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P（ソリッドナックル）"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "立ち弱K（フリッカー）"
+    },
+    "5lk_lk": {
+      "nameEn": "L Flicker Combination",
+      "nameJa": "フリッカーコンビネーション"
+    },
+    "5lk_lk_lk": {
+      "nameEn": "Flicker Combination(2)",
+      "nameJa": "フリッカーコンビネーション"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "立ち弱P（ジャブ）"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "立ち中K（ヒットマンフリッカー）"
+    },
+    "5mk_mk": {
+      "nameEn": "M Hitman Combination",
+      "nameJa": "ヒットマンコンビネーション"
+    },
+    "5mk_mk_hp": {
+      "nameEn": "Hitman Combination(2)",
+      "nameJa": "ヒットマンコンビネーション"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "立ち中P（ボディブロー）"
+    },
+    "5mp_hp": {
+      "nameEn": "Body Blow Combination",
+      "nameJa": "ボディブローコンビネーション"
+    },
+    "623hp": {
+      "nameEn": "H Psycho Uppercut",
+      "nameJa": "サイコアッパー"
+    },
+    "623lp": {
+      "nameEn": "L Psycho Uppercut",
+      "nameJa": "サイコアッパー"
+    },
+    "623mp": {
+      "nameEn": "M Psycho Uppercut",
+      "nameJa": "サイコアッパー"
+    },
+    "623pp": {
+      "nameEn": "OD Psycho Uppercut",
+      "nameJa": "サイコアッパー"
+    },
+    "6hp": {
+      "nameEn": "Cobra Punch",
+      "nameJa": "コブラパンチ"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Hammer Blow",
+      "nameJa": "ドライブリバーサル（ハンマーブロー）"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Hammer Blow",
+      "nameJa": "ドライブリバーサル（ハンマーブロー）"
+    },
+    "6kk": {
+      "nameEn": "Kill Rush (Forward)",
+      "nameJa": "前方"
+    },
+    "6kk_6p": {
+      "nameEn": "Kill Switch Break",
+      "nameJa": "キルスイッチ・ブレイク"
+    },
+    "6kk_dl_6p": {
+      "nameEn": "Kill Switch Chaser",
+      "nameJa": "キルスイッチ・チェイス"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact (Turn Punch)",
+      "nameJa": "ドライブインパクト（ターンパンチ）"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "ジャンプ強K（ハイフリッカー）"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "ジャンプ強P（ソリッドダイブ）"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "ジャンプ弱K（アンダーフリッカー）"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "ジャンプ弱P（エアナックル）"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "ジャンプ中K（ミドルフリッカー）"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "ジャンプ中P（バーティカルナックル）"
+    },
+    "lplk": {
+      "nameEn": "Face Buster",
+      "nameJa": "フェイスバスター"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  },
+  "rashid": {
+    "214214k": {
+      "nameEn": "SA2 Ysaar",
+      "nameJa": "イウサール"
+    },
+    "214hk": {
+      "nameEn": "H Eagle Spike",
+      "nameJa": "イーグル・スパイク"
+    },
+    "214hk_enhanced": {
+      "nameEn": "L Eagle Spike",
+      "nameJa": "イーグル・スパイク"
+    },
+    "214hp": {
+      "nameEn": "H Arabian Cyclone",
+      "nameJa": "アラビアン・サイクロン"
+    },
+    "214kk": {
+      "nameEn": "OD Eagle Spike",
+      "nameJa": "イーグル・スパイク"
+    },
+    "214kk_enhanced": {
+      "nameEn": "L Eagle Spike",
+      "nameJa": "イーグル・スパイク"
+    },
+    "214lk": {
+      "nameEn": "L Eagle Spike",
+      "nameJa": "イーグル・スパイク"
+    },
+    "214lk_enhanced": {
+      "nameEn": "L Eagle Spike",
+      "nameJa": "イーグル・スパイク"
+    },
+    "214lp": {
+      "nameEn": "L Arabian Cyclone",
+      "nameJa": "アラビアン・サイクロン"
+    },
+    "214mk": {
+      "nameEn": "M Eagle Spike",
+      "nameJa": "イーグル・スパイク"
+    },
+    "214mk_enhanced": {
+      "nameEn": "L Eagle Spike",
+      "nameJa": "イーグル・スパイク"
+    },
+    "214mp": {
+      "nameEn": "M Arabian Cyclone",
+      "nameJa": "アラビアン・サイクロン"
+    },
+    "214p_4k": {
+      "nameEn": "Wing Stroke",
+      "nameJa": "ウイング・ストローク"
+    },
+    "214p_6k": {
+      "nameEn": "Rolling Assault",
+      "nameJa": "アサルト・ロール"
+    },
+    "214p_6k_k": {
+      "nameEn": "Nail Assault",
+      "nameJa": "アサルト・ネイル"
+    },
+    "214pp": {
+      "nameEn": "OD Arabian Cyclone",
+      "nameJa": "アラビアン・サイクロン"
+    },
+    "236236k": {
+      "nameEn": "SA1 Super Rashid Kick",
+      "nameJa": "スーパー・ラシード・キック"
+    },
+    "236236p": {
+      "nameEn": "SA3 Altair",
+      "nameJa": "アルタイル"
+    },
+    "236236p(ca)": {
+      "nameEn": "CA Altair",
+      "nameJa": "アルタイル"
+    },
+    "236hp": {
+      "nameEn": "H Spinning Mixer",
+      "nameJa": "スピニング・ミキサー"
+    },
+    "236hp_enhanced": {
+      "nameEn": "L Spinning Mixer",
+      "nameJa": "スピニング・ミキサー"
+    },
+    "236k": {
+      "nameEn": "L Whirlwind Shot",
+      "nameJa": "ワールウインド・ショット"
+    },
+    "236k_hold": {
+      "nameEn": "L Whirlwind Shot(Charged)",
+      "nameJa": "ワールウインド・ショット"
+    },
+    "236k_partial_hold": {
+      "nameEn": "L Whirlwind Shot",
+      "nameJa": "ワールウインド・ショット"
+    },
+    "236kk": {
+      "nameEn": "OD Whirlwind Shot",
+      "nameJa": "ワールウインド・ショット"
+    },
+    "236kk_hold": {
+      "nameEn": "L Whirlwind Shot(Charged)",
+      "nameJa": "ワールウインド・ショット"
+    },
+    "236lp": {
+      "nameEn": "L Spinning Mixer",
+      "nameJa": "スピニング・ミキサー"
+    },
+    "236lp_enhanced": {
+      "nameEn": "L Spinning Mixer",
+      "nameJa": "スピニング・ミキサー"
+    },
+    "236mp": {
+      "nameEn": "M Spinning Mixer",
+      "nameJa": "スピニング・ミキサー"
+    },
+    "236mp_enhanced": {
+      "nameEn": "L Spinning Mixer",
+      "nameJa": "スピニング・ミキサー"
+    },
+    "236pp": {
+      "nameEn": "OD Spinning Mixer",
+      "nameJa": "スピニング・ミキサー"
+    },
+    "236pp_enhanced": {
+      "nameEn": "L Spinning Mixer",
+      "nameJa": "スピニング・ミキサー"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "しゃがみ強K （サイクロンスライサー）"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "しゃがみ強P （グランドスラスト）"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "しゃがみ弱K （スティングロー）"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "しゃがみ弱P （グランドスラップ）"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "しゃがみ中K （ファルコンキック）"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "しゃがみ中P （ライジングビーク）"
+    },
+    "4lplk": {
+      "nameEn": "Sunset Drop",
+      "nameJa": "サンセット・ドロップ"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "立ち強K （レッグツイスター）"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P （ウインドスラスト）"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "立ち弱K （ニースマッシュ）"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "立ち弱P （スタンドスラップ）"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "立ち中K （スコーピオンテイル）"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "立ち中P （スタッブエルボー）"
+    },
+    "5mp_hk": {
+      "nameEn": "Rising Kick",
+      "nameJa": "ライジング・キック"
+    },
+    "66_hold": {
+      "nameEn": "Run",
+      "nameJa": "ラン"
+    },
+    "66_hold_6k": {
+      "nameEn": "Tempest Moon",
+      "nameJa": "テンペスト・ムーン"
+    },
+    "66_hold_6k_enhanced": {
+      "nameEn": "Tempest Moon",
+      "nameJa": "テンペスト・ムーン"
+    },
+    "66_hold_6p": {
+      "nameEn": "Backup",
+      "nameJa": "バックアップ"
+    },
+    "6hk": {
+      "nameEn": "Crescent Kick",
+      "nameJa": "クレセントキック"
+    },
+    "6hp": {
+      "nameEn": "Beak Assault",
+      "nameJa": "アサルト・ビーク"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Eagle Slash",
+      "nameJa": "ドライブリバーサル （イーグル・スラッシュ）"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Eagle Slash",
+      "nameJa": "ドライブリバーサル（イーグル・スラッシュ）"
+    },
+    "6kk": {
+      "nameEn": "Side Flip",
+      "nameJa": "サイド・フリップ"
+    },
+    "6kk_kk": {
+      "nameEn": "Front Flip",
+      "nameJa": "フロント・フリップ"
+    },
+    "6mp": {
+      "nameEn": "Flapping Spin",
+      "nameJa": "フラップ・スピン"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Eagle Edge",
+      "nameJa": "ドライブインパクト（イーグル・エッジ）"
+    },
+    "j214hk": {
+      "nameEn": "H Arabian Skyhigh",
+      "nameJa": "アラビアン・スカイハイ"
+    },
+    "j214kk": {
+      "nameEn": "OD Arabian Skyhigh",
+      "nameJa": "アラビアン・スカイハイ"
+    },
+    "j214lk": {
+      "nameEn": "L Arabian Skyhigh",
+      "nameJa": "アラビアン・スカイハイ"
+    },
+    "j214mk": {
+      "nameEn": "M Arabian Skyhigh",
+      "nameJa": "アラビアン・スカイハイ"
+    },
+    "j2hp": {
+      "nameEn": "Blitz Strike",
+      "nameJa": "ブリッツストライク"
+    },
+    "j8hk": {
+      "nameEn": "Aerial Shot",
+      "nameJa": "エリアルシュート"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "ジャンプ強K （サンライズキック）"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "ジャンプ強P （エリアルダブルスラスト）"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "ジャンプ弱K （エリアルエッジ）"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "ジャンプ弱P （エリアルスマッシュ）"
+    },
+    "jlplk": {
+      "nameEn": "Desert Slider",
+      "nameJa": "デザート・スライダー"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "ジャンプ中K （グライダードロップ）"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "ジャンプ中P （エリアルビーク）"
+    },
+    "lplk": {
+      "nameEn": "Riding Glider",
+      "nameJa": "ライディング・グライド"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    },
+    "walljump": {
+      "nameEn": "Wall Jump",
+      "nameJa": "三角跳び"
+    }
+  },
+  "akuma": {
+    "214214k": {
+      "nameEn": "SA3 Sip of Calamity",
+      "nameJa": "禍坏"
+    },
+    "214214p": {
+      "nameEn": "SA2 Empyrean's End",
+      "nameJa": "崩天劫火"
+    },
+    "214hk": {
+      "nameEn": "H Tatsumaki Zanku-kyaku",
+      "nameJa": "竜巻斬空脚"
+    },
+    "214hp": {
+      "nameEn": "H Adamant Flame(1)",
+      "nameJa": "金剛灼火"
+    },
+    "214hp_6p": {
+      "nameEn": "L Adamant Flame(2)",
+      "nameJa": "金剛灼火"
+    },
+    "214kk": {
+      "nameEn": "OD Tatsumaki Zanku-kyaku",
+      "nameJa": "竜巻斬空脚"
+    },
+    "214lk": {
+      "nameEn": "L Tatsumaki Zanku-kyaku",
+      "nameJa": "竜巻斬空脚"
+    },
+    "214lp": {
+      "nameEn": "L Adamant Flame(1)",
+      "nameJa": "金剛灼火"
+    },
+    "214lp_6p": {
+      "nameEn": "L Adamant Flame(2)",
+      "nameJa": "金剛灼火"
+    },
+    "214mk": {
+      "nameEn": "M Tatsumaki Zanku-kyaku",
+      "nameJa": "竜巻斬空脚"
+    },
+    "214mp": {
+      "nameEn": "M Adamant Flame(1)",
+      "nameJa": "金剛灼火"
+    },
+    "214mp_6p": {
+      "nameEn": "L Adamant Flame(2)",
+      "nameJa": "金剛灼火"
+    },
+    "214pp": {
+      "nameEn": "OD Adamant Flame(1)",
+      "nameJa": "金剛灼火"
+    },
+    "214pp_6p": {
+      "nameEn": "L Adamant Flame(2)",
+      "nameJa": "金剛灼火"
+    },
+    "236236k": {
+      "nameEn": "SA3 Sip of Calamity",
+      "nameJa": "禍坏"
+    },
+    "236236k(ca)": {
+      "nameEn": "CA Sip of Calamity",
+      "nameJa": "禍坏"
+    },
+    "236236p": {
+      "nameEn": "SA1 Messatsu Gohado",
+      "nameJa": "滅殺豪波動"
+    },
+    "236hp": {
+      "nameEn": "H Gou Hadoken(Lv1)",
+      "nameJa": "豪波動拳"
+    },
+    "236k": {
+      "nameEn": "L Demon Raid",
+      "nameJa": "百鬼襲"
+    },
+    "236k_2_hold": {
+      "nameEn": "Demon Swoop",
+      "nameJa": "百鬼潜影"
+    },
+    "236k_k": {
+      "nameEn": "Demon Blade Kick",
+      "nameJa": "百鬼豪刃"
+    },
+    "236k_no_input": {
+      "nameEn": "Demon Low Slash",
+      "nameJa": "百鬼豪斬"
+    },
+    "236k_p": {
+      "nameEn": "Demon Guillotine",
+      "nameJa": "百鬼豪衝"
+    },
+    "236kk": {
+      "nameEn": "OD Demon Raid",
+      "nameJa": "百鬼襲"
+    },
+    "236kk_2_hold": {
+      "nameEn": "Demon Swoop",
+      "nameJa": "百鬼潜影"
+    },
+    "236kk_j214k": {
+      "nameEn": "Demon Gou Rasen",
+      "nameJa": "百鬼豪螺旋"
+    },
+    "236kk_j236p": {
+      "nameEn": "Demon Gou Zanku",
+      "nameJa": "百鬼豪斬空"
+    },
+    "236kk_k": {
+      "nameEn": "Demon Blade Kick",
+      "nameJa": "百鬼豪刃"
+    },
+    "236kk_no_input": {
+      "nameEn": "Demon Low Slash",
+      "nameJa": "百鬼豪斬"
+    },
+    "236kk_p": {
+      "nameEn": "Demon Guillotine",
+      "nameJa": "百鬼豪衝"
+    },
+    "236lp": {
+      "nameEn": "L Gou Hadoken(Lv1)",
+      "nameJa": "豪波動拳"
+    },
+    "236mp": {
+      "nameEn": "M Gou Hadoken(Lv1)",
+      "nameJa": "豪波動拳"
+    },
+    "236p_hold": {
+      "nameEn": "L Gou Hadoken(Lv3)",
+      "nameJa": "豪波動拳"
+    },
+    "236p_partial_hold": {
+      "nameEn": "L Gou Hadoken(Lv2)",
+      "nameJa": "豪波動拳"
+    },
+    "236pp": {
+      "nameEn": "OD Gou Hadoken",
+      "nameJa": "豪波動拳"
+    },
+    "236pp_hold": {
+      "nameEn": "L Gou Hadoken(Lv2)",
+      "nameJa": "豪波動拳"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "刎脚"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "獄門掌"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "楔打ち"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "足止め"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "踝払い"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "膝折り豪掌"
+    },
+    "4hk": {
+      "nameEn": "Rago High Kick",
+      "nameJa": "羅豪脚"
+    },
+    "4kkk": {
+      "nameEn": "Ashura Senku(Backward)",
+      "nameJa": "阿修羅閃空"
+    },
+    "4lplk": {
+      "nameEn": "Shuretto",
+      "nameJa": "朱裂刀"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "首撥ね"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "岩砕突き"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "脛斬り"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "面割り"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "腸潰し"
+    },
+    "5mk_hk": {
+      "nameEn": "Bone Crusher Axe Kick",
+      "nameJa": "骸斬り"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "豪掌"
+    },
+    "5mp_mp": {
+      "nameEn": "Viscera Piercer",
+      "nameJa": "六腑穿ち"
+    },
+    "623hp": {
+      "nameEn": "H Gou Shoryuken",
+      "nameJa": "豪昇龍拳"
+    },
+    "623lp": {
+      "nameEn": "L Gou Shoryuken",
+      "nameJa": "豪昇龍拳"
+    },
+    "623mp": {
+      "nameEn": "M Gou Shoryuken",
+      "nameJa": "豪昇龍拳"
+    },
+    "623pp": {
+      "nameEn": "OD Gou Shoryuken",
+      "nameJa": "豪昇龍拳"
+    },
+    "6hp": {
+      "nameEn": "Kikoku Combination(1)",
+      "nameJa": "鬼哭連撃"
+    },
+    "6hp_6hp": {
+      "nameEn": "Kikoku Combination(1)",
+      "nameJa": "鬼哭連撃"
+    },
+    "6hp_6hp_hk": {
+      "nameEn": "Kikoku Combination(2)",
+      "nameJa": "鬼哭連撃"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Souha Double Palm",
+      "nameJa": "双破"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Souha Double Palm",
+      "nameJa": "双破"
+    },
+    "6kkk": {
+      "nameEn": "Ashura Senku(Forward)",
+      "nameJa": "阿修羅閃空"
+    },
+    "6kkk_lplk": {
+      "nameEn": "Oboro Throw",
+      "nameJa": "朧"
+    },
+    "6mk": {
+      "nameEn": "Resso Snap Kick",
+      "nameJa": "裂槍脚"
+    },
+    "6mp": {
+      "nameEn": "Skull Splitter",
+      "nameJa": "頭蓋破殺"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Oni Goroshi",
+      "nameJa": "鬼殺し"
+    },
+    "j214k": {
+      "nameEn": "Aerial Tatsumaki Zanku-kyaku",
+      "nameJa": "空中竜巻斬空脚"
+    },
+    "j214kk": {
+      "nameEn": "OD Aerial Tatsumaki Zanku-kyaku",
+      "nameJa": "空中竜巻斬空脚"
+    },
+    "j214pp": {
+      "nameEn": "OD Zanku Hadoken",
+      "nameJa": "斬空波動拳"
+    },
+    "j236236k": {
+      "nameEn": "SA1 Tenma Gozanku",
+      "nameJa": "天魔豪斬空"
+    },
+    "j236p": {
+      "nameEn": "L Zanku Hadoken",
+      "nameJa": "斬空波動拳"
+    },
+    "j236pp": {
+      "nameEn": "OD Zanku Hadoken",
+      "nameJa": "斬空波動拳"
+    },
+    "j2mk": {
+      "nameEn": "Tenmaku Blade Kick",
+      "nameJa": "天魔空刃脚"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "斬鉄脚"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "羅刹拳"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "飛び膝"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "眉間割り"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "首斬り"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "跳び朱刀"
+    },
+    "lp_lp_6lk_hp(ca)": {
+      "nameEn": "CA Shun Goku Satsu",
+      "nameJa": "瞬獄殺"
+    },
+    "lplk": {
+      "nameEn": "Goshoha",
+      "nameJa": "豪衝破"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  },
+  "elena": {
+    "214214k": {
+      "nameEn": "SA3 Song of the Grasslands",
+      "nameJa": "グラスランドソング"
+    },
+    "214214k(ca)": {
+      "nameEn": "CA Song of the Grasslands",
+      "nameJa": "グラスランドソング"
+    },
+    "214hk": {
+      "nameEn": "H Spinning Scythe",
+      "nameJa": "スピンサイズ"
+    },
+    "214hp": {
+      "nameEn": "H Moon Glider(1)",
+      "nameJa": "ムーングライド"
+    },
+    "214kk": {
+      "nameEn": "OD Spinning Scythe",
+      "nameJa": "スピンサイズ"
+    },
+    "214lk": {
+      "nameEn": "L Spinning Scythe",
+      "nameJa": "スピンサイズ"
+    },
+    "214lp": {
+      "nameEn": "L Moon Glider(1)",
+      "nameJa": "ムーングライド"
+    },
+    "214mk": {
+      "nameEn": "M Spinning Scythe",
+      "nameJa": "スピンサイズ"
+    },
+    "214mp": {
+      "nameEn": "M Moon Glider(1)",
+      "nameJa": "ムーングライド"
+    },
+    "214p_6p": {
+      "nameEn": "Moon Glider(2)",
+      "nameJa": "ムーングライド"
+    },
+    "214pp": {
+      "nameEn": "OD Moon Glider(1)",
+      "nameJa": "ムーングライド"
+    },
+    "214pp_6p": {
+      "nameEn": "Moon Glider(2)",
+      "nameJa": "ムーングライド"
+    },
+    "236236k": {
+      "nameEn": "SA1 Meteor Volley",
+      "nameJa": "ミーティアボレー"
+    },
+    "236236p": {
+      "nameEn": "SA2 Revival Dance",
+      "nameJa": "リヴァイブダンス"
+    },
+    "236236p_2_hold": {
+      "nameEn": "SA2 Revival Dance",
+      "nameJa": "リヴァイブダンス"
+    },
+    "236hk": {
+      "nameEn": "H Rhino Horn",
+      "nameJa": "ライノホーン"
+    },
+    "236hp": {
+      "nameEn": "H Lynx Song",
+      "nameJa": "リンクシング"
+    },
+    "236kk": {
+      "nameEn": "OD Rhino Horn",
+      "nameJa": "ライノホーン"
+    },
+    "236lk": {
+      "nameEn": "L Rhino Horn",
+      "nameJa": "ライノホーン"
+    },
+    "236lp": {
+      "nameEn": "L Lynx Song",
+      "nameJa": "リンクシング"
+    },
+    "236mk": {
+      "nameEn": "M Rhino Horn",
+      "nameJa": "ライノホーン"
+    },
+    "236mp": {
+      "nameEn": "M Lynx Song",
+      "nameJa": "リンクシング"
+    },
+    "236p_6hk": {
+      "nameEn": "Mallet Smash",
+      "nameJa": "マレットスマッシュ"
+    },
+    "236p_6hp": {
+      "nameEn": "H Lynx Whirl",
+      "nameJa": "リンクスワール"
+    },
+    "236p_6lk": {
+      "nameEn": "Leopard Snap",
+      "nameJa": "レオパードスナップ"
+    },
+    "236p_6lp": {
+      "nameEn": "L Lynx Whirl",
+      "nameJa": "リンクスワール"
+    },
+    "236p_6mk": {
+      "nameEn": "Harvest Circle",
+      "nameJa": "ハーベストサークル"
+    },
+    "236p_6mp": {
+      "nameEn": "M Lynx Whirl",
+      "nameJa": "リンクスワール"
+    },
+    "236pp": {
+      "nameEn": "OD Lynx Song",
+      "nameJa": "リンクシング"
+    },
+    "236pp_6hk": {
+      "nameEn": "Mallet Smash",
+      "nameJa": "マレットスマッシュ"
+    },
+    "236pp_6lk": {
+      "nameEn": "Leopard Snap",
+      "nameJa": "レオパードスナップ"
+    },
+    "236pp_6mk": {
+      "nameEn": "Harvest Circle",
+      "nameJa": "ハーベストサークル"
+    },
+    "236pp_6p": {
+      "nameEn": "L Lynx Whirl",
+      "nameJa": "リンクスワール"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "しゃがみ強K（ルートブレイク）"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "しゃがみ強P（アカシアブランチ）"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "しゃがみ弱K（リトルラップ）"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "しゃがみ弱P（クラウチングフロント）"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "しゃがみ中K（サーフェスキック）"
+    },
+    "2mk_hk": {
+      "nameEn": "Fluttering Lark(2)",
+      "nameJa": "ラークフラッター"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "しゃがみ中P（リングカッター）"
+    },
+    "3hk": {
+      "nameEn": "Slide",
+      "nameJa": "スライディング"
+    },
+    "4hk": {
+      "nameEn": "Round Arch",
+      "nameJa": "ラウンドアーチ"
+    },
+    "4lplk": {
+      "nameEn": "Leg Lift Throw",
+      "nameJa": "レッグリフトスルー"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "立ち強K（ラウンドステップ）"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P（ラウンドホップ）"
+    },
+    "5hp_hp": {
+      "nameEn": "Turning Tail(2)",
+      "nameJa": "ターニングテイル"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "立ち弱K（スタンドロー）"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "立ち弱P（チークスパン）"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "立ち中K（スプルースベンド）"
+    },
+    "5mk_hk": {
+      "nameEn": "Hind Kick(2)",
+      "nameJa": "ハインドキック"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "立ち中P（ブレイズパーチ）"
+    },
+    "5mp_mp": {
+      "nameEn": "Starling Beak(2)",
+      "nameJa": "スターリングビーク"
+    },
+    "623hk": {
+      "nameEn": "H Scratch Wheel",
+      "nameJa": "スクラッチホイール"
+    },
+    "623kk": {
+      "nameEn": "OD Scratch Wheel",
+      "nameJa": "スクラッチホイール"
+    },
+    "623lk": {
+      "nameEn": "L Scratch Wheel",
+      "nameJa": "スクラッチホイール"
+    },
+    "623mk": {
+      "nameEn": "M Scratch Wheel",
+      "nameJa": "スクラッチホイール"
+    },
+    "6hp": {
+      "nameEn": "Trunk Slap(1)",
+      "nameJa": "トランクスラップ"
+    },
+    "6hp_hp": {
+      "nameEn": "Trunk Slap(2)",
+      "nameJa": "トランクスラップ"
+    },
+    "6hp_hp_hp": {
+      "nameEn": "Trunk Slap(3)",
+      "nameJa": "トランクスラップ"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Boar Charge",
+      "nameJa": "ドライブリバーサル（ボアチャージ）"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Boar Charge",
+      "nameJa": "ドライブリバーサル（ボアチャージ）"
+    },
+    "6mk": {
+      "nameEn": "Handstand Whip(1)",
+      "nameJa": "ハンドスタンドウィップ"
+    },
+    "6mk_mk": {
+      "nameEn": "Handstand Whip(2)",
+      "nameJa": "ハンドスタンドウィップ"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Giraffe Neck",
+      "nameJa": "ドライブインパクト（ジラーフネック）"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "ジャンプ強K（オーバーヘッドキック）"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "ジャンプ強P（ハイソバット）"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "ジャンプ弱K（ジャンプキック）"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "ジャンプ弱P（ニーアタック）"
+    },
+    "jlp_jmk": {
+      "nameEn": "Soaring Raid",
+      "nameJa": "ソアーレイド"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "ジャンプ中K（ロージャベリン）"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "ジャンプ中P（クレストフラップ）"
+    },
+    "jmp_jhp": {
+      "nameEn": "Raptor Range",
+      "nameJa": "ラプターレンジ"
+    },
+    "lplk": {
+      "nameEn": "Leg Tackle",
+      "nameJa": "レッグスタック"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  },
+  "terry": {
+    "214214p": {
+      "nameEn": "SA2 Power Geyser",
+      "nameJa": "パワーゲイザー"
+    },
+    "214214p_pp": {
+      "nameEn": "SA2 Twin Geyser",
+      "nameJa": "ツインゲイザー"
+    },
+    "214214p_pp_pp": {
+      "nameEn": "SA2 Triple Geyser",
+      "nameJa": "トリプルゲイザー"
+    },
+    "214hk": {
+      "nameEn": "H Crack Shoot",
+      "nameJa": "クラックシュート"
+    },
+    "214hp": {
+      "nameEn": "H Burning Knuckle",
+      "nameJa": "バーンナックル"
+    },
+    "214kk": {
+      "nameEn": "OD Crack Shoot",
+      "nameJa": "クラックシュート"
+    },
+    "214lk": {
+      "nameEn": "L Crack Shoot",
+      "nameJa": "クラックシュート"
+    },
+    "214lp": {
+      "nameEn": "Quick Burn",
+      "nameJa": "クイックバーン"
+    },
+    "214lpmp": {
+      "nameEn": "Quick Burn",
+      "nameJa": "クイックバーン"
+    },
+    "214mk": {
+      "nameEn": "M Crack Shoot",
+      "nameJa": "クラックシュート"
+    },
+    "214mp": {
+      "nameEn": "M Burning Knuckle",
+      "nameJa": "バーンナックル"
+    },
+    "214mphp": {
+      "nameEn": "H Burning Knuckle",
+      "nameJa": "バーンナックル"
+    },
+    "236236k": {
+      "nameEn": "SA1 Buster Wolf",
+      "nameJa": "バスターウルフ"
+    },
+    "236236p": {
+      "nameEn": "SA3 Rising Fang",
+      "nameJa": "ライジングファング"
+    },
+    "236236p(ca)": {
+      "nameEn": "CA Rising Fang",
+      "nameJa": "ライジングファング"
+    },
+    "236hk": {
+      "nameEn": "H Power Charge",
+      "nameJa": "パワーチャージ"
+    },
+    "236hp": {
+      "nameEn": "Round Wave",
+      "nameJa": "ラウンドウェイブ"
+    },
+    "236kk": {
+      "nameEn": "OD Power Charge",
+      "nameJa": "パワーチャージ"
+    },
+    "236lk": {
+      "nameEn": "L Power Charge",
+      "nameJa": "パワーチャージ"
+    },
+    "236lp": {
+      "nameEn": "L Power Wave",
+      "nameJa": "パワーウェイブ"
+    },
+    "236mk": {
+      "nameEn": "M Power Charge",
+      "nameJa": "パワーチャージ"
+    },
+    "236mp": {
+      "nameEn": "M Power Wave",
+      "nameJa": "パワーウェイブ"
+    },
+    "236pp": {
+      "nameEn": "OD Power Wave",
+      "nameJa": "パワーウェイブ"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "しゃがみ強K （スライドキック）"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "しゃがみ強P（ワイルドアッパー）"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "足払い蹴り"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "しゃがみ弱P （しゃがみジャブ）"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "しゃがみ中K （ヒールキック）"
+    },
+    "2mk_2hk": {
+      "nameEn": "Fire Kick",
+      "nameJa": "ファイヤーキック"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "しゃがみ中P （しゃがみストレート）"
+    },
+    "4lplk": {
+      "nameEn": "Buster Throw",
+      "nameJa": "バスタースルー"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "回し蹴り"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P （ボディ）"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "立ち弱K （ローキック）"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "立ち弱P （ジャブ）"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "立ち中K （ミドルキック）"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "立ち中P （ストレート）"
+    },
+    "5mp_hk": {
+      "nameEn": "Power Shoot",
+      "nameJa": "パワーシュート"
+    },
+    "5mp_hk_hk": {
+      "nameEn": "Power Dunk)",
+      "nameJa": "パワーダンク"
+    },
+    "5mp_hk_hk_just": {
+      "nameEn": "Power Dunk)",
+      "nameJa": "パワーダンク"
+    },
+    "5mp_hp": {
+      "nameEn": "Power Drive",
+      "nameJa": "パワードライブ"
+    },
+    "5mp_mk": {
+      "nameEn": "Passing Sway",
+      "nameJa": "パッシングスウェー"
+    },
+    "5mp_mk_mk": {
+      "nameEn": "Jumping Knee",
+      "nameJa": "ジャンプニーアタック"
+    },
+    "5mp_mk_mp": {
+      "nameEn": "Jumping Lariat",
+      "nameJa": "ジャンプラリアットパンチ"
+    },
+    "623hp": {
+      "nameEn": "H Rising Tackle",
+      "nameJa": "ライジングタックル"
+    },
+    "623lp": {
+      "nameEn": "L Rising Tackle",
+      "nameJa": "ライジングタックル"
+    },
+    "623mp": {
+      "nameEn": "M Rising Tackle",
+      "nameJa": "ライジングタックル"
+    },
+    "623pp": {
+      "nameEn": "OD Rising Tackle",
+      "nameJa": "ライジングタックル"
+    },
+    "6hp": {
+      "nameEn": "Hammer Punch",
+      "nameJa": "ハンマーパンチ"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Back Knuckle",
+      "nameJa": "ドライブリバーサル（バックナックル）"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Back Knuckle",
+      "nameJa": "ドライブリバーサル（バックナックル）"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Back Spin Kick",
+      "nameJa": "ドライブインパクト（バックスピンキック）"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "ジャンプ強K （ジャンプテリーキック）"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "ジャンプ正拳突き"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "ジャンプ前蹴り"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "ジャンプ手刀"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "ジャンプ中K （ナイト・ブレイカー）"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "ジャンプ中P （ジャンプバックナックル）"
+    },
+    "lplk": {
+      "nameEn": "Grasping Upper",
+      "nameJa": "グラスピングアッパー"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  },
+  "mai": {
+    "214214p": {
+      "nameEn": "SA3 Shiranui Ryuu: Enbu Ada Zakura",
+      "nameJa": "不知火流・炎舞仇桜"
+    },
+    "214214p(ca)": {
+      "nameEn": "CA Shiranui Ryuu: Enbu Ada Zakura",
+      "nameJa": "不知火流・炎舞仇桜"
+    },
+    "214hp": {
+      "nameEn": "H Ryuuenbu",
+      "nameJa": "龍炎舞"
+    },
+    "214hp_flame": {
+      "nameEn": "H Ryuuenbu",
+      "nameJa": "龍炎舞"
+    },
+    "214lp": {
+      "nameEn": "L Ryuuenbu",
+      "nameJa": "龍炎舞"
+    },
+    "214lp_flame": {
+      "nameEn": "L Ryuuenbu",
+      "nameJa": "龍炎舞"
+    },
+    "214mp": {
+      "nameEn": "M Ryuuenbu",
+      "nameJa": "龍炎舞"
+    },
+    "214mp_flame": {
+      "nameEn": "M Ryuuenbu",
+      "nameJa": "龍炎舞"
+    },
+    "214pp": {
+      "nameEn": "OD Ryuuenbu",
+      "nameJa": "龍炎舞"
+    },
+    "214pp_flame": {
+      "nameEn": "OD Ryuuenbu",
+      "nameJa": "龍炎舞"
+    },
+    "236236k": {
+      "nameEn": "SA2 Chou Hissatsu Shinobi Bachi",
+      "nameJa": "超必殺忍蜂"
+    },
+    "236236k_flame": {
+      "nameEn": "SA2 Chou Hissatsu Shinobi Bachi",
+      "nameJa": "必殺忍蜂"
+    },
+    "236236p": {
+      "nameEn": "SA1 Kagerou no Mai",
+      "nameJa": "陽炎の舞"
+    },
+    "236236p_flame": {
+      "nameEn": "SA1 Kagerou no Mai",
+      "nameJa": "陽炎の舞"
+    },
+    "236hk": {
+      "nameEn": "H Hissatsu Shinobi Bachi",
+      "nameJa": "必殺忍蜂"
+    },
+    "236hk_flame": {
+      "nameEn": "H Hissatsu Shinobi Bachi",
+      "nameJa": "必殺忍蜂"
+    },
+    "236hp": {
+      "nameEn": "H Kachousen",
+      "nameJa": "花蝶扇"
+    },
+    "236hp_flame": {
+      "nameEn": "H Kachousen",
+      "nameJa": "花蝶扇"
+    },
+    "236kk": {
+      "nameEn": "OD Hissatsu Shinobi Bachi",
+      "nameJa": "必殺忍蜂"
+    },
+    "236kk_flame": {
+      "nameEn": "OD Hissatsu Shinobi Bachi",
+      "nameJa": "必殺忍蜂"
+    },
+    "236lk": {
+      "nameEn": "L Hissatsu Shinobi Bachi",
+      "nameJa": "必殺忍蜂"
+    },
+    "236lk_flame": {
+      "nameEn": "L Hissatsu Shinobi Bachi",
+      "nameJa": "必殺忍蜂"
+    },
+    "236lp": {
+      "nameEn": "L Kachousen",
+      "nameJa": "花蝶扇"
+    },
+    "236lp_flame": {
+      "nameEn": "L Kachousen",
+      "nameJa": "花蝶扇"
+    },
+    "236mk": {
+      "nameEn": "M Hissatsu Shinobi Bachi",
+      "nameJa": "必殺忍蜂"
+    },
+    "236mk_flame": {
+      "nameEn": "M Hissatsu Shinobi Bachi",
+      "nameJa": "必殺忍蜂"
+    },
+    "236mp": {
+      "nameEn": "M Kachousen",
+      "nameJa": "花蝶扇"
+    },
+    "236mp_flame": {
+      "nameEn": "M Kachousen",
+      "nameJa": "花蝶扇"
+    },
+    "236p_flame_hold": {
+      "nameEn": "L Kachousen(Charged)",
+      "nameJa": "花蝶扇"
+    },
+    "236p_hold": {
+      "nameEn": "L Kachousen(Charged)",
+      "nameJa": "花蝶扇"
+    },
+    "236pp": {
+      "nameEn": "OD Kachousen",
+      "nameJa": "花蝶扇"
+    },
+    "236pp_flame": {
+      "nameEn": "OD Kachousen",
+      "nameJa": "花蝶扇"
+    },
+    "236pp_flame_hold": {
+      "nameEn": "L Kachousen(Charged)",
+      "nameJa": "花蝶扇"
+    },
+    "236pp_hold": {
+      "nameEn": "L Kachousen(Charged)",
+      "nameJa": "花蝶扇"
+    },
+    "236pp_hold_6p": {
+      "nameEn": "Midare Kachousen",
+      "nameJa": "乱れ花蝶扇"
+    },
+    "236pp_hold_6p_flame": {
+      "nameEn": "Midare Kachousen",
+      "nameJa": "花蝶扇"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "反り蹴り"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "回転扇打"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "摺り蹴り"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "龍尾髪"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "捌き蹴り"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "背面ひじ打ち"
+    },
+    "4hk": {
+      "nameEn": "Hoshi Kujaku(1)",
+      "nameJa": "星孔雀"
+    },
+    "4hk_hk": {
+      "nameEn": "Hoshi Kujaku(2)",
+      "nameJa": "星孔雀"
+    },
+    "4lplk": {
+      "nameEn": "Fuusha Kuzushi",
+      "nameJa": "風車崩し"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "背面蹴り"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "大扇打"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "飛燕脚"
+    },
+    "5lk_lk": {
+      "nameEn": "L Hien Ren Kyaku",
+      "nameJa": "飛燕連脚"
+    },
+    "5lk_lk_lk": {
+      "nameEn": "Hien Ren Kyaku(2)",
+      "nameJa": "飛燕連脚"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "扇打"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "舞蹴撃"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "扇子突き"
+    },
+    "623hk": {
+      "nameEn": "H Hishou Ryuuenjin",
+      "nameJa": "飛翔龍炎陣"
+    },
+    "623hk_flame": {
+      "nameEn": "H Hishou Ryuuenjin",
+      "nameJa": "飛翔龍炎陣"
+    },
+    "623kk": {
+      "nameEn": "OD Hishou Ryuuenjin",
+      "nameJa": "飛翔龍炎陣"
+    },
+    "623kk_flame": {
+      "nameEn": "OD Hishou Ryuuenjin",
+      "nameJa": "飛翔龍炎陣"
+    },
+    "623lk": {
+      "nameEn": "L Hishou Ryuuenjin",
+      "nameJa": "飛翔龍炎陣"
+    },
+    "623lk_flame": {
+      "nameEn": "L Hishou Ryuuenjin",
+      "nameJa": "飛翔龍炎陣"
+    },
+    "623mk": {
+      "nameEn": "M Hishou Ryuuenjin",
+      "nameJa": "飛翔龍炎陣"
+    },
+    "623mk_flame": {
+      "nameEn": "M Hishou Ryuuenjin",
+      "nameJa": "飛翔龍炎陣"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Yusura Ume",
+      "nameJa": "山桜桃"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Yusura Ume",
+      "nameJa": "山桜桃"
+    },
+    "6mp": {
+      "nameEn": "Senkotsu Uchi",
+      "nameJa": "扇骨打ち"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Botan Ichige",
+      "nameJa": "牡丹一華"
+    },
+    "j214p": {
+      "nameEn": "Musasabi no Mai",
+      "nameJa": "ムササビの舞"
+    },
+    "j214p_flame": {
+      "nameEn": "Musasabi no Mai",
+      "nameJa": "ムササビの舞"
+    },
+    "j214pp": {
+      "nameEn": "OD Musasabi no Mai",
+      "nameJa": "ムササビの舞"
+    },
+    "j214pp_flame": {
+      "nameEn": "OD Musasabi no Mai",
+      "nameJa": "ムササビの舞"
+    },
+    "j236236k": {
+      "nameEn": "SA2 Air Chou Hissatsu Shinobi Bachi",
+      "nameJa": "空中超必殺忍蜂"
+    },
+    "j236236k_flame": {
+      "nameEn": "SA2 Air Chou Hissatsu Shinobi Bachi",
+      "nameJa": "必殺忍蜂"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "隼蹴撃"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "刃扇天翔刺し"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "翔脚"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "翔扇打"
+    },
+    "jlplk": {
+      "nameEn": "Yume Zakura",
+      "nameJa": "夢桜"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "前蹴り"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "天仰扇"
+    },
+    "lplk": {
+      "nameEn": "Shiranui Gourin",
+      "nameJa": "不知火剛臨"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  },
+  "sagat": {
+    "214214k": {
+      "nameEn": "SA2 Savage Tiger",
+      "nameJa": "サベージタイガー"
+    },
+    "214214k_2": {
+      "nameEn": "SA2 Savage Tiger",
+      "nameJa": "サベージタイガー"
+    },
+    "214214k_4": {
+      "nameEn": "SA2 Savage Tiger",
+      "nameJa": "サベージタイガー"
+    },
+    "214214k_5": {
+      "nameEn": "SA2 Savage Tiger",
+      "nameJa": "サベージタイガー"
+    },
+    "214214k_6": {
+      "nameEn": "SA2 Savage Tiger",
+      "nameJa": "サベージタイガー"
+    },
+    "214hk": {
+      "nameEn": "H Tiger Nexus",
+      "nameJa": "タイガーネクサス"
+    },
+    "214k_6hk": {
+      "nameEn": "Nova Tiger",
+      "nameJa": "タイガーノヴァ"
+    },
+    "214k_6lk": {
+      "nameEn": "Mighty Tiger",
+      "nameJa": "タイガーマイト"
+    },
+    "214k_6mk": {
+      "nameEn": "Greedy Tiger",
+      "nameJa": "タイガーグリード"
+    },
+    "214kk": {
+      "nameEn": "OD Tiger Nexus",
+      "nameJa": "タイガーネクサス"
+    },
+    "214kk_6hk": {
+      "nameEn": "Nova Tiger",
+      "nameJa": "タイガーノヴァ"
+    },
+    "214kk_6lk": {
+      "nameEn": "Mighty Tiger",
+      "nameJa": "タイガーマイト"
+    },
+    "214kk_6mk": {
+      "nameEn": "Greedy Tiger",
+      "nameJa": "タイガーグリード"
+    },
+    "214lk": {
+      "nameEn": "L Tiger Nexus",
+      "nameJa": "タイガーネクサス"
+    },
+    "214mk": {
+      "nameEn": "M Tiger Nexus",
+      "nameJa": "タイガーネクサス"
+    },
+    "236236k": {
+      "nameEn": "SA3 Tiger Vanquisher",
+      "nameJa": "タイガーヴァンキッシュ"
+    },
+    "236236k(ca)": {
+      "nameEn": "CA Tiger Vanquisher",
+      "nameJa": "タイガーヴァンキッシュ"
+    },
+    "236236p": {
+      "nameEn": "SA1 Tiger Cannon",
+      "nameJa": "タイガーキャノン"
+    },
+    "236hk": {
+      "nameEn": "H Tiger Knee Crush",
+      "nameJa": "タイガーニークラッシュ"
+    },
+    "236hp": {
+      "nameEn": "H High Tiger Shot",
+      "nameJa": "タイガーショット"
+    },
+    "236kk": {
+      "nameEn": "OD Tiger Knee Crush",
+      "nameJa": "タイガーニークラッシュ"
+    },
+    "236lk": {
+      "nameEn": "L Tiger Knee Crush",
+      "nameJa": "タイガーニークラッシュ"
+    },
+    "236lp": {
+      "nameEn": "Low Tiger Shot",
+      "nameJa": "グランドタイガーショット"
+    },
+    "236lpmp": {
+      "nameEn": "Low Tiger Shot",
+      "nameJa": "グランドタイガーショット"
+    },
+    "236mk": {
+      "nameEn": "M Tiger Knee Crush",
+      "nameJa": "タイガーニークラッシュ"
+    },
+    "236mp": {
+      "nameEn": "M High Tiger Shot",
+      "nameJa": "タイガーショット"
+    },
+    "236mphp": {
+      "nameEn": "H High Tiger Shot",
+      "nameJa": "タイガーショット"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "しゃがみ強K（タイガーキック）"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "しゃがみ強P（グランドストレート）"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "しゃがみ弱K（ローカーフ）"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "しゃがみ弱P（ローナックル）"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "しゃがみ中K（タイガースラストキック）"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "しゃがみ中P（ミドルフック）"
+    },
+    "2mp_hk": {
+      "nameEn": "Tiger Rise",
+      "nameJa": "タイガーライズ"
+    },
+    "2mp_hp": {
+      "nameEn": "Tiger Slash",
+      "nameJa": "タイガースラッシュ"
+    },
+    "4hp": {
+      "nameEn": "Tiger Monolith",
+      "nameJa": "タイガーモノリス"
+    },
+    "4lplk": {
+      "nameEn": "Tiger Carry",
+      "nameJa": "タイガーキャリー"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "立ち強K（ハイキック）"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P（タイガーストレート）"
+    },
+    "5hp_hk": {
+      "nameEn": "Tiger Sting",
+      "nameJa": "タイガースティング"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "立ち弱K（ローキック）"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "立ち弱P（タイガージャブ）"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "立ち中K（ミドルキック）"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "立ち中P（タイガーソーク）"
+    },
+    "623hp": {
+      "nameEn": "H Tiger Uppercut",
+      "nameJa": "タイガーアッパーカット"
+    },
+    "623hp_hold": {
+      "nameEn": "H Tiger Uppercut(Charged)",
+      "nameJa": "タイガーアッパーカット"
+    },
+    "623lp": {
+      "nameEn": "L Tiger Uppercut",
+      "nameJa": "タイガーアッパーカット"
+    },
+    "623mp": {
+      "nameEn": "M Tiger Uppercut",
+      "nameJa": "タイガーアッパーカット"
+    },
+    "623pp": {
+      "nameEn": "OD Tiger Uppercut",
+      "nameJa": "タイガーアッパーカット"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Tiger Twin Babel",
+      "nameJa": "ドライブリバーサル（タイガーツインバベル）"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Tiger Twin Babel",
+      "nameJa": "ドライブリバーサル（タイガーツインバベル）"
+    },
+    "6mp": {
+      "nameEn": "Tiger Heavy Elbow",
+      "nameJa": "タイガーヘビーエルボー"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Tiger Punishment",
+      "nameJa": "ドライブインパクト（タイガーパニッシュメント）"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "ジャンプ強K（ジャンピングタイガーハイキック）"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "ジャンプ強P（ジャンピングヘビーエルボー）"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "ジャンプ弱K（ジャンピングタイガードロップ）"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "ジャンプ弱P（ジャンピングジャブ）"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "ジャンプ中K（ジャンピングタイガーキック）"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "ジャンプ中P（ジャンピングアッパー）"
+    },
+    "lplk": {
+      "nameEn": "Tiger Hang",
+      "nameJa": "タイガーハング"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  },
+  "c-viper": {
+    "214214k": {
+      "nameEn": "SA3 Hard Luck Rejector",
+      "nameJa": "アンラックリジェクター"
+    },
+    "214214k(ca)": {
+      "nameEn": "CA Hard Luck Rejector",
+      "nameJa": "アンラックリジェクター"
+    },
+    "214214p": {
+      "nameEn": "SA2 Mission Complete",
+      "nameJa": "ミッションオーバー"
+    },
+    "214hp": {
+      "nameEn": "H Thunder Dash",
+      "nameJa": "サンダースラップ"
+    },
+    "214hp_6pp": {
+      "nameEn": "L Tracer Combination",
+      "nameJa": "トレースコンビネーション"
+    },
+    "214k": {
+      "nameEn": "Focus Force(Lv1)",
+      "nameJa": "セービングフォース"
+    },
+    "214k_hold": {
+      "nameEn": "Focus Force(Lv3)",
+      "nameJa": "セービングフォース"
+    },
+    "214k_partial_hold": {
+      "nameEn": "Focus Force(Lv2)",
+      "nameJa": "セービングフォース"
+    },
+    "214kk": {
+      "nameEn": "OD Focus Force(Lv1)",
+      "nameJa": "セービングフォース"
+    },
+    "214kk_hold": {
+      "nameEn": "Focus Force(Lv3)",
+      "nameJa": "セービングフォース"
+    },
+    "214kk_partial_hold": {
+      "nameEn": "Focus Force(Lv2)",
+      "nameJa": "セービングフォース"
+    },
+    "214lp": {
+      "nameEn": "L Thunder Dash",
+      "nameJa": "サンダースラップ"
+    },
+    "214lp_6pp": {
+      "nameEn": "L Tracer Combination",
+      "nameJa": "トレースコンビネーション"
+    },
+    "214mp": {
+      "nameEn": "M Thunder Dash",
+      "nameJa": "サンダースラップ"
+    },
+    "214mp_6pp": {
+      "nameEn": "L Tracer Combination",
+      "nameJa": "トレースコンビネーション"
+    },
+    "214p_k": {
+      "nameEn": "L Thunder Dash",
+      "nameJa": "サンダースラップ"
+    },
+    "214pp": {
+      "nameEn": "OD Thunder Dash",
+      "nameJa": "サンダースラップ"
+    },
+    "236236k": {
+      "nameEn": "SA1 Limit Decoupler",
+      "nameJa": "バウンサーステップ"
+    },
+    "236hk": {
+      "nameEn": "H Burning Kick",
+      "nameJa": "バーニングキック"
+    },
+    "236k_kk": {
+      "nameEn": "Double Burn",
+      "nameJa": "ダブルバーン"
+    },
+    "236k_pp": {
+      "nameEn": "Knuckled Pursuit",
+      "nameJa": "チェイスナックル"
+    },
+    "236kk": {
+      "nameEn": "OD Burning Kick",
+      "nameJa": "バーニングキック"
+    },
+    "236lk": {
+      "nameEn": "L Burning Kick",
+      "nameJa": "バーニングキック"
+    },
+    "236mk": {
+      "nameEn": "M Burning Kick",
+      "nameJa": "バーニングキック"
+    },
+    "2_8": {
+      "nameEn": "High Jump (Forward)",
+      "nameJa": "ハイジャンプ"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "しゃがみ強K（ヴァイパースイープ）"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "しゃがみ強P（ヴァイパースライサー）"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "しゃがみ弱K（クラウチングヒールキック）"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "しゃがみ弱P（ジャブ）"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "しゃがみ中K（グランドキック）"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "しゃがみ中P（ヴァイパーブロー）"
+    },
+    "4lplk": {
+      "nameEn": "Thunder Cradle",
+      "nameJa": "サンダークレイドル"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "立ち強K（ヴァイパーブレード）"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P（トマホークチョップ）"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "立ち弱K（ヒールキック）"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "立ち弱P（スナップナックル）"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "立ち中K（フロントキック）"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "立ち中P（ハンマーフック）"
+    },
+    "623p": {
+      "nameEn": "L Seismic Hammer",
+      "nameJa": "セイスモハンマー"
+    },
+    "623p_k": {
+      "nameEn": "L Seismic Hammer",
+      "nameJa": "フェイント"
+    },
+    "623pp": {
+      "nameEn": "OD Seismic Hammer",
+      "nameJa": "セイスモハンマー"
+    },
+    "6hk": {
+      "nameEn": "Double Kick",
+      "nameJa": "ダブルキック"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Counter Spark",
+      "nameJa": "ドライブリバーサル（カウンタースパーク）"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Counter Spark",
+      "nameJa": "ドライブリバーサル（カウンタースパーク）"
+    },
+    "6mp": {
+      "nameEn": "Viper Elbow",
+      "nameJa": "ヴァイパーエルボー"
+    },
+    "8jhk": {
+      "nameEn": "Neutral Jumping Heavy Kick",
+      "nameJa": "垂直ジャンプ強K（エアリアルジャベリン）"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Viper Cannon",
+      "nameJa": "ドライブインパクト（ヴァイパーキャノン）"
+    },
+    "j236hk": {
+      "nameEn": "H Aerial Burning Kick",
+      "nameJa": "空中バーニングキック"
+    },
+    "j236kk": {
+      "nameEn": "OD Aerial Burning Kick",
+      "nameJa": "空中バーニングキック"
+    },
+    "j236lk": {
+      "nameEn": "L Aerial Burning Kick",
+      "nameJa": "空中バーニングキック"
+    },
+    "j236mk": {
+      "nameEn": "M Aerial Burning Kick",
+      "nameJa": "空中バーニングキック"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "ジャンプ強K（エアリアルクラッシュニー）"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "ジャンプ強P（エアリアルハンマー）"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "ジャンプ弱K（エアリアルプレスキック）"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "ジャンプ弱P（エアリアルエルボー）"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "ジャンプ中K（エアリアルトーキック）"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "ジャンプ中P（エアリアルヴァイパーブロー）"
+    },
+    "lplk": {
+      "nameEn": "High Impulse",
+      "nameJa": "オーバーインパルス"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  },
+  "alex": {
+    "214214p": {
+      "nameEn": "SA2 Sledgecross Hammer",
+      "nameJa": "スレッジクロスハンマー"
+    },
+    "236236k": {
+      "nameEn": "SA1 Raging Spear",
+      "nameJa": "レイジングスピアー"
+    },
+    "236236p": {
+      "nameEn": "SA3 The Final Prison",
+      "nameJa": "ファイナルキャプチュード"
+    },
+    "236236p(ca)": {
+      "nameEn": "CA The Final Prison",
+      "nameJa": "ファイナルキャプチュード"
+    },
+    "236hp": {
+      "nameEn": "Flash Chop",
+      "nameJa": "フラッシュチョップ"
+    },
+    "236lp": {
+      "nameEn": "L Flash Axe",
+      "nameJa": "フラッシュアックス"
+    },
+    "236mp": {
+      "nameEn": "M Flash Axe",
+      "nameJa": "フラッシュアックス"
+    },
+    "236pp": {
+      "nameEn": "OD Flash Chop",
+      "nameJa": "フラッシュチョップ"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "しゃがみ強K（ラウンドキック）"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "しゃがみ強P（ビッグスワイプ）"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "しゃがみ弱K（グランドロー）"
+    },
+    "2lk_2hk": {
+      "nameEn": "Twisted Drop",
+      "nameJa": "ツイストドロップ"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "しゃがみ弱P（ロークロー）"
+    },
+    "2lplk": {
+      "nameEn": "Illegal Knees",
+      "nameJa": "イリーガルキック"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "しゃがみ中K（シンキック）"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "地獄突き"
+    },
+    "2pp": {
+      "nameEn": "Prowler Stance",
+      "nameJa": "ブレイカー・スタンス"
+    },
+    "2pp_2lplk": {
+      "nameEn": "Dangerous Armbar",
+      "nameJa": "デンジャラスアプローチ"
+    },
+    "2pp_4": {
+      "nameEn": "Low Retreat",
+      "nameJa": "ステップアウト"
+    },
+    "2pp_6": {
+      "nameEn": "Low Rush",
+      "nameJa": "ステップイン"
+    },
+    "2pp_6p": {
+      "nameEn": "L Slashing Elbow",
+      "nameJa": "スラッシュエルボー"
+    },
+    "2pp_8": {
+      "nameEn": "Prowler Stance",
+      "nameJa": "ブレイカー・スタンス"
+    },
+    "2pp_hk": {
+      "nameEn": "Sweep Combination(1)",
+      "nameJa": "スイープコンビネーション"
+    },
+    "2pp_hk_hk": {
+      "nameEn": "Sweep Combination(2)",
+      "nameJa": "スイープコンビネーション"
+    },
+    "2pp_hp": {
+      "nameEn": "Heavy Lariat",
+      "nameJa": "ヘビーラリアット"
+    },
+    "2pp_hp_hold": {
+      "nameEn": "Heavy Lariat(Charged)",
+      "nameJa": "ヘビーラリアット"
+    },
+    "2pp_lk": {
+      "nameEn": "Tactical Hop",
+      "nameJa": "タクティカルリープ"
+    },
+    "2pp_lp": {
+      "nameEn": "Palm Jab",
+      "nameJa": "パームコンタクト"
+    },
+    "2pp_lplk": {
+      "nameEn": "Hyper Takedown",
+      "nameJa": "ハイパーリフト"
+    },
+    "2pp_mk": {
+      "nameEn": "Air Stampede",
+      "nameJa": "エアスタンピート"
+    },
+    "2pp_mp": {
+      "nameEn": "Shoulder Launcher",
+      "nameJa": "ショルダーランチャー"
+    },
+    "4lplk": {
+      "nameEn": "Guillotine Hammer",
+      "nameJa": "ギロチンハンマー"
+    },
+    "4mk": {
+      "nameEn": "Oblique Stomp",
+      "nameJa": "オブリークスタンプ"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "立ち強K（ロングキック）"
+    },
+    "5hk_hold": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "立ち強K（ロングキック）"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P（フェイスクラッシャー）"
+    },
+    "5hp_hold": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P（フェイスクラッシャー）"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "立ち弱K（ローキック）"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "立ち弱P（クイックジャブ）"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "立ち中K（ミドルキック）"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "立ち中P（ボディーブロー）"
+    },
+    "5mp_hp": {
+      "nameEn": "Palm Strikes",
+      "nameJa": "パームストライク"
+    },
+    "623hk": {
+      "nameEn": "H Aerial Knee Smash",
+      "nameJa": "エアニースマッシュ"
+    },
+    "623kk": {
+      "nameEn": "OD Aerial Knee Smash",
+      "nameJa": "エアニースマッシュ"
+    },
+    "623lk": {
+      "nameEn": "L Aerial Knee Smash",
+      "nameJa": "エアニースマッシュ"
+    },
+    "623mk": {
+      "nameEn": "M Aerial Knee Smash",
+      "nameJa": "エアニースマッシュ"
+    },
+    "63214hp": {
+      "nameEn": "H Power Bomb",
+      "nameJa": "パワーボム"
+    },
+    "63214lp": {
+      "nameEn": "L Power Bomb",
+      "nameJa": "パワーボム"
+    },
+    "63214mp": {
+      "nameEn": "M Power Bomb",
+      "nameJa": "パワーボム"
+    },
+    "63214p_backturn": {
+      "nameEn": "Power Drop",
+      "nameJa": "パワードロップ"
+    },
+    "63214pp": {
+      "nameEn": "OD Power Bomb",
+      "nameJa": "パワーボム"
+    },
+    "63214pp_6_backturn": {
+      "nameEn": "Hyper Bomb",
+      "nameJa": "ハイパーボム"
+    },
+    "63214pp_backturn": {
+      "nameEn": "Power Drop",
+      "nameJa": "パワードロップ"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Headbutt",
+      "nameJa": "ドライブリバーサル（ヘッドバッド）"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Headbutt",
+      "nameJa": "ドライブリバーサル（ヘッドバッド）"
+    },
+    "6mp": {
+      "nameEn": "Chop",
+      "nameJa": "チョップ"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Lariat Kick",
+      "nameJa": "ドライブインパクト（レッグラリアート）"
+    },
+    "j2hp": {
+      "nameEn": "Flying Cross Chop",
+      "nameJa": "フライングクロスチョップ"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "ジャンプ強K（ドロップキック）"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "ジャンプ強P（スカイハンマー）"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "ジャンプ弱K（フライングニー）"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "ジャンプ弱P（ハイジャブ）"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "ジャンプ中K（ニールキック）"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "ジャンプ中P（フライングニーチョップ）"
+    },
+    "lplk": {
+      "nameEn": "Arm Lock",
+      "nameJa": "アームロック"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    },
+    "pp_sa2": {
+      "nameEn": "SA2 Omega Wing Buster",
+      "nameJa": "オメガウィングバスター"
+    }
+  },
+  "m-bison": {
+    "214214k": {
+      "nameEn": "SA2 Psycho Punisher",
+      "nameJa": "サイコパニッシャー"
+    },
+    "214214p": {
+      "nameEn": "SA3 Unlimited Psycho Crusher",
+      "nameJa": "アンリミテッドサイコクラッシャー"
+    },
+    "214hp": {
+      "nameEn": "H Backfist Combo",
+      "nameJa": "バックフィストコンボ"
+    },
+    "214hp_mine": {
+      "nameEn": "H Backfist Combo",
+      "nameJa": "バックフィストコンボ"
+    },
+    "214lp": {
+      "nameEn": "L Backfist Combo",
+      "nameJa": "バックフィストコンボ"
+    },
+    "214lp_mine": {
+      "nameEn": "L Backfist Combo",
+      "nameJa": "バックフィストコンボ"
+    },
+    "214mp": {
+      "nameEn": "M Backfist Combo",
+      "nameJa": "バックフィストコンボ"
+    },
+    "214mp_mine": {
+      "nameEn": "M Backfist Combo",
+      "nameJa": "バックフィストコンボ"
+    },
+    "214pp": {
+      "nameEn": "OD Backfist Combo",
+      "nameJa": "バックフィストコンボ"
+    },
+    "214pp_mine": {
+      "nameEn": "OD Backfist Combo",
+      "nameJa": "バックフィストコンボ"
+    },
+    "236236k": {
+      "nameEn": "SA1 Knee Press Nightmare",
+      "nameJa": "ニープレスナイトメア"
+    },
+    "236236p": {
+      "nameEn": "SA3 Unlimited Psycho Crusher",
+      "nameJa": "アンリミテッドサイコクラッシャー"
+    },
+    "236236p(ca)": {
+      "nameEn": "CA Unlimited Psycho Crusher",
+      "nameJa": "アンリミテッドサイコクラッシャー"
+    },
+    "236hk": {
+      "nameEn": "H Double Knee Press",
+      "nameJa": "ダブルニープレス"
+    },
+    "236kk": {
+      "nameEn": "OD Double Knee Press",
+      "nameJa": "ダブルニープレス"
+    },
+    "236lk": {
+      "nameEn": "L Double Knee Press",
+      "nameJa": "ダブルニープレス"
+    },
+    "236mk": {
+      "nameEn": "M Double Knee Press",
+      "nameJa": "ダブルニープレス"
+    },
+    "28k": {
+      "nameEn": "L Shadow Rise",
+      "nameJa": "シャドウライズ"
+    },
+    "28k_k": {
+      "nameEn": "Head Press",
+      "nameJa": "ヘッドプレス"
+    },
+    "28k_k_p": {
+      "nameEn": "Somersault Skull Diver",
+      "nameJa": "サマーソルトスカルダイバー"
+    },
+    "28k_p": {
+      "nameEn": "Devil Reverse",
+      "nameJa": "デビルリバース"
+    },
+    "28k_p_mine": {
+      "nameEn": "Devil Reverse",
+      "nameJa": "デビルリバース"
+    },
+    "28kk": {
+      "nameEn": "OD Shadow Rise",
+      "nameJa": "シャドウライズ"
+    },
+    "28kk_k": {
+      "nameEn": "OD Head Press",
+      "nameJa": "ヘッドプレス"
+    },
+    "28kk_p": {
+      "nameEn": "OD Devil Reverse",
+      "nameJa": "デビルリバース"
+    },
+    "28kk_p_mine": {
+      "nameEn": "OD Devil Reverse",
+      "nameJa": "デビルリバース"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "しゃがみ強K（シャドースイープ）"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "しゃがみ強P（サイコアッパー）"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "しゃがみ弱K（ヘルレッグ）"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "しゃがみ弱P（ジャブ）"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "しゃがみ中K（デスレッグ）"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "しゃがみ中P（ストレート）"
+    },
+    "3hk": {
+      "nameEn": "Hover Kick",
+      "nameJa": "ホバーキック"
+    },
+    "46hp": {
+      "nameEn": "H Psycho Crusher Attack",
+      "nameJa": "サイコクラッシャーアタック"
+    },
+    "46hp_mine": {
+      "nameEn": "H Psycho Crusher Attack",
+      "nameJa": "サイコクラッシャーアタック"
+    },
+    "46lp": {
+      "nameEn": "L Psycho Crusher Attack",
+      "nameJa": "サイコクラッシャーアタック"
+    },
+    "46lp_mine": {
+      "nameEn": "L Psycho Crusher Attack",
+      "nameJa": "サイコクラッシャーアタック"
+    },
+    "46mp": {
+      "nameEn": "M Psycho Crusher Attack",
+      "nameJa": "サイコクラッシャーアタック"
+    },
+    "46mp_mine": {
+      "nameEn": "M Psycho Crusher Attack",
+      "nameJa": "サイコクラッシャーアタック"
+    },
+    "46pp": {
+      "nameEn": "OD Psycho Crusher Attack",
+      "nameJa": "サイコクラッシャーアタック"
+    },
+    "46pp_mine": {
+      "nameEn": "OD Psycho Crusher Attack",
+      "nameJa": "サイコクラッシャーアタック"
+    },
+    "4hk": {
+      "nameEn": "Evil Knee",
+      "nameJa": "イビルニー"
+    },
+    "4lplk": {
+      "nameEn": "Death Tower",
+      "nameJa": "デスタワー"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "立ち強K（シャドーサイス）"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P（サイコパイル）"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "立ち弱K（ヘルニーキック）"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "立ち弱P（ジャブ）"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "立ち中K（シャドーミドルキック）"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "立ち中P（ヘルボディーブロー）"
+    },
+    "5mp_2hk": {
+      "nameEn": "Shadow Spear",
+      "nameJa": "シャドウスピア"
+    },
+    "5mp_6hp": {
+      "nameEn": "Shadow Hammer",
+      "nameJa": "シャドウハンマー"
+    },
+    "6hp": {
+      "nameEn": "Psycho Hammer",
+      "nameJa": "サイコハンマー"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Hell Drive",
+      "nameJa": "ドライブリバーサル（ヘルドライブ）"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Hell Drive",
+      "nameJa": "ドライブリバーサル（ヘルドライブ）"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Hell Twist",
+      "nameJa": "ドライブインパクト（ヘルツイスト）"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "ジャンプ強K（トマホークキック）"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "ジャンプ強P（サイコエルボー）"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "ジャンプ弱K（ヒールスタンプ）"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "ジャンプ弱P（ヘルフック）"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "ジャンプ中K（ニーミサイル）"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "ジャンプ中P（ヘルナックル）"
+    },
+    "jmp_jmp": {
+      "nameEn": "Hell Attack",
+      "nameJa": "ヘルアタック"
+    },
+    "lplk": {
+      "nameEn": "Deadly Throw",
+      "nameJa": "デッドリースルー"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  },
+  "ingrid": {
+    "214214k": {
+      "nameEn": "SA3 Cosmic Ray",
+      "nameJa": "コズミックレイ"
+    },
+    "214214p_0stock": {
+      "nameEn": "SA3 Cosmic Ray",
+      "nameJa": "サンオーダー"
+    },
+    "214214p_hold_1stock": {
+      "nameEn": "SA3 Cosmic Ray",
+      "nameJa": "サンオーダー"
+    },
+    "214214p_hold_2stock": {
+      "nameEn": "SA3 Cosmic Ray",
+      "nameJa": "サンオーダー"
+    },
+    "214hp_1stock": {
+      "nameEn": "L Sun Flare",
+      "nameJa": "サンフレア"
+    },
+    "214hp_2stock": {
+      "nameEn": "L Sun Flare",
+      "nameJa": "サンフレア"
+    },
+    "214lp": {
+      "nameEn": "L Sun Flare",
+      "nameJa": "サンフレア"
+    },
+    "214mp": {
+      "nameEn": "L Sun Flare",
+      "nameJa": "サンフレア"
+    },
+    "214pp": {
+      "nameEn": "OD Sun Flare(Lv1)",
+      "nameJa": "サンフレア"
+    },
+    "214pp_1stock": {
+      "nameEn": "L Sun Flare",
+      "nameJa": "サンフレア"
+    },
+    "214pp_2stock": {
+      "nameEn": "L Sun Flare",
+      "nameJa": "サンフレア"
+    },
+    "22k": {
+      "nameEn": "Sun Veil",
+      "nameJa": "サンヴェール"
+    },
+    "22kk": {
+      "nameEn": "OD Sun Veil",
+      "nameJa": "サンヴェール"
+    },
+    "236236k_0stock": {
+      "nameEn": "SA3 Cosmic Ray",
+      "nameJa": "サンシャイン"
+    },
+    "236236k_hold_1stock": {
+      "nameEn": "SA3 Cosmic Ray",
+      "nameJa": "サンシャイン"
+    },
+    "236236k_hold_2stock": {
+      "nameEn": "SA3 Cosmic Ray",
+      "nameJa": "サンシャイン"
+    },
+    "236236p": {
+      "nameEn": "SA3 Cosmic Ray",
+      "nameJa": "コズミックレイ"
+    },
+    "236236p(ca)": {
+      "nameEn": "CA Cosmic Ray",
+      "nameJa": "コズミックレイ"
+    },
+    "236hk": {
+      "nameEn": "H Sun Rise",
+      "nameJa": "サンライズ"
+    },
+    "236hp": {
+      "nameEn": "H Sun Shot",
+      "nameJa": "サンシュート"
+    },
+    "236kk": {
+      "nameEn": "OD Sun Rise",
+      "nameJa": "サンライズ"
+    },
+    "236lk": {
+      "nameEn": "L Sun Rise",
+      "nameJa": "サンライズ"
+    },
+    "236lp": {
+      "nameEn": "L Sun Shot",
+      "nameJa": "サンシュート"
+    },
+    "236lpmp": {
+      "nameEn": "H Sun Shot",
+      "nameJa": "サンシュート"
+    },
+    "236mk": {
+      "nameEn": "M Sun Rise",
+      "nameJa": "サンライズ"
+    },
+    "236mp": {
+      "nameEn": "M Sun Shot",
+      "nameJa": "サンシュート"
+    },
+    "236mphp": {
+      "nameEn": "H Sun Shot",
+      "nameJa": "サンシュート"
+    },
+    "2hk": {
+      "nameEn": "Crouching Heavy Kick",
+      "nameJa": "しゃがみ強K（オービットキック）"
+    },
+    "2hp": {
+      "nameEn": "Crouching Heavy Punch",
+      "nameJa": "しゃがみ強P（ステラーリング）"
+    },
+    "2kkk": {
+      "nameEn": "OD Vanishing Sun",
+      "nameJa": "サンバニッシュ"
+    },
+    "2lk": {
+      "nameEn": "Crouching Light Kick",
+      "nameJa": "しゃがみ弱K（リトルワイプ）"
+    },
+    "2lp": {
+      "nameEn": "Crouching Light Punch",
+      "nameJa": "しゃがみ弱P（リトルスター）"
+    },
+    "2mk": {
+      "nameEn": "Crouching Medium Kick",
+      "nameJa": "しゃがみ中K（ミルキーウェイ）"
+    },
+    "2mp": {
+      "nameEn": "Crouching Medium Punch",
+      "nameJa": "しゃがみ中P（アンダートーチ）"
+    },
+    "4hp": {
+      "nameEn": "Luminous Uppercut(1)",
+      "nameJa": "ルミナスアッパー"
+    },
+    "4hp_hp": {
+      "nameEn": "Luminous Uppercut(2)",
+      "nameJa": "ルミナスアッパー"
+    },
+    "4kkk": {
+      "nameEn": "Vanishing Sun (Backward)",
+      "nameJa": "サンバニッシュ"
+    },
+    "4lplk": {
+      "nameEn": "Gravity Drop",
+      "nameJa": "グラビティードロップ"
+    },
+    "4mk": {
+      "nameEn": "Glowing Touch(1)",
+      "nameJa": "グロータッチ"
+    },
+    "4mk_hp": {
+      "nameEn": "Glowing Touch(2)",
+      "nameJa": "グロータッチ"
+    },
+    "5hk": {
+      "nameEn": "Standing Heavy Kick",
+      "nameJa": "立ち強K（シューティングスター）"
+    },
+    "5hp": {
+      "nameEn": "Standing Heavy Punch",
+      "nameJa": "立ち強P（ステラーウェーブ）"
+    },
+    "5lk": {
+      "nameEn": "Standing Light Kick",
+      "nameJa": "立ち弱K（プチリフト）"
+    },
+    "5lp": {
+      "nameEn": "Standing Light Punch",
+      "nameJa": "立ち弱P（ライトタッチ）"
+    },
+    "5mk": {
+      "nameEn": "Standing Medium Kick",
+      "nameJa": "立ち中K（スタークリップ）"
+    },
+    "5mp": {
+      "nameEn": "Standing Medium Punch",
+      "nameJa": "立ち中P（スタートーチ）"
+    },
+    "5mp_mk": {
+      "nameEn": "Pretty Heel Kick",
+      "nameJa": "エアリートス"
+    },
+    "6hp": {
+      "nameEn": "Halo Flight",
+      "nameJa": "ヘイローステップ"
+    },
+    "6hphk": {
+      "nameEn": "Drive Reversal (while blocking): Odd Flight",
+      "nameJa": "ドライブリバーサル（リアフライト）"
+    },
+    "6hphk_recovery": {
+      "nameEn": "Drive Reversal (while recovering): Odd Flight",
+      "nameJa": "ドライブリバーサル（リアフライト）"
+    },
+    "6kkk": {
+      "nameEn": "Vanishing Sun (Forward)",
+      "nameJa": "サンバニッシュ"
+    },
+    "6mp": {
+      "nameEn": "Sun Bright",
+      "nameJa": "サンブライト"
+    },
+    "hphk": {
+      "nameEn": "Drive Impact: Twinkle Kick",
+      "nameJa": "ドライブインパクト（トゥインクルキック）"
+    },
+    "j214hp_1stock": {
+      "nameEn": "L Solar Burst",
+      "nameJa": "ソーラーフレア"
+    },
+    "j214hp_2stock": {
+      "nameEn": "L Solar Burst",
+      "nameJa": "ソーラーフレア"
+    },
+    "j214lp": {
+      "nameEn": "L Solar Burst",
+      "nameJa": "ソーラーフレア"
+    },
+    "j214mp": {
+      "nameEn": "L Solar Burst",
+      "nameJa": "ソーラーフレア"
+    },
+    "j214pp": {
+      "nameEn": "OD Solar Burst(Lv1)",
+      "nameJa": "ソーラーフレア"
+    },
+    "j214pp_1stock": {
+      "nameEn": "L Solar Burst",
+      "nameJa": "ソーラーフレア"
+    },
+    "j214pp_2stock": {
+      "nameEn": "L Solar Burst",
+      "nameJa": "ソーラーフレア"
+    },
+    "jhk": {
+      "nameEn": "Jumping Heavy Kick",
+      "nameJa": "ジャンプ強K（サテライトアーク）"
+    },
+    "jhk_jhk": {
+      "nameEn": "Satellite Leap",
+      "nameJa": "サテライトリープ"
+    },
+    "jhp": {
+      "nameEn": "Jumping Heavy Punch",
+      "nameJa": "ジャンプ強P（タコクライン）"
+    },
+    "jlk": {
+      "nameEn": "Jumping Light Kick",
+      "nameJa": "ジャンプ弱K（プチトリック）"
+    },
+    "jlp": {
+      "nameEn": "Jumping Light Punch",
+      "nameJa": "ジャンプ弱P（ライトパット）"
+    },
+    "jmk": {
+      "nameEn": "Jumping Medium Kick",
+      "nameJa": "ジャンプ中K（タイニーメテオ）"
+    },
+    "jmp": {
+      "nameEn": "Jumping Medium Punch",
+      "nameJa": "ジャンプ中P（スタービーコン）"
+    },
+    "lplk": {
+      "nameEn": "Strange Knuckle",
+      "nameJa": "ストレンジナックル"
+    },
+    "mpmk": {
+      "nameEn": "Drive Parry",
+      "nameJa": "ドライブパリィ"
+    },
+    "mpmk_66_pdr": {
+      "nameEn": "Parry Drive Rush",
+      "nameJa": "パリィドライブラッシュ"
+    }
+  }
+}

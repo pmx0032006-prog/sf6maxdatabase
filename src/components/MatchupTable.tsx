@@ -118,7 +118,7 @@ export function MatchupTable({ coreChars }: MatchupTableProps) {
 
   return (
     <div>
-      <div className="sticky top-14 z-40 -mx-4 border-b border-border bg-background/95 px-4 py-2 shadow-sm backdrop-blur-sm sm:-mx-6 sm:px-6">
+      <div className="sticky top-[var(--site-header-h)] z-40 -mx-4 border-b border-border bg-background/95 px-4 py-2 shadow-sm backdrop-blur-sm sm:-mx-6 sm:px-6">
         <p className="text-xs text-accent/90">
           Tap a ratio (click on desktop) to read the note here — stays visible while you scroll.
         </p>

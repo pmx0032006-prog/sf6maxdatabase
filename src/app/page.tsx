@@ -27,7 +27,7 @@ export default function Home() {
     <div className="flex min-h-full flex-col">
       <SiteHeader active="home" />
 
-      <section className="border-b border-white/10 bg-[#0a0f0c] text-white">
+      <section className="sticky top-[var(--site-header-h)] z-40 border-b border-white/10 bg-[#0a0f0c]/95 text-white backdrop-blur-md supports-[backdrop-filter]:bg-[#0a0f0c]/90">
         <div className="mx-auto grid max-w-7xl items-center gap-2 px-4 py-2.5 sm:px-6 sm:gap-3 lg:grid-cols-[minmax(0,1fr)_auto_auto] lg:gap-4 lg:py-3">
           <h1 id="page-top" className="sr-only">
             {siteNameFull}

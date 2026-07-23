@@ -19,6 +19,8 @@ const GUILE_ALIASES: Record<string, string[]> = {
   mksamaa: ["28mk"],
   odsamaa: ["28kk"],
   sa1: ["4646p"],
+  sa2: ["4646k", "4646k(ca)"],
+  sa3: ["214214p"],
   "4c-6ppod": ["46pp"],
 };
 

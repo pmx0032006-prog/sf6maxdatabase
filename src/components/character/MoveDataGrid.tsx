@@ -132,7 +132,7 @@ function MoveCard({ characterSlug, move, priority, onOpen }: MoveCardProps) {
         ) : null}
 
         {hasWikiFullUi(characterSlug) ? (
-          <WikiFrameDataCardPreview move={move} />
+          <WikiFrameDataCardPreview move={move} characterSlug={characterSlug} />
         ) : (
           <span className="space-y-1 px-2 py-2">
             <span className="block text-[11px] font-bold leading-tight text-foreground group-hover:text-accent">
@@ -242,7 +242,7 @@ export function MoveDataGrid({ characterSlug, moves }: MoveDataGridProps) {
             <ul
               className={`mt-3 grid grid-cols-2 gap-2 sm:grid-cols-3 sm:gap-3 ${
                 hasWikiFullUi(characterSlug)
-                  ? "md:grid-cols-3 lg:grid-cols-4"
+                  ? "md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3"
                   : "md:grid-cols-4 lg:grid-cols-6"
               }`}
             >
@@ -361,7 +361,7 @@ export function MoveDataGrid({ characterSlug, moves }: MoveDataGridProps) {
                           frame.imageSlug,
                           frame.imageExt ?? ".jpg",
                         )}
-                        alt=""
+                        alt={`${active.nameEn || active.nameJa} ${getFrameLabel(frame.imageSlug, fi)} hitbox`}
                         width={80}
                         height={45}
                         unoptimized

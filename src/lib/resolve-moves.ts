@@ -9,13 +9,29 @@ import {
   sortImageFileGroups,
 } from "@/lib/move-sort";
 import { lookupWikiFrameData } from "@/lib/wiki-frame-lookup";
+import { formatMarisaMoveInput } from "@/lib/marisa-move-display";
+
+function applyMoveInput(
+  characterSlug: string,
+  imageSlug: string,
+  wiki: ReturnType<typeof lookupWikiFrameData>,
+): string | undefined {
+  if (characterSlug === "marisa") {
+    const custom = formatMarisaMoveInput(imageSlug, wiki?.input);
+    if (custom) return custom;
+  }
+  return wiki?.input ?? undefined;
+}
 
 function wikiToMoveFields(
+  characterSlug: string,
+  imageSlug: string,
   wiki: ReturnType<typeof lookupWikiFrameData>,
 ): Partial<MoveFrameData> {
   if (!wiki) return {};
+  const input = applyMoveInput(characterSlug, imageSlug, wiki);
   return {
-    input: wiki.input,
+    input,
     startup: wiki.startup,
     active: wiki.active,
     recovery: wiki.recovery,
@@ -44,10 +60,13 @@ function labelsForMove(
 ) {
   const fallback = getMoveDisplayName(imageSlug);
   if (!wiki) {
-    return fallback;
+    return {
+      nameJa: fallback.nameJa,
+      nameEn: fallback.nameEn,
+    };
   }
   return {
-    nameJa: wiki.nameJa ?? fallback.nameJa,
+    nameJa: wiki.nameJa ?? wiki.nameEn ?? fallback.nameJa,
     nameEn: wiki.nameEn || fallback.nameEn,
   };
 }
@@ -71,7 +90,7 @@ function stubMoveFromImageFile(
     total: wiki?.total ?? EMPTY,
     onBlock: wiki?.onBlock ?? EMPTY,
     onHit: wiki?.onHit ?? EMPTY,
-    ...wikiToMoveFields(wiki),
+    ...wikiToMoveFields(characterSlug, primary.slug, wiki),
   };
 }
 
@@ -126,10 +145,12 @@ function findDataMove(
   const wiki = lookupWikiFrameData(characterSlug, baseSlug);
   if (wiki) {
     const labels = labelsForMove(characterSlug, baseSlug, wiki);
+    const input = applyMoveInput(characterSlug, baseSlug, wiki);
     return {
       imageSlug: baseSlug,
       ...wiki,
       ...labels,
+      input: input ?? wiki.input,
       startup: wiki.startup || EMPTY,
       active: wiki.active || EMPTY,
       total: wiki.total || EMPTY,

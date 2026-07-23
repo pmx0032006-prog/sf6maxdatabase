@@ -1,15 +1,39 @@
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 import { CharacterGrid } from "@/components/CharacterGrid";
+import { JsonLd } from "@/components/JsonLd";
 import { PageMasthead } from "@/components/PageMasthead";
 import { RosterIntro } from "@/components/RosterIntro";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { roster } from "@/data/characters";
-import { siteName } from "@/lib/site";
+import { siteName, siteUrl } from "@/lib/site";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Characters",
   description: `${siteName} — frame data and hitbox images for all 30 characters`,
+  alternates: { canonical: `${siteUrl}/characters` },
+  openGraph: {
+    title: `Characters | ${siteName}`,
+    description: `${siteName} — frame data and hitbox images for all 30 characters`,
+    url: `${siteUrl}/characters`,
+  },
+};
+
+const breadcrumbItems = [
+  { name: "Home", item: siteUrl },
+  { name: "Characters", item: `${siteUrl}/characters` },
+];
+
+const charactersListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  itemListElement: roster.map((character, index) => ({
+    "@type": "ListItem",
+    position: index + 1,
+    name: character.en,
+    item: `${siteUrl}/characters/${character.slug}`,
+  })),
 };
 
 export default function CharactersPage() {
@@ -18,6 +42,8 @@ export default function CharactersPage() {
       <SiteHeader active="characters" />
 
       <main className="flex-1">
+        <BreadcrumbJsonLd items={breadcrumbItems} />
+        <JsonLd data={charactersListSchema} />
         <PageMasthead
           eyebrow={siteName}
           title="Characters"

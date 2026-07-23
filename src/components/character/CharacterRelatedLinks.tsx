@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { roster } from "@/data/characters";
+import { characterPageContainerClass } from "@/lib/character-page-layout";
 
 type CharacterRelatedLinksProps = {
   currentSlug: string;
@@ -44,7 +45,7 @@ export function CharacterRelatedLinks({
 
   return (
     <section className="border-t border-white/10 bg-[#0a0f0c]">
-      <div className="mx-auto w-full max-w-[1440px] px-3 py-8 sm:px-5 lg:px-6">
+      <div className={characterPageContainerClass("py-8")}>
         <p className="text-[10px] font-bold tracking-[0.32em] text-accent uppercase">Next</p>
         <div className="mt-3 grid gap-2.5 sm:grid-cols-3">
           <Link

@@ -1,13 +1,20 @@
 import Link from "next/link";
 import { PageMasthead } from "@/components/PageMasthead";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { siteDomain, siteName, siteNameFull } from "@/lib/site";
+import { siteDomain, siteName, siteNameFull, siteUrl } from "@/lib/site";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: `${siteNameFull} privacy policy — cookies, analytics, ads, and affiliate links`,
+  alternates: { canonical: `${siteUrl}/privacy` },
+  openGraph: {
+    title: `Privacy Policy | ${siteName}`,
+    description: `${siteNameFull} privacy policy — cookies, analytics, ads, and affiliate links`,
+    url: `${siteUrl}/privacy`,
+  },
 };
 
 const sections = [
@@ -102,6 +109,9 @@ export default function PrivacyPage() {
   return (
     <div className="flex min-h-full flex-col">
       <SiteHeader active="about" />
+      <BreadcrumbJsonLd
+        items={[{ name: "Home", item: siteUrl }, { name: "Privacy", item: `${siteUrl}/privacy` }]}
+      />
 
       <main className="flex-1">
         <PageMasthead

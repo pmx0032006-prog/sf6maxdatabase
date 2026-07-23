@@ -2,11 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CharacterDetailHeader } from "@/components/character/CharacterDetailHeader";
 import { CharacterPreparing } from "@/components/character/CharacterPreparing";
-import { CharacterTabs } from "@/components/character/CharacterTabs";
 import { FrameDataList } from "@/components/character/FrameDataList";
-import { CharacterArticle } from "@/components/character/CharacterArticle";
-import { PlaceholderPanel } from "@/components/character/PlaceholderPanel";
-import { getCharacterArticleText } from "@/lib/character-text";
 import {
   getCharacterBySlug,
   isCharacterReady,
@@ -15,12 +11,11 @@ import { siteUrl } from "@/lib/site";
 import { CharacterRelatedLinks } from "@/components/character/CharacterRelatedLinks";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 import { roster } from "@/data/characters";
 import { getCharacterMoveImageFiles } from "@/lib/character-images";
 import { resolveMoves } from "@/lib/resolve-moves";
-
-export const dynamic = "force-dynamic"; // INTERNAL-LINKS-BACKBAR
-// INTERNAL-LINKS-RELATED
+import { characterPageContainerClass } from "@/lib/character-page-layout";
 
 
 type PageProps = {
@@ -36,12 +31,16 @@ export async function generateMetadata({ params }: PageProps) {
   const character = getCharacterBySlug(slug);
   if (!character) return { title: "Character" };
 
+  // SEO-STRENGTHEN-20260721
   const title = isCharacterReady(slug)
-    ? `${character.en} SF6 Frame Data`
+    ? `${character.en} SF6 Frame Data & Hitboxes`
     : `${character.en} SF6 Frame Data (Coming Soon)`;
   const description = isCharacterReady(slug)
-    ? `${character.en} Street Fighter 6 frame data, startup, block advantage, damage, and lightweight JPG hitbox images. Mobile-friendly SF6 database.`
+    ? `${character.en} Street Fighter 6 frame data and lightweight JPG hitbox images — startup, block advantage, damage. Fast mobile SF6 database.`
     : `${character.en} Street Fighter 6 frame data page is coming soon on SF6 MAX DATABASE.`;
+  const ogImage = character.thumb
+    ? [{ url: character.thumb, width: 1200, height: 630, alt: `${character.en} Street Fighter 6` }]
+    : undefined;
 
   return {
     title,
@@ -53,14 +52,23 @@ export async function generateMetadata({ params }: PageProps) {
       title: `${title} | SF6 MAX DATABASE`,
       description,
       url: `${siteUrl}/characters/${slug}`,
+      images: ogImage,
+      type: "article",
+      locale: "en_US",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: character.thumb ? [character.thumb] : undefined,
     },
   };
 }
 
 function BackBar() {
   return (
-    <div className="border-b border-white/10 bg-[#0a0f0c]">
-      <div className="mx-auto w-full max-w-[1440px] px-3 py-3 sm:px-5 lg:px-6">
+    <div className="sticky top-[var(--site-header-h)] z-40 border-b border-white/10 bg-[#0a0f0c]/95 backdrop-blur-md supports-[backdrop-filter]:bg-[#0a0f0c]/90">
+      <div className={characterPageContainerClass("py-3")}>
         <nav
           aria-label="Character page navigation"
           className="flex flex-wrap items-center gap-x-4 gap-y-2 text-[10px] font-bold tracking-[0.28em] text-white/50"
@@ -89,13 +97,24 @@ export default async function CharacterDetailPage({ params }: PageProps) {
     notFound();
   }
 
+  const breadcrumbItems = [
+    { name: "Home", item: siteUrl },
+    { name: "Characters", item: `${siteUrl}/characters` },
+    { name: character.en, item: `${siteUrl}/characters/${slug}` },
+  ];
+
   if (!isCharacterReady(slug)) {
     return (
       <div className="flex min-h-full flex-col">
         <SiteHeader active="characters" />
+        <BreadcrumbJsonLd items={breadcrumbItems} />
         <BackBar />
         <main className="flex-1">
-          <CharacterDetailHeader en={character.en} ja={character.ja} slug={slug} />
+          <CharacterDetailHeader
+            en={character.en}
+            ja={character.ja}
+            slug={slug}
+          />
           <CharacterPreparing en={character.en} ja={character.ja} />
         </main>
         <SiteFooter />
@@ -105,49 +124,25 @@ export default async function CharacterDetailPage({ params }: PageProps) {
 
   const imageFiles = getCharacterMoveImageFiles(slug);
   const moves = resolveMoves(slug, [], imageFiles);
-  const classicArticle = getCharacterArticleText(slug, "c");
-  const modernArticle = getCharacterArticleText(slug, "m");
-
   return (
     <div className="flex min-h-full flex-col">
       <SiteHeader active="characters" />
+      <BreadcrumbJsonLd items={breadcrumbItems} />
 
       <BackBar />
 
       <main className="flex-1">
-        <CharacterDetailHeader en={character.en} ja={character.ja} slug={slug} />
-
-        <CharacterTabs
-          frameContent={<FrameDataList characterSlug={slug} moves={moves} />}
-          strategyContent={
-            classicArticle ? (
-              <CharacterArticle
-                badge="Classic"
-                title={`Classic — ${character.en} guide`}
-                content={classicArticle}
-              />
-            ) : (
-              <PlaceholderPanel
-                title="Classic guide"
-                body={`Classic guide for ${character.en} is coming soon.`}
-              />
-            )
-          }
-          metagameContent={
-            modernArticle ? (
-              <CharacterArticle
-                badge="Modern"
-                title={`Modern — ${character.en} guide`}
-                content={modernArticle}
-              />
-            ) : (
-              <PlaceholderPanel
-                title="Modern guide"
-                body={`Modern guide for ${character.en} is coming soon.`}
-              />
-            )
-          }
+        <CharacterDetailHeader
+          en={character.en}
+          ja={character.ja}
+          slug={slug}
         />
+
+        <div className="bg-surface">
+          <div className={characterPageContainerClass("py-8 sm:py-10 lg:py-12")}>
+            <FrameDataList characterSlug={slug} moves={moves} />
+          </div>
+        </div>
       </main>
         <CharacterRelatedLinks currentSlug={slug} currentName={character.en} currentJa={character.ja} />
 

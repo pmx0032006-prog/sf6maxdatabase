@@ -5,6 +5,7 @@ const TERRY_ALIASES: Record<string, string[]> = {
   "214mphpod": ["214mphp"],
   "214hppod": ["214mphp", "214hp"],
   lpmpod: ["214lpmp"],
+  "214ppod": ["214lpmp"],
   "2mkhk": ["2mk_2hk"],
   "5mphk": ["5mp_hk"],
   "5mphkhk": ["5mp_hk_hk"],
@@ -24,6 +25,7 @@ function normalizeTerryKey(rawKey: string): string {
     .replace(/214lpmpod/gi, "214lpmp")
     .replace(/214mphpod/gi, "214mphp")
     .replace(/214hppod/gi, "214mphp")
+    .replace(/214ppod/gi, "214lpmp")
     .replace(/^lpmpod/gi, "214lpmp")
     .replace(/2mkhk/gi, "2mk_2hk")
     .replace(/5mphkhk/gi, "5mp_hk_hk")

@@ -20,10 +20,9 @@ export { getCharacterImageDirName };
 function getSourceDirectories(characterSlug: string): string[] {
   const dirName = getCharacterImageDirName(characterSlug);
   return [
-    path.join(process.cwd(), "public", "images", "characters", dirName),
-    path.join(MATERIALS_ROOT, dirName),
-    path.join("C:\\Users\\sf6_site", dirName),
-    path.join(process.cwd(), dirName),
+    path.join(/*turbopackIgnore: true*/ process.cwd(), "public", "images", "characters", dirName),
+    path.join(/*turbopackIgnore: true*/ MATERIALS_ROOT, dirName),
+    path.join(/*turbopackIgnore: true*/ "C:\\Users\\sf6_site", dirName),
   ];
 }
 

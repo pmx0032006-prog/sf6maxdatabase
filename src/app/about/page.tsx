@@ -1,14 +1,21 @@
 import Link from "next/link";
 import { HitboxColorLegend } from "@/components/character/HitboxColorLegend";
 import { PageMasthead } from "@/components/PageMasthead";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { siteName, siteNameFull } from "@/lib/site";
+import { siteName, siteNameFull, siteUrl } from "@/lib/site";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About",
   description: `${siteNameFull} — lightweight JPG hitboxes and how to read frame data`,
+  alternates: { canonical: `${siteUrl}/about` },
+  openGraph: {
+    title: `About | ${siteName}`,
+    description: `${siteNameFull} — lightweight JPG hitboxes and how to read frame data`,
+    url: `${siteUrl}/about`,
+  },
 };
 
 const sections = [
@@ -101,6 +108,9 @@ export default function AboutPage() {
   return (
     <div className="flex min-h-full flex-col">
       <SiteHeader active="about" />
+      <BreadcrumbJsonLd
+        items={[{ name: "Home", item: siteUrl }, { name: "About", item: `${siteUrl}/about` }]}
+      />
 
       <main className="flex-1">
         <PageMasthead

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { characterPageContainerClass } from "@/lib/character-page-layout";
 
 type CharacterPreparingProps = {
   en: string;
@@ -8,7 +9,7 @@ type CharacterPreparingProps = {
 export function CharacterPreparing({ en, ja }: CharacterPreparingProps) {
   return (
     <section className="bg-surface/50">
-      <div className="mx-auto w-full max-w-[1440px] px-3 py-16 sm:px-5 sm:py-24 lg:px-6">
+      <div className={characterPageContainerClass("py-16 sm:py-24")}>
         <div className="mx-auto max-w-lg rounded-xl border border-dashed border-accent/40 bg-surface px-8 py-14 text-center sm:px-12 sm:py-16">
           <p className="text-[10px] font-bold tracking-[0.35em] text-accent uppercase">
             Under Construction

@@ -24,6 +24,8 @@ const DHALSIM_ALIASES: Record<string, string[]> = {
   sa1: ["236236lp", "236236mp", "236236hp"],
   sa2: ["214214k", "214214k_hold", "214214k_partial_hold"],
   sa3: ["236236k", "236236k(ca)"],
+  l2kk: ["2kk"],
+  l63214lp: ["63214lp"],
 };
 
 function addUnique(out: string[], key: string) {

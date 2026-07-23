@@ -27,9 +27,30 @@
   --font-mono: var(--font-geist-mono);
 }
 
+:root {
+  --site-header-h: 5.75rem;
+  --site-hero-offset: 5.75rem;
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --site-header-h: 4rem;
+    --site-hero-offset: 4rem;
+  }
+}
+
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 3.5rem;
+  scroll-padding-top: var(--site-header-h);
+}
+
+.site-header-spacer {
+  height: var(--site-header-h);
+  flex-shrink: 0;
+}
+
+.site-header-inner {
+  min-height: calc(var(--site-header-h) - 1px);
 }
 
 body {

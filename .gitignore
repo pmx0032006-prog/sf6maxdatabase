@@ -42,3 +42,9 @@ next-env.d.ts
 
 # watermark batch cache (local)
 scripts/.watermark-cache.json
+# local trash / tooling
+**/_trash/
+scripts/__pycache__/
+scripts/tmp_*
+scripts/_cargo-test.json
+scripts/_ryu-wiki.json

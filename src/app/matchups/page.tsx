@@ -1,6 +1,7 @@
 import { Suspense } from "react";
 import { MetaNextSteps } from "@/components/MetaNextSteps";
 import { MatchupTable } from "@/components/MatchupTable";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { roster } from "@/data/characters";
@@ -29,6 +30,9 @@ export default function MatchupsPage() {
   return (
     <div className="flex min-h-full flex-col">
       <SiteHeader active="matchups" />
+      <BreadcrumbJsonLd
+        items={[{ name: "Home", item: siteUrl }, { name: "Matchups", item: `${siteUrl}/matchups` }]}
+      />
 
       <main className="flex-1 bg-background">
         <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-8">

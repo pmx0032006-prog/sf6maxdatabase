@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { CharacterFavoriteButton } from "@/components/CharacterFavoriteButton";
+import { characterPageContainerClass } from "@/lib/character-page-layout";
 
 type CharacterDetailHeaderProps = {
   en: string;
@@ -14,9 +15,12 @@ export function CharacterDetailHeader({
 }: CharacterDetailHeaderProps) {
   return (
     <section className="bg-[#0a0f0c] text-white">
-      <div className="mx-auto w-full max-w-[1440px] px-3 py-10 sm:px-5 sm:py-12 lg:px-6">
+      <div className={characterPageContainerClass("py-10 sm:py-12")}>
         <h1 className="font-display text-5xl font-black uppercase leading-none tracking-tight sm:text-6xl lg:text-7xl">
           {en}
+          <span className="mt-2 block text-base font-semibold normal-case tracking-wide text-white/50 sm:text-lg">
+            SF6 Frame Data &amp; Hitbox Images
+          </span>
         </h1>
         <p className="mt-3 text-base text-white/50 sm:text-lg">{ja}</p>
         <div className="mt-5 flex flex-wrap items-center gap-2">
