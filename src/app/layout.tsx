@@ -56,9 +56,13 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
-        <meta name='impact-site-verification' value='e1da5e9a-c679-4caf-aab6-0e172a96ba43' />
-        <meta name="impact-site-verification" content="e1da5e9a-c679-4caf-aab6-0e172a96ba43" />
-        <meta name="google-adsense-account" content="ca-pub-8960641434315655" />
+        {/* Impact asks for value=; React types only allow content=. Emit both via raw HTML. */}
+        <meta
+          name="impact-site-verification"
+          content="e1da5e9a-c679-4caf-aab6-0e172a96ba43"
+          {...({ value: "e1da5e9a-c679-4caf-aab6-0e172a96ba43" } as Record<string, string>)}
+        />
+<meta name="google-adsense-account" content="ca-pub-8960641434315655" />
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8960641434315655"
