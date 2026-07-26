@@ -70,7 +70,7 @@ export const AFFILIATE_GEAR = [
   },
 ] as const satisfies readonly AffiliateGearItem[];
 
-export const HOME_PRIME_ASINS = ["B0BZQKCFSD", "B0BPJRGNSD"] as const;
+export const HOME_PRIME_ASINS = ["B0CCX2DMXV", "B0BZQKCFSD"] as const;
 
 export function gearByAsin(asin: string): AffiliateGearItem | undefined {
   return AFFILIATE_GEAR.find((item) => item.asin === asin);

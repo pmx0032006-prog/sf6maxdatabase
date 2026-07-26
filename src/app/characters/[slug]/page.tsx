@@ -10,6 +10,7 @@ import {
 import { siteUrl } from "@/lib/site";
 import { CharacterRelatedLinks } from "@/components/character/CharacterRelatedLinks";
 import { SiteFooter } from "@/components/SiteFooter";
+import { CharacterAmazonCta } from "@/components/character/CharacterAmazonCta";
 import { SiteHeader } from "@/components/SiteHeader";
 import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 import { roster } from "@/data/characters";
@@ -143,6 +144,7 @@ export default async function CharacterDetailPage({ params }: PageProps) {
             <FrameDataList characterSlug={slug} moves={moves} />
           </div>
         </div>
+        <CharacterAmazonCta characterEn={character.en} />
       </main>
         <CharacterRelatedLinks currentSlug={slug} currentName={character.en} currentJa={character.ja} />
 
