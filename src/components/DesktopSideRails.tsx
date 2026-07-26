@@ -79,14 +79,14 @@ export function DesktopSideRails() {
         aria-label="Desktop left rail"
         className="pointer-events-none fixed top-[7rem] bottom-10 z-20 left-[max(0px,calc((100vw-80rem)/2-min(15.5rem,(100vw-80rem)/2)-1.25rem))] hidden w-[min(15.5rem,calc((100vw-80rem)/2))] 2xl:block"
       >
-        <RailStack startIndex={0} side="left" title="SF6 Gear Picks" />
+        <RailStack startIndex={0} side="left" title="Premium / Buzz" />
       </aside>
 
       <aside
         aria-label="Desktop right rail"
         className="pointer-events-none fixed top-[7rem] bottom-10 z-20 right-[max(0px,calc((100vw-80rem)/2-min(15.5rem,(100vw-80rem)/2)-1.25rem))] hidden w-[min(15.5rem,calc((100vw-80rem)/2))] 2xl:block"
       >
-        <RailStack startIndex={5} side="right" title="FGC Deals" />
+        <RailStack startIndex={5} side="right" title="US Meta Picks" />
       </aside>
     </>
   );

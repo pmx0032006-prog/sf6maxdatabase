@@ -2,7 +2,7 @@ import Link from "next/link";
 import { AFFILIATE_GEAR, gearHref } from "@/data/affiliate-gear";
 
 /** After frame data — high-intent Amazon CTA (leverless / stick first). */
-const CTA_ASINS = ["B0CCX2DMXV", "B0BZQKCFSD", "B0BYQCPDTP"] as const;
+const CTA_ASINS = ["B0CCX2DMXV", "B0DQ4PTBCW", "B0B3VQKGHW"] as const;
 
 export function CharacterAmazonCta({ characterEn }: { characterEn: string }) {
   const items = CTA_ASINS.map((asin) =>

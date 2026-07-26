@@ -7,7 +7,20 @@ export type AffiliateGearItem = {
   asin: string;
 };
 
+/** US dollar-box order: left rail [0-4], right rail [5-9]. */
 export const AFFILIATE_GEAR = [
+  {
+    shortLabel: "Victrix Pro FS-12",
+    badge: "Premium",
+    tagline: "Aircraft-grade aluminum leverless for PS5, PS4, and PC.",
+    asin: "B0B3VQKGHW",
+  },
+  {
+    shortLabel: "8BitDo Leverless",
+    badge: "Buzz Pick",
+    tagline: "Mechanical all-button. Official Xbox Series X|S and PC.",
+    asin: "B0F7RMB4RH",
+  },
   {
     shortLabel: "HORI Alpha Stick",
     badge: "SF6 Edition",
@@ -28,9 +41,27 @@ export const AFFILIATE_GEAR = [
   },
   {
     shortLabel: "Razer Kitsune",
-    badge: "Leverless",
-    tagline: "All-button optical controller for PS5 and PC.",
+    badge: "US #1",
+    tagline: "PS5/PC official leverless. The US FGC standard.",
     asin: "B0CCX2DMXV",
+  },
+  {
+    shortLabel: "Haute42 M Ultra",
+    badge: "Value King",
+    tagline: "16-key aluminum leverless. High CVR US budget meta.",
+    asin: "B0DQ4PTBCW",
+  },
+  {
+    shortLabel: "Haute42 Booter5",
+    badge: "PS5 Add-on",
+    tagline: "Dongle for Haute42 pads on PS5 fighting games.",
+    asin: "B0GSHLBQSB",
+  },
+  {
+    shortLabel: "Brook Wingman FGC2",
+    badge: "Converter",
+    tagline: "PS5 adapter for fight sticks and leverless boards.",
+    asin: "B0DLWD1WMQ",
   },
   {
     shortLabel: "Street Fighter 6",
@@ -38,39 +69,9 @@ export const AFFILIATE_GEAR = [
     tagline: "The frame data on this site, in your hands.",
     asin: "B0BPJRGNSD",
   },
-  {
-    shortLabel: "8BitDo Arcade Stick",
-    badge: "Budget",
-    tagline: "Wireless arcade stick for PC and Switch.",
-    asin: "B08GJC5WSS",
-  },
-  {
-    shortLabel: "Victrix Pro FS",
-    badge: "Pro Stick",
-    tagline: "Premium PS5 fightstick with swappable gate.",
-    asin: "B0B3VRDML3",
-  },
-  {
-    shortLabel: "Mad Catz EGO",
-    badge: "Mid-Range",
-    tagline: "Sanwa parts. PS4, Switch, Xbox One, and PC.",
-    asin: "B08HFNSCMV",
-  },
-  {
-    shortLabel: "HORI OCTA Pro",
-    badge: "Fightpad Pro",
-    tagline: "Wireless tournament fightpad for PS5 and PC.",
-    asin: "B0DVB2JB1K",
-  },
-  {
-    shortLabel: "Mayflash F500 Elite",
-    badge: "Mod Friendly",
-    tagline: "Sanwa parts. Mod-friendly for PS4, Switch, Xbox, and PC.",
-    asin: "B07QJ1JJ7J",
-  },
 ] as const satisfies readonly AffiliateGearItem[];
 
-export const HOME_PRIME_ASINS = ["B0CCX2DMXV", "B0BZQKCFSD"] as const;
+export const HOME_PRIME_ASINS = ["B0CCX2DMXV", "B0DQ4PTBCW"] as const;
 
 export function gearByAsin(asin: string): AffiliateGearItem | undefined {
   return AFFILIATE_GEAR.find((item) => item.asin === asin);
