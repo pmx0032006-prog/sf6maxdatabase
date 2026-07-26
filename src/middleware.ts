@@ -16,7 +16,7 @@ const BLOCKED_COUNTRIES = new Set([
 ]);
 
 /** TEMP: Impact site verification — set false after verify succeeds */
-const ENFORCE_GEO_BLOCK = false;
+const ENFORCE_GEO_BLOCK = true;
 
 export function middleware(request: NextRequest) {
   const country = request.headers.get("x-vercel-ip-country");
