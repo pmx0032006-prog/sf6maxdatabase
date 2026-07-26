@@ -59,8 +59,8 @@ export default function RootLayout({
         {/* Impact asks for value=; React types only allow content=. Emit both via raw HTML. */}
         <meta
           name="impact-site-verification"
-          content="cb99c59a-672e-4984-87b4-d33ec41e4573"
-          {...({ value: "cb99c59a-672e-4984-87b4-d33ec41e4573" } as Record<string, string>)}
+          content="3b3719cd-edb1-4ecd-8be3-453f8aaffff4"
+          {...({ value: "3b3719cd-edb1-4ecd-8be3-453f8aaffff4" } as Record<string, string>)}
         />
 <meta name="google-adsense-account" content="ca-pub-8960641434315655" />
         <script
