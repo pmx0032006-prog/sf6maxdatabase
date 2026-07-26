@@ -15,7 +15,7 @@ const BLOCKED_COUNTRIES = new Set([
   "PK",
 ]);
 
-/** TEMP: Impact site verification — set false after verify succeeds */
+/** Keep true. Country block must stay enforced (JP/CN/DO/...). */
 const ENFORCE_GEO_BLOCK = true;
 
 export function middleware(request: NextRequest) {
