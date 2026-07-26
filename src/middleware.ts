@@ -15,9 +15,12 @@ const BLOCKED_COUNTRIES = new Set([
   "PK",
 ]);
 
+/** TEMP: Impact site verification — set false after verify succeeds */
+const ENFORCE_GEO_BLOCK = false;
+
 export function middleware(request: NextRequest) {
   const country = request.headers.get("x-vercel-ip-country");
-  if (country && BLOCKED_COUNTRIES.has(country)) {
+  if (ENFORCE_GEO_BLOCK && country && BLOCKED_COUNTRIES.has(country)) {
     return new NextResponse("Not Available", {
       status: 451,
       headers: { "Content-Type": "text/plain; charset=utf-8" },
