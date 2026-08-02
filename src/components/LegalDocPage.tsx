@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { AdSenseSlot } from "@/components/AdSenseSlot";
 import { PageMasthead } from "@/components/PageMasthead";
 import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -20,6 +21,8 @@ type LegalDocPageProps = {
   effectiveDate?: string;
   sections: LegalSection[];
   footerLinks?: { href: string; label: string; primary?: boolean }[];
+  /** Privacy / Terms / Disclosure bottom slot. Contact stays clean. */
+  showAdSlot?: boolean;
 };
 
 export function LegalDocPage({
@@ -33,6 +36,7 @@ export function LegalDocPage({
     { href: "/contact", label: "Contact →", primary: true },
     { href: "/", label: "Back to home" },
   ],
+  showAdSlot = false,
 }: LegalDocPageProps) {
   return (
     <div className="flex min-h-full flex-col">
@@ -80,6 +84,10 @@ export function LegalDocPage({
                 ) : null}
               </article>
             ))}
+
+            {showAdSlot ? (
+              <AdSenseSlot slotId="adsense-legal-bottom" className="mt-2" />
+            ) : null}
 
             <div className="flex flex-wrap gap-4 border-t border-border/80 pt-8">
               {footerLinks.map((link) => {

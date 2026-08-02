@@ -95,7 +95,7 @@ export default function RootLayout({
             },
           }}
         />
-        {/* MONETIZATION-PHASE-1: dense Amazon rails (2xl+). AdSense auto ads after approval. */}
+        {/* MONETIZATION: Amazon rails (2xl+). AdSense = manual slots only; Auto ads stay off. */}
         <DesktopSideRails />
         {children}
         <BackToTop />

@@ -11,6 +11,7 @@ import { siteUrl } from "@/lib/site";
 import { CharacterRelatedLinks } from "@/components/character/CharacterRelatedLinks";
 import { SiteFooter } from "@/components/SiteFooter";
 import { CharacterAmazonCta } from "@/components/character/CharacterAmazonCta";
+import { AdSenseSlot } from "@/components/AdSenseSlot";
 import { SiteHeader } from "@/components/SiteHeader";
 import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 import { roster } from "@/data/characters";
@@ -145,6 +146,11 @@ export default async function CharacterDetailPage({ params }: PageProps) {
           </div>
         </div>
         <CharacterAmazonCta characterEn={character.en} />
+        <div className="bg-background px-4 py-6 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl lg:max-w-3xl">
+            <AdSenseSlot slotId="adsense-char-after-data" />
+          </div>
+        </div>
       </main>
         <CharacterRelatedLinks currentSlug={slug} currentName={character.en} currentJa={character.ja} />
 

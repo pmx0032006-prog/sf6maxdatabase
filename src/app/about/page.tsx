@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { AdSenseSlot } from "@/components/AdSenseSlot";
 import { HitboxColorLegend } from "@/components/character/HitboxColorLegend";
 import { PageMasthead } from "@/components/PageMasthead";
 import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
@@ -175,6 +176,8 @@ export default function AboutPage() {
               </p>
             </article>
 
+
+            <AdSenseSlot slotId="adsense-about-below" className="mt-4" />
 
             <div className="flex flex-wrap gap-4 border-t border-border/80 pt-8">
               <Link

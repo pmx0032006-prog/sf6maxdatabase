@@ -21,6 +21,7 @@ export default function PrivacyPage() {
       path="/privacy"
       crumbName="Privacy"
       effectiveDate="August 2, 2026"
+      showAdSlot
       sections={[
         {
           id: "overview",

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { AdSenseSlot } from "@/components/AdSenseSlot";
 import { homePrimeGear, gearHref } from "@/data/affiliate-gear";
 import { newsItems } from "@/data/news";
 
@@ -11,7 +12,11 @@ export function HomeSidebar() {
       aria-label="Recommendations and updates"
       className="flex flex-col gap-3.5 lg:sticky lg:top-[calc(var(--site-header-h)+0.75rem)] lg:self-start"
     >
-      {/* ADSENSE-HOME-SIDEBAR: swap or stack AdSense units here after approval */}
+      <AdSenseSlot
+        slotId="adsense-home-sidebar"
+        desktopOnly
+        minHeightClassName="min-h-[120px]"
+      />
       <section className="rounded-lg border border-border/80 bg-surface p-3 shadow-sm">
         <p className="text-[10px] font-bold tracking-[0.28em] text-muted uppercase">
           Recommended

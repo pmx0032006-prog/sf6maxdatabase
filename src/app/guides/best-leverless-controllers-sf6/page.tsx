@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { AdSenseSlot } from "@/components/AdSenseSlot";
 import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 import { PageMasthead } from "@/components/PageMasthead";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -281,6 +282,8 @@ export default function BestLeverlessGuidePage() {
                 </Link>
               </div>
             </article>
+
+            <AdSenseSlot slotId="adsense-guide-bottom" />
 
             <article className="space-y-3">
               <h2 className="border-l-4 border-accent pl-4 text-lg font-bold tracking-tight text-foreground sm:text-xl">

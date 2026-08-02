@@ -21,6 +21,7 @@ export default function TermsPage() {
       path="/terms"
       crumbName="Terms"
       effectiveDate="August 2, 2026"
+      showAdSlot
       sections={[
         {
           id: "service",

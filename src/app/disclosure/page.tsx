@@ -21,6 +21,7 @@ export default function DisclosurePage() {
       path="/disclosure"
       crumbName="Disclosure"
       effectiveDate="August 2, 2026"
+      showAdSlot
       sections={[
         {
           id: "advertising",

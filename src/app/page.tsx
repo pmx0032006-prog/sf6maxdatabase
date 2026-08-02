@@ -1,3 +1,4 @@
+import { AdSenseSlot } from "@/components/AdSenseSlot";
 import { CharacterGrid } from "@/components/CharacterGrid";
 import { HomeHeroFactline } from "@/components/HomeHeroFactline";
 import { HomeMetaSummary } from "@/components/HomeMetaSummary";
@@ -51,6 +52,8 @@ export default function Home() {
             >
               <CharacterGrid mode="classic" characters={roster} hideHeader />
             </section>
+
+            <AdSenseSlot slotId="adsense-roster-below" />
 
             <MetaNextSteps variant="home" />
 

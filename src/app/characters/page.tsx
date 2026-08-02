@@ -1,3 +1,4 @@
+import { AdSenseSlot } from "@/components/AdSenseSlot";
 import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 import { CharacterGrid } from "@/components/CharacterGrid";
 import { JsonLd } from "@/components/JsonLd";
@@ -59,6 +60,9 @@ export default function CharactersPage() {
               mode="classic"
               characters={roster}
             />
+            <div className="mt-10">
+              <AdSenseSlot slotId="adsense-roster-below" />
+            </div>
           </div>
         </section>
       </main>
