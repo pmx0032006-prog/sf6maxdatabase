@@ -184,6 +184,12 @@ export default function AboutPage() {
                 Character roster →
               </Link>
               <Link
+                href="/guides/best-leverless-controllers-sf6"
+                className="inline-flex items-center text-sm font-semibold text-accent hover:text-accent-hover"
+              >
+                Leverless guide →
+              </Link>
+              <Link
                 href="/disclosure"
                 className="inline-flex items-center text-sm font-semibold text-accent hover:text-accent-hover"
               >

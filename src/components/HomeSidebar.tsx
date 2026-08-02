@@ -40,6 +40,13 @@ export function HomeSidebar() {
           ))}
         </ul>
         <p className="mt-2 text-[10px] leading-relaxed text-muted/80">
+          <Link
+            href="/guides/best-leverless-controllers-sf6"
+            className="font-semibold text-accent hover:text-accent-hover"
+          >
+            Leverless guide →
+          </Link>
+          <span className="mx-1 text-muted/50">·</span>
           Affiliate links — we may earn a commission.{" "}
           <Link href="/disclosure" className="text-accent hover:text-accent-hover">
             Disclosure

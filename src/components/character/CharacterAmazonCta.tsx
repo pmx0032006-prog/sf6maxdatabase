@@ -52,6 +52,13 @@ export function CharacterAmazonCta({ characterEn }: { characterEn: string }) {
           ))}
         </ul>
         <p className="mt-3 text-[11px] leading-relaxed text-muted/80">
+          <Link
+            href="/guides/best-leverless-controllers-sf6"
+            className="font-semibold text-accent hover:text-accent-hover"
+          >
+            Full leverless guide →
+          </Link>
+          <span className="mx-1.5 text-muted/50">·</span>
           Affiliate links — we may earn a commission at no extra cost to you.{" "}
           <Link href="/disclosure" className="text-accent hover:text-accent-hover">
             Disclosure

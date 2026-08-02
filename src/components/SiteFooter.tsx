@@ -22,6 +22,12 @@ export function SiteFooter() {
           <Link href="/characters" className="text-accent hover:text-accent-hover">
             Characters
           </Link>
+          <Link
+            href="/guides/best-leverless-controllers-sf6"
+            className="text-accent hover:text-accent-hover"
+          >
+            Leverless guide
+          </Link>
           <Link href="/about" className="text-accent hover:text-accent-hover">
             About
           </Link>

@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/terms",
     "/contact",
     "/disclosure",
+    "/guides/best-leverless-controllers-sf6",
   ];
 
   const pages: MetadataRoute.Sitemap = staticRoutes.map((path) => ({
