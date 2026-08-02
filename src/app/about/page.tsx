@@ -99,7 +99,7 @@ const sections = [
     id: "affiliate",
     title: "Affiliate Disclosure",
     body: [
-      "Some links are affiliate links.",
+      "Some links are Amazon Associate links. Full details are on our Ads & Affiliate Disclosure page.",
     ],
   },
 ] as const;
@@ -182,6 +182,18 @@ export default function AboutPage() {
                 className="inline-flex items-center text-sm font-semibold text-accent hover:text-accent-hover"
               >
                 Character roster →
+              </Link>
+              <Link
+                href="/disclosure"
+                className="inline-flex items-center text-sm font-semibold text-accent hover:text-accent-hover"
+              >
+                Ads & Affiliates →
+              </Link>
+              <Link
+                href="/contact"
+                className="inline-flex items-center text-sm text-muted hover:text-foreground"
+              >
+                Contact
               </Link>
               <Link
                 href="/"

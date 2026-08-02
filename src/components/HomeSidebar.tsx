@@ -41,7 +41,7 @@ export function HomeSidebar() {
         </ul>
         <p className="mt-2 text-[10px] leading-relaxed text-muted/80">
           Affiliate links — we may earn a commission.{" "}
-          <Link href="/about#affiliate" className="text-accent hover:text-accent-hover">
+          <Link href="/disclosure" className="text-accent hover:text-accent-hover">
             Disclosure
           </Link>
         </p>

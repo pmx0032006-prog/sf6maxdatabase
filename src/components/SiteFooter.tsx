@@ -20,13 +20,22 @@ export function SiteFooter() {
         </div>
         <div className="mt-4 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
           <Link href="/characters" className="text-accent hover:text-accent-hover">
-            Character roster →
+            Characters
           </Link>
           <Link href="/about" className="text-accent hover:text-accent-hover">
-            About →
+            About
           </Link>
           <Link href="/privacy" className="text-accent hover:text-accent-hover">
-            Privacy →
+            Privacy
+          </Link>
+          <Link href="/terms" className="text-accent hover:text-accent-hover">
+            Terms
+          </Link>
+          <Link href="/contact" className="text-accent hover:text-accent-hover">
+            Contact
+          </Link>
+          <Link href="/disclosure" className="text-accent hover:text-accent-hover">
+            Ads & Affiliates
           </Link>
         </div>
       </div>

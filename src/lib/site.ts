@@ -9,3 +9,6 @@ export const siteTagline =
   "Lightweight JPG hitboxes × frame data — a mobile-first SF6 database";
 
 export const siteUrl = "https://www.sf6maxdatabase.com";
+
+/** Public Contact inbox (AdSense / legal). */
+export const siteContactEmail = "pmx0032025@gmail.com";

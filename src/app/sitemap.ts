@@ -5,7 +5,17 @@ import { siteUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date("2026-07-23T00:00:00.000Z");
-  const staticRoutes = ["", "/characters", "/tier", "/matchups", "/about", "/privacy"];
+  const staticRoutes = [
+    "",
+    "/characters",
+    "/tier",
+    "/matchups",
+    "/about",
+    "/privacy",
+    "/terms",
+    "/contact",
+    "/disclosure",
+  ];
 
   const pages: MetadataRoute.Sitemap = staticRoutes.map((path) => ({
     url: `${siteUrl}${path}`,

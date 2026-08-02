@@ -53,7 +53,7 @@ export function CharacterAmazonCta({ characterEn }: { characterEn: string }) {
         </ul>
         <p className="mt-3 text-[11px] leading-relaxed text-muted/80">
           Affiliate links — we may earn a commission at no extra cost to you.{" "}
-          <Link href="/about#affiliate" className="text-accent hover:text-accent-hover">
+          <Link href="/disclosure" className="text-accent hover:text-accent-hover">
             Disclosure
           </Link>
         </p>

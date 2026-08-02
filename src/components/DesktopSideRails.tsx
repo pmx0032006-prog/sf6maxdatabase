@@ -63,7 +63,7 @@ function RailStack({
       </div>
 
       <Link
-        href="/about#affiliate"
+        href="/disclosure"
         className="shrink-0 rounded-md border border-white/10 bg-white/[0.04] px-3 py-1.5 text-center text-[9px] text-white/45 hover:border-accent/30 hover:text-accent"
       >
         Affiliate disclosure
