@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { AffiliateGearStrip } from "@/components/AffiliateGearStrip";
+import { TranslateAssist } from "@/components/TranslateAssist";
 import { siteDomain, siteName, siteNameFull } from "@/lib/site";
 
 export function SiteFooter() {
@@ -44,6 +45,7 @@ export function SiteFooter() {
             Ads & Affiliates
           </Link>
         </div>
+        <TranslateAssist />
       </div>
     </footer>
   );

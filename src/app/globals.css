@@ -177,3 +177,27 @@ body {
 .meta-summary-chip {
   backdrop-filter: blur(8px);
 }
+
+/* Light translate assist — keep banner from shoving layout */
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+body {
+  top: 0 !important;
+}
+
+.sf6-translate-host .goog-te-gadget {
+  font-size: 11px !important;
+  color: var(--muted) !important;
+}
+
+.sf6-translate-host .goog-te-gadget .goog-te-combo {
+  margin: 4px 0 0 !important;
+  max-width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--foreground);
+  padding: 4px 8px;
+}
