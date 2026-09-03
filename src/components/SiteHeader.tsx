@@ -10,7 +10,7 @@ import { HeaderMetaStrip } from "@/components/HeaderMetaStrip";
 
 type SiteHeaderProps = {
 
-  active?: "home" | "characters" | "tier" | "matchups" | "about";
+  active?: "home" | "characters" | "tier" | "matchups" | "about" | "coach";
 
 };
 
@@ -26,6 +26,7 @@ const navItems = [
 
   { href: "/matchups", label: "MATCHUPS", key: "matchups" as const },
 
+  { href: "/coach", label: "COACH", key: "coach" as const },
   { href: "/about", label: "ABOUT", key: "about" as const },
 
   { href: "/#news", label: "NEWS", key: null },
@@ -115,6 +116,12 @@ function MobileNav({ active }: { active?: SiteHeaderProps["active"] }) {
       >
 
         CHARA
+
+      </Link>
+
+      <Link href="/coach" className={active === "coach" ? "text-accent" : "text-white/75"}>
+
+        COACH
 
       </Link>
 

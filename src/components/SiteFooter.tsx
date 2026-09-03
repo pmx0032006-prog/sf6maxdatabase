@@ -20,6 +20,9 @@ export function SiteFooter() {
           <AffiliateGearStrip />
         </div>
         <div className="mt-4 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
+          <Link href="/coach" className="text-accent hover:text-accent-hover">
+            Coaching
+          </Link>
           <Link href="/characters" className="text-accent hover:text-accent-hover">
             Characters
           </Link>

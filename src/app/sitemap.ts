@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/characters",
     "/tier",
     "/matchups",
+    "/coach",
     "/about",
     "/privacy",
     "/terms",
