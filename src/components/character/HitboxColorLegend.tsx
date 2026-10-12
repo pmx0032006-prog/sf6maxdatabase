@@ -39,7 +39,7 @@ export function HitboxColorLegend({
 
   return (
     <div
-      className={`rounded-lg border border-border/70 bg-surface/80 text-[10px] text-muted sm:text-[11px] ${className}`}
+      className={`rounded-lg border border-border/70 bg-surface/80 text-[12px] text-muted sm:text-[13px] ${className}`}
       aria-label="Hitbox color legend"
     >
       <div className="flex items-center justify-between gap-3 px-3 pt-2">

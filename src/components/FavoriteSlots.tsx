@@ -29,14 +29,14 @@ export function FavoriteSlots() {
       className="hidden items-center gap-1 border-l border-white/10 pl-3 lg:flex"
       aria-label="Favorite characters"
     >
-      <span className="text-[8px] font-bold tracking-[0.2em] text-white/40 uppercase">
+      <span className="text-[12px] font-bold tracking-[0.2em] text-white/40 uppercase">
         Pin
       </span>
       {favorites.map((item) => (
         <Link
           key={item.slug}
           href={`/characters/${item.slug}`}
-          className="rounded border border-white/10 bg-white/[0.04] px-1.5 py-0.5 text-[9px] font-bold tracking-wide text-white/70 hover:border-accent/40 hover:text-accent"
+          className="rounded border border-white/10 bg-white/[0.04] px-1.5 py-0.5 text-[12px] font-bold tracking-wide text-white/70 hover:border-accent/40 hover:text-accent"
           translate="no"
         >
           {item.en}

@@ -70,7 +70,7 @@ export function HomeMetaSummary() {
             }`}
             translate="no"
           >
-            <span className="text-[7px] font-bold tracking-[0.26em] text-accent/80 sm:text-[8px]">
+            <span className="text-[12px] font-bold tracking-[0.26em] text-accent/80 sm:text-[12px]">
               {item.kicker}
             </span>
             <span
@@ -91,7 +91,7 @@ export function HomeMetaSummary() {
                 item.value
               )}
             </span>
-            <span className="mt-1 text-[8px] leading-snug text-white/45 sm:text-[9px]">{item.note}</span>
+            <span className="mt-1 text-[12px] leading-snug text-white/45 sm:text-[12px]">{item.note}</span>
           </Link>
         );
       })}

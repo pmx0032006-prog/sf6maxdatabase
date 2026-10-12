@@ -19,16 +19,16 @@ export function TierBand() {
       <div className="mx-auto max-w-7xl px-4 py-3 sm:px-6">
         <div className="flex flex-wrap items-end justify-between gap-2">
           <div>
-            <p className="text-[10px] font-bold tracking-[0.28em] text-accent uppercase">
+            <p className="text-[12px] font-bold tracking-[0.28em] text-accent uppercase">
               Meta Snapshot
             </p>
-            <p className="text-[11px] text-white/55">
+            <p className="text-[13px] text-white/55">
               Character rank — updated {META_UPDATED}
             </p>
           </div>
           <Link
             href="/tier"
-            className="text-[10px] font-bold tracking-wide text-accent hover:text-accent-mint"
+            className="text-[12px] font-bold tracking-wide text-accent hover:text-accent-mint"
           >
             Character rank →
           </Link>
@@ -43,7 +43,7 @@ export function TierBand() {
                 key={tier}
                 className={`min-w-[9.5rem] shrink-0 rounded-lg border px-2.5 py-2 ${style}`}
               >
-                <p className="text-[10px] font-black tracking-[0.2em]">TIER {tier === "S+" ? "S+" : tier}</p>
+                <p className="text-[12px] font-black tracking-[0.2em]">TIER {tier === "S+" ? "S+" : tier}</p>
                 <ul className="mt-1.5 flex flex-col gap-0.5">
                   {slugs.map((slug) => {
                     const char = roster.find((c) => c.slug === slug);
@@ -52,7 +52,7 @@ export function TierBand() {
                       <li key={slug}>
                         <Link
                           href={`/characters/${slug}`}
-                          className="text-[11px] font-semibold hover:underline"
+                          className="text-[13px] font-semibold hover:underline"
                         >
                           {char.en}
                         </Link>
@@ -65,7 +65,7 @@ export function TierBand() {
           })}
         </div>
 
-        <p className="mt-2 text-[9px] leading-relaxed text-white/40">{META_DISCLAIMER}</p>
+        <p className="mt-2 text-[12px] leading-relaxed text-white/40">{META_DISCLAIMER}</p>
       </div>
     </section>
   );

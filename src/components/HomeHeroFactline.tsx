@@ -39,7 +39,7 @@ export function HomeHeroFactline({ className = "" }: HomeHeroFactlineProps) {
           key={chip.label}
           href={chip.href}
           title={chip.title}
-          className="shrink-0 rounded border border-accent/25 bg-accent/[0.06] px-1.5 py-0.5 text-[8px] font-bold uppercase tracking-[0.08em] text-accent transition hover:border-accent/50 hover:bg-accent/[0.14] hover:text-accent-mint sm:px-2 sm:text-[9px]"
+          className="shrink-0 rounded border border-accent/25 bg-accent/[0.06] px-1.5 py-0.5 text-[12px] font-bold uppercase tracking-[0.08em] text-accent transition hover:border-accent/50 hover:bg-accent/[0.14] hover:text-accent-mint sm:px-2 sm:text-[12px]"
         >
           {chip.label}
         </Link>

@@ -18,7 +18,7 @@ export function HomeNav() {
       className="hidden lg:sticky lg:top-16 lg:block lg:self-start"
     >
       <nav className="rounded-lg border border-border bg-surface p-3 shadow-sm">
-        <p className="text-[10px] font-bold tracking-[0.28em] text-muted uppercase">
+        <p className="text-[12px] font-bold tracking-[0.28em] text-muted uppercase">
           On this page
         </p>
         <ul className="mt-2 flex flex-col gap-1">
@@ -34,7 +34,7 @@ export function HomeNav() {
           ))}
         </ul>
 
-        <p className="mt-3 border-t border-border pt-3 text-[10px] font-bold tracking-[0.28em] text-muted uppercase">
+        <p className="mt-3 border-t border-border pt-3 text-[12px] font-bold tracking-[0.28em] text-muted uppercase">
           Explore
         </p>
         <ul className="mt-2 flex flex-col gap-1">

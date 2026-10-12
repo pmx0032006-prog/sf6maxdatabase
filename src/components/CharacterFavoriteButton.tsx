@@ -34,7 +34,7 @@ export function CharacterFavoriteButton({
         setActive(isFavorite(next, slug));
         notifyFavoritesUpdated();
       }}
-      className={`inline-flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-[10px] font-bold tracking-wide transition ${
+      className={`inline-flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-[12px] font-bold tracking-wide transition ${
         active
           ? "border-accent/50 bg-accent/15 text-accent"
           : "border-white/15 bg-white/[0.04] text-white/60 hover:border-accent/35 hover:text-accent"

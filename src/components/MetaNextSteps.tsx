@@ -92,11 +92,11 @@ function StepCard({
       }`}
       translate="no"
     >
-      <span className="text-[8px] font-bold tracking-[0.3em] text-accent/85">{kicker}</span>
+      <span className="text-[12px] font-bold tracking-[0.3em] text-accent/85">{kicker}</span>
       <span className="mt-1 font-display text-base font-black leading-tight text-foreground group-hover:text-accent sm:text-lg">
         {title}
       </span>
-      <span className="mt-1.5 text-[11px] leading-snug text-muted">{desc}</span>
+      <span className="mt-1.5 text-[13px] leading-snug text-muted">{desc}</span>
       <span className="mt-2 text-xs font-bold text-accent opacity-80 group-hover:opacity-100">→</span>
     </Link>
   );
@@ -116,7 +116,7 @@ export function MetaNextSteps({ variant, characterSlug, characterEn }: MetaNextS
 
   return (
     <section className="mt-8 rounded-xl border border-border bg-surface/60 p-4 sm:p-5" aria-label="Next steps">
-      <p className="text-[10px] font-bold tracking-[0.28em] text-accent uppercase">Next up</p>
+      <p className="text-[12px] font-bold tracking-[0.28em] text-accent uppercase">Next up</p>
       <div className="mt-3 grid gap-2.5 sm:grid-cols-3 sm:gap-3">
         <StepCard {...primary} featured />
         <StepCard {...block.secondary} />

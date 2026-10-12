@@ -46,43 +46,43 @@ export function CharacterRelatedLinks({
   return (
     <section className="border-t border-white/10 bg-[#0a0f0c]">
       <div className={characterPageContainerClass("py-8")}>
-        <p className="text-[10px] font-bold tracking-[0.32em] text-accent uppercase">Next</p>
+        <p className="text-[12px] font-bold tracking-[0.32em] text-accent uppercase">Next</p>
         <div className="mt-3 grid gap-2.5 sm:grid-cols-3">
           <Link
             href={`/matchups?char=${currentSlug}`}
             className="group rounded-lg border border-accent/35 bg-accent/[0.08] px-4 py-3.5 transition hover:border-accent/55 hover:shadow-[0_8px_28px_rgba(0,179,104,0.2)]"
             translate="no"
           >
-            <span className="text-[8px] font-bold tracking-[0.3em] text-accent/85">MATCHUP</span>
+            <span className="text-[12px] font-bold tracking-[0.3em] text-accent/85">MATCHUP</span>
             <p className="mt-1 font-display text-base font-black text-white group-hover:text-accent-mint sm:text-lg">
               {currentName} matchup chart
             </p>
-            <p className="mt-1 text-[11px] text-white/45">Highlights this character&apos;s row</p>
+            <p className="mt-1 text-[13px] text-white/45">Highlights this character&apos;s row</p>
           </Link>
           <Link
             href="/tier"
             className="group rounded-lg border border-white/10 bg-white/[0.04] px-4 py-3.5 transition hover:border-accent/40"
             translate="no"
           >
-            <span className="text-[8px] font-bold tracking-[0.3em] text-accent/85">RANK</span>
+            <span className="text-[12px] font-bold tracking-[0.3em] text-accent/85">RANK</span>
             <p className="mt-1 font-display text-base font-black text-white group-hover:text-accent sm:text-lg">
               Tier list
             </p>
-            <p className="mt-1 text-[11px] text-white/45">Community strength snapshot</p>
+            <p className="mt-1 text-[13px] text-white/45">Community strength snapshot</p>
           </Link>
           <Link
             href="/characters"
             className="group rounded-lg border border-white/10 bg-white/[0.04] px-4 py-3.5 transition hover:border-accent/40"
           >
-            <span className="text-[8px] font-bold tracking-[0.3em] text-accent/85">ROSTER</span>
+            <span className="text-[12px] font-bold tracking-[0.3em] text-accent/85">ROSTER</span>
             <p className="mt-1 font-display text-base font-black text-white group-hover:text-accent sm:text-lg">
               All characters
             </p>
-            <p className="mt-1 text-[11px] text-white/45">Frame data for every fighter</p>
+            <p className="mt-1 text-[13px] text-white/45">Frame data for every fighter</p>
           </Link>
         </div>
 
-        <p className="mt-8 text-[10px] font-bold tracking-[0.32em] text-accent uppercase">
+        <p className="mt-8 text-[12px] font-bold tracking-[0.32em] text-accent uppercase">
           More SF6 Frame Data
         </p>
         <h2 className="mt-2 font-display text-xl font-black uppercase tracking-tight text-white sm:text-2xl">
@@ -93,7 +93,7 @@ export function CharacterRelatedLinks({
             <li key={character.slug}>
               <Link
                 href={`/characters/${character.slug}`}
-                className="inline-flex rounded border border-white/10 bg-surface px-3 py-2 text-[11px] font-bold tracking-wide text-white/75 hover:border-accent/50 hover:text-accent"
+                className="inline-flex rounded border border-white/10 bg-surface px-3 py-2 text-[13px] font-bold tracking-wide text-white/75 hover:border-accent/50 hover:text-accent"
               >
                 {titleCase(character.en)} SF6 Frame Data
               </Link>

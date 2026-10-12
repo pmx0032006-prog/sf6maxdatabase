@@ -14,6 +14,7 @@ const WIKI_FULL_UI_SLUGS = new Set([
   "e-honda",
   "guile",
   "ingrid",
+  "yasmine",
   "jamie",
   "jp",
   "juri",

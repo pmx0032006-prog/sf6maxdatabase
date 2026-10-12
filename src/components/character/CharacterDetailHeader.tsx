@@ -26,13 +26,13 @@ export function CharacterDetailHeader({
         <div className="mt-5 flex flex-wrap items-center gap-2">
           <Link
             href={`/matchups?char=${slug}`}
-            className="inline-flex items-center rounded-md border border-accent/40 bg-accent/10 px-3 py-1.5 text-[10px] font-bold tracking-wide text-accent transition hover:border-accent hover:bg-accent/20"
+            className="inline-flex items-center rounded-md border border-accent/40 bg-accent/10 px-3 py-1.5 text-[12px] font-bold tracking-wide text-accent transition hover:border-accent hover:bg-accent/20"
           >
             Matchup chart →
           </Link>
           <Link
             href="/tier"
-            className="inline-flex items-center rounded-md border border-white/15 bg-white/[0.04] px-3 py-1.5 text-[10px] font-bold tracking-wide text-white/70 transition hover:border-accent/35 hover:text-accent"
+            className="inline-flex items-center rounded-md border border-white/15 bg-white/[0.04] px-3 py-1.5 text-[12px] font-bold tracking-wide text-white/70 transition hover:border-accent/35 hover:text-accent"
           >
             Tier list
           </Link>

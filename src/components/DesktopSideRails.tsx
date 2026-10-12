@@ -21,12 +21,12 @@ function SideCard({
       rel="noopener noreferrer sponsored"
       className="group flex shrink-0 flex-col gap-1.5 rounded-lg border border-accent/35 bg-gradient-to-b from-[#122018] to-[#0a0f0c] px-3 py-2.5 text-left shadow-md backdrop-blur-sm transition hover:border-accent hover:shadow-[0_0_18px_rgba(0,179,104,0.18)]"
     >
-      <span className="inline-block w-fit rounded-full border border-accent/40 bg-accent/15 px-2 py-0.5 text-[9px] font-bold tracking-wide text-accent-mint uppercase">
+      <span className="inline-block w-fit rounded-full border border-accent/40 bg-accent/15 px-2 py-0.5 text-[12px] font-bold tracking-wide text-accent-mint uppercase">
         {badge}
       </span>
       <p className="text-[13px] font-black leading-tight text-white">{shortLabel}</p>
-      <p className="text-[10px] leading-snug text-white/65">{tagline}</p>
-      <span className="rounded-md bg-accent py-1.5 text-center text-[10px] font-bold tracking-wide text-black transition group-hover:bg-accent-mint">
+      <p className="text-[12px] leading-snug text-white/65">{tagline}</p>
+      <span className="rounded-md bg-accent py-1.5 text-center text-[12px] font-bold tracking-wide text-black transition group-hover:bg-accent-mint">
         Shop on Amazon →
       </span>
     </a>
@@ -46,7 +46,7 @@ function RailStack({
 
   return (
     <div className="pointer-events-auto flex h-[calc(100vh-9.5rem)] flex-col gap-1.5 px-2.5 py-2">
-      <p className="shrink-0 rounded-lg border border-accent/35 bg-accent/10 px-3 py-2 text-center text-[9px] font-bold tracking-[0.22em] text-accent-mint uppercase">
+      <p className="shrink-0 rounded-lg border border-accent/35 bg-accent/10 px-3 py-2 text-center text-[12px] font-bold tracking-[0.22em] text-accent-mint uppercase">
         {title}
       </p>
 
@@ -64,7 +64,7 @@ function RailStack({
 
       <Link
         href="/disclosure"
-        className="shrink-0 rounded-md border border-white/10 bg-white/[0.04] px-3 py-1.5 text-center text-[9px] text-white/45 hover:border-accent/30 hover:text-accent"
+        className="shrink-0 rounded-md border border-white/10 bg-white/[0.04] px-3 py-1.5 text-center text-[12px] text-white/45 hover:border-accent/30 hover:text-accent"
       >
         Affiliate disclosure
       </Link>

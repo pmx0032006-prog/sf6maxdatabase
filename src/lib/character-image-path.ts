@@ -30,6 +30,7 @@ export const CHARACTER_IMAGE_DIRS: Record<string, string> = {
   alex: "are_jpg",
   "m-bison": "ve_jpg",
   ingrid: "ing_jpg",
+  yasmine: "yas_jpg",
 };
 
 export function getCharacterImageDirName(characterSlug: string): string {

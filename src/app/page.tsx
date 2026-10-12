@@ -34,7 +34,7 @@ export default function Home() {
           <h1 id="page-top" className="sr-only">
             {siteNameFull}
           </h1>
-          <p className="min-w-0 max-w-md text-[11px] font-semibold leading-snug text-white/75 sm:text-sm">
+          <p className="min-w-0 max-w-md text-[13px] font-semibold leading-snug text-white/75 sm:text-sm">
             {siteTagline}
           </p>
           <HomeHeroFactline className="justify-self-center" />

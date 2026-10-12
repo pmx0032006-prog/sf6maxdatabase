@@ -2,6 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CharacterDetailHeader } from "@/components/character/CharacterDetailHeader";
 import { CharacterPreparing } from "@/components/character/CharacterPreparing";
+import { CharacterDeskHeader } from "@/components/character/CharacterDeskHeader";
+import { MoveDesk } from "@/components/character/MoveDesk";
 import { FrameDataList } from "@/components/character/FrameDataList";
 import {
   getCharacterBySlug,
@@ -73,7 +75,7 @@ function BackBar() {
       <div className={characterPageContainerClass("py-3")}>
         <nav
           aria-label="Character page navigation"
-          className="flex flex-wrap items-center gap-x-4 gap-y-2 text-[10px] font-bold tracking-[0.28em] text-white/50"
+          className="flex flex-wrap items-center gap-x-4 gap-y-2 text-[12px] font-bold tracking-[0.28em] text-white/50"
         >
           <Link
             href="/"
@@ -90,6 +92,9 @@ function BackBar() {
     </div>
   );
 }
+
+/** PC-first "desk" layout is being trialled on these characters only. */
+const DESK_SLUGS = new Set(["yasmine"]);
 
 export default async function CharacterDetailPage({ params }: PageProps) {
   const { slug } = await params;
@@ -134,17 +139,26 @@ export default async function CharacterDetailPage({ params }: PageProps) {
       <BackBar />
 
       <main className="flex-1">
-        <CharacterDetailHeader
-          en={character.en}
-          ja={character.ja}
-          slug={slug}
-        />
+        {DESK_SLUGS.has(slug) ? (
+          <>
+            <CharacterDeskHeader en={character.en} ja={character.ja} slug={slug} />
+            <MoveDesk characterSlug={slug} moves={moves} />
+          </>
+        ) : (
+          <>
+            <CharacterDetailHeader
+              en={character.en}
+              ja={character.ja}
+              slug={slug}
+            />
 
-        <div className="bg-surface">
-          <div className={characterPageContainerClass("py-8 sm:py-10 lg:py-12")}>
-            <FrameDataList characterSlug={slug} moves={moves} />
-          </div>
-        </div>
+            <div className="bg-surface">
+              <div className={characterPageContainerClass("py-8 sm:py-10 lg:py-12")}>
+                <FrameDataList characterSlug={slug} moves={moves} />
+              </div>
+            </div>
+          </>
+        )}
         <CharacterAmazonCta characterEn={character.en} />
         <div className="bg-background px-4 py-6 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:max-w-3xl">

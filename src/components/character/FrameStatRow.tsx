@@ -23,10 +23,10 @@ export function FrameStatCell({
       : size === "card-xl"
         ? "text-xs sm:text-[13px]"
         : size === "card-lg"
-          ? "text-[10px] sm:text-[11px]"
+          ? "text-[12px] sm:text-[13px]"
           : size === "card"
-            ? "text-[9px] sm:text-[10px]"
-            : "text-[7px] sm:text-[8px]";
+            ? "text-[12px] sm:text-[12px]"
+            : "text-[12px] sm:text-[12px]";
 
   return (
     <span
@@ -60,19 +60,19 @@ export function FrameStatRow({
               className={`whitespace-nowrap px-0.5 pb-0.5 font-bold leading-tight text-muted ${
                 highlight
                   ? size === "card-xl"
-                    ? "text-[10px] sm:text-[11px]"
+                    ? "text-[12px] sm:text-[13px]"
                     : size === "card-lg"
-                      ? "text-[9px] sm:text-[10px]"
+                      ? "text-[12px] sm:text-[12px]"
                       : size === "card"
-                        ? "text-[8px] sm:text-[9px]"
-                        : "text-[7px] sm:text-[8px]"
+                        ? "text-[12px] sm:text-[12px]"
+                        : "text-[12px] sm:text-[12px]"
                   : size === "card-xl"
-                    ? "text-[9px] sm:text-[10px]"
+                    ? "text-[12px] sm:text-[12px]"
                     : size === "card-lg"
-                      ? "text-[8px] sm:text-[9px]"
+                      ? "text-[12px] sm:text-[12px]"
                       : size === "card"
-                        ? "text-[7px] sm:text-[8px]"
-                        : "text-[6px] sm:text-[7px]"
+                        ? "text-[12px] sm:text-[12px]"
+                        : "text-[12px] sm:text-[12px]"
               }`}
               title={col.label}
             >

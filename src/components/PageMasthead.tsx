@@ -23,7 +23,7 @@ export function PageMasthead({
         <div className="mx-auto max-w-6xl border-b border-white/10 px-4 py-2 sm:px-10">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 text-[10px] font-bold tracking-[0.28em] text-white/50 hover:text-accent"
+            className="inline-flex items-center gap-2 text-[12px] font-bold tracking-[0.28em] text-white/50 hover:text-accent"
           >
             <span aria-hidden>←</span>
             BACK TO HOME
@@ -41,8 +41,8 @@ export function PageMasthead({
         <p
           className={
             compact
-              ? "text-[9px] font-bold tracking-[0.32em] text-accent uppercase sm:text-[10px]"
-              : "text-[11px] font-bold tracking-[0.42em] text-accent uppercase"
+              ? "text-[12px] font-bold tracking-[0.32em] text-accent uppercase sm:text-[12px]"
+              : "text-[13px] font-bold tracking-[0.42em] text-accent uppercase"
           }
         >
           {eyebrow}
@@ -71,7 +71,7 @@ export function PageMasthead({
           <p
             className={
               compact
-                ? "mt-1 max-w-xl text-[11px] leading-snug tracking-wide text-white/55 sm:text-xs"
+                ? "mt-1 max-w-xl text-[13px] leading-snug tracking-wide text-white/55 sm:text-xs"
                 : "mt-5 max-w-xl text-sm leading-relaxed tracking-wide text-white/65 sm:text-base"
             }
           >

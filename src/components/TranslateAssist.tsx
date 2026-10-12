@@ -65,14 +65,14 @@ export function TranslateAssist() {
 
   return (
     <div className="mx-auto mt-6 max-w-md rounded-lg border border-border/70 bg-surface px-4 py-3 text-left">
-      <p className="text-[10px] font-bold tracking-[0.24em] text-accent uppercase">
+      <p className="text-[12px] font-bold tracking-[0.24em] text-accent uppercase">
         Translate
       </p>
-      <p className="mt-1 text-[11px] leading-snug text-muted">
+      <p className="mt-1 text-[13px] leading-snug text-muted">
         English is the original. Optional assist for visitors — not a full multilingual site.
       </p>
       <div id="google_translate_element" className="sf6-translate-host mt-2" />
-      <p className="mt-2 text-[10px] leading-snug text-muted/70">
+      <p className="mt-2 text-[12px] leading-snug text-muted/70">
         Frame numbers and character names should stay readable. Amazon links remain amazon.com.
       </p>
     </div>

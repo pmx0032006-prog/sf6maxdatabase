@@ -14,14 +14,14 @@ const modeStyles = {
     section: "border-accent",
     grid: "gap-3 lg:gap-4",
     cell: "rounded-xl bg-surface/90 shadow-[inset_0_0_0_1px_rgba(221,230,224,0.9)]",
-    badge: "text-[8px] font-bold tracking-[0.2em] text-white/85 sm:text-[9px]",
+    badge: "text-[12px] font-bold tracking-[0.2em] text-white/85 sm:text-[12px]",
     name: "font-display font-bold leading-none tracking-[0.04em]",
   },
   modern: {
     section: "border-accent-mint/80",
     grid: "gap-2.5 lg:gap-3",
     cell: "rounded-lg bg-[#eef8f2]/90 shadow-[inset_0_0_0_1px_rgba(0,179,104,0.14)]",
-    badge: "text-[8px] font-bold tracking-[0.18em] text-white/85 sm:text-[9px]",
+    badge: "text-[12px] font-bold tracking-[0.18em] text-white/85 sm:text-[12px]",
     name: "font-mono font-semibold leading-none tracking-[0.06em]",
   },
 } as const;

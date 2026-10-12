@@ -105,7 +105,7 @@ export function HeaderCharacterSearch() {
         placeholder="Search fighter…"
         autoComplete="off"
         spellCheck={false}
-        className="w-full rounded border border-white/15 bg-white/[0.04] px-2.5 py-1 text-[10px] font-semibold tracking-[0.04em] text-white placeholder:text-white/35 outline-none transition focus:border-accent/50 focus:bg-white/[0.07] sm:px-3 sm:py-1.5 sm:text-[11px]"
+        className="w-full rounded border border-white/15 bg-white/[0.04] px-2.5 py-1 text-[12px] font-semibold tracking-[0.04em] text-white placeholder:text-white/35 outline-none transition focus:border-accent/50 focus:bg-white/[0.07] sm:px-3 sm:py-1.5 sm:text-[13px]"
       />
       {open && query.trim() && results.length > 0 ? (
         <ul
@@ -121,7 +121,7 @@ export function HeaderCharacterSearch() {
                   setOpen(false);
                   setQuery("");
                 }}
-                className={`flex items-center justify-between gap-2 px-2.5 py-1.5 text-[10px] transition sm:px-3 sm:text-[11px] ${
+                className={`flex items-center justify-between gap-2 px-2.5 py-1.5 text-[12px] transition sm:px-3 sm:text-[13px] ${
                   index === activeIndex
                     ? "bg-accent/[0.14] text-accent-mint"
                     : "text-white/80 hover:bg-white/[0.05] hover:text-accent"
@@ -137,7 +137,7 @@ export function HeaderCharacterSearch() {
         </ul>
       ) : null}
       {open && query.trim() && results.length === 0 ? (
-        <p className="absolute left-0 right-0 top-[calc(100%+0.25rem)] z-[60] rounded-md border border-white/12 bg-[#0d1410] px-2.5 py-2 text-[10px] text-white/45 sm:px-3 sm:text-[11px]">
+        <p className="absolute left-0 right-0 top-[calc(100%+0.25rem)] z-[60] rounded-md border border-white/12 bg-[#0d1410] px-2.5 py-2 text-[12px] text-white/45 sm:px-3 sm:text-[13px]">
           No fighter found
         </p>
       ) : null}

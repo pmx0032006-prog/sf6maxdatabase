@@ -43,7 +43,7 @@ export function WikiFrameDataTable({ move }: WikiFrameDataTableProps) {
       </div>
 
       <div className="space-y-1.5">
-        <p className="text-[10px] font-bold tracking-[0.25em] text-muted uppercase">
+        <p className="text-[12px] font-bold tracking-[0.25em] text-muted uppercase">
           Hitboxes off
         </p>
         <div className="flex flex-wrap items-baseline gap-x-3 gap-y-0.5">
@@ -56,7 +56,7 @@ export function WikiFrameDataTable({ move }: WikiFrameDataTableProps) {
 
       <div className="space-y-3">
         <div className="overflow-x-auto rounded-md border border-accent/30 bg-accent/5">
-          <p className="border-b border-accent/20 px-3 py-1.5 text-[10px] font-bold tracking-widest text-accent">
+          <p className="border-b border-accent/20 px-3 py-1.5 text-[12px] font-bold tracking-widest text-accent">
             Player view
           </p>
           <div className="px-2 py-3">
@@ -79,7 +79,7 @@ export function WikiFrameDataTable({ move }: WikiFrameDataTableProps) {
         </div>
 
         <div className="overflow-x-auto rounded-md border border-border/70">
-          <p className="border-b border-border/60 bg-[#0a0f0c]/5 px-3 py-1.5 text-[10px] font-bold tracking-widest text-muted">
+          <p className="border-b border-border/60 bg-[#0a0f0c]/5 px-3 py-1.5 text-[12px] font-bold tracking-widest text-muted">
             Frame details
           </p>
           <div className="px-2 py-3">
@@ -103,7 +103,7 @@ export function WikiFrameDataTable({ move }: WikiFrameDataTableProps) {
       </dl>
 
       {move.notes ? (
-        <p className="text-[11px] leading-relaxed text-muted">
+        <p className="text-[13px] leading-relaxed text-muted">
           <span className="font-bold text-foreground/70">Notes:</span>
           {displayWikiValue(move.notes)}
         </p>

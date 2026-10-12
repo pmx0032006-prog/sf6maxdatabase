@@ -41,7 +41,7 @@ function DesktopNav({ active }: { active?: SiteHeaderProps["active"] }) {
 
     <nav
 
-      className="hidden items-center gap-0 text-[9px] font-bold tracking-[0.14em] lg:flex xl:text-[10px]"
+      className="hidden items-center gap-0 text-[12px] font-bold tracking-[0.14em] lg:flex xl:text-[12px]"
 
       aria-label="Main navigation"
 
@@ -95,7 +95,7 @@ function MobileNav({ active }: { active?: SiteHeaderProps["active"] }) {
 
     <nav
 
-      className="flex shrink-0 items-center gap-2 text-[9px] font-bold tracking-[0.1em] lg:hidden"
+      className="flex shrink-0 items-center gap-2 text-[12px] font-bold tracking-[0.1em] lg:hidden"
 
       aria-label="Mobile navigation"
 
@@ -171,7 +171,7 @@ export function SiteHeader({ active }: SiteHeaderProps) {
 
             >
 
-              <p className="text-[9px] font-bold tracking-[0.32em] text-accent sm:text-[10px]">
+              <p className="text-[12px] font-bold tracking-[0.32em] text-accent sm:text-[12px]">
 
                 STREET FIGHTER 6
 

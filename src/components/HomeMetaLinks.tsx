@@ -30,13 +30,13 @@ export function HomeMetaLinks() {
             aria-hidden
           />
           <div className="relative min-w-0 flex-1 px-2.5 py-2 pr-8 sm:px-3 sm:py-2.5 sm:pr-9">
-            <p className="text-[7px] font-bold tracking-[0.28em] text-accent/90 sm:text-[8px]">
+            <p className="text-[12px] font-bold tracking-[0.28em] text-accent/90 sm:text-[12px]">
               {item.badge}
             </p>
             <p className="meta-hero-title mt-1 whitespace-nowrap text-[0.9rem] font-black leading-none tracking-tight text-white sm:text-[0.95rem]">
               {item.title}
             </p>
-            <p className="mt-1 hidden text-[9px] leading-none text-white/40 sm:block">{item.desc}</p>
+            <p className="mt-1 hidden text-[12px] leading-none text-white/40 sm:block">{item.desc}</p>
           </div>
           <div
             className="flex w-7 shrink-0 items-center justify-center border-l border-white/[0.08] bg-white/[0.02] text-xs text-white/45 transition duration-300 group-hover:border-accent/35 group-hover:bg-accent/10 group-hover:text-accent sm:w-8 sm:text-sm"

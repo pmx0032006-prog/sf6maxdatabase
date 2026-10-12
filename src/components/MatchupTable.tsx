@@ -49,7 +49,7 @@ function NoteContent({
       <button
         type="button"
         onClick={onCopy}
-        className="shrink-0 self-start rounded-full border border-accent/30 px-2.5 py-1 text-[10px] font-bold text-accent transition hover:border-accent hover:bg-accent/10"
+        className="shrink-0 self-start rounded-full border border-accent/30 px-2.5 py-1 text-[12px] font-bold text-accent transition hover:border-accent hover:bg-accent/10"
       >
         {copied ? "Copied" : "Copy link"}
       </button>
@@ -123,7 +123,7 @@ export function MatchupTable({ coreChars }: MatchupTableProps) {
           Tap a ratio (click on desktop) to read the note here — stays visible while you scroll.
         </p>
         {focusChar ? (
-          <p className="mt-1 text-[11px] text-accent" translate="no">
+          <p className="mt-1 text-[13px] text-accent" translate="no">
             Highlighting <span className="font-bold">{focusChar.en}</span>&apos;s row
           </p>
         ) : null}
@@ -147,7 +147,7 @@ export function MatchupTable({ coreChars }: MatchupTableProps) {
       </div>
 
       <div className="mt-4 max-h-[calc(100dvh-12rem)] overflow-y-auto overflow-x-auto rounded-lg border border-border bg-surface shadow-sm [scrollbar-width:thin]">
-        <table className="min-w-full border-collapse text-center text-[10px] sm:text-xs">
+        <table className="min-w-full border-collapse text-center text-[12px] sm:text-xs">
           <thead>
             <tr className="border-b border-border bg-background">
               <th className="sticky left-0 top-0 z-20 bg-background px-2 py-2 text-left font-bold" translate="no">

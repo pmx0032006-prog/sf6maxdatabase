@@ -27,7 +27,7 @@ export function MoveFilterBar({
           spellCheck={false}
         />
       </label>
-      <p className="shrink-0 text-[10px] font-semibold tracking-wide text-muted uppercase">
+      <p className="shrink-0 text-[12px] font-semibold tracking-wide text-muted uppercase">
         {value.trim() ? `${visible} / ${total} moves` : `${total} moves`}
       </p>
     </div>

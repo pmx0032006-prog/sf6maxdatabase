@@ -31,16 +31,16 @@ function textClasses(scale: WikiCardTextScale) {
     return {
       moveName: "text-xs sm:text-sm",
       input: "text-xs sm:text-sm",
-      meta: "text-[10px] sm:text-[11px]",
+      meta: "text-[12px] sm:text-[13px]",
       bodyPad: "px-3 pb-3",
       headerPad: "px-3 pt-3",
       statBox: "px-2.5 py-2.5",
     };
   }
   return {
-    moveName: "text-[9px]",
-    input: "text-[9px]",
-    meta: "text-[6px] sm:text-[7px]",
+    moveName: "text-[12px]",
+    input: "text-[12px]",
+    meta: "text-[12px] sm:text-[12px]",
     bodyPad: "px-1 pb-1.5",
     headerPad: "px-1.5 pt-1.5",
     statBox: "px-1.5 py-1.5",

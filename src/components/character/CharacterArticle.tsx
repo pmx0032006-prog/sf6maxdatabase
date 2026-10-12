@@ -12,7 +12,7 @@ export function CharacterArticle({ badge, title, content }: CharacterArticleProp
   return (
     <article className="rounded-lg border border-border/80 bg-surface">
       <header className="border-b border-border/60 px-4 py-4 sm:px-6 sm:py-5">
-        <p className="text-[10px] font-bold tracking-[0.24em] text-accent uppercase">
+        <p className="text-[12px] font-bold tracking-[0.24em] text-accent uppercase">
           {badge}
         </p>
         <h3 className="mt-1 text-lg font-bold text-foreground sm:text-xl">{title}</h3>

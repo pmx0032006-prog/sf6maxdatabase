@@ -8,7 +8,7 @@ export function SiteFooter() {
     <footer className="border-t border-border/80 bg-background">
       {/* AFFILIATE-GEAR-STRIP */}
       <div className="mx-auto max-w-6xl px-6 py-10 text-center sm:px-10">
-        <p className="text-[10px] font-bold tracking-[0.28em] text-accent uppercase">
+        <p className="text-[12px] font-bold tracking-[0.28em] text-accent uppercase">
           {siteNameFull}
         </p>
         <p className="mt-2 text-xs tracking-wide text-muted">© 2026 {siteName}</p>

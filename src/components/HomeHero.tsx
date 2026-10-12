@@ -13,13 +13,13 @@ export function HomeHero() {
     <section className="border-b border-white/10 bg-[#0a0f0c] text-white">
       <div className="mx-auto grid max-w-6xl items-center gap-3 px-4 py-2.5 sm:px-10 sm:py-3 lg:grid-cols-[minmax(0,1fr)_minmax(0,15rem)] lg:gap-6 xl:grid-cols-[minmax(0,1fr)_minmax(0,18rem)]">
         <div className="min-w-0">
-          <p className="text-[9px] font-bold tracking-[0.32em] text-accent uppercase sm:text-[10px]">
+          <p className="text-[12px] font-bold tracking-[0.32em] text-accent uppercase sm:text-[12px]">
             Street Fighter 6
           </p>
           <h1 className="mt-0.5 font-display text-xl font-black uppercase leading-none tracking-tight text-white sm:text-2xl lg:text-3xl">
             MAX <span className="text-accent">DATABASE</span>
           </h1>
-          <p className="mt-1 max-w-lg text-[11px] leading-snug text-white/55 sm:text-xs">
+          <p className="mt-1 max-w-lg text-[13px] leading-snug text-white/55 sm:text-xs">
             {siteTagline}
           </p>
         </div>
@@ -44,11 +44,11 @@ export function HomeHero() {
                     }}
                   />
                 ) : (
-                  <span className="flex h-full items-center justify-center text-[10px] font-bold text-white/40">
+                  <span className="flex h-full items-center justify-center text-[12px] font-bold text-white/40">
                     {character.en}
                   </span>
                 )}
-                <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent px-1 py-1 text-[8px] font-bold tracking-wide text-white/90 sm:text-[9px]">
+                <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent px-1 py-1 text-[12px] font-bold tracking-wide text-white/90 sm:text-[12px]">
                   {character.en}
                 </span>
               </Link>

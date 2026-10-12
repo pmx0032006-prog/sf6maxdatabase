@@ -103,7 +103,7 @@ function MoveCard({ characterSlug, move, priority, onOpen }: MoveCardProps) {
                 key={`${frame.imageSlug}${frame.imageExt ?? ""}`}
                 className="flex flex-col items-center gap-0.5"
               >
-                <span className="text-[8px] font-bold tabular-nums tracking-wide text-accent">
+                <span className="text-[12px] font-bold tabular-nums tracking-wide text-accent">
                   {getFrameLabel(frame.imageSlug, fi)}
                 </span>
                 <span
@@ -135,15 +135,15 @@ function MoveCard({ characterSlug, move, priority, onOpen }: MoveCardProps) {
           <WikiFrameDataCardPreview move={move} characterSlug={characterSlug} />
         ) : (
           <span className="space-y-1 px-2 py-2">
-            <span className="block text-[11px] font-bold leading-tight text-foreground group-hover:text-accent">
+            <span className="block text-[13px] font-bold leading-tight text-foreground group-hover:text-accent">
               {move.nameEn || move.nameJa}
             </span>
-            <span className="block truncate text-[9px] font-medium tracking-wide text-muted uppercase">
+            <span className="block truncate text-[12px] font-medium tracking-wide text-muted uppercase">
               {displayWikiValue(move.input) !== "—"
                 ? displayWikiValue(move.input)
                 : move.nameEn}
             </span>
-            <span className="flex flex-wrap gap-x-2 gap-y-0.5 text-[9px] tabular-nums text-muted">
+            <span className="flex flex-wrap gap-x-2 gap-y-0.5 text-[12px] tabular-nums text-muted">
               <span>St {displayWikiValue(move.startup)}</span>
               <span>Bk {displayWikiValue(move.onBlock)}</span>
               {move.damage ? (
@@ -218,7 +218,7 @@ export function MoveDataGrid({ characterSlug, moves }: MoveDataGridProps) {
         visible={filteredMoves.length}
       />
 
-      <p className="mt-3 text-[10px] font-semibold tracking-[0.2em] text-muted uppercase">
+      <p className="mt-3 text-[12px] font-semibold tracking-[0.2em] text-muted uppercase">
         {filteredMoves.length} moves — click thumbnail to expand
         {filteredMoves.some((m) => (m.imageFrames?.length ?? 0) > 1)
           ? "(_1 _2 _3 … shown in card / use ← → when expanded)"
@@ -328,7 +328,7 @@ export function MoveDataGrid({ characterSlug, moves }: MoveDataGridProps) {
               />
 
               {frameCount > 1 ? (
-                <p className="absolute bottom-2 left-1/2 z-10 -translate-x-1/2 rounded bg-black/60 px-2 py-0.5 text-[10px] font-bold tabular-nums tracking-widest text-white">
+                <p className="absolute bottom-2 left-1/2 z-10 -translate-x-1/2 rounded bg-black/60 px-2 py-0.5 text-[12px] font-bold tabular-nums tracking-widest text-white">
                   {getFrameLabel(currentFrame.imageSlug, frameIndex)}（
                   {frameIndex + 1} / {frameCount}）
                 </p>
@@ -348,7 +348,7 @@ export function MoveDataGrid({ characterSlug, moves }: MoveDataGridProps) {
                         : "border-border/60 hover:border-accent/50"
                     }`}
                   >
-                    <span className="text-[9px] font-bold tabular-nums text-accent">
+                    <span className="text-[12px] font-bold tabular-nums text-accent">
                       {getFrameLabel(frame.imageSlug, fi)}
                     </span>
                     <span

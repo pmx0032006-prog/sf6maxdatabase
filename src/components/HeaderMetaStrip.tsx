@@ -49,10 +49,10 @@ export function HeaderMetaStrip({ className = "" }: HeaderMetaStripProps) {
           className="group inline-flex max-w-[5.5rem] items-baseline gap-1 truncate rounded border border-white/10 bg-white/[0.03] px-1.5 py-0.5 transition hover:border-accent/35 hover:bg-accent/[0.08] sm:max-w-none sm:px-2"
           translate="no"
         >
-          <span className="shrink-0 text-[7px] font-bold tracking-[0.22em] text-accent/75 sm:text-[8px]">
+          <span className="shrink-0 text-[12px] font-bold tracking-[0.22em] text-accent/75 sm:text-[12px]">
             {chip.label}
           </span>
-          <span className="truncate text-[8px] font-bold uppercase tracking-[0.06em] text-white/70 group-hover:text-accent sm:text-[9px]">
+          <span className="truncate text-[12px] font-bold uppercase tracking-[0.06em] text-white/70 group-hover:text-accent sm:text-[12px]">
             {chip.value}
           </span>
         </Link>

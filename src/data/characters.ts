@@ -73,6 +73,7 @@ export const roster: Character[] = [
   { slug: "m-bison", en: "M. BISON", ja: "ベガ", thumb: "/characters/m-bison.jpg" },
 
   { slug: "ingrid", en: "INGRID", ja: "イングリッド", thumb: "/characters/ingrid.jpg" },
+  { slug: "yasmine", en: "YASMINE", ja: "ヤスミン", thumb: "/characters/yasmine.jpg" },
 
 ];
 

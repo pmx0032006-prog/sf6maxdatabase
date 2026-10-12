@@ -8,7 +8,7 @@ import { siteName, siteNameFull, siteUrl } from "@/lib/site";
 import type { Metadata } from "next";
 
 const snapUser = "jpsf6coach";
-const snapAdd = `https://www.snapchat.com/add/${snapUser}`;
+const snapAdd = `https://www.snapchat.com/@${snapUser}`;
 
 export const metadata: Metadata = {
   title: "SF6 Coaching",

@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 import { siteName, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: `SF6 Character Tier List (30 Fighters) | ${siteName}`,
+  title: "SF6 Character Tier List (30 Fighters)",
   description:
     "Street Fighter 6 community character tier list — S+ through C rank for all 30 fighters. Tap any name for frame data and hitbox images. Updated 2026-07.",
   alternates: { canonical: `${siteUrl}/tier` },
@@ -31,7 +31,7 @@ export default function TierPage() {
 
       <main className="flex-1 bg-background">
         <div className="mx-auto max-w-5xl px-4 py-6 sm:px-6 sm:py-8">
-          <p className="text-[10px] font-bold tracking-[0.32em] text-accent uppercase">Meta</p>
+          <p className="text-[12px] font-bold tracking-[0.32em] text-accent uppercase">Meta</p>
           <h1
             id="page-top"
             className="mt-1 font-display text-2xl font-black tracking-tight text-foreground sm:text-3xl"

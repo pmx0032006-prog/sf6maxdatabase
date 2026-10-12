@@ -7,7 +7,7 @@ export function AffiliateGearStrip() {
       aria-label="Recommended gear"
       className="mx-auto mt-8 max-w-2xl rounded-lg border border-border/60 bg-surface/40 px-4 py-5 2xl:hidden"
     >
-      <p className="text-[10px] font-bold tracking-[0.32em] text-accent uppercase">
+      <p className="text-[12px] font-bold tracking-[0.32em] text-accent uppercase">
         Recommended Gear
       </p>
       <ul className="mt-3 flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:justify-center sm:gap-x-4 sm:gap-y-2">
@@ -24,7 +24,7 @@ export function AffiliateGearStrip() {
           </li>
         ))}
       </ul>
-      <p className="mt-3 text-[11px] leading-relaxed text-muted/80">
+      <p className="mt-3 text-[13px] leading-relaxed text-muted/80">
         Affiliate links — we may earn a commission at no extra cost to you.{" "}
         <Link href="/disclosure" className="text-accent hover:text-accent-hover">
           Disclosure

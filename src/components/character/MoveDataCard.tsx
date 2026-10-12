@@ -54,7 +54,7 @@ export function MoveDataCard({
           <h3 className="text-sm font-bold leading-tight text-foreground sm:text-[15px]">
             {move.nameJa}
           </h3>
-          <p className="text-[10px] font-medium tracking-wide text-muted uppercase">
+          <p className="text-[12px] font-medium tracking-wide text-muted uppercase">
             {move.nameEn}
           </p>
         </div>
@@ -62,7 +62,7 @@ export function MoveDataCard({
         <dl className="mt-1.5 flex flex-wrap gap-x-3 gap-y-1 sm:gap-x-4">
           {frameRows.map((row) => (
             <div key={row.key} className="flex items-baseline gap-1">
-              <dt className="text-[9px] font-semibold tracking-wide text-muted uppercase">
+              <dt className="text-[12px] font-semibold tracking-wide text-muted uppercase">
                 {row.labelJa}
               </dt>
               <dd className="text-sm font-semibold leading-none tabular-nums text-foreground">

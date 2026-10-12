@@ -17,7 +17,7 @@ export function CharacterAmazonCta({ characterEn }: { characterEn: string }) {
       className="border-t border-border/50 bg-surface"
     >
       <div className="mx-auto max-w-2xl px-4 py-8 sm:px-6 lg:max-w-3xl lg:px-8">
-        <p className="text-[10px] font-bold tracking-[0.32em] text-accent uppercase">
+        <p className="text-[12px] font-bold tracking-[0.32em] text-accent uppercase">
           Train what you just checked
         </p>
         <h2 className="mt-2 text-lg font-black tracking-tight text-foreground sm:text-xl">
@@ -35,23 +35,23 @@ export function CharacterAmazonCta({ characterEn }: { characterEn: string }) {
                 rel="noopener noreferrer sponsored"
                 className="group flex h-full flex-col gap-1 rounded-lg border border-accent/30 bg-accent-soft/30 px-3.5 py-3 transition hover:border-accent hover:bg-accent-soft/50"
               >
-                <span className="w-fit rounded-full border border-accent/35 bg-accent/10 px-2 py-0.5 text-[9px] font-bold tracking-wide text-accent uppercase">
+                <span className="w-fit rounded-full border border-accent/35 bg-accent/10 px-2 py-0.5 text-[12px] font-bold tracking-wide text-accent uppercase">
                   {item.badge}
                 </span>
                 <span className="text-sm font-bold text-foreground">
                   {item.shortLabel}
                 </span>
-                <span className="text-[11px] leading-snug text-muted">
+                <span className="text-[13px] leading-snug text-muted">
                   {item.tagline}
                 </span>
-                <span className="mt-auto rounded-md bg-accent py-1.5 text-center text-[11px] font-bold text-black transition group-hover:bg-accent-hover group-hover:text-white">
+                <span className="mt-auto rounded-md bg-accent py-1.5 text-center text-[13px] font-bold text-black transition group-hover:bg-accent-hover group-hover:text-white">
                   Check price on Amazon →
                 </span>
               </a>
             </li>
           ))}
         </ul>
-        <p className="mt-3 text-[11px] leading-relaxed text-muted/80">
+        <p className="mt-3 text-[13px] leading-relaxed text-muted/80">
           <Link
             href="/guides/best-leverless-controllers-sf6"
             className="font-semibold text-accent hover:text-accent-hover"

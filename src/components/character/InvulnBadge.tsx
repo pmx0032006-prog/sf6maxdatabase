@@ -33,14 +33,14 @@ export function InvulnBadge({ invuln, size = "sm" }: InvulnBadgeProps) {
       <span
         className={`shrink-0 rounded font-bold tracking-wide text-amber-800 dark:text-amber-300 ${
           isMd
-            ? "bg-amber-500/20 px-2 py-0.5 text-[11px]"
+            ? "bg-amber-500/20 px-2 py-0.5 text-[13px]"
             : isCardXl
-              ? "bg-amber-500/20 px-2 py-0.5 text-[9px] sm:text-[10px]"
+              ? "bg-amber-500/20 px-2 py-0.5 text-[12px] sm:text-[12px]"
               : isCardLg
-                ? "bg-amber-500/20 px-1.5 py-px text-[8px] sm:text-[9px]"
+                ? "bg-amber-500/20 px-1.5 py-px text-[12px] sm:text-[12px]"
                 : isCard
-                  ? "bg-amber-500/20 px-1.5 py-px text-[7px] sm:text-[8px]"
-                  : "bg-amber-500/20 px-1 py-px text-[6px] sm:text-[7px]"
+                  ? "bg-amber-500/20 px-1.5 py-px text-[12px] sm:text-[12px]"
+                  : "bg-amber-500/20 px-1 py-px text-[12px] sm:text-[12px]"
         }`}
       >
         Invuln
@@ -50,12 +50,12 @@ export function InvulnBadge({ invuln, size = "sm" }: InvulnBadgeProps) {
           isMd
             ? "text-sm"
             : isCardXl
-              ? "text-[10px] sm:text-[11px]"
+              ? "text-[12px] sm:text-[13px]"
               : isCardLg
-                ? "text-[9px] sm:text-[10px]"
+                ? "text-[12px] sm:text-[12px]"
                 : isCard
-                  ? "text-[8px] sm:text-[9px]"
-                  : "text-[7px] sm:text-[8px]"
+                  ? "text-[12px] sm:text-[12px]"
+                  : "text-[12px] sm:text-[12px]"
         }`}
       >
         {text}
